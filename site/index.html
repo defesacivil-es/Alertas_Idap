@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa Dinâmico de Alertas | IDAP ES</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    header {
+      background: #111827;
+      border-bottom: 1px solid #1f2937;
+      padding: clamp(18px, 3vw, 28px) 16px;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(22px, 2.4vw, 30px);
+    }
+
+    header p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(100% - 32px, 1440px);
+      margin: 0 auto;
+      padding: 24px 0 48px;
+    }
+
+    .topo {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .info-box,
+    .painel {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+    }
+
+    .info-box {
+      padding: 14px 16px;
+      font-size: 14px;
+      color: #e2e8f0;
+    }
+
+    .acoes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
+    .botao {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      background: #2563eb;
+    }
+
+    .botao.secundario {
+      background: #16a34a;
+    }
+
+    .botao.terciario {
+      background: #475569;
+    }
+
+    .painel {
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+
+    .painel-head {
+      padding: 16px 18px 10px;
+      border-bottom: 1px solid #1f2937;
+    }
+
+    .painel-head h2 {
+      margin: 0 0 8px;
+      font-size: clamp(20px, 2vw, 26px);
+    }
+
+    .painel-head p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .painel-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 18px;
+      padding: 18px;
+    }
+
+    #mapa-alertas {
+      width: 100%;
+      min-height: clamp(520px, 76vh, 900px);
+      border-radius: 10px;
+      border: 1px solid #334155;
+      overflow: hidden;
+      background: #dbeafe;
+    }
+
+    .sidebar {
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .card-lateral {
+      background: #0b1220;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .card-lateral h3 {
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+
+    .metricas {
+      display: grid;
+      gap: 10px;
+    }
+
+    .metrica {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: #111827;
+      border: 1px solid #1f2937;
+      font-size: 14px;
+    }
+
+    .metrica strong {
+      color: #f8fafc;
+    }
+
+    .legenda {
+      display: grid;
+      gap: 10px;
+    }
+
+    .legenda-item {
+      display: grid;
+      grid-template-columns: 18px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      font-size: 14px;
+      color: #e2e8f0;
+    }
+
+    .cor {
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+    }
+
+    .erro {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-radius: 10px;
+      background: #7f1d1d;
+      color: #fee2e2;
+      display: none;
+    }
+
+    .leaflet-popup-content {
+      margin: 12px 14px;
+      min-width: 240px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .popup {
+      display: grid;
+      gap: 8px;
+      color: #0f172a;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .popup h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .popup-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #e2e8f0;
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .sem-alertas {
+      display: none;
+      padding: 14px 16px;
+      border-radius: 10px;
+      background: #0b1220;
+      border: 1px solid #1e293b;
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 28px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+
+    @media (max-width: 960px) {
+      .painel-body {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 20px, 1440px);
+      }
+
+      .topo {
+        grid-template-columns: 1fr;
+      }
+
+      .acoes {
+        justify-content: stretch;
+      }
+
+      .botao {
+        width: 100%;
+      }
+
+      .sidebar {
+        grid-template-columns: 1fr;
+      }
+
+      #mapa-alertas {
+        min-height: 560px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mapa Dinâmico de Alertas</h1>
+    <p>Polígonos CAP do IDAP renderizados em tempo real para a Defesa Civil Estadual do Espírito Santo.</p>
+  </header>
+
+  <main>
+    <section class="topo">
+      <div class="info-box">
+        <strong>Última atualização:</strong>
+        <span id="ultima-atualizacao">carregando...</span>
+      </div>
+
+      <div class="acoes">
+        <a class="botao secundario" href="./dashboard.html">Abrir dashboard</a>
+        <a class="botao terciario" href="./imagens.html">Abrir arquivos gerados</a>
+      </div>
+    </section>
+
+    <div id="mensagem-erro" class="erro">
+      Não foi possível carregar os dados do site.
+    </div>
+
+    <section class="painel">
+      <div class="painel-head">
+        <h2>Alertas Ativos no Mapa</h2>
+        <p>O mapa carrega o arquivo <code>site/data/alertas_idap.geojson</code> gerado pelo backend e mostra apenas os alertas estaduais do Espírito Santo.</p>
+      </div>
+
+      <div class="painel-body">
+        <div>
+          <div id="mapa-alertas" aria-label="Mapa dinâmico de alertas do Espírito Santo"></div>
+          <div id="sem-alertas" class="sem-alertas">Nenhum polígono de alerta foi encontrado no período configurado.</div>
+        </div>
+
+        <aside class="sidebar">
+          <section class="card-lateral">
+            <h3>Resumo</h3>
+            <div class="metricas" id="metricas-mapa">
+              <div class="metrica"><span>Alertas no período</span><strong id="metric-total">0</strong></div>
+              <div class="metrica"><span>Polígonos válidos</span><strong id="metric-features">0</strong></div>
+              <div class="metrica"><span>Municípios citados</span><strong id="metric-municipios">0</strong></div>
+            </div>
+          </section>
+
+          <section class="card-lateral">
+            <h3>Níveis</h3>
+            <div class="legenda">
+              <div class="legenda-item"><span class="cor" style="background:#6a0dad"></span><span>Extremo</span></div>
+              <div class="legenda-item"><span class="cor" style="background:#d62728"></span><span>Severo</span></div>
+              <div class="legenda-item"><span class="cor" style="background:#ff7f0e"></span><span>Alto</span></div>
+              <div class="legenda-item"><span class="cor" style="background:#ffd92f"></span><span>Médio</span></div>
+              <div class="legenda-item"><span class="cor" style="background:#2ca02c"></span><span>Baixo</span></div>
+              <div class="legenda-item"><span class="cor" style="background:#7f7f7f"></span><span>Indefinido</span></div>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      Site gerado automaticamente por GitHub Actions e publicado no GitHub Pages.
+    </footer>
+  </main>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    crossorigin=""
+  ></script>
+  <script src="./assets/js/mapa_dinamico.js"></script>
+</body>
+</html>

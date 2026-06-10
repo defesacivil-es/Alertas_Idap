@@ -1,0 +1,17 @@
+.env
+.env.local
+.secrets
+.venv/
+env/
+venv/
+
+__pycache__/
+*.py[cod]
+
+.cache/*.tmp
+.cache/*_fake.json
+out/
+
+.pytest_cache/
+.mypy_cache/
+.DS_Store

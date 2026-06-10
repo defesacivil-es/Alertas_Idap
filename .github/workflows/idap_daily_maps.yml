@@ -1,0 +1,139 @@
+name: IDAP Daily Maps + Pages
+
+on:
+  repository_dispatch:
+    types: [atualizar_mapas_idap]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        run: |
+          pipx install "poetry>=2.0,<3.0"
+
+      - name: Install dependencies
+        run: |
+          poetry install --no-interaction --no-root
+
+      - name: Criar pastas necessárias
+        run: |
+          mkdir -p .cache out site/imagens site/data site/assets
+          [ -f .cache/state.json ] || echo "{}" > .cache/state.json
+          [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
+
+      - name: Run daily maps
+        env:
+          TZ: "America/Sao_Paulo"
+          RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
+          UF_GEOJSON_PATH: "site/data/geojs-es.json"
+          TARGET_SENDER_NAME: "Defesa Civil Estadual do Espírito Santo"
+          OUT_DIR: "out"
+          STATE_PATH: ".cache/state.json"
+          HISTORY_PATH: ".cache/historico_alertas.json"
+          ALERTS_GEOJSON_PATH: "site/data/alertas_idap.geojson"
+          WINDOW_HOURS: "24"
+          RETENTION_HOURS: "72"
+        run: |
+          poetry run python scripts/idap_daily_maps.py
+
+      - name: Localizar pasta mais recente de saída
+        id: localizar_saida
+        run: |
+          ULTIMA_PASTA=$(ls -dt out/run_* 2>/dev/null | head -n 1)
+          echo "pasta_saida=$ULTIMA_PASTA" >> $GITHUB_OUTPUT
+
+      - name: Copiar gráfico gerado para o site
+        run: |
+          PASTA="${{ steps.localizar_saida.outputs.pasta_saida }}"
+          cp -f "$PASTA"/grafico_alertas_por_hora_24h.png site/imagens/ || true
+
+      - name: Gerar dados do dashboard
+        env:
+          HISTORY_PATH: ".cache/historico_alertas.json"
+          SITE_DIR: "site"
+          WINDOW_HOURS: "24"
+          UF_GEOJSON_PATH: "site/data/geojs-es.json"
+          DASHBOARD_GEOJSON_TARGET: "site/data/geojs-es.json"
+          TARGET_SENDER_NAME: "Defesa Civil Estadual do Espírito Santo"
+        run: |
+          poetry run python scripts/build_dashboard.py
+
+      - name: Validar arquivos mínimos do site
+        run: |
+          test -f site/index.html
+          test -f site/dashboard.html
+          test -f site/dashboard_data.json
+          test -f site/data/geojs-es.json
+          test -f site/data/alertas_idap.geojson
+          test -f site/assets/css/dashboard.css
+          test -f site/assets/js/dashboard.js
+          test -f site/assets/js/mapa_dinamico.js
+
+      - name: Setup Pages
+        if: ${{ github.actor != 'nektos/act' }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: idap_daily_outputs
+          path: |
+            out/
+            .cache/state.json
+            .cache/historico_alertas.json
+            site/dashboard_data.json
+            site/data/alertas_idap.geojson
+          retention-days: 7
+
+      - name: Upload do artifact do Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./site
+
+      - name: Commit history/state
+        if: ${{ github.actor != 'nektos/act' && always() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/data/geojs-es.json site/data/alertas_idap.geojson site/ultima_atualizacao.json site/imagens/grafico_alertas_por_hora_24h.png
+
+          if git diff --cached --quiet; then
+            echo "Sem alterações"
+            exit 0
+          fi
+
+          git commit -m "Atualiza dashboards IDAP [skip ci]"
+          git push
+
+  deploy:
+    if: ${{ github.actor != 'nektos/act' }}
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy no GitHub Pages
+        uses: actions/deploy-pages@v4
