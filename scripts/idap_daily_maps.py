@@ -6,7 +6,6 @@ Coleta alertas CAP do IDAP para o Espírito Santo e gera saídas do site.
 
 Saídas:
 - alertas_idap.geojson
-- grafico_alertas_por_hora_24h.png
 - alerts_feed.json, alerts_24h.json, historico_alertas.json, errors.json, resumo.json, resumo.md
 
 Regras:
@@ -242,11 +241,13 @@ def _read_local_source(source: str) -> Optional[bytes]:
 def _read_url(url: str, timeout: int = 30, retries: int = 3, backoff_s: float = 1.2) -> bytes:
     local_data = _read_local_source(url)
     if local_data is not None:
+        print(f"[INFO] Lendo fonte local: {url}", flush=True)
         return local_data
 
     last_err: Optional[Exception] = None
     for i in range(retries):
         try:
+            print(f"[INFO] Baixando RSS ({i + 1}/{retries}) timeout={timeout}s: {url}", flush=True)
             req = urllib.request.Request(
                 url,
                 headers={"User-Agent": "IDAP-Daily-Maps/1.5 (+github-actions)", "Accept": "*/*"},
@@ -260,6 +261,7 @@ def _read_url(url: str, timeout: int = 30, retries: int = 3, backoff_s: float = 
             last_err = e
         except Exception as e:
             last_err = e
+        print(f"[WARN] Tentativa {i + 1}/{retries} falhou: {last_err}", flush=True)
         time.sleep(backoff_s * (i + 1))
     raise last_err if last_err else RuntimeError("Falha ao baixar URL (erro desconhecido)")
 
@@ -829,63 +831,6 @@ def _write_alerts_geojson(path: str, alerts: List[AlertRecord]) -> int:
     _save_json_file(path, payload)
     return len(features)
 
-
-def _plot_alerts_per_hour(alerts: List[AlertRecord], out_path: str, title: str) -> None:
-    import matplotlib
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-
-    hourly_counts: Dict[datetime, int] = {}
-    for a in alerts:
-        dt = _parse_iso_any(a.onset)
-        if dt is None:
-            continue
-        bucket = dt.replace(minute=0, second=0, microsecond=0)
-        hourly_counts[bucket] = hourly_counts.get(bucket, 0) + 1
-
-    if hourly_counts:
-        buckets = sorted(hourly_counts.keys())
-        start = buckets[0]
-        end = buckets[-1]
-    else:
-        end = _now_sp().replace(minute=0, second=0, microsecond=0)
-        start = end - timedelta(hours=23)
-
-    full_buckets: List[datetime] = []
-    cur = start
-    while cur <= end:
-        full_buckets.append(cur)
-        cur = cur + timedelta(hours=1)
-
-    values = [hourly_counts.get(b, 0) for b in full_buckets]
-    labels = [b.strftime('%d/%m - %H:%M') for b in full_buckets]
-
-    fig = plt.figure(figsize=(14, 5), dpi=200)
-    ax = plt.gca()
-    ax.bar(range(len(full_buckets)), values)
-    ax.set_title(title, fontsize=12)
-    ax.set_ylabel('Quantidade de alertas')
-    ax.set_xlabel('Hora de emissão (onset)')
-    ax.set_xticks(range(len(full_buckets)))
-    ax.set_xticklabels(labels, rotation=45, ha='right')
-    ax.grid(True, axis='y', alpha=0.3)
-    if not hourly_counts:
-        ax.text(
-            0.5,
-            0.55,
-            "Nenhum alerta estadual do ES no periodo",
-            transform=ax.transAxes,
-            ha="center",
-            va="center",
-            fontsize=13,
-            color="#334155",
-        )
-        ax.set_ylim(0, 1)
-    plt.tight_layout()
-    fig.savefig(out_path, dpi=200)
-    plt.close(fig)
-
-
 def main() -> int:
     rss_url = os.getenv("RSS_URL", DEFAULT_RSS_URL)
     uf_geojson_path = os.getenv("UF_GEOJSON_PATH", DEFAULT_UF_GEOJSON_PATH)
@@ -896,6 +841,8 @@ def main() -> int:
     alerts_geojson_path = os.getenv("ALERTS_GEOJSON_PATH", DEFAULT_ALERTS_GEOJSON_PATH)
     window_hours = int(os.getenv("WINDOW_HOURS", str(DEFAULT_WINDOW_HOURS)))
     retention_hours = int(os.getenv("RETENTION_HOURS", str(DEFAULT_RETENTION_HOURS)))
+    rss_timeout = int(os.getenv("RSS_TIMEOUT_SECONDS", "45"))
+    rss_retries = int(os.getenv("RSS_RETRIES", "4"))
     target_sender_name = os.getenv("TARGET_SENDER_NAME", DEFAULT_TARGET_SENDER_NAME).strip()
 
     print(f"[INFO] RSS_URL={rss_url}")
@@ -906,6 +853,8 @@ def main() -> int:
     print(f"[INFO] ALERTS_GEOJSON_PATH={alerts_geojson_path}")
     print(f"[INFO] WINDOW_HOURS={window_hours}")
     print(f"[INFO] RETENTION_HOURS={retention_hours}")
+    print(f"[INFO] RSS_TIMEOUT_SECONDS={rss_timeout}")
+    print(f"[INFO] RSS_RETRIES={rss_retries}")
     print(f"[INFO] TARGET_SENDER_NAME={target_sender_name}")
 
     run_ts = _now_sp().strftime("%Y%m%d_%H%M%S")
@@ -918,7 +867,7 @@ def main() -> int:
     state = _load_state(state_path)
 
     try:
-        rss_bytes = _read_url(rss_url, timeout=45, retries=4)
+        rss_bytes = _read_url(rss_url, timeout=rss_timeout, retries=rss_retries)
     except Exception as e:
         print(f"[ERROR] Falha ao baixar RSS: {e}")
         return 2
@@ -947,20 +896,24 @@ def main() -> int:
 
     print(f"[INFO] CAPs parseados do feed: {len(feed_alerts)} | ignorados por senderName: {ignored_by_sender} | erros: {len(errors)}")
 
-    try:
-        municipios_gdf = _load_municipios_gdf(mun_geojson_path)
-        feed_alerts = _enrich_alerts_with_municipios(feed_alerts, municipios_gdf)
-    except Exception as e:
-        print(f"[ERROR] Falha ao ler/enriquecer municipios do ES: {e}")
-        return 4
-
     history_before = [
         a for a in _load_history(history_path)
         if _same_sender_name(a.senderName, target_sender_name)
     ]
     history_merged, added_count = _merge_history(history_before, feed_alerts)
-    history_merged = _enrich_alerts_with_municipios(history_merged, municipios_gdf)
     history_kept = _filter_recent_history(history_merged, retention_hours=retention_hours, ref_now=_now_sp())
+
+    if history_kept:
+        try:
+            print(f"[INFO] Enriquecendo {len(history_kept)} alerta(s) com malha municipal do ES", flush=True)
+            municipios_gdf = _load_municipios_gdf(mun_geojson_path)
+            history_kept = _enrich_alerts_with_municipios(history_kept, municipios_gdf)
+        except Exception as e:
+            print(f"[ERROR] Falha ao ler/enriquecer municipios do ES: {e}")
+            return 4
+    else:
+        print("[INFO] Sem alertas recentes para enriquecer; pulando carga da malha municipal", flush=True)
+
     alerts = _filter_window(history_kept, window_hours=window_hours, ref_now=_now_sp())
 
     print(f"[INFO] Histórico anterior: {len(history_before)}")
@@ -989,20 +942,6 @@ def main() -> int:
     _write_alerts_geojson(alerts_geojson_path, alerts)
     print(f"[INFO] GeoJSON gerado: {run_geojson_path} | feicoes: {feature_count}")
     print(f"[INFO] GeoJSON atualizado no site: {alerts_geojson_path}")
-
-    graf_hora = os.path.join(run_dir, "grafico_alertas_por_hora_24h.png")
-    
-    try:
-        _plot_alerts_per_hour(alerts, graf_hora, f"Alertas emitidos por hora nas {_format_window_label(window_hours)} - Defesa Civil Estadual do ES")
-        if os.path.exists(graf_hora):
-            print(f"[INFO] Gráfico gerado: {graf_hora}")
-        else:
-            graf_hora = ""
-            print("[WARN] Gráfico por hora não gerado: nenhum alerta válido no período")
-    except Exception as e:
-        graf_hora = ""
-        print(f"[WARN] Falha ao gerar gráfico por hora: {e}")
-
 
     state["last_run_ts"] = run_ts
     state["last_run_iso"] = datetime.now(timezone.utc).isoformat()

@@ -15,7 +15,7 @@ $env:STATE_PATH = ".cache/state_fake.json"
 $env:WINDOW_HOURS = "24"
 $env:RETENTION_HOURS = "72"
 $env:NOW_OVERRIDE = "2026-06-08T16:50:00-03:00"
-$env:TARGET_SENDER_NAME = "Defesa Civil Estadual do Espírito Santo"
+Remove-Item Env:TARGET_SENDER_NAME -ErrorAction SilentlyContinue
 
 if ($PublishToSite) {
     $env:SITE_DIR = "site"

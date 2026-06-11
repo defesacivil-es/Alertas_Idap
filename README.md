@@ -5,10 +5,9 @@ Projeto para monitorar alertas CAP publicados no IDAP pela Defesa Civil Estadual
 ## Fluxo
 
 1. `scripts/idap_daily_maps.py` baixa o RSS/CAP, filtra por `senderName`, atualiza o histórico em `.cache/historico_alertas.json`, gera o GeoJSON `site/data/alertas_idap.geojson` e o gráfico em `out/run_*`.
-2. O workflow copia apenas o gráfico mais recente para `site/imagens`.
-3. `scripts/build_dashboard.py` transforma o histórico em `site/dashboard_data.json`.
-4. `site/index.html` renderiza o mapa interativo com Leaflet consumindo `site/data/alertas_idap.geojson`.
-5. `site/dashboard.html` segue como dashboard operacional principal.
+2. `scripts/build_dashboard.py` transforma o histórico em `site/dashboard_data.json`.
+3. `site/index.html` renderiza o mapa interativo com Leaflet consumindo `site/data/alertas_idap.geojson`.
+4. `site/dashboard.html` segue como dashboard operacional principal.
 
 ## Arquivos principais
 
@@ -41,4 +40,3 @@ O teste gera:
 
 - `out/test_fake/run_*/alertas_idap.geojson`
 - `site/data/alertas_idap.geojson`
-- `out/test_fake/run_*/grafico_alertas_por_hora_24h.png`

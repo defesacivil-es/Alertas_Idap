@@ -40,7 +40,7 @@ jobs:
 
       - name: Criar pastas necessárias
         run: |
-          mkdir -p .cache out site/imagens site/data site/assets
+          mkdir -p .cache out site/data site/assets
           [ -f .cache/state.json ] || echo "{}" > .cache/state.json
           [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
 
@@ -58,17 +58,6 @@ jobs:
           RETENTION_HOURS: "72"
         run: |
           poetry run python scripts/idap_daily_maps.py
-
-      - name: Localizar pasta mais recente de saída
-        id: localizar_saida
-        run: |
-          ULTIMA_PASTA=$(ls -dt out/run_* 2>/dev/null | head -n 1)
-          echo "pasta_saida=$ULTIMA_PASTA" >> $GITHUB_OUTPUT
-
-      - name: Copiar gráfico gerado para o site
-        run: |
-          PASTA="${{ steps.localizar_saida.outputs.pasta_saida }}"
-          cp -f "$PASTA"/grafico_alertas_por_hora_24h.png site/imagens/ || true
 
       - name: Gerar dados do dashboard
         env:
@@ -119,7 +108,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/data/geojs-es.json site/data/alertas_idap.geojson site/ultima_atualizacao.json site/imagens/grafico_alertas_por_hora_24h.png
+          git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/data/geojs-es.json site/data/alertas_idap.geojson site/ultima_atualizacao.json
 
           if git diff --cached --quiet; then
             echo "Sem alterações"
