@@ -53,6 +53,7 @@
 
   function popupHtml(props) {
     const nivel = escapeHtml(repairText(props.nivel || "Indefinido"));
+    const alertaId = escapeHtml(repairText(props.identifier || props.entry_id || "Não informado"));
     const evento = escapeHtml(repairText(props.event || props.headline || "Alerta"));
     const emissor = escapeHtml(repairText(props.senderName || "Defesa Civil Estadual do ES"));
     const municipio = escapeHtml(repairText(props.municipio_nome || props.areaDesc || "Área informada no alerta"));
@@ -67,6 +68,7 @@
           <span class="tag">${nivel}</span>
           <span class="tag">${municipio}</span>
         </div>
+        <div><strong>ID:</strong> ${alertaId}</div>
         <div><strong>Emissor:</strong> ${emissor}</div>
         <div><strong>Início:</strong> ${inicio}</div>
         <div><strong>Expira:</strong> ${expira}</div>

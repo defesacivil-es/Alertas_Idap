@@ -1,0 +1,24 @@
+{
+  "total_alerts": 6,
+  "by_nivel": {
+    "Médio": 6
+  },
+  "by_channel_list": {
+    "Google": 6
+  },
+  "by_region": {
+    "SE": 6
+  },
+  "by_municipio": {
+    "Alfredo Chaves": 1,
+    "Cariacica": 1,
+    "Castelo": 1,
+    "Domingos Martins": 1,
+    "Guarapari": 1,
+    "Marechal Floriano": 1,
+    "Serra": 1,
+    "Viana": 1,
+    "Vila Velha": 1,
+    "Vitória": 1
+  }
+}

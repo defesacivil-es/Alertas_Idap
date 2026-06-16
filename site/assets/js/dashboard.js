@@ -91,7 +91,7 @@ function renderPaginaUltimosAlertas() {
         <div class="recent-time-date">${esc(alerta.date || formatarData(alerta.sent))}</div>
       </div>
       <div class="recent-emissor">
-        <div class="recent-emissor-name" title="${escAttr(alerta.senderName)}">${esc(alerta.senderNameShort || alerta.senderName)}</div>
+        <div class="recent-emissor-name" title="${escAttr(alerta.senderName)}">${esc(formatarIdAlerta(alerta))}</div>
         <div class="recent-emissor-loc" title="${escAttr(formatarMunicipiosAfetados(alerta))}">${esc(formatarMunicipiosAfetados(alerta))}</div>
       </div>
       <div class="recent-content">
@@ -199,6 +199,7 @@ function atualizarCamadasMapaDashboard(alertasGeojson) {
 
 function popupMapaDashboard(props) {
   const nivel = esc(repairText(props.nivel || "Indefinido"));
+  const alertaId = esc(repairText(props.identifier || props.entry_id || "Não informado"));
   const evento = esc(repairText(props.event || props.headline || "Alerta"));
   const emissor = esc(repairText(props.senderName || "Defesa Civil Estadual do ES"));
   const expira = esc(repairText(props.expires_label || "Não informado"));
@@ -211,6 +212,7 @@ function popupMapaDashboard(props) {
       <div class="popup-meta">
         <span class="tag">${nivel}</span>
       </div>
+      <div><strong>ID:</strong> ${alertaId}</div>
       <div><strong>Emissor:</strong> ${emissor}</div>
       <div><strong>Início:</strong> ${inicio}</div>
       <div><strong>Expira:</strong> ${expira}</div>
@@ -414,6 +416,11 @@ function formatarMunicipiosAfetados(alerta) {
 
   if (municipios.length) return municipios.join(", ");
   return alerta.municipio_nome || alerta.location || "Espírito Santo";
+}
+
+function formatarIdAlerta(alerta) {
+  const value = alerta?.identifier || alerta?.entry_id || "";
+  return value ? `ID ${value}` : "ID não informado";
 }
 
 function contar(array, key) {
