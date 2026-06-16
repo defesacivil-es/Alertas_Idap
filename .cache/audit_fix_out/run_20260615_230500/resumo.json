@@ -1,0 +1,37 @@
+{
+  "total_alerts": 6,
+  "by_nivel": {
+    "Médio": 6
+  },
+  "by_channel_list": {
+    "Google": 6
+  },
+  "by_region": {
+    "SE": 6
+  },
+  "by_municipio": {
+    "Viana": 5,
+    "Alfredo Chaves": 4,
+    "Domingos Martins": 4,
+    "Marechal Floriano": 4,
+    "Cariacica": 3,
+    "Santa Leopoldina": 3,
+    "Anchieta": 2,
+    "Castelo": 2,
+    "Serra": 2,
+    "Vargem Alta": 2,
+    "Venda Nova do Imigrante": 2,
+    "Afonso Cláudio": 1,
+    "Alegre": 1,
+    "Cachoeiro de Itapemirim": 1,
+    "Conceição do Castelo": 1,
+    "Fundão": 1,
+    "Guarapari": 1,
+    "Iconha": 1,
+    "Muniz Freire": 1,
+    "Rio Novo do Sul": 1,
+    "Santa Maria de Jetibá": 1,
+    "Vila Velha": 1,
+    "Vitória": 1
+  }
+}
