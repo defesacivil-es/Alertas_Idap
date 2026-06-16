@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T04:56:51.017934-03:00",
+  "generated_at": "2026-06-16T05:06:51.204973-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1657,11 +1657,7 @@
     },
     {
       "label": "3h a 6h",
-      "count": 3
-    },
-    {
-      "label": "1h a 3h",
-      "count": 1
+      "count": 4
     }
   ],
   "channel_distribution": [
@@ -1755,9 +1751,9 @@
       "duration_minutes": 114,
       "duration_hours": 1.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 171,
-      "time_since_hours": 2.85,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 181,
+      "time_since_hours": 3.02,
+      "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
         "3200102",
@@ -1845,8 +1841,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 224,
-      "time_since_hours": 3.73,
+      "time_since_minutes": 234,
+      "time_since_hours": 3.9,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1963,8 +1959,8 @@
       "duration_minutes": 173,
       "duration_hours": 2.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 285,
-      "time_since_hours": 4.75,
+      "time_since_minutes": 295,
+      "time_since_hours": 4.92,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2047,8 +2043,8 @@
       "duration_minutes": 136,
       "duration_hours": 2.27,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 313,
-      "time_since_hours": 5.22,
+      "time_since_minutes": 323,
+      "time_since_hours": 5.38,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2143,8 +2139,8 @@
       "duration_minutes": 146,
       "duration_hours": 2.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 448,
-      "time_since_hours": 7.47,
+      "time_since_minutes": 458,
+      "time_since_hours": 7.63,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2223,8 +2219,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 475,
-      "time_since_hours": 7.92,
+      "time_since_minutes": 485,
+      "time_since_hours": 8.08,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2309,8 +2305,8 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 503,
-      "time_since_hours": 8.38,
+      "time_since_minutes": 513,
+      "time_since_hours": 8.55,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2387,8 +2383,8 @@
       "duration_minutes": 146,
       "duration_hours": 2.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 533,
-      "time_since_hours": 8.88,
+      "time_since_minutes": 543,
+      "time_since_hours": 9.05,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2463,8 +2459,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 545,
-      "time_since_hours": 9.08,
+      "time_since_minutes": 555,
+      "time_since_hours": 9.25,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2549,8 +2545,8 @@
       "duration_minutes": 179,
       "duration_hours": 2.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 565,
-      "time_since_hours": 9.42,
+      "time_since_minutes": 575,
+      "time_since_hours": 9.58,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
