@@ -32,7 +32,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import geopandas as gpd
-from shapely.geometry import Polygon, MultiPolygon, mapping
+from shapely.geometry import Polygon, MultiPolygon, box, mapping
 from shapely.geometry.base import BaseGeometry
 from shapely.ops import unary_union
 
@@ -386,7 +386,18 @@ def _geometry_from_wkt(value: Optional[str]) -> Optional[BaseGeometry]:
         return None
 
 
-def _continental_mask_from_municipios(municipios_gdf: gpd.GeoDataFrame) -> Optional[BaseGeometry]:
+def _continental_mask_from_municipios(municipios_gdf: gpd.GeoDataFrame, margin_degrees: float = 0.05) -> Optional[BaseGeometry]:
+    try:
+        minx, miny, maxx, maxy = municipios_gdf.total_bounds
+        return box(
+            float(minx) - margin_degrees,
+            float(miny) - margin_degrees,
+            float(maxx) + margin_degrees,
+            float(maxy) + margin_degrees,
+        )
+    except Exception:
+        pass
+
     geoms: List[BaseGeometry] = []
     for geom in municipios_gdf.geometry:
         if geom is None or geom.is_empty:
