@@ -34,6 +34,7 @@ from typing import Any, Dict, List, Optional, Tuple
 import geopandas as gpd
 from shapely.geometry import Polygon, MultiPolygon, mapping
 from shapely.geometry.base import BaseGeometry
+from shapely.ops import unary_union
 
 
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "dc": "http://purl.org/dc/elements/1.1/"}
@@ -135,6 +136,7 @@ class AlertRecord:
     regiao_imediata_nome: Optional[str] = None
     regiao_intermediaria_nome: Optional[str] = None
     affected_municipios: Optional[List[Dict[str, Any]]] = None
+    geocode_values: Optional[List[Dict[str, str]]] = None
 
 
 def _now_sp() -> datetime:
@@ -321,6 +323,128 @@ def _parse_polygon_str(poly_str: str) -> Optional[BaseGeometry]:
     return geom
 
 
+def _parse_polygon_strings(poly_strings: List[str]) -> Optional[BaseGeometry]:
+    geoms: List[BaseGeometry] = []
+    for poly_str in poly_strings:
+        geom = _parse_polygon_str(poly_str)
+        if geom is not None and not geom.is_empty:
+            geoms.append(geom)
+
+    if not geoms:
+        return None
+
+    if len(geoms) == 1:
+        return geoms[0]
+
+    try:
+        geom = unary_union(geoms)
+    except Exception:
+        geom = MultiPolygon([g for g in geoms if g.geom_type == "Polygon"])
+
+    if not geom.is_valid:
+        geom = geom.buffer(0)
+    if geom.is_empty:
+        return None
+    return geom
+
+
+def _clip_geometry_to_mask(geom: Optional[BaseGeometry], mask: Optional[BaseGeometry]) -> Optional[BaseGeometry]:
+    if geom is None or geom.is_empty:
+        return None
+    if mask is None or mask.is_empty:
+        return geom
+
+    try:
+        if not geom.intersects(mask):
+            return None
+        clipped = geom.intersection(mask)
+    except Exception:
+        try:
+            fixed_geom = geom.buffer(0)
+            fixed_mask = mask.buffer(0)
+            if not fixed_geom.intersects(fixed_mask):
+                return None
+            clipped = fixed_geom.intersection(fixed_mask)
+        except Exception:
+            return None
+
+    if clipped.is_empty:
+        return None
+    if not clipped.is_valid:
+        clipped = clipped.buffer(0)
+    if clipped.is_empty:
+        return None
+    return clipped
+
+
+def _geometry_from_wkt(value: Optional[str]) -> Optional[BaseGeometry]:
+    if not value:
+        return None
+    try:
+        return gpd.GeoSeries.from_wkt([value], crs="EPSG:4326").iloc[0]
+    except Exception:
+        return None
+
+
+def _continental_mask_from_municipios(municipios_gdf: gpd.GeoDataFrame) -> Optional[BaseGeometry]:
+    geoms: List[BaseGeometry] = []
+    for geom in municipios_gdf.geometry:
+        if geom is None or geom.is_empty:
+            continue
+        if not geom.is_valid:
+            geom = geom.buffer(0)
+        if geom is not None and not geom.is_empty:
+            geoms.append(geom)
+
+    if not geoms:
+        return None
+
+    try:
+        mask = unary_union(geoms)
+    except Exception:
+        try:
+            mask = gpd.GeoSeries(geoms, crs=municipios_gdf.crs or "EPSG:4326").unary_union
+        except Exception:
+            return None
+    if mask.is_empty:
+        return None
+    if not mask.is_valid:
+        mask = mask.buffer(0)
+    return mask if not mask.is_empty else None
+
+
+def _clip_alerts_to_continental_mask(alerts: List[AlertRecord], mask: Optional[BaseGeometry]) -> List[AlertRecord]:
+    if mask is None:
+        return alerts
+
+    clipped_alerts: List[AlertRecord] = []
+    removed = 0
+    clipped = 0
+
+    for alert in alerts:
+        geom = _geometry_from_wkt(alert.geometry_wkt)
+        clipped_geom = _clip_geometry_to_mask(geom, mask)
+        if clipped_geom is None:
+            alert.geometry_wkt = None
+            alert.polygon_points = 0
+            removed += 1
+        else:
+            before_wkt = alert.geometry_wkt
+            alert.geometry_wkt = clipped_geom.wkt
+            alert.polygon_points = _geom_points_count(clipped_geom)
+            if before_wkt != alert.geometry_wkt:
+                clipped += 1
+        clipped_alerts.append(alert)
+
+    if clipped or removed:
+        print(
+            f"[INFO] Máscara continental aplicada: geometrias recortadas={clipped} | removidas={removed}",
+            flush=True,
+        )
+
+    return clipped_alerts
+
+
 def _geom_points_count(geom: Optional[BaseGeometry]) -> int:
     try:
         if geom is None or geom.is_empty:
@@ -328,12 +452,12 @@ def _geom_points_count(geom: Optional[BaseGeometry]) -> int:
         if geom.geom_type == "Polygon":
             return len(geom.exterior.coords) if geom.exterior else 0
         if geom.geom_type == "MultiPolygon":
-            best = 0
+            total = 0
             mp: MultiPolygon = geom  # type: ignore
             for g in mp.geoms:
                 if g.exterior:
-                    best = max(best, len(g.exterior.coords))
-            return best
+                    total += len(g.exterior.coords)
+            return total
         return 0
     except Exception:
         return 0
@@ -430,6 +554,7 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
         areaDesc = None
         polygon_raw = None
         has_geocode = False
+        geocode_values: List[Dict[str, str]] = []
         geom: Optional[BaseGeometry] = None
         if info is not None:
             category = _safe_text(_first(info, "cap:category", CAP_NS))
@@ -450,11 +575,22 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
             area = _first(info, "cap:area", CAP_NS)
             if area is not None:
                 areaDesc = _safe_text(_first(area, "cap:areaDesc", CAP_NS))
-                polygon_raw = _safe_text(_first(area, "cap:polygon", CAP_NS))
+                polygon_values = [
+                    value for value in (
+                        _safe_text(poly_elem) for poly_elem in _all(area, "cap:polygon", CAP_NS)
+                    )
+                    if value
+                ]
+                polygon_raw = "\n".join(polygon_values) if polygon_values else None
                 geocodes = _all(area, "cap:geocode", CAP_NS)
                 has_geocode = len(geocodes) > 0
-                if polygon_raw:
-                    geom = _parse_polygon_str(polygon_raw)
+                for geocode in geocodes:
+                    value_name = _safe_text(_first(geocode, "cap:valueName", CAP_NS))
+                    value = _safe_text(_first(geocode, "cap:value", CAP_NS))
+                    if value_name and value:
+                        geocode_values.append({"valueName": value_name, "value": value})
+                if polygon_values:
+                    geom = _parse_polygon_strings(polygon_values)
         uf_hint = _guess_uf(areaDesc, senderName)
         region = _uf_to_region(uf_hint)
         nivel = calc_nivel(severity or "", urgency or "", certainty or "", responseType or "")
@@ -488,6 +624,7 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
             uf_hint=uf_hint,
             region=region,
             geometry_wkt=geom.wkt if geom is not None else None,
+            geocode_values=geocode_values or None,
         )
         return rec, None
     except Exception as e:
@@ -526,6 +663,32 @@ def _municipio_props(row: Any) -> Dict[str, Any]:
         "regiao_imediata_nome": row.get("regiao_imediata_nome") or "",
         "regiao_intermediaria_nome": row.get("regiao_intermediaria_nome") or "",
     }
+
+
+def _match_municipios_by_geocode(alert: AlertRecord, municipios_gdf: gpd.GeoDataFrame) -> List[Dict[str, Any]]:
+    geocodes = alert.geocode_values or []
+    if not geocodes:
+        return []
+
+    ibge_values = {
+        str(item.get("value") or "").strip()
+        for item in geocodes
+        if str(item.get("valueName") or "").strip().upper() == "IBGE"
+    }
+    ibge_values.discard("")
+    if not ibge_values:
+        return []
+
+    matched: List[Dict[str, Any]] = []
+    seen: set[str] = set()
+    for _, row in municipios_gdf.iterrows():
+        code = str(row.get("codigo_ibge") or row.get("id") or row.get("CD_MUN") or "").strip()
+        if not code or code not in ibge_values or code in seen:
+            continue
+        seen.add(code)
+        matched.append(_municipio_props(row))
+
+    return matched
 
 
 def _match_municipio_by_text(alert: AlertRecord, municipios_gdf: gpd.GeoDataFrame) -> Optional[Dict[str, Any]]:
@@ -591,10 +754,12 @@ def _match_municipio_by_geometry(alert: AlertRecord, municipios_gdf: gpd.GeoData
 def _enrich_alerts_with_municipios(alerts: List[AlertRecord], municipios_gdf: gpd.GeoDataFrame) -> List[AlertRecord]:
     enriched: List[AlertRecord] = []
     for alert in alerts:
-        affected = _match_municipios_by_geometry(alert, municipios_gdf)
+        affected = _match_municipios_by_geocode(alert, municipios_gdf)
         if not affected:
             props_by_text = _match_municipio_by_text(alert, municipios_gdf)
             affected = [props_by_text] if props_by_text else []
+        if not affected:
+            affected = _match_municipios_by_geometry(alert, municipios_gdf)
 
         if affected:
             props = affected[0]
@@ -907,6 +1072,8 @@ def main() -> int:
         try:
             print(f"[INFO] Enriquecendo {len(history_kept)} alerta(s) com malha municipal do ES", flush=True)
             municipios_gdf = _load_municipios_gdf(mun_geojson_path)
+            continental_mask = _continental_mask_from_municipios(municipios_gdf)
+            history_kept = _clip_alerts_to_continental_mask(history_kept, continental_mask)
             history_kept = _enrich_alerts_with_municipios(history_kept, municipios_gdf)
         except Exception as e:
             print(f"[ERROR] Falha ao ler/enriquecer municipios do ES: {e}")

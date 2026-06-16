@@ -1,0 +1,17 @@
+{
+  "last_run_ts": "20260615_230500",
+  "last_run_iso": "2026-06-16T02:16:28.638754+00:00",
+  "last_counts": {
+    "entries": 38,
+    "feed_alerts": 6,
+    "window_alerts": 6,
+    "geojson_features": 6,
+    "history_alerts": 6,
+    "errors": 0,
+    "ignored_by_sender": 32
+  },
+  "history_path": ".cache\\audit_fix3_historico.json",
+  "alerts_geojson_path": ".cache\\audit_fix3_alertas_idap.geojson",
+  "window_hours": 24,
+  "retention_hours": 72
+}
