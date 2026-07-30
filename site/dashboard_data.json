@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T02:58:22.163652-03:00",
+  "generated_at": "2026-07-30T03:08:28.284954-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 1,
+    "vigentes": 0,
     "ultimas24h": 1,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "Alfredo Chaves",
       "uf": "ES",
       "headline": "Defesa Civil:Alerta de VENTOS COSTEIROS para o litoral Sul nas proximas 05 horas. Fique atento, abrigue-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186211/2026",
       "entry_id": "186211/2026",
       "sent": "2026-07-29T21:47:41-03:00",
@@ -1195,7 +1195,7 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
+      "label": "expirado",
       "count": 1
     }
   ],
@@ -1230,7 +1230,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-07-29T21:47:41-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "VENDAVAL",
@@ -1349,7 +1349,7 @@
       "uf": "ES",
       "location": "Alfredo Chaves",
       "event_short": "Vendaval",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "29/07/2026",
       "time": "21:47",
       "sent_br": "2026-07-29T21:47:41-03:00",
@@ -1358,10 +1358,10 @@
       "duration_minutes": 312,
       "duration_hours": 5.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 310,
-      "time_since_hours": 5.17,
+      "time_since_minutes": 320,
+      "time_since_hours": 5.33,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200300",
         "3200409",
