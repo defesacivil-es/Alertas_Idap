@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:58:17.524858-03:00",
+  "generated_at": "2026-08-26T17:08:47.827474-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 4,
+    "vigentes": 3,
     "ultimas24h": 5,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1134,7 +1134,7 @@
       "location": "Fundão",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de Tempestade Moderada e Ventos em Fundao nas proximas 02 horas. Evite area de risco. Fique atento.Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187893/2026",
       "entry_id": "187893/2026",
       "sent": "2026-08-26T14:57:59-03:00",
@@ -1296,11 +1296,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 1
+      "count": 2
     }
   ],
   "category_distribution": [
@@ -1326,14 +1326,14 @@
   "time_since_distribution": [
     {
       "label": "1h a 3h",
-      "count": 3
-    },
-    {
-      "label": "Até 1h",
-      "count": 1
+      "count": 2
     },
     {
       "label": "3h a 6h",
+      "count": 2
+    },
+    {
+      "label": "Até 1h",
       "count": 1
     }
   ],
@@ -1408,8 +1408,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 28,
-      "time_since_hours": 0.47,
+      "time_since_minutes": 38,
+      "time_since_hours": 0.63,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1494,8 +1494,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 92,
-      "time_since_hours": 1.53,
+      "time_since_minutes": 102,
+      "time_since_hours": 1.7,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1514,7 +1514,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-08-26T14:57:59-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1563,7 +1563,7 @@
       "uf": "ES",
       "location": "Fundão",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "26/08/2026",
       "time": "14:57",
       "sent_br": "2026-08-26T14:57:59-03:00",
@@ -1572,10 +1572,10 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 120,
-      "time_since_hours": 2.0,
+      "time_since_minutes": 130,
+      "time_since_hours": 2.17,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3202207"
       ],
@@ -1648,9 +1648,9 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 174,
-      "time_since_hours": 2.9,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 184,
+      "time_since_hours": 3.07,
+      "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
         "3204500"
@@ -1724,8 +1724,8 @@
       "duration_minutes": 1617,
       "duration_hours": 26.95,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 235,
-      "time_since_hours": 3.92,
+      "time_since_minutes": 245,
+      "time_since_hours": 4.08,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
