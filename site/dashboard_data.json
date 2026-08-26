@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:18:32.641628-03:00",
+  "generated_at": "2026-08-26T18:28:27.484512-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
+    "vigentes": 1,
     "ultimas24h": 5,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "Brejetuba",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de Chuva Moderada e Ventos em Brejetuba. Risco de nas proximas 02 horas. Evite area de risco. Fique atento.Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187897/2026",
       "entry_id": "187897/2026",
       "sent": "2026-08-26T16:29:49-03:00",
@@ -1296,11 +1296,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 3
+      "count": 4
     }
   ],
   "category_distribution": [
@@ -1326,11 +1326,11 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 3
+      "count": 4
     },
     {
       "label": "1h a 3h",
-      "count": 2
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1346,7 +1346,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-08-26T16:29:49-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1395,7 +1395,7 @@
       "uf": "ES",
       "location": "Brejetuba",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "26/08/2026",
       "time": "16:29",
       "sent_br": "2026-08-26T16:29:49-03:00",
@@ -1404,10 +1404,10 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 108,
-      "time_since_hours": 1.8,
+      "time_since_minutes": 118,
+      "time_since_hours": 1.97,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201159"
       ],
@@ -1490,9 +1490,9 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 172,
-      "time_since_hours": 2.87,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 182,
+      "time_since_hours": 3.03,
+      "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
         "3200102",
@@ -1568,8 +1568,8 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 200,
-      "time_since_hours": 3.33,
+      "time_since_minutes": 210,
+      "time_since_hours": 3.5,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1644,8 +1644,8 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 254,
-      "time_since_hours": 4.23,
+      "time_since_minutes": 264,
+      "time_since_hours": 4.4,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1720,8 +1720,8 @@
       "duration_minutes": 1617,
       "duration_hours": 26.95,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 315,
-      "time_since_hours": 5.25,
+      "time_since_minutes": 325,
+      "time_since_hours": 5.42,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
