@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:58:42.571153-03:00",
+  "generated_at": "2026-08-26T16:08:32.157959-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 4,
+    "vigentes": 3,
     "ultimas24h": 4,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1134,7 +1134,7 @@
       "location": "Santa Leopoldina",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de Tempestade Moderada e Ventos em Santa Leopoldina nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187890/2026",
       "entry_id": "187890/2026",
       "sent": "2026-08-26T14:03:58-03:00",
@@ -1253,7 +1253,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 3
+    },
+    {
+      "label": "expirado",
+      "count": 1
     }
   ],
   "category_distribution": [
@@ -1278,12 +1282,16 @@
   ],
   "time_since_distribution": [
     {
-      "label": "Até 1h",
+      "label": "1h a 3h",
       "count": 2
     },
     {
-      "label": "1h a 3h",
-      "count": 2
+      "label": "Até 1h",
+      "count": 1
+    },
+    {
+      "label": "3h a 6h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1367,8 +1375,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 32,
-      "time_since_hours": 0.53,
+      "time_since_minutes": 42,
+      "time_since_hours": 0.7,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1445,9 +1453,9 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 60,
-      "time_since_hours": 1.0,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 70,
+      "time_since_hours": 1.17,
+      "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
         "3202207"
@@ -1463,7 +1471,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-08-26T14:03:58-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1512,7 +1520,7 @@
       "uf": "ES",
       "location": "Santa Leopoldina",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "26/08/2026",
       "time": "14:03",
       "sent_br": "2026-08-26T14:03:58-03:00",
@@ -1521,10 +1529,10 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 114,
-      "time_since_hours": 1.9,
+      "time_since_minutes": 124,
+      "time_since_hours": 2.07,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3204500"
       ],
@@ -1597,9 +1605,9 @@
       "duration_minutes": 1617,
       "duration_hours": 26.95,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 175,
-      "time_since_hours": 2.92,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 185,
+      "time_since_hours": 3.08,
+      "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
         "3201902"
