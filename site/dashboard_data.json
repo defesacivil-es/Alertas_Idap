@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T00:08:13.797933-03:00",
+  "generated_at": "2026-08-27T00:18:01.951960-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1400,8 +1400,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 458,
-      "time_since_hours": 7.63,
+      "time_since_minutes": 468,
+      "time_since_hours": 7.8,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1486,8 +1486,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 521,
-      "time_since_hours": 8.68,
+      "time_since_minutes": 531,
+      "time_since_hours": 8.85,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1564,8 +1564,8 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 550,
-      "time_since_hours": 9.17,
+      "time_since_minutes": 560,
+      "time_since_hours": 9.33,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1640,8 +1640,8 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 604,
-      "time_since_hours": 10.07,
+      "time_since_minutes": 614,
+      "time_since_hours": 10.23,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1716,8 +1716,8 @@
       "duration_minutes": 1617,
       "duration_hours": 26.95,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 665,
-      "time_since_hours": 11.08,
+      "time_since_minutes": 675,
+      "time_since_hours": 11.25,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
