@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:27:31.253562-03:00",
+  "generated_at": "2026-08-27T18:16:16.861391-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
+    "vigentes": 0,
     "ultimas24h": 3,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "Laranja da Terra",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, GRANIZO e VENTO para Laranja da Terra. Nas proximas 04 horas. Evite area de risco. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187938/2026",
       "entry_id": "187938/2026",
       "sent": "2026-08-27T13:44:08-03:00",
@@ -1087,7 +1087,7 @@
       "location": "Afonso Cláudio",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, GRANIZO e VENTO para Brejetuba e Afonso Claudio. Evite areas de risco. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187934/2026",
       "entry_id": "187934/2026",
       "sent": "2026-08-27T12:45:45-03:00",
@@ -1134,7 +1134,7 @@
       "location": "Alegre",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, GRANIZO e VENTO na regiao do Caparao. Nas proximas 06 horas. Evite area de risco. Emergencia ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187930/2026",
       "entry_id": "187930/2026",
       "sent": "2026-08-27T11:28:27-03:00",
@@ -1305,7 +1305,7 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
+      "label": "expirado",
       "count": 3
     }
   ],
@@ -1328,7 +1328,11 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 3
+      "count": 2
+    },
+    {
+      "label": "6h a 12h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1344,7 +1348,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-08-27T13:44:08-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1393,7 +1397,7 @@
       "uf": "ES",
       "location": "Laranja da Terra",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/08/2026",
       "time": "13:44",
       "sent_br": "2026-08-27T13:44:08-03:00",
@@ -1402,10 +1406,10 @@
       "duration_minutes": 255,
       "duration_hours": 4.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 223,
-      "time_since_hours": 3.72,
+      "time_since_minutes": 272,
+      "time_since_hours": 4.53,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203163"
       ],
@@ -1420,7 +1424,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-08-27T12:45:45-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1479,7 +1483,7 @@
       "uf": "ES",
       "location": "Afonso Cláudio",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/08/2026",
       "time": "12:45",
       "sent_br": "2026-08-27T12:45:45-03:00",
@@ -1488,10 +1492,10 @@
       "duration_minutes": 314,
       "duration_hours": 5.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 281,
-      "time_since_hours": 4.68,
+      "time_since_minutes": 330,
+      "time_since_hours": 5.5,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200102",
         "3201159"
@@ -1508,7 +1512,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-08-27T11:28:27-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1637,7 +1641,7 @@
       "uf": "ES",
       "location": "Alegre",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/08/2026",
       "time": "11:28",
       "sent_br": "2026-08-27T11:28:27-03:00",
@@ -1646,10 +1650,10 @@
       "duration_minutes": 391,
       "duration_hours": 6.52,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 359,
-      "time_since_hours": 5.98,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "time_since_minutes": 407,
+      "time_since_hours": 6.78,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3200201",
         "3201803",
