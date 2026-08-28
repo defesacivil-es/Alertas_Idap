@@ -1,4 +1,4 @@
-const AUTO_REFRESH_MS = 5 * 60 * 1000;
+const AUTO_REFRESH_MS = 60000;
 const LEVEL_COLORS = {
   Extremo: "#6c4ce6",
   Severo: "#e23d2f",

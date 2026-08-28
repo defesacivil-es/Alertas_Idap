@@ -2527,37 +2527,3 @@ body {
     padding-right: 0;
   }
 }
-
-/* =========================================================
-   Ajuste de viewport/zoom do navegador
-   Evita cortar a parte inferior do dashboard quando o zoom
-   reduz a altura útil em CSS pixels.
-   ========================================================= */
-@media (min-width: 1181px) {
-  html,
-  body {
-    min-height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-
-  body {
-    align-items: flex-start;
-  }
-
-  .app-shell {
-    min-height: 0;
-    height: auto;
-    max-height: none;
-    overflow: visible;
-  }
-
-  .dashboard-grid {
-    height: auto;
-    min-height: 0;
-    grid-template-rows:
-      minmax(150px, auto)
-      minmax(360px, auto)
-      minmax(220px, auto);
-  }
-}
