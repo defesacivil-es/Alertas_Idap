@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:25:51.196906-03:00",
+  "generated_at": "2026-09-01T22:30:27.434581-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 5,
+    "vigentes": 4,
     "ultimas24h": 5,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1181,7 +1181,7 @@
       "location": "Divino de São Lourenço",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE em DORES D RIO PRETO e DIVINO SAO LOURENCO na proxima 01 hora. Evite area de risco. Fique atento. Emergencia ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "188952/2026",
       "entry_id": "188952/2026",
       "sent": "2026-09-01T21:29:09-03:00",
@@ -1388,7 +1388,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 4
+    },
+    {
+      "label": "expirado",
+      "count": 1
     }
   ],
   "category_distribution": [
@@ -1410,11 +1414,11 @@
   "time_since_distribution": [
     {
       "label": "Até 1h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "1h a 3h",
-      "count": 1
+      "count": 2
     }
   ],
   "channel_distribution": [
@@ -1498,8 +1502,8 @@
       "duration_minutes": 225,
       "duration_hours": 3.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 11,
-      "time_since_hours": 0.18,
+      "time_since_minutes": 16,
+      "time_since_hours": 0.27,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1576,8 +1580,8 @@
       "duration_minutes": 247,
       "duration_hours": 4.12,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 33,
-      "time_since_hours": 0.55,
+      "time_since_minutes": 38,
+      "time_since_hours": 0.63,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1662,8 +1666,8 @@
       "duration_minutes": 200,
       "duration_hours": 3.33,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 46,
-      "time_since_hours": 0.77,
+      "time_since_minutes": 51,
+      "time_since_hours": 0.85,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1682,7 +1686,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-09-01T21:29:09-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1741,7 +1745,7 @@
       "uf": "ES",
       "location": "Divino de São Lourenço",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "01/09/2026",
       "time": "21:29",
       "sent_br": "2026-09-01T21:29:09-03:00",
@@ -1750,10 +1754,10 @@
       "duration_minutes": 60,
       "duration_hours": 1.0,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 56,
-      "time_since_hours": 0.93,
-      "time_since_bucket": "Até 1h",
-      "is_active": true,
+      "time_since_minutes": 61,
+      "time_since_hours": 1.02,
+      "time_since_bucket": "1h a 3h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3201803",
         "3202009"
@@ -1888,8 +1892,8 @@
       "duration_minutes": 350,
       "duration_hours": 5.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 75,
-      "time_since_hours": 1.25,
+      "time_since_minutes": 80,
+      "time_since_hours": 1.33,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
