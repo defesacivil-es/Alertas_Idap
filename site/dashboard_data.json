@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T02:55:56.666325-03:00",
+  "generated_at": "2026-09-02T03:00:09.999223-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 6,
+    "vigentes": 3,
     "ultimas24h": 11,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1237,7 +1237,7 @@
       "location": "Irupi",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA FORTE em IRUPI e IUNA na proxima 01 hora. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "188965/2026",
       "entry_id": "188965/2026",
       "sent": "2026-09-02T01:37:23-03:00",
@@ -1284,7 +1284,7 @@
       "location": "Conceição do Castelo",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS nas regioes CAPARAO e SERRANA nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "188964/2026",
       "entry_id": "188964/2026",
       "sent": "2026-09-02T00:36:02-03:00",
@@ -1723,11 +1723,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 5
+      "count": 8
     }
   ],
   "category_distribution": [
@@ -1752,11 +1752,11 @@
       "count": 6
     },
     {
-      "label": "Até 1h",
+      "label": "1h a 3h",
       "count": 3
     },
     {
-      "label": "1h a 3h",
+      "label": "Até 1h",
       "count": 2
     }
   ],
@@ -1861,8 +1861,8 @@
       "duration_minutes": 194,
       "duration_hours": 3.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 10,
-      "time_since_hours": 0.17,
+      "time_since_minutes": 14,
+      "time_since_hours": 0.23,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1963,8 +1963,8 @@
       "duration_minutes": 204,
       "duration_hours": 3.4,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 20,
-      "time_since_hours": 0.33,
+      "time_since_minutes": 25,
+      "time_since_hours": 0.42,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2083,9 +2083,9 @@
       "duration_minutes": 121,
       "duration_hours": 2.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 57,
-      "time_since_hours": 0.95,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 61,
+      "time_since_hours": 1.02,
+      "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
         "3200300",
@@ -2109,7 +2109,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-09-02T01:37:23-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2168,7 +2168,7 @@
       "uf": "ES",
       "location": "Irupi",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "02/09/2026",
       "time": "01:37",
       "sent_br": "2026-09-02T01:37:23-03:00",
@@ -2177,10 +2177,10 @@
       "duration_minutes": 82,
       "duration_hours": 1.37,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 78,
-      "time_since_hours": 1.3,
+      "time_since_minutes": 82,
+      "time_since_hours": 1.37,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3202652",
         "3203007"
@@ -2197,7 +2197,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-09-02T00:36:02-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2296,7 +2296,7 @@
       "uf": "ES",
       "location": "Conceição do Castelo",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "02/09/2026",
       "time": "00:36",
       "sent_br": "2026-09-02T00:36:02-03:00",
@@ -2305,10 +2305,10 @@
       "duration_minutes": 143,
       "duration_hours": 2.38,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 139,
-      "time_since_hours": 2.32,
+      "time_since_minutes": 144,
+      "time_since_hours": 2.4,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201704",
         "3202454",
@@ -2391,8 +2391,8 @@
       "duration_minutes": 206,
       "duration_hours": 3.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 262,
-      "time_since_hours": 4.37,
+      "time_since_minutes": 266,
+      "time_since_hours": 4.43,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2477,8 +2477,8 @@
       "duration_minutes": 225,
       "duration_hours": 3.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 281,
-      "time_since_hours": 4.68,
+      "time_since_minutes": 286,
+      "time_since_hours": 4.77,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2555,8 +2555,8 @@
       "duration_minutes": 247,
       "duration_hours": 4.12,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 303,
-      "time_since_hours": 5.05,
+      "time_since_minutes": 307,
+      "time_since_hours": 5.12,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2641,8 +2641,8 @@
       "duration_minutes": 200,
       "duration_hours": 3.33,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 316,
-      "time_since_hours": 5.27,
+      "time_since_minutes": 321,
+      "time_since_hours": 5.35,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2729,8 +2729,8 @@
       "duration_minutes": 60,
       "duration_hours": 1.0,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 326,
-      "time_since_hours": 5.43,
+      "time_since_minutes": 331,
+      "time_since_hours": 5.52,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2749,7 +2749,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-09-01T21:09:54-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2858,7 +2858,7 @@
       "uf": "ES",
       "location": "Apiacá",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "01/09/2026",
       "time": "21:09",
       "sent_br": "2026-09-01T21:09:54-03:00",
@@ -2867,10 +2867,10 @@
       "duration_minutes": 350,
       "duration_hours": 5.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 346,
-      "time_since_hours": 5.77,
+      "time_since_minutes": 350,
+      "time_since_hours": 5.83,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200508",
         "3201100",
