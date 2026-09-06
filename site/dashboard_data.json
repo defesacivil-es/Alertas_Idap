@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:27:41.077668-03:00",
+  "generated_at": "2026-09-06T01:30:57.775401-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 8,
+    "vigentes": 7,
     "ultimas24h": 8,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1409,7 +1409,7 @@
       "location": "Bom Jesus do Norte",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO na regiao Sao Jose do Calcado, Bom Jesus do Norte nas proximas 04 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "189192/2026",
       "entry_id": "189192/2026",
       "sent": "2026-09-05T21:33:40-03:00",
@@ -1557,7 +1557,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 7
+    },
+    {
+      "label": "expirado",
+      "count": 1
     }
   ],
   "category_distribution": [
@@ -1579,15 +1583,15 @@
   "time_since_distribution": [
     {
       "label": "1h a 3h",
-      "count": 4
-    },
-    {
-      "label": "Até 1h",
-      "count": 2
+      "count": 5
     },
     {
       "label": "3h a 6h",
       "count": 2
+    },
+    {
+      "label": "Até 1h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1671,8 +1675,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 4,
-      "time_since_hours": 0.07,
+      "time_since_minutes": 7,
+      "time_since_hours": 0.12,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1759,9 +1763,9 @@
       "duration_minutes": 393,
       "duration_hours": 6.55,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 60,
-      "time_since_hours": 1.0,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 64,
+      "time_since_hours": 1.07,
+      "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
         "3201209",
@@ -1847,8 +1851,8 @@
       "duration_minutes": 336,
       "duration_hours": 5.6,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 64,
-      "time_since_hours": 1.07,
+      "time_since_minutes": 67,
+      "time_since_hours": 1.12,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1955,8 +1959,8 @@
       "duration_minutes": 244,
       "duration_hours": 4.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 92,
-      "time_since_hours": 1.53,
+      "time_since_minutes": 95,
+      "time_since_hours": 1.58,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2057,8 +2061,8 @@
       "duration_minutes": 250,
       "duration_hours": 4.17,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 98,
-      "time_since_hours": 1.63,
+      "time_since_minutes": 101,
+      "time_since_hours": 1.68,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2157,8 +2161,8 @@
       "duration_minutes": 244,
       "duration_hours": 4.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 121,
-      "time_since_hours": 2.02,
+      "time_since_minutes": 125,
+      "time_since_hours": 2.08,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2247,8 +2251,8 @@
       "duration_minutes": 242,
       "duration_hours": 4.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 230,
-      "time_since_hours": 3.83,
+      "time_since_minutes": 233,
+      "time_since_hours": 3.88,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2267,7 +2271,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-09-05T21:33:40-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2326,7 +2330,7 @@
       "uf": "ES",
       "location": "Bom Jesus do Norte",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "05/09/2026",
       "time": "21:33",
       "sent_br": "2026-09-05T21:33:40-03:00",
@@ -2335,10 +2339,10 @@
       "duration_minutes": 236,
       "duration_hours": 3.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 234,
-      "time_since_hours": 3.9,
+      "time_since_minutes": 237,
+      "time_since_hours": 3.95,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201100",
         "3204807"
