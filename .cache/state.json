@@ -1,14 +1,14 @@
 {
-  "last_run_ts": "20261008_204445",
-  "last_run_iso": "2026-10-08T23:45:41.066864+00:00",
+  "last_run_ts": "20261008_204944",
+  "last_run_iso": "2026-10-08T23:50:41.140504+00:00",
   "last_counts": {
-    "entries": 111,
+    "entries": 113,
     "feed_alerts": 0,
     "window_alerts": 0,
     "geojson_features": 0,
     "history_alerts": 0,
     "errors": 0,
-    "ignored_by_sender": 111
+    "ignored_by_sender": 113
   },
   "history_path": ".cache/historico_alertas.json",
   "window_hours": 24,
