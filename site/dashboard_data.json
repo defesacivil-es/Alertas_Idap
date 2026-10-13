@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T18:55:31.673500-03:00",
+  "generated_at": "2026-10-13T19:00:33.022432-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 8,
+    "vigentes": 5,
     "ultimas24h": 8,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1291,7 +1291,7 @@
       "location": "Apiacá",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em Apiaca e Bom Jesus do Norte nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193549/2026",
       "entry_id": "193549/2026",
       "sent": "2026-10-13T15:49:21-03:00",
@@ -1338,7 +1338,7 @@
       "location": "Atilio Vivacqua",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em Mimoso do Sul e Atilio Vivacqua nas proximas 05 horas. Fique atento. Em casos de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193535/2026",
       "entry_id": "193535/2026",
       "sent": "2026-10-13T14:47:11-03:00",
@@ -1385,7 +1385,7 @@
       "location": "Divino de São Lourenço",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO na regiao do CAPARAO nas proximas 05 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193532/2026",
       "entry_id": "193532/2026",
       "sent": "2026-10-13T14:40:17-03:00",
@@ -1533,7 +1533,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 5
+    },
+    {
+      "label": "expirado",
+      "count": 3
     }
   ],
   "category_distribution": [
@@ -1555,7 +1559,7 @@
   "time_since_distribution": [
     {
       "label": "Até 1h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "3h a 6h",
@@ -1563,7 +1567,7 @@
     },
     {
       "label": "1h a 3h",
-      "count": 1
+      "count": 2
     }
   ],
   "channel_distribution": [
@@ -1637,8 +1641,8 @@
       "duration_minutes": 134,
       "duration_hours": 2.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 9,
-      "time_since_hours": 0.15,
+      "time_since_minutes": 15,
+      "time_since_hours": 0.25,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1713,8 +1717,8 @@
       "duration_minutes": 149,
       "duration_hours": 2.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 25,
-      "time_since_hours": 0.42,
+      "time_since_minutes": 30,
+      "time_since_hours": 0.5,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1789,8 +1793,8 @@
       "duration_minutes": 99,
       "duration_hours": 1.65,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 34,
-      "time_since_hours": 0.57,
+      "time_since_minutes": 39,
+      "time_since_hours": 0.65,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1915,9 +1919,9 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 57,
-      "time_since_hours": 0.95,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 62,
+      "time_since_hours": 1.03,
+      "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
         "3201704",
@@ -2011,8 +2015,8 @@
       "duration_minutes": 196,
       "duration_hours": 3.27,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 131,
-      "time_since_hours": 2.18,
+      "time_since_minutes": 136,
+      "time_since_hours": 2.27,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2031,7 +2035,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-13T15:49:21-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2090,7 +2094,7 @@
       "uf": "ES",
       "location": "Apiacá",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/10/2026",
       "time": "15:49",
       "sent_br": "2026-10-13T15:49:21-03:00",
@@ -2099,10 +2103,10 @@
       "duration_minutes": 190,
       "duration_hours": 3.17,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 186,
-      "time_since_hours": 3.1,
+      "time_since_minutes": 191,
+      "time_since_hours": 3.18,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200508",
         "3201100"
@@ -2119,7 +2123,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-13T14:47:11-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2178,7 +2182,7 @@
       "uf": "ES",
       "location": "Atilio Vivacqua",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/10/2026",
       "time": "14:47",
       "sent_br": "2026-10-13T14:47:11-03:00",
@@ -2187,10 +2191,10 @@
       "duration_minutes": 252,
       "duration_hours": 4.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 248,
-      "time_since_hours": 4.13,
+      "time_since_minutes": 253,
+      "time_since_hours": 4.22,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200706",
         "3203809"
@@ -2207,7 +2211,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-13T14:40:17-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2276,7 +2280,7 @@
       "uf": "ES",
       "location": "Divino de São Lourenço",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/10/2026",
       "time": "14:40",
       "sent_br": "2026-10-13T14:40:17-03:00",
@@ -2285,10 +2289,10 @@
       "duration_minutes": 259,
       "duration_hours": 4.32,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 255,
-      "time_since_hours": 4.25,
+      "time_since_minutes": 260,
+      "time_since_hours": 4.33,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201803",
         "3202009",
