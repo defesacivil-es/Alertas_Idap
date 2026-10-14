@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T20:55:40.882345-03:00",
+  "generated_at": "2026-10-13T21:00:38.121900-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 4,
+    "vigentes": 1,
     "ultimas24h": 9,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1087,7 +1087,7 @@
       "location": "Brejetuba",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, GRANIZO, CHUVA e VENTO FORTE em Brejetuba nas proximas 02 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193590/2026",
       "entry_id": "193590/2026",
       "sent": "2026-10-13T18:45:33-03:00",
@@ -1126,7 +1126,7 @@
       "location": "Muniz Freire",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, GRANIZO, CHUVA e VENTO FORTE em Muniz Freire nas proximas 03 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193589/2026",
       "entry_id": "193589/2026",
       "sent": "2026-10-13T18:30:11-03:00",
@@ -1204,7 +1204,7 @@
       "location": "Conceição do Castelo",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, GRANIZO, CHUVA e VENTO FORTE nas regioes CAPARAO e SERRANA nas proximas 03 horas. Em casos de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193582/2026",
       "entry_id": "193582/2026",
       "sent": "2026-10-13T17:58:31-03:00",
@@ -1576,11 +1576,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 5
+      "count": 8
     }
   ],
   "category_distribution": [
@@ -1602,11 +1602,11 @@
   "time_since_distribution": [
     {
       "label": "1h a 3h",
-      "count": 5
+      "count": 4
     },
     {
       "label": "3h a 6h",
-      "count": 2
+      "count": 3
     },
     {
       "label": "6h a 12h",
@@ -1684,8 +1684,8 @@
       "duration_minutes": 247,
       "duration_hours": 4.12,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 63,
-      "time_since_hours": 1.05,
+      "time_since_minutes": 68,
+      "time_since_hours": 1.13,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1702,7 +1702,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-13T18:45:33-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1751,7 +1751,7 @@
       "uf": "ES",
       "location": "Brejetuba",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/10/2026",
       "time": "18:45",
       "sent_br": "2026-10-13T18:45:33-03:00",
@@ -1760,10 +1760,10 @@
       "duration_minutes": 134,
       "duration_hours": 2.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 130,
-      "time_since_hours": 2.17,
+      "time_since_minutes": 135,
+      "time_since_hours": 2.25,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201159"
       ],
@@ -1778,7 +1778,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-13T18:30:11-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1827,7 +1827,7 @@
       "uf": "ES",
       "location": "Muniz Freire",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/10/2026",
       "time": "18:30",
       "sent_br": "2026-10-13T18:30:11-03:00",
@@ -1836,10 +1836,10 @@
       "duration_minutes": 149,
       "duration_hours": 2.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 145,
-      "time_since_hours": 2.42,
+      "time_since_minutes": 150,
+      "time_since_hours": 2.5,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203700"
       ],
@@ -1912,8 +1912,8 @@
       "duration_minutes": 99,
       "duration_hours": 1.65,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 154,
-      "time_since_hours": 2.57,
+      "time_since_minutes": 159,
+      "time_since_hours": 2.65,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1930,7 +1930,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-13T17:58:31-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2029,7 +2029,7 @@
       "uf": "ES",
       "location": "Conceição do Castelo",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/10/2026",
       "time": "17:58",
       "sent_br": "2026-10-13T17:58:31-03:00",
@@ -2038,10 +2038,10 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 177,
-      "time_since_hours": 2.95,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "time_since_minutes": 182,
+      "time_since_hours": 3.03,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3201704",
         "3202454",
@@ -2134,8 +2134,8 @@
       "duration_minutes": 196,
       "duration_hours": 3.27,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 251,
-      "time_since_hours": 4.18,
+      "time_since_minutes": 256,
+      "time_since_hours": 4.27,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2222,8 +2222,8 @@
       "duration_minutes": 190,
       "duration_hours": 3.17,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 306,
-      "time_since_hours": 5.1,
+      "time_since_minutes": 311,
+      "time_since_hours": 5.18,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2310,8 +2310,8 @@
       "duration_minutes": 252,
       "duration_hours": 4.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 368,
-      "time_since_hours": 6.13,
+      "time_since_minutes": 373,
+      "time_since_hours": 6.22,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2408,8 +2408,8 @@
       "duration_minutes": 259,
       "duration_hours": 4.32,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 375,
-      "time_since_hours": 6.25,
+      "time_since_minutes": 380,
+      "time_since_hours": 6.33,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
