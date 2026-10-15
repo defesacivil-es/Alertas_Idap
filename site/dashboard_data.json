@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:55:56.168045-03:00",
+  "generated_at": "2026-10-15T20:01:01.801607-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 12,
+    "vigentes": 11,
     "ultimas24h": 14,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1432,7 +1432,7 @@
       "location": "Cariacica",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS em Cariacica e Santa Leopoldina nas proximas 08 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193898/2026",
       "entry_id": "193898/2026",
       "sent": "2026-10-15T12:38:40-03:00",
@@ -1675,11 +1675,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 2
+      "count": 3
     }
   ],
   "category_distribution": [
@@ -1793,8 +1793,8 @@
       "duration_minutes": 707,
       "duration_hours": 11.78,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 43,
-      "time_since_hours": 0.72,
+      "time_since_minutes": 48,
+      "time_since_hours": 0.8,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1891,8 +1891,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 234,
-      "time_since_hours": 3.9,
+      "time_since_minutes": 239,
+      "time_since_hours": 3.98,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1981,8 +1981,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 277,
-      "time_since_hours": 4.62,
+      "time_since_minutes": 282,
+      "time_since_hours": 4.7,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2079,8 +2079,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 335,
-      "time_since_hours": 5.58,
+      "time_since_minutes": 340,
+      "time_since_hours": 5.67,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2169,8 +2169,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 352,
-      "time_since_hours": 5.87,
+      "time_since_minutes": 357,
+      "time_since_hours": 5.95,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2247,8 +2247,8 @@
       "duration_minutes": 420,
       "duration_hours": 7.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 371,
-      "time_since_hours": 6.18,
+      "time_since_minutes": 376,
+      "time_since_hours": 6.27,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2323,8 +2323,8 @@
       "duration_minutes": 426,
       "duration_hours": 7.1,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 387,
-      "time_since_hours": 6.45,
+      "time_since_minutes": 392,
+      "time_since_hours": 6.53,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2419,8 +2419,8 @@
       "duration_minutes": 478,
       "duration_hours": 7.97,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 414,
-      "time_since_hours": 6.9,
+      "time_since_minutes": 419,
+      "time_since_hours": 6.98,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2441,7 +2441,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-15T12:38:40-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2500,7 +2500,7 @@
       "uf": "ES",
       "location": "Cariacica",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "15/10/2026",
       "time": "12:38",
       "sent_br": "2026-10-15T12:38:40-03:00",
@@ -2509,10 +2509,10 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 437,
-      "time_since_hours": 7.28,
+      "time_since_minutes": 442,
+      "time_since_hours": 7.37,
       "time_since_bucket": "6h a 12h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201308",
         "3204500"
@@ -2617,8 +2617,8 @@
       "duration_minutes": 538,
       "duration_hours": 8.97,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 474,
-      "time_since_hours": 7.9,
+      "time_since_minutes": 479,
+      "time_since_hours": 7.98,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2699,8 +2699,8 @@
       "duration_minutes": 534,
       "duration_hours": 8.9,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 485,
-      "time_since_hours": 8.08,
+      "time_since_minutes": 490,
+      "time_since_hours": 8.17,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2785,8 +2785,8 @@
       "duration_minutes": 536,
       "duration_hours": 8.93,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 487,
-      "time_since_hours": 8.12,
+      "time_since_minutes": 492,
+      "time_since_hours": 8.2,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2873,8 +2873,8 @@
       "duration_minutes": 235,
       "duration_hours": 3.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 496,
-      "time_since_hours": 8.27,
+      "time_since_minutes": 501,
+      "time_since_hours": 8.35,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2961,8 +2961,8 @@
       "duration_minutes": 475,
       "duration_hours": 7.92,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 531,
-      "time_since_hours": 8.85,
+      "time_since_minutes": 536,
+      "time_since_hours": 8.93,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
