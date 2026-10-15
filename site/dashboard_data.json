@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:16:11.619978-03:00",
+  "generated_at": "2026-10-15T20:20:56.121434-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 10,
+    "vigentes": 9,
     "ultimas24h": 14,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1197,7 +1197,7 @@
       "location": "Brejetuba",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, VENTO, RAIOS e GRANIZO em Santa Teresa, Santa Maria de Jetiba, Brejetuba nas proximas 6 horas. Proteja-se. Emergencia 193",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193908/2026",
       "entry_id": "193908/2026",
       "sent": "2026-10-15T14:20:15-03:00",
@@ -1675,11 +1675,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 4
+      "count": 5
     }
   ],
   "category_distribution": [
@@ -1793,8 +1793,8 @@
       "duration_minutes": 707,
       "duration_hours": 11.78,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 63,
-      "time_since_hours": 1.05,
+      "time_since_minutes": 68,
+      "time_since_hours": 1.13,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1891,8 +1891,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 254,
-      "time_since_hours": 4.23,
+      "time_since_minutes": 259,
+      "time_since_hours": 4.32,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1981,8 +1981,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 298,
-      "time_since_hours": 4.97,
+      "time_since_minutes": 302,
+      "time_since_hours": 5.03,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2001,7 +2001,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-15T14:20:15-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2070,7 +2070,7 @@
       "uf": "ES",
       "location": "Brejetuba",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "15/10/2026",
       "time": "14:20",
       "sent_br": "2026-10-15T14:20:15-03:00",
@@ -2079,10 +2079,10 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 355,
-      "time_since_hours": 5.92,
+      "time_since_minutes": 360,
+      "time_since_hours": 6.0,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201159",
         "3204559",
@@ -2169,8 +2169,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 372,
-      "time_since_hours": 6.2,
+      "time_since_minutes": 377,
+      "time_since_hours": 6.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2247,8 +2247,8 @@
       "duration_minutes": 420,
       "duration_hours": 7.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 391,
-      "time_since_hours": 6.52,
+      "time_since_minutes": 396,
+      "time_since_hours": 6.6,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2323,8 +2323,8 @@
       "duration_minutes": 426,
       "duration_hours": 7.1,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 407,
-      "time_since_hours": 6.78,
+      "time_since_minutes": 412,
+      "time_since_hours": 6.87,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2419,8 +2419,8 @@
       "duration_minutes": 478,
       "duration_hours": 7.97,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 434,
-      "time_since_hours": 7.23,
+      "time_since_minutes": 439,
+      "time_since_hours": 7.32,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2509,8 +2509,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 457,
-      "time_since_hours": 7.62,
+      "time_since_minutes": 462,
+      "time_since_hours": 7.7,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2617,8 +2617,8 @@
       "duration_minutes": 538,
       "duration_hours": 8.97,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 495,
-      "time_since_hours": 8.25,
+      "time_since_minutes": 499,
+      "time_since_hours": 8.32,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2699,8 +2699,8 @@
       "duration_minutes": 534,
       "duration_hours": 8.9,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 505,
-      "time_since_hours": 8.42,
+      "time_since_minutes": 510,
+      "time_since_hours": 8.5,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2785,8 +2785,8 @@
       "duration_minutes": 536,
       "duration_hours": 8.93,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 508,
-      "time_since_hours": 8.47,
+      "time_since_minutes": 512,
+      "time_since_hours": 8.53,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2873,8 +2873,8 @@
       "duration_minutes": 235,
       "duration_hours": 3.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 516,
-      "time_since_hours": 8.6,
+      "time_since_minutes": 521,
+      "time_since_hours": 8.68,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2961,8 +2961,8 @@
       "duration_minutes": 475,
       "duration_hours": 7.92,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 551,
-      "time_since_hours": 9.18,
+      "time_since_minutes": 556,
+      "time_since_hours": 9.27,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
