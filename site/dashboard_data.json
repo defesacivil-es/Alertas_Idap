@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:40:56.283544-03:00",
+  "generated_at": "2026-10-15T20:45:59.925571-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 8,
+    "vigentes": 5,
     "ultimas24h": 14,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1299,7 +1299,7 @@
       "location": "Muniz Freire",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS e GRANIZO em Muniz Freire nas proximas 7 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "193904/2026",
       "entry_id": "193904/2026",
       "sent": "2026-10-15T13:44:23-03:00",
@@ -1675,11 +1675,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 6
+      "count": 9
     }
   ],
   "category_distribution": [
@@ -1793,8 +1793,8 @@
       "duration_minutes": 707,
       "duration_hours": 11.78,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 88,
-      "time_since_hours": 1.47,
+      "time_since_minutes": 93,
+      "time_since_hours": 1.55,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1891,8 +1891,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 279,
-      "time_since_hours": 4.65,
+      "time_since_minutes": 284,
+      "time_since_hours": 4.73,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1981,8 +1981,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 322,
-      "time_since_hours": 5.37,
+      "time_since_minutes": 327,
+      "time_since_hours": 5.45,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2079,8 +2079,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 380,
-      "time_since_hours": 6.33,
+      "time_since_minutes": 385,
+      "time_since_hours": 6.42,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2169,8 +2169,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 397,
-      "time_since_hours": 6.62,
+      "time_since_minutes": 402,
+      "time_since_hours": 6.7,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2189,7 +2189,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-15T13:44:23-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2238,7 +2238,7 @@
       "uf": "ES",
       "location": "Muniz Freire",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "15/10/2026",
       "time": "13:44",
       "sent_br": "2026-10-15T13:44:23-03:00",
@@ -2247,10 +2247,10 @@
       "duration_minutes": 420,
       "duration_hours": 7.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 416,
-      "time_since_hours": 6.93,
+      "time_since_minutes": 421,
+      "time_since_hours": 7.02,
       "time_since_bucket": "6h a 12h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203700"
       ],
@@ -2323,8 +2323,8 @@
       "duration_minutes": 426,
       "duration_hours": 7.1,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 432,
-      "time_since_hours": 7.2,
+      "time_since_minutes": 437,
+      "time_since_hours": 7.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2419,8 +2419,8 @@
       "duration_minutes": 478,
       "duration_hours": 7.97,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 459,
-      "time_since_hours": 7.65,
+      "time_since_minutes": 464,
+      "time_since_hours": 7.73,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2509,8 +2509,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 482,
-      "time_since_hours": 8.03,
+      "time_since_minutes": 487,
+      "time_since_hours": 8.12,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2617,8 +2617,8 @@
       "duration_minutes": 538,
       "duration_hours": 8.97,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 519,
-      "time_since_hours": 8.65,
+      "time_since_minutes": 524,
+      "time_since_hours": 8.73,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2641,7 +2641,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-15T11:50:44-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2690,7 +2690,7 @@
       "uf": "ES",
       "location": "Venda Nova do Imigrante",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "15/10/2026",
       "time": "11:50",
       "sent_br": "2026-10-15T11:50:44-03:00",
@@ -2699,10 +2699,10 @@
       "duration_minutes": 534,
       "duration_hours": 8.9,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 530,
-      "time_since_hours": 8.83,
+      "time_since_minutes": 535,
+      "time_since_hours": 8.92,
       "time_since_bucket": "6h a 12h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3205069"
       ],
@@ -2717,7 +2717,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-15T11:48:06-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2776,7 +2776,7 @@
       "uf": "ES",
       "location": "Domingos Martins",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "15/10/2026",
       "time": "11:48",
       "sent_br": "2026-10-15T11:48:06-03:00",
@@ -2785,10 +2785,10 @@
       "duration_minutes": 536,
       "duration_hours": 8.93,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 532,
-      "time_since_hours": 8.87,
+      "time_since_minutes": 537,
+      "time_since_hours": 8.95,
       "time_since_bucket": "6h a 12h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201902",
         "3205101"
@@ -2873,8 +2873,8 @@
       "duration_minutes": 235,
       "duration_hours": 3.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 541,
-      "time_since_hours": 9.02,
+      "time_since_minutes": 546,
+      "time_since_hours": 9.1,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2961,8 +2961,8 @@
       "duration_minutes": 475,
       "duration_hours": 7.92,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 576,
-      "time_since_hours": 9.6,
+      "time_since_minutes": 581,
+      "time_since_hours": 9.68,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
