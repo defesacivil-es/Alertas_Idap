@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T20:51:49.585703-03:00",
+  "generated_at": "2026-10-16T20:56:19.330403-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1970,8 +1970,8 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 173,
-      "time_since_hours": 2.88,
+      "time_since_minutes": 177,
+      "time_since_hours": 2.95,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2162,8 +2162,8 @@
       "duration_minutes": 391,
       "duration_hours": 6.52,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 323,
-      "time_since_hours": 5.38,
+      "time_since_minutes": 328,
+      "time_since_hours": 5.47,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2370,8 +2370,8 @@
       "duration_minutes": 439,
       "duration_hours": 7.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 370,
-      "time_since_hours": 6.17,
+      "time_since_minutes": 375,
+      "time_since_hours": 6.25,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2588,8 +2588,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 373,
-      "time_since_hours": 6.22,
+      "time_since_minutes": 377,
+      "time_since_hours": 6.28,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2778,8 +2778,8 @@
       "duration_minutes": 510,
       "duration_hours": 8.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 502,
-      "time_since_hours": 8.37,
+      "time_since_minutes": 506,
+      "time_since_hours": 8.43,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
