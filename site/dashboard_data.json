@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T23:41:23.652138-03:00",
+  "generated_at": "2026-10-16T23:46:06.025742-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1966,8 +1966,8 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 342,
-      "time_since_hours": 5.7,
+      "time_since_minutes": 347,
+      "time_since_hours": 5.78,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2158,8 +2158,8 @@
       "duration_minutes": 391,
       "duration_hours": 6.52,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 493,
-      "time_since_hours": 8.22,
+      "time_since_minutes": 498,
+      "time_since_hours": 8.3,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2366,8 +2366,8 @@
       "duration_minutes": 439,
       "duration_hours": 7.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 540,
-      "time_since_hours": 9.0,
+      "time_since_minutes": 545,
+      "time_since_hours": 9.08,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2584,8 +2584,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 542,
-      "time_since_hours": 9.03,
+      "time_since_minutes": 547,
+      "time_since_hours": 9.12,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2774,8 +2774,8 @@
       "duration_minutes": 510,
       "duration_hours": 8.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 672,
-      "time_since_hours": 11.2,
+      "time_since_minutes": 676,
+      "time_since_hours": 11.27,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
