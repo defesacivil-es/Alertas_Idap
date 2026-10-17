@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:26:51.609518-03:00",
+  "generated_at": "2026-10-16T22:31:36.151056-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1966,8 +1966,8 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 268,
-      "time_since_hours": 4.47,
+      "time_since_minutes": 272,
+      "time_since_hours": 4.53,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2158,8 +2158,8 @@
       "duration_minutes": 391,
       "duration_hours": 6.52,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 418,
-      "time_since_hours": 6.97,
+      "time_since_minutes": 423,
+      "time_since_hours": 7.05,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2366,8 +2366,8 @@
       "duration_minutes": 439,
       "duration_hours": 7.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 465,
-      "time_since_hours": 7.75,
+      "time_since_minutes": 470,
+      "time_since_hours": 7.83,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2584,8 +2584,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 468,
-      "time_since_hours": 7.8,
+      "time_since_minutes": 472,
+      "time_since_hours": 7.87,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2774,8 +2774,8 @@
       "duration_minutes": 510,
       "duration_hours": 8.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 597,
-      "time_since_hours": 9.95,
+      "time_since_minutes": 602,
+      "time_since_hours": 10.03,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
