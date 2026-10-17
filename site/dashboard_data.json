@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T00:11:12.068659-03:00",
+  "generated_at": "2026-10-17T00:15:47.482521-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1962,8 +1962,8 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 372,
-      "time_since_hours": 6.2,
+      "time_since_minutes": 377,
+      "time_since_hours": 6.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2154,8 +2154,8 @@
       "duration_minutes": 391,
       "duration_hours": 6.52,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 523,
-      "time_since_hours": 8.72,
+      "time_since_minutes": 527,
+      "time_since_hours": 8.78,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2362,8 +2362,8 @@
       "duration_minutes": 439,
       "duration_hours": 7.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 570,
-      "time_since_hours": 9.5,
+      "time_since_minutes": 574,
+      "time_since_hours": 9.57,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2580,8 +2580,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 572,
-      "time_since_hours": 9.53,
+      "time_since_minutes": 577,
+      "time_since_hours": 9.62,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2770,8 +2770,8 @@
       "duration_minutes": 510,
       "duration_hours": 8.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 701,
-      "time_since_hours": 11.68,
+      "time_since_minutes": 706,
+      "time_since_hours": 11.77,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
