@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T20:56:19.330403-03:00",
+  "generated_at": "2026-10-16T21:02:01.692916-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 5,
+    "vigentes": 4,
     "ultimas24h": 5,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1500,7 +1500,7 @@
       "location": "Alegre",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS e GRANIZO na regiao do Caparao nas proximas 08 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "194067/2026",
       "entry_id": "194067/2026",
       "sent": "2026-10-16T12:29:22-03:00",
@@ -1836,7 +1836,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 4
+    },
+    {
+      "label": "expirado",
+      "count": 1
     }
   ],
   "category_distribution": [
@@ -1861,12 +1865,8 @@
       "count": 3
     },
     {
-      "label": "1h a 3h",
-      "count": 1
-    },
-    {
       "label": "3h a 6h",
-      "count": 1
+      "count": 2
     }
   ],
   "channel_distribution": [
@@ -1970,9 +1970,9 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 177,
-      "time_since_hours": 2.95,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 183,
+      "time_since_hours": 3.05,
+      "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
         "3203056",
@@ -2162,8 +2162,8 @@
       "duration_minutes": 391,
       "duration_hours": 6.52,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 328,
-      "time_since_hours": 5.47,
+      "time_since_minutes": 334,
+      "time_since_hours": 5.57,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2370,8 +2370,8 @@
       "duration_minutes": 439,
       "duration_hours": 7.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 375,
-      "time_since_hours": 6.25,
+      "time_since_minutes": 381,
+      "time_since_hours": 6.35,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2588,8 +2588,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 377,
-      "time_since_hours": 6.28,
+      "time_since_minutes": 383,
+      "time_since_hours": 6.38,
       "time_since_bucket": "6h a 12h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2630,7 +2630,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-16T12:29:22-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2769,7 +2769,7 @@
       "uf": "ES",
       "location": "Alegre",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "16/10/2026",
       "time": "12:29",
       "sent_br": "2026-10-16T12:29:22-03:00",
@@ -2778,10 +2778,10 @@
       "duration_minutes": 510,
       "duration_hours": 8.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 506,
-      "time_since_hours": 8.43,
+      "time_since_minutes": 512,
+      "time_since_hours": 8.53,
       "time_since_bucket": "6h a 12h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200201",
         "3201803",
