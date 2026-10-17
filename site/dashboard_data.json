@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:06:22.928951-03:00",
+  "generated_at": "2026-10-16T22:12:20.259279-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1966,8 +1966,8 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 247,
-      "time_since_hours": 4.12,
+      "time_since_minutes": 253,
+      "time_since_hours": 4.22,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2158,8 +2158,8 @@
       "duration_minutes": 391,
       "duration_hours": 6.52,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 398,
-      "time_since_hours": 6.63,
+      "time_since_minutes": 404,
+      "time_since_hours": 6.73,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2366,8 +2366,8 @@
       "duration_minutes": 439,
       "duration_hours": 7.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 445,
-      "time_since_hours": 7.42,
+      "time_since_minutes": 451,
+      "time_since_hours": 7.52,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2584,8 +2584,8 @@
       "duration_minutes": 441,
       "duration_hours": 7.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 447,
-      "time_since_hours": 7.45,
+      "time_since_minutes": 453,
+      "time_since_hours": 7.55,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2774,8 +2774,8 @@
       "duration_minutes": 510,
       "duration_hours": 8.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 577,
-      "time_since_hours": 9.62,
+      "time_since_minutes": 582,
+      "time_since_hours": 9.7,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
