@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-19T02:26:36.639694+00:00",
-  "total_alerts": 24,
+  "generated_at": "2026-10-19T02:31:32.257905+00:00",
+  "total_alerts": 25,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.372,
-              -20.159
-            ],
             [
               -41.371,
               -20.159
@@ -7310,6 +7306,10 @@
             [
               -41.372,
               -20.159
+            ],
+            [
+              -41.371,
+              -20.159
             ]
           ]
         ]
@@ -7396,10 +7396,6 @@
         "coordinates": [
           [
             [
-              [
-                -40.195,
-                -18.924
-              ],
               [
                 -40.194,
                 -18.925
@@ -11079,6 +11075,10 @@
               [
                 -40.195,
                 -18.924
+              ],
+              [
+                -40.194,
+                -18.925
               ]
             ],
             [
@@ -11103,10 +11103,6 @@
           [
             [
               [
-                -40.047,
-                -18.983
-              ],
-              [
                 -40.046,
                 -18.983
               ],
@@ -11117,15 +11113,15 @@
               [
                 -40.047,
                 -18.983
+              ],
+              [
+                -40.046,
+                -18.983
               ]
             ]
           ],
           [
             [
-              [
-                -41.211,
-                -18.875
-              ],
               [
                 -41.212,
                 -18.876
@@ -11901,6 +11897,10 @@
               [
                 -41.211,
                 -18.875
+              ],
+              [
+                -41.212,
+                -18.876
               ]
             ]
           ]
@@ -12015,10 +12015,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.101,
-              -20.273
-            ],
             [
               -41.101,
               -20.272
@@ -30294,6 +30290,10 @@
             [
               -41.101,
               -20.273
+            ],
+            [
+              -41.101,
+              -20.272
             ]
           ]
         ]
@@ -30422,10 +30422,6 @@
         "coordinates": [
           [
             [
-              [
-                -40.55,
-                -19.734
-              ],
               [
                 -40.551,
                 -19.734
@@ -40405,6 +40401,10 @@
               [
                 -40.55,
                 -19.734
+              ],
+              [
+                -40.551,
+                -19.734
               ]
             ],
             [
@@ -40451,10 +40451,6 @@
           [
             [
               [
-                -40.324,
-                -20.03
-              ],
-              [
                 -40.325,
                 -20.029
               ],
@@ -40465,6 +40461,10 @@
               [
                 -40.324,
                 -20.03
+              ],
+              [
+                -40.325,
+                -20.029
               ]
             ]
           ]
@@ -40568,10 +40568,6 @@
             [
               [
                 -40.343,
-                -18.292
-              ],
-              [
-                -40.343,
                 -18.291
               ],
               [
@@ -40585,15 +40581,15 @@
               [
                 -40.343,
                 -18.292
+              ],
+              [
+                -40.343,
+                -18.291
               ]
             ]
           ],
           [
             [
-              [
-                -40.363,
-                -18.279
-              ],
               [
                 -40.363,
                 -18.278
@@ -40605,15 +40601,15 @@
               [
                 -40.363,
                 -18.279
+              ],
+              [
+                -40.363,
+                -18.278
               ]
             ]
           ],
           [
             [
-              [
-                -40.347,
-                -18.278
-              ],
               [
                 -40.346,
                 -18.279
@@ -40625,15 +40621,15 @@
               [
                 -40.347,
                 -18.278
+              ],
+              [
+                -40.346,
+                -18.279
               ]
             ]
           ],
           [
             [
-              [
-                -40.463,
-                -18.412
-              ],
               [
                 -40.464,
                 -18.412
@@ -47601,6 +47597,10 @@
               [
                 -40.463,
                 -18.412
+              ],
+              [
+                -40.464,
+                -18.412
               ]
             ],
             [
@@ -47731,10 +47731,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.852,
-              -19.598
-            ],
             [
               -40.853,
               -19.598
@@ -56422,6 +56418,10 @@
             [
               -40.852,
               -19.598
+            ],
+            [
+              -40.853,
+              -19.598
             ]
           ]
         ]
@@ -56521,10 +56521,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.119,
-              -20.295
-            ],
             [
               -41.12,
               -20.295
@@ -74632,6 +74628,10 @@
             [
               -41.119,
               -20.295
+            ],
+            [
+              -41.12,
+              -20.295
             ]
           ]
         ]
@@ -74703,10 +74703,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.209,
-              -20.319
-            ],
             [
               -41.208,
               -20.319
@@ -77809,6 +77805,10 @@
             ],
             [
               -41.209,
+              -20.319
+            ],
+            [
+              -41.208,
               -20.319
             ]
           ]
@@ -199054,6 +199054,91 @@
                 -41.662,
                 -20.64
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "194411/2026",
+        "entry_id": "194411/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-10-18T23:21:39-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-10-18T23:21:39-03:00",
+        "expires": "2026-10-19T00:30:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS INTENSOS, RAIOS E GRANIZO em Divino de Sao Lourenco dentro de 1 hora. Evite area de risco. Emergencia 193",
+        "description": "(ES)  ALERTA de CHUVA INTENSA, VENTOS INTENSOS, RAIOS E GRANIZO em Divino de São Lourenço dentro de 1 hora. Evite área de risco. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Divino de São Lourenço/ES",
+        "polygon_raw": "-20.616,-41.685 -20.622,-41.689 -20.625,-41.681 -20.616,-41.681 -20.616,-41.685",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201803",
+        "municipio_nome": "Divino de São Lourenço",
+        "municipio_slug": "divino-de-sao-lourenco",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201803",
+            "municipio_nome": "Divino de São Lourenço",
+            "municipio_slug": "divino-de-sao-lourenco",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "18/10/2026 23:21",
+        "onset_label": "18/10/2026 23:21",
+        "expires_label": "19/10/2026 00:30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.681,
+              -20.616
+            ],
+            [
+              -41.681,
+              -20.625
+            ],
+            [
+              -41.689,
+              -20.622
+            ],
+            [
+              -41.685,
+              -20.616
+            ],
+            [
+              -41.681,
+              -20.616
             ]
           ]
         ]
