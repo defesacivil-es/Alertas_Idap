@@ -1,93 +1,8 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-20T19:45:55.283133+00:00",
-  "total_alerts": 3,
+  "generated_at": "2026-10-20T19:50:28.370601+00:00",
+  "total_alerts": 2,
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "194469/2026",
-        "entry_id": "194469/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-10-19T16:49:23-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Severe",
-        "certainty": "Possible",
-        "onset": "2026-10-19T16:49:23-03:00",
-        "expires": "2026-10-19T20:00:00-03:00",
-        "nivel": "Alto",
-        "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO, GRANIZO e RAIOS em Nova Venecia nas proximas 03 horas. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-        "description": "(ES) ALERTA de CHUVA, VENTO, GRANIZO e RAIOS em Nova Venecia nas proximas 03 horas. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-        "instruction": "Fique atento as orientacoes da Defesa Civil. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Nova Venécia/ES",
-        "polygon_raw": "-18.818,-40.509 -18.682,-40.516 -18.8,-40.752 -18.942,-40.617 -18.818,-40.509",
-        "polygon_points": 5,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3203908",
-        "municipio_nome": "Nova Venécia",
-        "municipio_slug": "nova-venecia",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3203908",
-            "municipio_nome": "Nova Venécia",
-            "municipio_slug": "nova-venecia",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#ff7f0e",
-        "sent_label": "19/10/2026 16:49",
-        "onset_label": "19/10/2026 16:49",
-        "expires_label": "19/10/2026 20:00"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.509,
-              -18.818
-            ],
-            [
-              -40.617,
-              -18.942
-            ],
-            [
-              -40.752,
-              -18.8
-            ],
-            [
-              -40.516,
-              -18.682
-            ],
-            [
-              -40.509,
-              -18.818
-            ]
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "properties": {
@@ -150,10 +65,6 @@
         "coordinates": [
           [
             [
-              -40.615,
-              -18.95
-            ],
-            [
               -40.72,
               -18.935
             ],
@@ -176,6 +87,10 @@
             [
               -40.615,
               -18.95
+            ],
+            [
+              -40.72,
+              -18.935
             ]
           ]
         ]
@@ -290,10 +205,6 @@
         "coordinates": [
           [
             [
-              [
-                -40.663,
-                -19.202
-              ],
               [
                 -40.664,
                 -19.202
@@ -9009,6 +8920,10 @@
               [
                 -40.663,
                 -19.202
+              ],
+              [
+                -40.664,
+                -19.202
               ]
             ],
             [
@@ -9037,10 +8952,6 @@
           [
             [
               [
-                -40.629,
-                -19.022
-              ],
-              [
                 -40.63,
                 -19.022
               ],
@@ -9051,16 +8962,16 @@
               [
                 -40.629,
                 -19.022
+              ],
+              [
+                -40.63,
+                -19.022
               ]
             ]
           ],
           [
             [
               [
-                -40.639,
-                -18.994
-              ],
-              [
                 -40.638,
                 -18.994
               ],
@@ -9074,6 +8985,10 @@
               ],
               [
                 -40.639,
+                -18.994
+              ],
+              [
+                -40.638,
                 -18.994
               ]
             ]
