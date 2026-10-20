@@ -1,93 +1,8 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-20T02:21:02.378577+00:00",
-  "total_alerts": 22,
+  "generated_at": "2026-10-20T02:25:50.792262+00:00",
+  "total_alerts": 21,
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "194411/2026",
-        "entry_id": "194411/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-10-18T23:21:39-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Observed",
-        "onset": "2026-10-18T23:21:39-03:00",
-        "expires": "2026-10-19T00:30:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS INTENSOS, RAIOS E GRANIZO em Divino de Sao Lourenco dentro de 1 hora. Evite area de risco. Emergencia 193",
-        "description": "(ES)  ALERTA de CHUVA INTENSA, VENTOS INTENSOS, RAIOS E GRANIZO em Divino de São Lourenço dentro de 1 hora. Evite área de risco. Emergencia ligue 193.",
-        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Divino de São Lourenço/ES",
-        "polygon_raw": "-20.616,-41.685 -20.622,-41.689 -20.625,-41.681 -20.616,-41.681 -20.616,-41.685",
-        "polygon_points": 5,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3201803",
-        "municipio_nome": "Divino de São Lourenço",
-        "municipio_slug": "divino-de-sao-lourenco",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3201803",
-            "municipio_nome": "Divino de São Lourenço",
-            "municipio_slug": "divino-de-sao-lourenco",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "18/10/2026 23:21",
-        "onset_label": "18/10/2026 23:21",
-        "expires_label": "19/10/2026 00:30"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -41.689,
-              -20.622
-            ],
-            [
-              -41.685,
-              -20.616
-            ],
-            [
-              -41.681,
-              -20.616
-            ],
-            [
-              -41.681,
-              -20.625
-            ],
-            [
-              -41.689,
-              -20.622
-            ]
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "properties": {
@@ -150,10 +65,6 @@
         "coordinates": [
           [
             [
-              -41.592,
-              -20.56
-            ],
-            [
               -41.5,
               -20.56
             ],
@@ -179,6 +90,10 @@
             ],
             [
               -41.592,
+              -20.56
+            ],
+            [
+              -41.5,
               -20.56
             ]
           ]
@@ -279,10 +194,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.377,
-              -20.174
-            ],
             [
               -41.375,
               -20.173
@@ -8958,6 +8869,10 @@
             [
               -41.377,
               -20.174
+            ],
+            [
+              -41.375,
+              -20.173
             ]
           ]
         ]
@@ -9057,10 +8972,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.847,
-              -20.343
-            ],
             [
               -41.846,
               -20.341
@@ -16644,6 +16555,10 @@
             [
               -41.847,
               -20.343
+            ],
+            [
+              -41.846,
+              -20.341
             ]
           ]
         ]
@@ -16800,10 +16715,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.385,
-                -20.624
-              ],
               [
                 -41.384,
                 -20.624
@@ -32523,6 +32434,10 @@
               [
                 -41.385,
                 -20.624
+              ],
+              [
+                -41.384,
+                -20.624
               ]
             ]
           ],
@@ -32530,10 +32445,6 @@
             [
               [
                 -41.652,
-                -20.651
-              ],
-              [
-                -41.652,
                 -20.652
               ],
               [
@@ -32547,6 +32458,10 @@
               [
                 -41.652,
                 -20.651
+              ],
+              [
+                -41.652,
+                -20.652
               ]
             ]
           ]
@@ -32620,10 +32535,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.313,
-                -20.439
-              ],
               [
                 -41.313,
                 -20.438
@@ -37767,15 +37678,15 @@
               [
                 -41.313,
                 -20.439
+              ],
+              [
+                -41.313,
+                -20.438
               ]
             ]
           ],
           [
             [
-              [
-                -41.32,
-                -20.497
-              ],
               [
                 -41.319,
                 -20.498
@@ -37787,6 +37698,10 @@
               [
                 -41.32,
                 -20.497
+              ],
+              [
+                -41.319,
+                -20.498
               ]
             ]
           ]
@@ -37859,10 +37774,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.185,
-              -20.309
-            ],
             [
               -41.184,
               -20.309
@@ -40966,6 +40877,10 @@
             [
               -41.185,
               -20.309
+            ],
+            [
+              -41.184,
+              -20.309
             ]
           ]
         ]
@@ -41037,10 +40952,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.136,
-              -20.288
-            ],
             [
               -41.136,
               -20.287
@@ -51304,6 +51215,10 @@
             [
               -41.136,
               -20.288
+            ],
+            [
+              -41.136,
+              -20.287
             ]
           ]
         ]
@@ -51375,10 +51290,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.79,
-              -20.488
-            ],
             [
               -41.79,
               -20.487
@@ -56518,6 +56429,10 @@
             [
               -41.79,
               -20.488
+            ],
+            [
+              -41.79,
+              -20.487
             ]
           ]
         ]
@@ -56870,10 +56785,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.661,
-                -21.133
-              ],
               [
                 -41.662,
                 -21.133
@@ -76249,13 +76160,13 @@
               [
                 -41.661,
                 -21.133
+              ],
+              [
+                -41.662,
+                -21.133
               ]
             ],
             [
-              [
-                -41.806,
-                -20.798
-              ],
               [
                 -41.805,
                 -20.797
@@ -76267,13 +76178,13 @@
               [
                 -41.806,
                 -20.798
+              ],
+              [
+                -41.805,
+                -20.797
               ]
             ],
             [
-              [
-                -41.755,
-                -20.807
-              ],
               [
                 -41.754,
                 -20.807
@@ -76285,15 +76196,15 @@
               [
                 -41.755,
                 -20.807
+              ],
+              [
+                -41.754,
+                -20.807
               ]
             ]
           ],
           [
             [
-              [
-                -41.814,
-                -20.804
-              ],
               [
                 -41.813,
                 -20.804
@@ -76309,15 +76220,15 @@
               [
                 -41.814,
                 -20.804
+              ],
+              [
+                -41.813,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.803
-              ],
               [
                 -41.812,
                 -20.803
@@ -76333,15 +76244,15 @@
               [
                 -41.813,
                 -20.803
+              ],
+              [
+                -41.812,
+                -20.803
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.781
-              ],
               [
                 -41.836,
                 -20.782
@@ -76353,15 +76264,15 @@
               [
                 -41.836,
                 -20.781
+              ],
+              [
+                -41.836,
+                -20.782
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.78
-              ],
               [
                 -41.835,
                 -20.781
@@ -76373,15 +76284,15 @@
               [
                 -41.836,
                 -20.78
+              ],
+              [
+                -41.835,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.168,
-                -21.244
-              ],
               [
                 -41.167,
                 -21.244
@@ -76397,15 +76308,15 @@
               [
                 -41.168,
                 -21.244
+              ],
+              [
+                -41.167,
+                -21.244
               ]
             ]
           ],
           [
             [
-              [
-                -41.156,
-                -21.244
-              ],
               [
                 -41.156,
                 -21.243
@@ -76433,6 +76344,10 @@
               [
                 -41.156,
                 -21.244
+              ],
+              [
+                -41.156,
+                -21.243
               ]
             ]
           ]
