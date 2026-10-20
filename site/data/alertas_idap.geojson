@@ -1,105 +1,8 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-20T02:25:50.792262+00:00",
-  "total_alerts": 21,
+  "generated_at": "2026-10-20T02:31:13.868144+00:00",
+  "total_alerts": 20,
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "194412/2026",
-        "entry_id": "194412/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-10-18T23:28:54-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Immediate",
-        "severity": "Moderate",
-        "certainty": "Observed",
-        "onset": "2026-10-18T23:28:54-03:00",
-        "expires": "2026-10-19T02:20:00-03:00",
-        "nivel": "Médio",
-        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS INTENSOS, RAIOS E GRANIZO em Alegre dentro de 2 horas. Evite area de risco. Emergencia ligue 193.",
-        "description": "(ES)  ALERTA de CHUVA INTENSA, VENTOS INTENSOS, RAIOS E GRANIZO em Alegre dentro de 2 horas. Evite área de risco. Emergencia ligue 193.",
-        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "ESPÍRITO SANTO/ES",
-        "polygon_raw": "-20.675,-41.594 -20.678,-41.386 -20.629,-41.373 -20.576,-41.404 -20.56,-41.5 -20.56,-41.592 -20.546,-41.601 -20.675,-41.594",
-        "polygon_points": 8,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3200201",
-        "municipio_nome": "Alegre",
-        "municipio_slug": "alegre",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3200201",
-            "municipio_nome": "Alegre",
-            "municipio_slug": "alegre",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#ffd92f",
-        "sent_label": "18/10/2026 23:28",
-        "onset_label": "18/10/2026 23:28",
-        "expires_label": "19/10/2026 02:20"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -41.5,
-              -20.56
-            ],
-            [
-              -41.404,
-              -20.576
-            ],
-            [
-              -41.373,
-              -20.629
-            ],
-            [
-              -41.386,
-              -20.678
-            ],
-            [
-              -41.594,
-              -20.675
-            ],
-            [
-              -41.601,
-              -20.546
-            ],
-            [
-              -41.592,
-              -20.56
-            ],
-            [
-              -41.5,
-              -20.56
-            ]
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "properties": {
@@ -194,10 +97,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.375,
-              -20.173
-            ],
             [
               -41.375,
               -20.17
@@ -8873,6 +8772,10 @@
             [
               -41.375,
               -20.173
+            ],
+            [
+              -41.375,
+              -20.17
             ]
           ]
         ]
@@ -8972,10 +8875,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.846,
-              -20.341
-            ],
             [
               -41.844,
               -20.34
@@ -16559,6 +16458,10 @@
             [
               -41.846,
               -20.341
+            ],
+            [
+              -41.844,
+              -20.34
             ]
           ]
         ]
@@ -16715,10 +16618,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.384,
-                -20.624
-              ],
               [
                 -41.383,
                 -20.624
@@ -32438,16 +32337,16 @@
               [
                 -41.384,
                 -20.624
+              ],
+              [
+                -41.383,
+                -20.624
               ]
             ]
           ],
           [
             [
               [
-                -41.652,
-                -20.652
-              ],
-              [
                 -41.653,
                 -20.652
               ],
@@ -32461,6 +32360,10 @@
               ],
               [
                 -41.652,
+                -20.652
+              ],
+              [
+                -41.653,
                 -20.652
               ]
             ]
@@ -32535,10 +32438,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.313,
-                -20.438
-              ],
               [
                 -41.314,
                 -20.438
@@ -37682,15 +37581,15 @@
               [
                 -41.313,
                 -20.438
+              ],
+              [
+                -41.314,
+                -20.438
               ]
             ]
           ],
           [
             [
-              [
-                -41.319,
-                -20.498
-              ],
               [
                 -41.32,
                 -20.498
@@ -37701,6 +37600,10 @@
               ],
               [
                 -41.319,
+                -20.498
+              ],
+              [
+                -41.32,
                 -20.498
               ]
             ]
@@ -37774,10 +37677,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.184,
-              -20.309
-            ],
             [
               -41.183,
               -20.31
@@ -40881,6 +40780,10 @@
             [
               -41.184,
               -20.309
+            ],
+            [
+              -41.183,
+              -20.31
             ]
           ]
         ]
@@ -40952,10 +40855,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.136,
-              -20.287
-            ],
             [
               -41.135,
               -20.286
@@ -51219,6 +51118,10 @@
             [
               -41.136,
               -20.287
+            ],
+            [
+              -41.135,
+              -20.286
             ]
           ]
         ]
@@ -51290,10 +51193,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.79,
-              -20.487
-            ],
             [
               -41.791,
               -20.485
@@ -56433,6 +56332,10 @@
             [
               -41.79,
               -20.487
+            ],
+            [
+              -41.791,
+              -20.485
             ]
           ]
         ]
@@ -56785,10 +56688,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.662,
-                -21.133
-              ],
               [
                 -41.664,
                 -21.132
@@ -76164,13 +76063,13 @@
               [
                 -41.662,
                 -21.133
+              ],
+              [
+                -41.664,
+                -21.132
               ]
             ],
             [
-              [
-                -41.805,
-                -20.797
-              ],
               [
                 -41.806,
                 -20.797
@@ -76182,13 +76081,13 @@
               [
                 -41.805,
                 -20.797
+              ],
+              [
+                -41.806,
+                -20.797
               ]
             ],
             [
-              [
-                -41.754,
-                -20.807
-              ],
               [
                 -41.755,
                 -20.806
@@ -76200,15 +76099,15 @@
               [
                 -41.754,
                 -20.807
+              ],
+              [
+                -41.755,
+                -20.806
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.804
-              ],
               [
                 -41.813,
                 -20.805
@@ -76224,15 +76123,15 @@
               [
                 -41.813,
                 -20.804
+              ],
+              [
+                -41.813,
+                -20.805
               ]
             ]
           ],
           [
             [
-              [
-                -41.812,
-                -20.803
-              ],
               [
                 -41.812,
                 -20.804
@@ -76248,15 +76147,15 @@
               [
                 -41.812,
                 -20.803
+              ],
+              [
+                -41.812,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.782
-              ],
               [
                 -41.837,
                 -20.781
@@ -76268,15 +76167,15 @@
               [
                 -41.836,
                 -20.782
+              ],
+              [
+                -41.837,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.835,
-                -20.781
-              ],
               [
                 -41.836,
                 -20.781
@@ -76288,15 +76187,15 @@
               [
                 -41.835,
                 -20.781
+              ],
+              [
+                -41.836,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.167,
-                -21.244
-              ],
               [
                 -41.167,
                 -21.245
@@ -76312,15 +76211,15 @@
               [
                 -41.167,
                 -21.244
+              ],
+              [
+                -41.167,
+                -21.245
               ]
             ]
           ],
           [
             [
-              [
-                -41.156,
-                -21.243
-              ],
               [
                 -41.155,
                 -21.243
@@ -76347,6 +76246,10 @@
               ],
               [
                 -41.156,
+                -21.243
+              ],
+              [
+                -41.155,
                 -21.243
               ]
             ]
