@@ -1,93 +1,8 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-20T19:05:53.541444+00:00",
-  "total_alerts": 5,
+  "generated_at": "2026-10-20T19:10:57.766310+00:00",
+  "total_alerts": 4,
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "194464/2026",
-        "entry_id": "194464/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-10-19T16:06:58-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-10-19T16:06:58-03:00",
-        "expires": "2026-10-19T17:00:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, VENTO, GRANIZO e RAIOS em Barra de Sao Francisco na proxima 01 hora. Evite area de risco. Emergencia ligue 193.",
-        "description": "(ES)  ALERTA de CHUVA, VENTO, GRANIZO e RAIOS em Barra de Sao Francisco na proxima 01 hora. Evite area de risco. Emergencia ligue 193.",
-        "instruction": "Fique atento as orientacoes da Defesa Civil. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "ESPÍRITO SANTO/ES",
-        "polygon_raw": "-18.524,-40.904 -18.721,-40.939 -18.725,-40.718 -18.537,-40.689 -18.524,-40.904",
-        "polygon_points": 5,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3200904",
-        "municipio_nome": "Barra de São Francisco",
-        "municipio_slug": "barra-de-sao-francisco",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3200904",
-            "municipio_nome": "Barra de São Francisco",
-            "municipio_slug": "barra-de-sao-francisco",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "19/10/2026 16:06",
-        "onset_label": "19/10/2026 16:06",
-        "expires_label": "19/10/2026 17:00"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.904,
-              -18.524
-            ],
-            [
-              -40.689,
-              -18.537
-            ],
-            [
-              -40.718,
-              -18.725
-            ],
-            [
-              -40.939,
-              -18.721
-            ],
-            [
-              -40.904,
-              -18.524
-            ]
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "properties": {
@@ -197,10 +112,6 @@
         "coordinates": [
           [
             [
-              [
-                -40.673,
-                -19.238
-              ],
               [
                 -40.672,
                 -19.239
@@ -8672,6 +8583,10 @@
               [
                 -40.673,
                 -19.238
+              ],
+              [
+                -40.672,
+                -19.239
               ]
             ],
             [
@@ -8696,10 +8611,6 @@
           [
             [
               [
-                -40.637,
-                -18.995
-              ],
-              [
                 -40.638,
                 -18.995
               ],
@@ -8709,6 +8620,10 @@
               ],
               [
                 -40.637,
+                -18.995
+              ],
+              [
+                -40.638,
                 -18.995
               ]
             ]
@@ -8778,10 +8693,6 @@
         "coordinates": [
           [
             [
-              -40.509,
-              -18.818
-            ],
-            [
               -40.617,
               -18.942
             ],
@@ -8796,6 +8707,10 @@
             [
               -40.509,
               -18.818
+            ],
+            [
+              -40.617,
+              -18.942
             ]
           ]
         ]
@@ -8863,10 +8778,6 @@
         "coordinates": [
           [
             [
-              -40.402,
-              -18.846
-            ],
-            [
               -40.543,
               -18.857
             ],
@@ -8889,6 +8800,10 @@
             [
               -40.402,
               -18.846
+            ],
+            [
+              -40.543,
+              -18.857
             ]
           ]
         ]
@@ -9003,10 +8918,6 @@
         "coordinates": [
           [
             [
-              [
-                -40.657,
-                -19.204
-              ],
               [
                 -40.657,
                 -19.203
@@ -17722,6 +17633,10 @@
               [
                 -40.657,
                 -19.204
+              ],
+              [
+                -40.657,
+                -19.203
               ]
             ],
             [
@@ -17751,10 +17666,6 @@
             [
               [
                 -40.63,
-                -19.022
-              ],
-              [
-                -40.63,
                 -19.021
               ],
               [
@@ -17764,16 +17675,16 @@
               [
                 -40.63,
                 -19.022
+              ],
+              [
+                -40.63,
+                -19.021
               ]
             ]
           ],
           [
             [
               [
-                -40.639,
-                -18.994
-              ],
-              [
                 -40.638,
                 -18.994
               ],
@@ -17787,6 +17698,10 @@
               ],
               [
                 -40.639,
+                -18.994
+              ],
+              [
+                -40.638,
                 -18.994
               ]
             ]
