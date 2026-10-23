@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:56:16.726797-03:00",
+  "generated_at": "2026-10-23T18:01:21.997010-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
+    "vigentes": 1,
     "ultimas24h": 4,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1087,7 +1087,7 @@
       "location": "Conceição da Barra",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS e CHUVA em Conceicao da Barra nas proximas 02 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "194829/2026",
       "entry_id": "194829/2026",
       "sent": "2026-10-23T15:46:21-03:00",
@@ -1126,7 +1126,7 @@
       "location": "Jaguaré",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS e CHUVA PERSISTENTE em Jaguare nas proximas 03 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "194819/2026",
       "entry_id": "194819/2026",
       "sent": "2026-10-23T15:10:20-03:00",
@@ -1541,11 +1541,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 1
+      "count": 3
     }
   ],
   "category_distribution": [
@@ -1641,8 +1641,8 @@
       "duration_minutes": 126,
       "duration_hours": 2.1,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 62,
-      "time_since_hours": 1.03,
+      "time_since_minutes": 68,
+      "time_since_hours": 1.13,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1659,7 +1659,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-23T15:46:21-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1708,7 +1708,7 @@
       "uf": "ES",
       "location": "Conceição da Barra",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "23/10/2026",
       "time": "15:46",
       "sent_br": "2026-10-23T15:46:21-03:00",
@@ -1717,10 +1717,10 @@
       "duration_minutes": 133,
       "duration_hours": 2.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 129,
-      "time_since_hours": 2.15,
+      "time_since_minutes": 135,
+      "time_since_hours": 2.25,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201605"
       ],
@@ -1735,7 +1735,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-23T15:10:20-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1784,7 +1784,7 @@
       "uf": "ES",
       "location": "Jaguaré",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "23/10/2026",
       "time": "15:10",
       "sent_br": "2026-10-23T15:10:20-03:00",
@@ -1793,10 +1793,10 @@
       "duration_minutes": 169,
       "duration_hours": 2.82,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 165,
-      "time_since_hours": 2.75,
+      "time_since_minutes": 171,
+      "time_since_hours": 2.85,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203056"
       ],
@@ -2014,8 +2014,8 @@
       "duration_minutes": 255,
       "duration_hours": 4.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 372,
-      "time_since_hours": 6.2,
+      "time_since_minutes": 377,
+      "time_since_hours": 6.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
