@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:56:13.741983-03:00",
+  "generated_at": "2026-10-23T16:00:49.199904-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
+    "vigentes": 2,
     "ultimas24h": 3,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1126,7 +1126,7 @@
       "location": "Cachoeiro de Itapemirim",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA PERSISTENTE nas regioes SUL, CAPARAO e SERRANA. Risco de alagamento nas proximas 05 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "194782/2026",
       "entry_id": "194782/2026",
       "sent": "2026-10-23T11:44:09-03:00",
@@ -1498,7 +1498,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 2
+    },
+    {
+      "label": "expirado",
+      "count": 1
     }
   ],
   "category_distribution": [
@@ -1594,8 +1598,8 @@
       "duration_minutes": 133,
       "duration_hours": 2.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 9,
-      "time_since_hours": 0.15,
+      "time_since_minutes": 14,
+      "time_since_hours": 0.23,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1670,8 +1674,8 @@
       "duration_minutes": 169,
       "duration_hours": 2.82,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 45,
-      "time_since_hours": 0.75,
+      "time_since_minutes": 50,
+      "time_since_hours": 0.83,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1688,7 +1692,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-23T11:44:09-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1882,7 +1886,7 @@
       "uf": "ES",
       "location": "Cachoeiro de Itapemirim",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "23/10/2026",
       "time": "11:44",
       "sent_br": "2026-10-23T11:44:09-03:00",
@@ -1891,10 +1895,10 @@
       "duration_minutes": 255,
       "duration_hours": 4.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 252,
-      "time_since_hours": 4.2,
+      "time_since_minutes": 256,
+      "time_since_hours": 4.27,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201209",
         "3203403",
