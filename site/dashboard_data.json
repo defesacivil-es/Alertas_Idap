@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:55:52.969690-03:00",
+  "generated_at": "2026-10-24T22:00:53.363442-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 1,
+    "vigentes": 0,
     "ultimas24h": 6,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "Baixo Guandu",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS em Jeronimo Monteiro, Castelo e Baixo Guandu nas proximas 02 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195079/2026",
       "entry_id": "195079/2026",
       "sent": "2026-10-24T20:08:51-03:00",
@@ -1402,12 +1402,8 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
-      "count": 1
-    },
-    {
       "label": "expirado",
-      "count": 5
+      "count": 6
     }
   ],
   "category_distribution": [
@@ -1449,7 +1445,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-24T20:08:51-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1518,7 +1514,7 @@
       "uf": "ES",
       "location": "Baixo Guandu",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "24/10/2026",
       "time": "20:08",
       "sent_br": "2026-10-24T20:08:51-03:00",
@@ -1527,10 +1523,10 @@
       "duration_minutes": 111,
       "duration_hours": 1.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 107,
-      "time_since_hours": 1.78,
+      "time_since_minutes": 112,
+      "time_since_hours": 1.87,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200805",
         "3201407",
@@ -1607,8 +1603,8 @@
       "duration_minutes": 71,
       "duration_hours": 1.18,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 127,
-      "time_since_hours": 2.12,
+      "time_since_minutes": 132,
+      "time_since_hours": 2.2,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1683,8 +1679,8 @@
       "duration_minutes": 97,
       "duration_hours": 1.62,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 153,
-      "time_since_hours": 2.55,
+      "time_since_minutes": 158,
+      "time_since_hours": 2.63,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1759,8 +1755,8 @@
       "duration_minutes": 103,
       "duration_hours": 1.72,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 159,
-      "time_since_hours": 2.65,
+      "time_since_minutes": 164,
+      "time_since_hours": 2.73,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1845,8 +1841,8 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 291,
-      "time_since_hours": 4.85,
+      "time_since_minutes": 296,
+      "time_since_hours": 4.93,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1953,8 +1949,8 @@
       "duration_minutes": 186,
       "duration_hours": 3.1,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 331,
-      "time_since_hours": 5.52,
+      "time_since_minutes": 337,
+      "time_since_hours": 5.62,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
