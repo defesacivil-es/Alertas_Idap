@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T02:00:47.029425-03:00",
+  "generated_at": "2026-10-25T02:05:52.876881-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1523,8 +1523,8 @@
       "duration_minutes": 111,
       "duration_hours": 1.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 351,
-      "time_since_hours": 5.85,
+      "time_since_minutes": 357,
+      "time_since_hours": 5.95,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1603,8 +1603,8 @@
       "duration_minutes": 71,
       "duration_hours": 1.18,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 372,
-      "time_since_hours": 6.2,
+      "time_since_minutes": 377,
+      "time_since_hours": 6.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1679,8 +1679,8 @@
       "duration_minutes": 97,
       "duration_hours": 1.62,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 398,
-      "time_since_hours": 6.63,
+      "time_since_minutes": 403,
+      "time_since_hours": 6.72,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1755,8 +1755,8 @@
       "duration_minutes": 103,
       "duration_hours": 1.72,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 404,
-      "time_since_hours": 6.73,
+      "time_since_minutes": 409,
+      "time_since_hours": 6.82,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1841,8 +1841,8 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 536,
-      "time_since_hours": 8.93,
+      "time_since_minutes": 541,
+      "time_since_hours": 9.02,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1949,8 +1949,8 @@
       "duration_minutes": 186,
       "duration_hours": 3.1,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 576,
-      "time_since_hours": 9.6,
+      "time_since_minutes": 581,
+      "time_since_hours": 9.68,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
