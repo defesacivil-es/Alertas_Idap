@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-25T23:36:39.863074+00:00",
-  "total_alerts": 18,
+  "generated_at": "2026-10-25T23:41:22.177795+00:00",
+  "total_alerts": 19,
   "features": [
     {
       "type": "Feature",
@@ -230244,6 +230244,87 @@
                 -40.493,
                 -18.86
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "195341/2026",
+        "entry_id": "195341/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-10-25T20:31:06-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-10-25T20:31:06-03:00",
+        "expires": "2026-10-25T21:30:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+        "instruction": "Proteja-se. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "São Mateus/ES",
+        "polygon_raw": "-18.705,-40.297 -18.638,-39.891 -18.455,-40.038 -18.705,-40.297",
+        "polygon_points": 4,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3204906",
+        "municipio_nome": "São Mateus",
+        "municipio_slug": "sao-mateus",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3204906",
+            "municipio_nome": "São Mateus",
+            "municipio_slug": "sao-mateus",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "25/10/2026 20:31",
+        "onset_label": "25/10/2026 20:31",
+        "expires_label": "25/10/2026 21:30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.038,
+              -18.455
+            ],
+            [
+              -39.891,
+              -18.638
+            ],
+            [
+              -40.297,
+              -18.705
+            ],
+            [
+              -40.038,
+              -18.455
             ]
           ]
         ]

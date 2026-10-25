@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:36:40.718544-03:00",
+  "generated_at": "2026-10-25T20:41:22.849917-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 18,
+    "vigentes": 16,
+    "ultimas24h": 19,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 2,
-    "alertasSeverosExtremos": 2,
+    "alertasSeveros": 3,
+    "alertasSeverosExtremos": 3,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 77,
     "municipiosComAlertas": 77
   },
   "latest_alerts": [
+    {
+      "time": "20:31",
+      "date": "25/10/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "São Mateus",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "195341/2026",
+      "entry_id": "195341/2026",
+      "sent": "2026-10-25T20:31:06-03:00",
+      "onset": "2026-10-25T20:31:06-03:00",
+      "expires": "2026-10-25T21:30:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3204906",
+      "municipio_nome": "São Mateus",
+      "affected_municipios": [
+        {
+          "municipio_id": "3204906",
+          "municipio_nome": "São Mateus",
+          "municipio_slug": "sao-mateus",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3204906"
+      ],
+      "affected_municipio_names": [
+        "São Mateus"
+      ]
+    },
     {
       "time": "19:50",
       "date": "25/10/2026",
@@ -1604,92 +1643,13 @@
         "Sooretama",
         "Vila Valério"
       ]
-    },
-    {
-      "time": "16:29",
-      "date": "25/10/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Alfredo Chaves",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO, RAIOS e GRANIZO na Regiao Serrana e Litoral Sul nas proximas 06 horas. Proteja-se. Em casos de emergencia ligue 193.",
-      "status": "vigente",
-      "identifier": "195298/2026",
-      "entry_id": "195298/2026",
-      "sent": "2026-10-25T16:29:32-03:00",
-      "onset": "2026-10-25T16:29:32-03:00",
-      "expires": "2026-10-25T22:25:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google",
-      "municipio_id": "3200300",
-      "municipio_nome": "Alfredo Chaves",
-      "affected_municipios": [
-        {
-          "municipio_id": "3200300",
-          "municipio_nome": "Alfredo Chaves",
-          "municipio_slug": "alfredo-chaves",
-          "intersection_area_m2": null
-        },
-        {
-          "municipio_id": "3200409",
-          "municipio_nome": "Anchieta",
-          "municipio_slug": "anchieta",
-          "intersection_area_m2": null
-        },
-        {
-          "municipio_id": "3201902",
-          "municipio_nome": "Domingos Martins",
-          "municipio_slug": "domingos-martins",
-          "intersection_area_m2": null
-        },
-        {
-          "municipio_id": "3202603",
-          "municipio_nome": "Iconha",
-          "municipio_slug": "iconha",
-          "intersection_area_m2": null
-        },
-        {
-          "municipio_id": "3203346",
-          "municipio_nome": "Marechal Floriano",
-          "municipio_slug": "marechal-floriano",
-          "intersection_area_m2": null
-        },
-        {
-          "municipio_id": "3204203",
-          "municipio_nome": "Piúma",
-          "municipio_slug": "piuma",
-          "intersection_area_m2": null
-        }
-      ],
-      "affected_municipio_ids": [
-        "3200300",
-        "3200409",
-        "3201902",
-        "3202603",
-        "3203346",
-        "3204203"
-      ],
-      "affected_municipio_names": [
-        "Alfredo Chaves",
-        "Anchieta",
-        "Domingos Martins",
-        "Iconha",
-        "Marechal Floriano",
-        "Piúma"
-      ]
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 18
+      "count": 19
     }
   ],
   "level_distribution": [
@@ -1699,22 +1659,26 @@
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 18
+      "count": 19
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 18
+      "count": 19
     }
   ],
   "municipio_distribution": [
+    {
+      "municipio": "São Mateus",
+      "count": 2
+    },
     {
       "municipio": "Nova Venécia",
       "count": 2
@@ -1733,10 +1697,6 @@
     },
     {
       "municipio": "Pinheiros",
-      "count": 1
-    },
-    {
-      "municipio": "São Mateus",
       "count": 1
     },
     {
@@ -2027,7 +1987,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 16
     },
     {
       "label": "expirado",
@@ -2037,7 +1997,7 @@
   "category_distribution": [
     {
       "label": "Met",
-      "count": 18
+      "count": 19
     }
   ],
   "duration_distribution": [
@@ -2051,7 +2011,7 @@
     },
     {
       "label": "Até 2h",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Mais de 24h",
@@ -2068,21 +2028,92 @@
       "count": 3
     },
     {
-      "label": "6h a 12h",
+      "label": "Até 1h",
       "count": 2
     },
     {
-      "label": "Até 1h",
-      "count": 1
+      "label": "6h a 12h",
+      "count": 2
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 18
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "195341/2026",
+      "entry_id": "195341/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-10-25T20:31:06-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Likely",
+      "onset": "2026-10-25T20:31:06-03:00",
+      "expires": "2026-10-25T21:30:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+      "description": "(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+      "instruction": "Proteja-se. Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "São Mateus/ES",
+      "polygon_raw": "-18.705,-40.297 -18.638,-39.891 -18.455,-40.038 -18.705,-40.297",
+      "polygon_points": 4,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-40.038 -18.455, -39.891 -18.638, -40.297 -18.705, -40.038 -18.455))",
+      "municipio_id": "3204906",
+      "municipio_nome": "São Mateus",
+      "municipio_slug": "sao-mateus",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3204906",
+          "municipio_nome": "São Mateus",
+          "municipio_slug": "sao-mateus",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "São Mateus",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "25/10/2026",
+      "time": "20:31",
+      "sent_br": "2026-10-25T20:31:06-03:00",
+      "onset_br": "2026-10-25T20:31:06-03:00",
+      "expires_br": "2026-10-25T21:30:00-03:00",
+      "duration_minutes": 58,
+      "duration_hours": 0.97,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 10,
+      "time_since_hours": 0.17,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3204906"
+      ],
+      "affected_municipio_names": [
+        "São Mateus"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "195335/2026",
       "entry_id": "195335/2026",
@@ -2147,8 +2178,8 @@
       "duration_minutes": 69,
       "duration_hours": 1.15,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 45,
-      "time_since_hours": 0.75,
+      "time_since_minutes": 50,
+      "time_since_hours": 0.83,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2223,8 +2254,8 @@
       "duration_minutes": 65,
       "duration_hours": 1.08,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 71,
-      "time_since_hours": 1.18,
+      "time_since_minutes": 76,
+      "time_since_hours": 1.27,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2329,8 +2360,8 @@
       "duration_minutes": 349,
       "duration_hours": 5.82,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 151,
-      "time_since_hours": 2.52,
+      "time_since_minutes": 156,
+      "time_since_hours": 2.6,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2461,8 +2492,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 158,
-      "time_since_hours": 2.63,
+      "time_since_minutes": 163,
+      "time_since_hours": 2.72,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2587,8 +2618,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 183,
-      "time_since_hours": 3.05,
+      "time_since_minutes": 187,
+      "time_since_hours": 3.12,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2721,8 +2752,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 185,
-      "time_since_hours": 3.08,
+      "time_since_minutes": 190,
+      "time_since_hours": 3.17,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2837,8 +2868,8 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 187,
-      "time_since_hours": 3.12,
+      "time_since_minutes": 192,
+      "time_since_hours": 3.2,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2959,8 +2990,8 @@
       "duration_minutes": 363,
       "duration_hours": 6.05,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 210,
-      "time_since_hours": 3.5,
+      "time_since_minutes": 215,
+      "time_since_hours": 3.58,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3073,8 +3104,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 236,
-      "time_since_hours": 3.93,
+      "time_since_minutes": 240,
+      "time_since_hours": 4.0,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3205,8 +3236,8 @@
       "duration_minutes": 355,
       "duration_hours": 5.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 247,
-      "time_since_hours": 4.12,
+      "time_since_minutes": 251,
+      "time_since_hours": 4.18,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3331,8 +3362,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 255,
-      "time_since_hours": 4.25,
+      "time_since_minutes": 260,
+      "time_since_hours": 4.33,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3425,8 +3456,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 271,
-      "time_since_hours": 4.52,
+      "time_since_minutes": 276,
+      "time_since_hours": 4.6,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3533,8 +3564,8 @@
       "duration_minutes": 45005,
       "duration_hours": 750.08,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 277,
-      "time_since_hours": 4.62,
+      "time_since_minutes": 282,
+      "time_since_hours": 4.7,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3655,8 +3686,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 312,
-      "time_since_hours": 5.2,
+      "time_since_minutes": 317,
+      "time_since_hours": 5.28,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3769,8 +3800,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 333,
-      "time_since_hours": 5.55,
+      "time_since_minutes": 338,
+      "time_since_hours": 5.63,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3901,8 +3932,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 336,
-      "time_since_hours": 5.6,
+      "time_since_minutes": 341,
+      "time_since_hours": 5.68,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -4027,8 +4058,8 @@
       "duration_minutes": 354,
       "duration_hours": 5.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 366,
-      "time_since_hours": 6.1,
+      "time_since_minutes": 371,
+      "time_since_hours": 6.18,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4161,8 +4192,8 @@
       "duration_minutes": 357,
       "duration_hours": 5.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 389,
-      "time_since_hours": 6.48,
+      "time_since_minutes": 393,
+      "time_since_hours": 6.55,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
