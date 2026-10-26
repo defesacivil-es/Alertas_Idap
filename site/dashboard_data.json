@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:30:58.354943-03:00",
+  "generated_at": "2026-10-26T20:36:55.458862-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1028,14 +1028,14 @@
   ],
   "cards": {
     "vigentes": 3,
-    "ultimas24h": 8,
+    "ultimas24h": 7,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 2,
-    "alertasSeverosExtremos": 2,
+    "alertasSeveros": 1,
+    "alertasSeverosExtremos": 1,
     "estadosComAlerta": 1,
-    "municipiosOuAreasComAlerta": 17,
-    "municipiosComAlertas": 17
+    "municipiosOuAreasComAlerta": 16,
+    "municipiosComAlertas": 16
   },
   "latest_alerts": [
     {
@@ -1406,52 +1406,13 @@
         "Santa Leopoldina",
         "Viana"
       ]
-    },
-    {
-      "time": "20:31",
-      "date": "25/10/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "São Mateus",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "identifier": "195341/2026",
-      "entry_id": "195341/2026",
-      "sent": "2026-10-25T20:31:06-03:00",
-      "onset": "2026-10-25T20:31:06-03:00",
-      "expires": "2026-10-25T21:30:00-03:00",
-      "category": "Met",
-      "severity": "Extreme",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google",
-      "municipio_id": "3204906",
-      "municipio_nome": "São Mateus",
-      "affected_municipios": [
-        {
-          "municipio_id": "3204906",
-          "municipio_nome": "São Mateus",
-          "municipio_slug": "sao-mateus",
-          "intersection_area_m2": null
-        }
-      ],
-      "affected_municipio_ids": [
-        "3204906"
-      ],
-      "affected_municipio_names": [
-        "São Mateus"
-      ]
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 8
+      "count": 7
     }
   ],
   "level_distribution": [
@@ -1461,13 +1422,13 @@
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 7
+      "count": 6
     },
     {
       "label": "Vendaval",
@@ -1477,7 +1438,7 @@
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 8
+      "count": 7
     }
   ],
   "municipio_distribution": [
@@ -1544,10 +1505,6 @@
     {
       "municipio": "Viana",
       "count": 1
-    },
-    {
-      "municipio": "São Mateus",
-      "count": 1
     }
   ],
   "status_distribution": [
@@ -1557,13 +1514,13 @@
     },
     {
       "label": "expirado",
-      "count": 5
+      "count": 4
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 8
+      "count": 7
     }
   ],
   "duration_distribution": [
@@ -1573,7 +1530,7 @@
     },
     {
       "label": "Até 2h",
-      "count": 3
+      "count": 2
     }
   ],
   "time_since_distribution": [
@@ -1588,16 +1545,12 @@
     {
       "label": "6h a 12h",
       "count": 2
-    },
-    {
-      "label": "Mais de 12h",
-      "count": 1
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 8
+      "count": 7
     }
   ],
   "all_alerts": [
@@ -1685,8 +1638,8 @@
       "duration_minutes": 354,
       "duration_hours": 5.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 5,
-      "time_since_hours": 0.08,
+      "time_since_minutes": 11,
+      "time_since_hours": 0.18,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1765,8 +1718,8 @@
       "duration_minutes": 353,
       "duration_hours": 5.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 14,
-      "time_since_hours": 0.23,
+      "time_since_minutes": 20,
+      "time_since_hours": 0.33,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1841,8 +1794,8 @@
       "duration_minutes": 183,
       "duration_hours": 3.05,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 44,
-      "time_since_hours": 0.73,
+      "time_since_minutes": 49,
+      "time_since_hours": 0.82,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1917,8 +1870,8 @@
       "duration_minutes": 80,
       "duration_hours": 1.33,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 231,
-      "time_since_hours": 3.85,
+      "time_since_minutes": 237,
+      "time_since_hours": 3.95,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1993,8 +1946,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 261,
-      "time_since_hours": 4.35,
+      "time_since_minutes": 267,
+      "time_since_hours": 4.45,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2129,8 +2082,8 @@
       "duration_minutes": 337,
       "duration_hours": 5.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 368,
-      "time_since_hours": 6.13,
+      "time_since_minutes": 374,
+      "time_since_hours": 6.23,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2257,8 +2210,8 @@
       "duration_minutes": 340,
       "duration_hours": 5.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 371,
-      "time_since_hours": 6.18,
+      "time_since_minutes": 377,
+      "time_since_hours": 6.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2276,77 +2229,6 @@
         "Viana"
       ],
       "municipios_count": 5
-    },
-    {
-      "identifier": "195341/2026",
-      "entry_id": "195341/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "sent": "2026-10-25T20:31:06-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Extreme",
-      "certainty": "Likely",
-      "onset": "2026-10-25T20:31:06-03:00",
-      "expires": "2026-10-25T21:30:00-03:00",
-      "nivel": "Severo",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-      "description": "(ES)  ALERTA de CHUVA FORTE e RAIOS em Sao Mateus na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-      "instruction": "Proteja-se. Em casos de emergência ligue 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "São Mateus/ES",
-      "polygon_raw": "-18.705,-40.297 -18.638,-39.891 -18.455,-40.038 -18.705,-40.297",
-      "polygon_points": 4,
-      "has_geocode": false,
-      "uf_hint": "ES",
-      "region": "SE",
-      "geometry_wkt": "POLYGON ((-40.038 -18.455, -39.891 -18.638, -40.297 -18.705, -40.038 -18.455))",
-      "municipio_id": "3204906",
-      "municipio_nome": "São Mateus",
-      "municipio_slug": "sao-mateus",
-      "municipio_area_km2": null,
-      "microrregiao_nome": "",
-      "mesorregiao_nome": "",
-      "regiao_imediata_nome": "",
-      "regiao_intermediaria_nome": "",
-      "affected_municipios": [
-        {
-          "municipio_id": "3204906",
-          "municipio_nome": "São Mateus",
-          "municipio_slug": "sao-mateus",
-          "intersection_area_m2": null
-        }
-      ],
-      "geocode_values": null,
-      "uf": "ES",
-      "location": "São Mateus",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "25/10/2026",
-      "time": "20:31",
-      "sent_br": "2026-10-25T20:31:06-03:00",
-      "onset_br": "2026-10-25T20:31:06-03:00",
-      "expires_br": "2026-10-25T21:30:00-03:00",
-      "duration_minutes": 58,
-      "duration_hours": 0.97,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1439,
-      "time_since_hours": 23.98,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false,
-      "affected_municipio_ids": [
-        "3204906"
-      ],
-      "affected_municipio_names": [
-        "São Mateus"
-      ],
-      "municipios_count": 1
     }
   ]
 }
