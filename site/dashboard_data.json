@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:56:25.322124-03:00",
+  "generated_at": "2026-10-25T21:01:13.866976-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 16,
+    "vigentes": 14,
     "ultimas24h": 19,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1087,7 +1087,7 @@
       "location": "Nova Venécia",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e RAIOS em Nova Venecia na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195335/2026",
       "entry_id": "195335/2026",
       "sent": "2026-10-25T19:50:45-03:00",
@@ -1987,11 +1987,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 3
+      "count": 5
     }
   ],
   "category_distribution": [
@@ -2021,11 +2021,11 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 12
+      "count": 13
     },
     {
       "label": "1h a 3h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "6h a 12h",
@@ -2102,8 +2102,8 @@
       "duration_minutes": 58,
       "duration_hours": 0.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 25,
-      "time_since_hours": 0.42,
+      "time_since_minutes": 30,
+      "time_since_hours": 0.5,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2120,7 +2120,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-25T19:50:45-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2169,7 +2169,7 @@
       "uf": "ES",
       "location": "Nova Venécia",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/10/2026",
       "time": "19:50",
       "sent_br": "2026-10-25T19:50:45-03:00",
@@ -2178,10 +2178,10 @@
       "duration_minutes": 69,
       "duration_hours": 1.15,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 65,
-      "time_since_hours": 1.08,
+      "time_since_minutes": 70,
+      "time_since_hours": 1.17,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203908"
       ],
@@ -2254,8 +2254,8 @@
       "duration_minutes": 65,
       "duration_hours": 1.08,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 91,
-      "time_since_hours": 1.52,
+      "time_since_minutes": 96,
+      "time_since_hours": 1.6,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2360,8 +2360,8 @@
       "duration_minutes": 349,
       "duration_hours": 5.82,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 171,
-      "time_since_hours": 2.85,
+      "time_since_minutes": 175,
+      "time_since_hours": 2.92,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2492,9 +2492,9 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 178,
-      "time_since_hours": 2.97,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 183,
+      "time_since_hours": 3.05,
+      "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
         "3201001",
@@ -2618,8 +2618,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 202,
-      "time_since_hours": 3.37,
+      "time_since_minutes": 207,
+      "time_since_hours": 3.45,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2752,8 +2752,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 205,
-      "time_since_hours": 3.42,
+      "time_since_minutes": 209,
+      "time_since_hours": 3.48,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2868,8 +2868,8 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 207,
-      "time_since_hours": 3.45,
+      "time_since_minutes": 211,
+      "time_since_hours": 3.52,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2990,8 +2990,8 @@
       "duration_minutes": 363,
       "duration_hours": 6.05,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 230,
-      "time_since_hours": 3.83,
+      "time_since_minutes": 235,
+      "time_since_hours": 3.92,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3104,8 +3104,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 255,
-      "time_since_hours": 4.25,
+      "time_since_minutes": 260,
+      "time_since_hours": 4.33,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3236,8 +3236,8 @@
       "duration_minutes": 355,
       "duration_hours": 5.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 266,
-      "time_since_hours": 4.43,
+      "time_since_minutes": 271,
+      "time_since_hours": 4.52,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3362,8 +3362,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 275,
-      "time_since_hours": 4.58,
+      "time_since_minutes": 280,
+      "time_since_hours": 4.67,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3456,8 +3456,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 291,
-      "time_since_hours": 4.85,
+      "time_since_minutes": 296,
+      "time_since_hours": 4.93,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3564,8 +3564,8 @@
       "duration_minutes": 45005,
       "duration_hours": 750.08,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 297,
-      "time_since_hours": 4.95,
+      "time_since_minutes": 302,
+      "time_since_hours": 5.03,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3686,8 +3686,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 332,
-      "time_since_hours": 5.53,
+      "time_since_minutes": 337,
+      "time_since_hours": 5.62,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3800,8 +3800,8 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 353,
-      "time_since_hours": 5.88,
+      "time_since_minutes": 358,
+      "time_since_hours": 5.97,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -3824,7 +3824,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-25T15:00:17-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -3923,7 +3923,7 @@
       "uf": "ES",
       "location": "Águia Branca",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/10/2026",
       "time": "15:00",
       "sent_br": "2026-10-25T15:00:17-03:00",
@@ -3932,10 +3932,10 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 356,
-      "time_since_hours": 5.93,
+      "time_since_minutes": 360,
+      "time_since_hours": 6.0,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200136",
         "3202256",
@@ -4058,8 +4058,8 @@
       "duration_minutes": 354,
       "duration_hours": 5.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 386,
-      "time_since_hours": 6.43,
+      "time_since_minutes": 391,
+      "time_since_hours": 6.52,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4192,8 +4192,8 @@
       "duration_minutes": 357,
       "duration_hours": 5.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 408,
-      "time_since_hours": 6.8,
+      "time_since_minutes": 413,
+      "time_since_hours": 6.88,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
