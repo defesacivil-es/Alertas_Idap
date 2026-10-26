@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:21:27.363159-03:00",
+  "generated_at": "2026-10-26T20:26:24.814529-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1519,16 +1519,16 @@
   ],
   "time_since_distribution": [
     {
-      "label": "3h a 6h",
-      "count": 3
-    },
-    {
       "label": "Até 1h",
       "count": 2
     },
     {
+      "label": "3h a 6h",
+      "count": 2
+    },
+    {
       "label": "6h a 12h",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Mais de 12h",
@@ -1606,8 +1606,8 @@
       "duration_minutes": 353,
       "duration_hours": 5.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 5,
-      "time_since_hours": 0.08,
+      "time_since_minutes": 10,
+      "time_since_hours": 0.17,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1682,8 +1682,8 @@
       "duration_minutes": 183,
       "duration_hours": 3.05,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 34,
-      "time_since_hours": 0.57,
+      "time_since_minutes": 39,
+      "time_since_hours": 0.65,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1758,8 +1758,8 @@
       "duration_minutes": 80,
       "duration_hours": 1.33,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 222,
-      "time_since_hours": 3.7,
+      "time_since_minutes": 227,
+      "time_since_hours": 3.78,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1834,8 +1834,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 252,
-      "time_since_hours": 4.2,
+      "time_since_minutes": 257,
+      "time_since_hours": 4.28,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1970,9 +1970,9 @@
       "duration_minutes": 337,
       "duration_hours": 5.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 359,
-      "time_since_hours": 5.98,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 364,
+      "time_since_hours": 6.07,
+      "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
         "3201605",
@@ -2098,8 +2098,8 @@
       "duration_minutes": 340,
       "duration_hours": 5.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 361,
-      "time_since_hours": 6.02,
+      "time_since_minutes": 366,
+      "time_since_hours": 6.1,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2147,7 +2147,7 @@
       "has_geocode": false,
       "uf_hint": "ES",
       "region": "SE",
-      "geometry_wkt": "POLYGON ((-39.891 -18.638, -40.297 -18.705, -40.038 -18.455, -39.891 -18.638))",
+      "geometry_wkt": "POLYGON ((-40.297 -18.705, -40.038 -18.455, -39.891 -18.638, -40.297 -18.705))",
       "municipio_id": "3204906",
       "municipio_nome": "São Mateus",
       "municipio_slug": "sao-mateus",
@@ -2177,8 +2177,8 @@
       "duration_minutes": 58,
       "duration_hours": 0.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1430,
-      "time_since_hours": 23.83,
+      "time_since_minutes": 1435,
+      "time_since_hours": 23.92,
       "time_since_bucket": "Mais de 12h",
       "is_active": false,
       "affected_municipio_ids": [
