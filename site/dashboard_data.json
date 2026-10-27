@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T21:51:27.720305-03:00",
+  "generated_at": "2026-10-26T21:56:31.165178-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 5,
+    "vigentes": 4,
     "ultimas24h": 9,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "Mucurici",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA FORTE, VENTO FORTE e RAIOS em Mucurici na proxima 01h. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195408/2026",
       "entry_id": "195408/2026",
       "sent": "2026-10-26T20:58:41-03:00",
@@ -1588,11 +1588,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 4
+      "count": 5
     }
   ],
   "category_distribution": [
@@ -1618,11 +1618,7 @@
   "time_since_distribution": [
     {
       "label": "1h a 3h",
-      "count": 3
-    },
-    {
-      "label": "Até 1h",
-      "count": 2
+      "count": 4
     },
     {
       "label": "3h a 6h",
@@ -1631,6 +1627,10 @@
     {
       "label": "6h a 12h",
       "count": 2
+    },
+    {
+      "label": "Até 1h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1646,7 +1646,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-26T20:58:41-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1695,7 +1695,7 @@
       "uf": "ES",
       "location": "Mucurici",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "26/10/2026",
       "time": "20:58",
       "sent_br": "2026-10-26T20:58:41-03:00",
@@ -1704,10 +1704,10 @@
       "duration_minutes": 56,
       "duration_hours": 0.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 52,
-      "time_since_hours": 0.87,
+      "time_since_minutes": 57,
+      "time_since_hours": 0.95,
       "time_since_bucket": "Até 1h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203601"
       ],
@@ -1780,9 +1780,9 @@
       "duration_minutes": 362,
       "duration_hours": 6.03,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 58,
-      "time_since_hours": 0.97,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 63,
+      "time_since_hours": 1.05,
+      "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
         "3203502"
@@ -1876,8 +1876,8 @@
       "duration_minutes": 354,
       "duration_hours": 5.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 86,
-      "time_since_hours": 1.43,
+      "time_since_minutes": 91,
+      "time_since_hours": 1.52,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1956,8 +1956,8 @@
       "duration_minutes": 353,
       "duration_hours": 5.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 95,
-      "time_since_hours": 1.58,
+      "time_since_minutes": 100,
+      "time_since_hours": 1.67,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2032,8 +2032,8 @@
       "duration_minutes": 183,
       "duration_hours": 3.05,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 124,
-      "time_since_hours": 2.07,
+      "time_since_minutes": 129,
+      "time_since_hours": 2.15,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2108,8 +2108,8 @@
       "duration_minutes": 80,
       "duration_hours": 1.33,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 312,
-      "time_since_hours": 5.2,
+      "time_since_minutes": 317,
+      "time_since_hours": 5.28,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2184,8 +2184,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 342,
-      "time_since_hours": 5.7,
+      "time_since_minutes": 347,
+      "time_since_hours": 5.78,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2320,8 +2320,8 @@
       "duration_minutes": 337,
       "duration_hours": 5.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 449,
-      "time_since_hours": 7.48,
+      "time_since_minutes": 454,
+      "time_since_hours": 7.57,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2448,8 +2448,8 @@
       "duration_minutes": 340,
       "duration_hours": 5.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 451,
-      "time_since_hours": 7.52,
+      "time_since_minutes": 457,
+      "time_since_hours": 7.62,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
