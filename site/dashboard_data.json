@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:45:53.565251-03:00",
+  "generated_at": "2026-10-26T22:51:28.635828-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 4,
+    "vigentes": 3,
     "ultimas24h": 9,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1220,7 +1220,7 @@
       "location": "Água Doce do Norte",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA em Agua Doce do Norte nas proximas 03 horas. Proteja-se. Em casos de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195402/2026",
       "entry_id": "195402/2026",
       "sent": "2026-10-26T19:46:56-03:00",
@@ -1588,11 +1588,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 5
+      "count": 6
     }
   ],
   "category_distribution": [
@@ -1618,11 +1618,15 @@
   "time_since_distribution": [
     {
       "label": "1h a 3h",
-      "count": 5
+      "count": 4
     },
     {
       "label": "6h a 12h",
       "count": 4
+    },
+    {
+      "label": "3h a 6h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1696,8 +1700,8 @@
       "duration_minutes": 56,
       "duration_hours": 0.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 107,
-      "time_since_hours": 1.78,
+      "time_since_minutes": 112,
+      "time_since_hours": 1.87,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1772,8 +1776,8 @@
       "duration_minutes": 362,
       "duration_hours": 6.03,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 112,
-      "time_since_hours": 1.87,
+      "time_since_minutes": 118,
+      "time_since_hours": 1.97,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1868,8 +1872,8 @@
       "duration_minutes": 354,
       "duration_hours": 5.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 140,
-      "time_since_hours": 2.33,
+      "time_since_minutes": 146,
+      "time_since_hours": 2.43,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1948,8 +1952,8 @@
       "duration_minutes": 353,
       "duration_hours": 5.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 149,
-      "time_since_hours": 2.48,
+      "time_since_minutes": 155,
+      "time_since_hours": 2.58,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1966,7 +1970,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-26T19:46:56-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2015,7 +2019,7 @@
       "uf": "ES",
       "location": "Água Doce do Norte",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "26/10/2026",
       "time": "19:46",
       "sent_br": "2026-10-26T19:46:56-03:00",
@@ -2024,10 +2028,10 @@
       "duration_minutes": 183,
       "duration_hours": 3.05,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 178,
-      "time_since_hours": 2.97,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "time_since_minutes": 184,
+      "time_since_hours": 3.07,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3200169"
       ],
@@ -2100,8 +2104,8 @@
       "duration_minutes": 80,
       "duration_hours": 1.33,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 366,
-      "time_since_hours": 6.1,
+      "time_since_minutes": 372,
+      "time_since_hours": 6.2,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2176,8 +2180,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 396,
-      "time_since_hours": 6.6,
+      "time_since_minutes": 402,
+      "time_since_hours": 6.7,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2312,8 +2316,8 @@
       "duration_minutes": 337,
       "duration_hours": 5.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 503,
-      "time_since_hours": 8.38,
+      "time_since_minutes": 509,
+      "time_since_hours": 8.48,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2440,8 +2444,8 @@
       "duration_minutes": 340,
       "duration_hours": 5.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 506,
-      "time_since_hours": 8.43,
+      "time_since_minutes": 511,
+      "time_since_hours": 8.52,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
