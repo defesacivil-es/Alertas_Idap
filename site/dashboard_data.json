@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T02:05:45.265982-03:00",
+  "generated_at": "2026-10-27T02:10:51.769209-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
+    "vigentes": 2,
     "ultimas24h": 9,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1181,7 +1181,7 @@
       "location": "Santa Teresa",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENDAVAL em Santa Teresa nas proximas 06 horas.  Proteja-se. Em casos de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195404/2026",
       "entry_id": "195404/2026",
       "sent": "2026-10-26T20:16:10-03:00",
@@ -1588,11 +1588,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 6
+      "count": 7
     }
   ],
   "category_distribution": [
@@ -1696,8 +1696,8 @@
       "duration_minutes": 56,
       "duration_hours": 0.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 307,
-      "time_since_hours": 5.12,
+      "time_since_minutes": 312,
+      "time_since_hours": 5.2,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1772,8 +1772,8 @@
       "duration_minutes": 362,
       "duration_hours": 6.03,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 312,
-      "time_since_hours": 5.2,
+      "time_since_minutes": 317,
+      "time_since_hours": 5.28,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1868,8 +1868,8 @@
       "duration_minutes": 354,
       "duration_hours": 5.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 340,
-      "time_since_hours": 5.67,
+      "time_since_minutes": 345,
+      "time_since_hours": 5.75,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1890,7 +1890,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-26T20:16:10-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "VENDAVAL",
@@ -1939,7 +1939,7 @@
       "uf": "ES",
       "location": "Santa Teresa",
       "event_short": "Vendaval",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "26/10/2026",
       "time": "20:16",
       "sent_br": "2026-10-26T20:16:10-03:00",
@@ -1948,10 +1948,10 @@
       "duration_minutes": 353,
       "duration_hours": 5.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 349,
-      "time_since_hours": 5.82,
+      "time_since_minutes": 354,
+      "time_since_hours": 5.9,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3204609"
       ],
@@ -2024,8 +2024,8 @@
       "duration_minutes": 183,
       "duration_hours": 3.05,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 378,
-      "time_since_hours": 6.3,
+      "time_since_minutes": 383,
+      "time_since_hours": 6.38,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2100,8 +2100,8 @@
       "duration_minutes": 80,
       "duration_hours": 1.33,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 566,
-      "time_since_hours": 9.43,
+      "time_since_minutes": 571,
+      "time_since_hours": 9.52,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2176,8 +2176,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 596,
-      "time_since_hours": 9.93,
+      "time_since_minutes": 601,
+      "time_since_hours": 10.02,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2312,8 +2312,8 @@
       "duration_minutes": 337,
       "duration_hours": 5.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 703,
-      "time_since_hours": 11.72,
+      "time_since_minutes": 708,
+      "time_since_hours": 11.8,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2440,8 +2440,8 @@
       "duration_minutes": 340,
       "duration_hours": 5.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 706,
-      "time_since_hours": 11.77,
+      "time_since_minutes": 711,
+      "time_since_hours": 11.85,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
