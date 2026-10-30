@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:16:30.488531-03:00",
+  "generated_at": "2026-10-30T18:22:11.245516-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 1,
+    "vigentes": 0,
     "ultimas24h": 4,
     "autoridadesAtivas": 1,
     "alertasExtremos": 1,
@@ -1134,7 +1134,7 @@
       "location": "Mimoso do Sul",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, GRANIZO e VENTO em Mimoso do Sul nas proximas 02 horas.\t Em caso de emergecia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195606/2026",
       "entry_id": "195606/2026",
       "sent": "2026-10-30T15:23:01-03:00",
@@ -1300,12 +1300,8 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
-      "count": 1
-    },
-    {
       "label": "expirado",
-      "count": 3
+      "count": 4
     }
   ],
   "category_distribution": [
@@ -1415,8 +1411,8 @@
       "duration_minutes": 124,
       "duration_hours": 2.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 141,
-      "time_since_hours": 2.35,
+      "time_since_minutes": 147,
+      "time_since_hours": 2.45,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1493,8 +1489,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 157,
-      "time_since_hours": 2.62,
+      "time_since_minutes": 163,
+      "time_since_hours": 2.72,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1511,7 +1507,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-30T15:23:01-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1560,7 +1556,7 @@
       "uf": "ES",
       "location": "Mimoso do Sul",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "30/10/2026",
       "time": "15:23",
       "sent_br": "2026-10-30T15:23:01-03:00",
@@ -1569,10 +1565,10 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 173,
-      "time_since_hours": 2.88,
+      "time_since_minutes": 179,
+      "time_since_hours": 2.98,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203403"
       ],
@@ -1685,8 +1681,8 @@
       "duration_minutes": 174,
       "duration_hours": 2.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 211,
-      "time_since_hours": 3.52,
+      "time_since_minutes": 216,
+      "time_since_hours": 3.6,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
