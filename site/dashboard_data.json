@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:56:44.280875-03:00",
+  "generated_at": "2026-10-30T18:01:52.105455-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
+    "vigentes": 1,
     "ultimas24h": 4,
     "autoridadesAtivas": 1,
     "alertasExtremos": 1,
@@ -1048,7 +1048,7 @@
       "location": "Itapemirim",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, GRANIZO PONTUAL e VENTO em Marataizes, Itapemirim nas proximas 02 hora. Evite area de risco. Emergencia ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195611/2026",
       "entry_id": "195611/2026",
       "sent": "2026-10-30T15:55:09-03:00",
@@ -1301,11 +1301,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 2
+      "count": 3
     }
   ],
   "category_distribution": [
@@ -1347,7 +1347,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-30T15:55:09-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1406,7 +1406,7 @@
       "uf": "ES",
       "location": "Itapemirim",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "30/10/2026",
       "time": "15:55",
       "sent_br": "2026-10-30T15:55:09-03:00",
@@ -1415,10 +1415,10 @@
       "duration_minutes": 124,
       "duration_hours": 2.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 121,
-      "time_since_hours": 2.02,
+      "time_since_minutes": 126,
+      "time_since_hours": 2.1,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3202801",
         "3203320"
@@ -1493,8 +1493,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 137,
-      "time_since_hours": 2.28,
+      "time_since_minutes": 142,
+      "time_since_hours": 2.37,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1569,8 +1569,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 153,
-      "time_since_hours": 2.55,
+      "time_since_minutes": 158,
+      "time_since_hours": 2.63,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1685,8 +1685,8 @@
       "duration_minutes": 174,
       "duration_hours": 2.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 191,
-      "time_since_hours": 3.18,
+      "time_since_minutes": 196,
+      "time_since_hours": 3.27,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
