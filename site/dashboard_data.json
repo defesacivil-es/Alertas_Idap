@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:26:24.303398-03:00",
+  "generated_at": "2026-10-30T17:31:52.573201-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 4,
+    "vigentes": 3,
     "ultimas24h": 4,
     "autoridadesAtivas": 1,
     "alertasExtremos": 1,
@@ -1095,7 +1095,7 @@
       "location": "Atilio Vivacqua",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, GRANIZO PONTUAL e VENTO em Atilio Vivacqua nas proximas 02 horas. Em casos de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195609/2026",
       "entry_id": "195609/2026",
       "sent": "2026-10-30T15:39:05-03:00",
@@ -1301,7 +1301,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 3
+    },
+    {
+      "label": "expirado",
+      "count": 1
     }
   ],
   "category_distribution": [
@@ -1407,8 +1411,8 @@
       "duration_minutes": 124,
       "duration_hours": 2.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 91,
-      "time_since_hours": 1.52,
+      "time_since_minutes": 96,
+      "time_since_hours": 1.6,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1427,7 +1431,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-30T15:39:05-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1476,7 +1480,7 @@
       "uf": "ES",
       "location": "Atilio Vivacqua",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "30/10/2026",
       "time": "15:39",
       "sent_br": "2026-10-30T15:39:05-03:00",
@@ -1485,10 +1489,10 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 107,
-      "time_since_hours": 1.78,
+      "time_since_minutes": 112,
+      "time_since_hours": 1.87,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200706"
       ],
@@ -1561,8 +1565,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 123,
-      "time_since_hours": 2.05,
+      "time_since_minutes": 128,
+      "time_since_hours": 2.13,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1677,8 +1681,8 @@
       "duration_minutes": 174,
       "duration_hours": 2.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 160,
-      "time_since_hours": 2.67,
+      "time_since_minutes": 166,
+      "time_since_hours": 2.77,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
