@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:06:22.176152-03:00",
+  "generated_at": "2026-10-31T00:11:26.922807-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
+    "vigentes": 1,
     "ultimas24h": 6,
     "autoridadesAtivas": 1,
     "alertasExtremos": 1,
@@ -1087,7 +1087,7 @@
       "location": "Boa Esperança",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Boa Esperanca e Pinheiros nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195645/2026",
       "entry_id": "195645/2026",
       "sent": "2026-10-30T22:08:48-03:00",
@@ -1399,11 +1399,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 4
+      "count": 5
     }
   ],
   "category_distribution": [
@@ -1507,8 +1507,8 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 52,
-      "time_since_hours": 0.87,
+      "time_since_minutes": 57,
+      "time_since_hours": 0.95,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1525,7 +1525,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-30T22:08:48-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1584,7 +1584,7 @@
       "uf": "ES",
       "location": "Boa Esperança",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "30/10/2026",
       "time": "22:08",
       "sent_br": "2026-10-30T22:08:48-03:00",
@@ -1593,10 +1593,10 @@
       "duration_minutes": 121,
       "duration_hours": 2.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 117,
-      "time_since_hours": 1.95,
+      "time_since_minutes": 122,
+      "time_since_hours": 2.03,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201001",
         "3204104"
@@ -1681,8 +1681,8 @@
       "duration_minutes": 124,
       "duration_hours": 2.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 491,
-      "time_since_hours": 8.18,
+      "time_since_minutes": 496,
+      "time_since_hours": 8.27,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1759,8 +1759,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 507,
-      "time_since_hours": 8.45,
+      "time_since_minutes": 512,
+      "time_since_hours": 8.53,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1835,8 +1835,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 523,
-      "time_since_hours": 8.72,
+      "time_since_minutes": 528,
+      "time_since_hours": 8.8,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1951,8 +1951,8 @@
       "duration_minutes": 174,
       "duration_hours": 2.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 560,
-      "time_since_hours": 9.33,
+      "time_since_minutes": 565,
+      "time_since_hours": 9.42,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
