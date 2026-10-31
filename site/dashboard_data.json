@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T01:06:41.411384-03:00",
+  "generated_at": "2026-10-31T01:11:01.738736-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 1,
+    "vigentes": 0,
     "ultimas24h": 6,
     "autoridadesAtivas": 1,
     "alertasExtremos": 1,
@@ -1048,7 +1048,7 @@
       "location": "Conceição da Barra",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Conceicao da Barra nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "195648/2026",
       "entry_id": "195648/2026",
       "sent": "2026-10-30T23:13:34-03:00",
@@ -1398,12 +1398,8 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
-      "count": 1
-    },
-    {
       "label": "expirado",
-      "count": 5
+      "count": 6
     }
   ],
   "category_distribution": [
@@ -1429,7 +1425,11 @@
     },
     {
       "label": "1h a 3h",
-      "count": 2
+      "count": 1
+    },
+    {
+      "label": "3h a 6h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1445,7 +1445,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-10-30T23:13:34-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1494,7 +1494,7 @@
       "uf": "ES",
       "location": "Conceição da Barra",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "30/10/2026",
       "time": "23:13",
       "sent_br": "2026-10-30T23:13:34-03:00",
@@ -1503,10 +1503,10 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 113,
-      "time_since_hours": 1.88,
+      "time_since_minutes": 117,
+      "time_since_hours": 1.95,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201605"
       ],
@@ -1589,9 +1589,9 @@
       "duration_minutes": 121,
       "duration_hours": 2.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 177,
-      "time_since_hours": 2.95,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 182,
+      "time_since_hours": 3.03,
+      "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
         "3201001",
@@ -1677,8 +1677,8 @@
       "duration_minutes": 124,
       "duration_hours": 2.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 551,
-      "time_since_hours": 9.18,
+      "time_since_minutes": 555,
+      "time_since_hours": 9.25,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1755,8 +1755,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 567,
-      "time_since_hours": 9.45,
+      "time_since_minutes": 571,
+      "time_since_hours": 9.52,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1831,8 +1831,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 583,
-      "time_since_hours": 9.72,
+      "time_since_minutes": 588,
+      "time_since_hours": 9.8,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1947,8 +1947,8 @@
       "duration_minutes": 174,
       "duration_hours": 2.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 621,
-      "time_since_hours": 10.35,
+      "time_since_minutes": 625,
+      "time_since_hours": 10.42,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
