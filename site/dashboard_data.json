@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:56:27.390052-03:00",
+  "generated_at": "2026-11-01T01:00:54.460944-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1653,11 +1653,7 @@
     },
     {
       "label": "3h a 6h",
-      "count": 3
-    },
-    {
-      "label": "1h a 3h",
-      "count": 1
+      "count": 4
     }
   ],
   "channel_distribution": [
@@ -1731,9 +1727,9 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 177,
-      "time_since_hours": 2.95,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 181,
+      "time_since_hours": 3.02,
+      "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
         "3200805"
@@ -1807,8 +1803,8 @@
       "duration_minutes": 125,
       "duration_hours": 2.08,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 247,
-      "time_since_hours": 4.12,
+      "time_since_minutes": 251,
+      "time_since_hours": 4.18,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1883,8 +1879,8 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 263,
-      "time_since_hours": 4.38,
+      "time_since_minutes": 268,
+      "time_since_hours": 4.47,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1959,8 +1955,8 @@
       "duration_minutes": 115,
       "duration_hours": 1.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 272,
-      "time_since_hours": 4.53,
+      "time_since_minutes": 276,
+      "time_since_hours": 4.6,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2035,8 +2031,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 383,
-      "time_since_hours": 6.38,
+      "time_since_minutes": 387,
+      "time_since_hours": 6.45,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2191,8 +2187,8 @@
       "duration_minutes": 164,
       "duration_hours": 2.73,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 460,
-      "time_since_hours": 7.67,
+      "time_since_minutes": 465,
+      "time_since_hours": 7.75,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2283,8 +2279,8 @@
       "duration_minutes": 125,
       "duration_hours": 2.08,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 482,
-      "time_since_hours": 8.03,
+      "time_since_minutes": 486,
+      "time_since_hours": 8.1,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2359,8 +2355,8 @@
       "duration_minutes": 103,
       "duration_hours": 1.72,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 520,
-      "time_since_hours": 8.67,
+      "time_since_minutes": 524,
+      "time_since_hours": 8.73,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2455,8 +2451,8 @@
       "duration_minutes": 102,
       "duration_hours": 1.7,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 579,
-      "time_since_hours": 9.65,
+      "time_since_minutes": 583,
+      "time_since_hours": 9.72,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2535,8 +2531,8 @@
       "duration_minutes": 132,
       "duration_hours": 2.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 609,
-      "time_since_hours": 10.15,
+      "time_since_minutes": 613,
+      "time_since_hours": 10.22,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2631,8 +2627,8 @@
       "duration_minutes": 135,
       "duration_hours": 2.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 611,
-      "time_since_hours": 10.18,
+      "time_since_minutes": 616,
+      "time_since_hours": 10.27,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2721,8 +2717,8 @@
       "duration_minutes": 160,
       "duration_hours": 2.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 636,
-      "time_since_hours": 10.6,
+      "time_since_minutes": 641,
+      "time_since_hours": 10.68,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2799,8 +2795,8 @@
       "duration_minutes": 206,
       "duration_hours": 3.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 683,
-      "time_since_hours": 11.38,
+      "time_since_minutes": 687,
+      "time_since_hours": 11.45,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2915,8 +2911,8 @@
       "duration_minutes": 227,
       "duration_hours": 3.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 703,
-      "time_since_hours": 11.72,
+      "time_since_minutes": 707,
+      "time_since_hours": 11.78,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
