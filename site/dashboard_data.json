@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:56:48.437558-03:00",
+  "generated_at": "2026-11-02T19:01:55.050462-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
+    "vigentes": 1,
     "ultimas24h": 4,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1103,7 +1103,7 @@
       "location": "Bom Jesus do Norte",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS e CHUVA INTENSA na regiao do CAPARAO nas proximas 03 horas Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "196027/2026",
       "entry_id": "196027/2026",
       "sent": "2026-11-02T15:57:38-03:00",
@@ -1325,11 +1325,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 2
+      "count": 3
     }
   ],
   "category_distribution": [
@@ -1346,12 +1346,12 @@
   ],
   "time_since_distribution": [
     {
-      "label": "1h a 3h",
-      "count": 2
+      "label": "3h a 6h",
+      "count": 3
     },
     {
-      "label": "3h a 6h",
-      "count": 2
+      "label": "1h a 3h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1445,8 +1445,8 @@
       "duration_minutes": 184,
       "duration_hours": 3.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 61,
-      "time_since_hours": 1.02,
+      "time_since_minutes": 66,
+      "time_since_hours": 1.1,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1467,7 +1467,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-02T15:57:38-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1556,7 +1556,7 @@
       "uf": "ES",
       "location": "Bom Jesus do Norte",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "02/11/2026",
       "time": "15:57",
       "sent_br": "2026-11-02T15:57:38-03:00",
@@ -1565,10 +1565,10 @@
       "duration_minutes": 182,
       "duration_hours": 3.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 179,
-      "time_since_hours": 2.98,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "time_since_minutes": 184,
+      "time_since_hours": 3.07,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3201100",
         "3201803",
@@ -1649,8 +1649,8 @@
       "duration_minutes": 162,
       "duration_hours": 2.7,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 219,
-      "time_since_hours": 3.65,
+      "time_since_minutes": 224,
+      "time_since_hours": 3.73,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1735,8 +1735,8 @@
       "duration_minutes": 128,
       "duration_hours": 2.13,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 305,
-      "time_since_hours": 5.08,
+      "time_since_minutes": 310,
+      "time_since_hours": 5.17,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
