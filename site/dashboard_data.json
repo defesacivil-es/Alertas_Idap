@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T04:26:27.990187-03:00",
+  "generated_at": "2026-11-04T04:31:36.020378-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 1,
+    "vigentes": 0,
     "ultimas24h": 1,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "Divino de São Lourenço",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA PERSISTENTE no Parque do Caparao nas proximas 03 horas.Fique atento. Emergencia ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "196251/2026",
       "entry_id": "196251/2026",
       "sent": "2026-11-04T01:28:42-03:00",
@@ -1147,7 +1147,7 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
+      "label": "expirado",
       "count": 1
     }
   ],
@@ -1165,7 +1165,7 @@
   ],
   "time_since_distribution": [
     {
-      "label": "1h a 3h",
+      "label": "3h a 6h",
       "count": 1
     }
   ],
@@ -1182,7 +1182,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-04T01:28:42-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1261,7 +1261,7 @@
       "uf": "ES",
       "location": "Divino de São Lourenço",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "04/11/2026",
       "time": "01:28",
       "sent_br": "2026-11-04T01:28:42-03:00",
@@ -1270,10 +1270,10 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 177,
-      "time_since_hours": 2.95,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "time_since_minutes": 182,
+      "time_since_hours": 3.03,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3201803",
         "3202009",
