@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-05T19:07:22.663686+00:00",
-  "total_alerts": 21,
+  "generated_at": "2026-11-05T19:13:43.726709+00:00",
+  "total_alerts": 22,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.552,
-              -20.568
-            ],
             [
               -41.552,
               -20.567
@@ -7348,6 +7344,10 @@
             [
               -41.552,
               -20.568
+            ],
+            [
+              -41.552,
+              -20.567
             ]
           ]
         ]
@@ -7433,10 +7433,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.678,
-              -20.307
-            ],
             [
               -41.678,
               -20.306
@@ -15168,6 +15164,10 @@
             [
               -41.678,
               -20.307
+            ],
+            [
+              -41.678,
+              -20.306
             ]
           ]
         ]
@@ -15253,10 +15253,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.66,
-              -20.451
-            ],
             [
               -40.66,
               -20.45
@@ -25636,6 +25632,10 @@
             [
               -40.66,
               -20.451
+            ],
+            [
+              -40.66,
+              -20.45
             ]
           ]
         ]
@@ -25707,10 +25707,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.576,
-              -20.412
-            ],
             [
               -40.576,
               -20.411
@@ -29970,6 +29966,10 @@
             [
               -40.576,
               -20.412
+            ],
+            [
+              -40.576,
+              -20.411
             ]
           ]
         ]
@@ -30057,10 +30057,6 @@
           [
             [
               [
-                -41.32,
-                -20.497
-              ],
-              [
                 -41.319,
                 -20.498
               ],
@@ -30071,15 +30067,15 @@
               [
                 -41.32,
                 -20.497
+              ],
+              [
+                -41.319,
+                -20.498
               ]
             ]
           ],
           [
             [
-              [
-                -41.555,
-                -20.434
-              ],
               [
                 -41.554,
                 -20.434
@@ -39527,6 +39523,10 @@
               [
                 -41.555,
                 -20.434
+              ],
+              [
+                -41.554,
+                -20.434
               ]
             ]
           ]
@@ -39599,10 +39599,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.415,
-              -20.21
-            ],
             [
               -41.414,
               -20.21
@@ -44358,6 +44354,10 @@
             [
               -41.415,
               -20.21
+            ],
+            [
+              -41.414,
+              -20.21
             ]
           ]
         ]
@@ -44429,10 +44429,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.168,
-              -20.301
-            ],
             [
               -41.167,
               -20.301
@@ -47536,6 +47532,10 @@
             [
               -41.168,
               -20.301
+            ],
+            [
+              -41.167,
+              -20.301
             ]
           ]
         ]
@@ -47635,10 +47635,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.546,
-              -19.989
-            ],
             [
               -40.545,
               -19.99
@@ -61878,6 +61874,10 @@
             [
               -40.546,
               -19.989
+            ],
+            [
+              -40.545,
+              -19.99
             ]
           ]
         ]
@@ -61963,10 +61963,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.023,
-              -19.971
-            ],
             [
               -41.024,
               -19.971
@@ -67942,6 +67938,10 @@
             [
               -41.023,
               -19.971
+            ],
+            [
+              -41.024,
+              -19.971
             ]
           ]
         ]
@@ -68070,10 +68070,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.727,
-                -21.049
-              ],
               [
                 -41.727,
                 -21.05
@@ -81429,13 +81425,13 @@
               [
                 -41.727,
                 -21.049
+              ],
+              [
+                -41.727,
+                -21.05
               ]
             ],
             [
-              [
-                -41.805,
-                -20.797
-              ],
               [
                 -41.806,
                 -20.797
@@ -81447,13 +81443,13 @@
               [
                 -41.805,
                 -20.797
+              ],
+              [
+                -41.806,
+                -20.797
               ]
             ],
             [
-              [
-                -41.754,
-                -20.807
-              ],
               [
                 -41.755,
                 -20.806
@@ -81465,15 +81461,15 @@
               [
                 -41.754,
                 -20.807
+              ],
+              [
+                -41.755,
+                -20.806
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.804
-              ],
               [
                 -41.813,
                 -20.805
@@ -81489,15 +81485,15 @@
               [
                 -41.813,
                 -20.804
+              ],
+              [
+                -41.813,
+                -20.805
               ]
             ]
           ],
           [
             [
-              [
-                -41.812,
-                -20.803
-              ],
               [
                 -41.812,
                 -20.804
@@ -81513,15 +81509,15 @@
               [
                 -41.812,
                 -20.803
+              ],
+              [
+                -41.812,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.782
-              ],
               [
                 -41.837,
                 -20.781
@@ -81533,15 +81529,15 @@
               [
                 -41.836,
                 -20.782
+              ],
+              [
+                -41.837,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.78
-              ],
               [
                 -41.835,
                 -20.781
@@ -81553,6 +81549,10 @@
               [
                 -41.836,
                 -20.78
+              ],
+              [
+                -41.835,
+                -20.781
               ]
             ]
           ]
@@ -168359,6 +168359,103 @@
             [
               -40.902,
               -20.444
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "196696/2026",
+        "entry_id": "196696/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-05T16:09:48-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-05T16:09:48-03:00",
+        "expires": "2026-11-05T17:00:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, GRANIZO e VENTO em Ibitirama na proxima hora. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de CHUVA, RAIOS, GRANIZO e VENTO em Ibitirama na proxima hora.",
+        "instruction": "Fique atento as orientacoes da Defesa Civil. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-20.498,-41.649 -20.509,-41.667 -20.531,-41.678 -20.556,-41.68 -20.573,-41.65 -20.558,-41.623 -20.513,-41.618 -20.498,-41.649",
+        "polygon_points": 8,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3202553",
+        "municipio_nome": "Ibitirama",
+        "municipio_slug": "ibitirama",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3202553",
+            "municipio_nome": "Ibitirama",
+            "municipio_slug": "ibitirama",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "05/11/2026 16:09",
+        "onset_label": "05/11/2026 16:09",
+        "expires_label": "05/11/2026 17:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.618,
+              -20.513
+            ],
+            [
+              -41.623,
+              -20.558
+            ],
+            [
+              -41.65,
+              -20.573
+            ],
+            [
+              -41.68,
+              -20.556
+            ],
+            [
+              -41.678,
+              -20.531
+            ],
+            [
+              -41.667,
+              -20.509
+            ],
+            [
+              -41.649,
+              -20.498
+            ],
+            [
+              -41.618,
+              -20.513
             ]
           ]
         ]
