@@ -913,12 +913,21 @@ def _filter_recent_history(alerts: List[AlertRecord], retention_hours: int, ref_
     cutoff = ref_now - timedelta(hours=retention_hours)
     kept: List[AlertRecord] = []
     for a in alerts:
+        expires_dt = _parse_iso_any(a.expires)
+        if expires_dt and expires_dt > ref_now:
+            kept.append(a)
+            continue
         ref_dt = _parse_iso_any(a.onset) or _parse_iso_any(a.sent)
         if ref_dt is None:
             continue
         if ref_dt >= cutoff:
             kept.append(a)
     return kept
+
+
+def _filter_unexpired(alerts: List[AlertRecord], ref_now: datetime) -> List[AlertRecord]:
+    return [a for a in alerts
+            if (expires_dt := _parse_iso_any(a.expires)) and expires_dt > ref_now]
 
 
 def _filter_window(alerts: List[AlertRecord], window_hours: int, ref_now: datetime) -> List[AlertRecord]:
@@ -1116,8 +1125,10 @@ def main() -> int:
     _write_resumo_md(os.path.join(run_dir, "resumo.md"), resumo, window_hours)
 
     run_geojson_path = os.path.join(run_dir, "alertas_idap.geojson")
-    feature_count = _write_alerts_geojson(run_geojson_path, alerts)
-    _write_alerts_geojson(alerts_geojson_path, alerts)
+    # Map validity is independent of the reporting window; the browser handles onset.
+    map_alerts = _filter_unexpired(history_kept, _now_sp())
+    feature_count = _write_alerts_geojson(run_geojson_path, map_alerts)
+    _write_alerts_geojson(alerts_geojson_path, map_alerts)
     print(f"[INFO] GeoJSON gerado: {run_geojson_path} | feicoes: {feature_count}")
     print(f"[INFO] GeoJSON atualizado no site: {alerts_geojson_path}")
 

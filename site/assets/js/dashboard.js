@@ -12,6 +12,7 @@ let refreshSecondsRemaining = Math.floor(AUTO_REFRESH_MS / 1000);
 let recentAlerts = [];
 let dashboardMap = null;
 let dashboardAlertasLayer = null;
+let stopWatchingDashboardAlerts = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   carregarDashboard();
@@ -55,7 +56,7 @@ function preencherRotulosPeriodo(data) {
 
 function preencherCards(data, alerts) {
   const levels = contar(alerts, "nivel");
-  const vigentes = numeroBruto(data.cards?.vigentes ?? alerts.filter(estaVigente).length);
+  const vigentes = alerts.filter(estaVigente).length;
   const total = numeroBruto(data.cards?.ultimas24h ?? alerts.length);
   const graves = numeroBruto(data.cards?.alertasSeverosExtremos ?? ((levels.Severo || 0) + (levels.Extremo || 0)));
   const municipios = numeroBruto(data.cards?.municipiosComAlertas ?? data.cards?.municipiosOuAreasComAlerta ?? contarMunicipios(alerts));
@@ -129,9 +130,16 @@ async function renderMapaMunicipal(data) {
     const alertasGeojson = await alertasResponse.json();
 
     inicializarMapaDashboard(container);
-    atualizarCamadasMapaDashboard(alertasGeojson);
+    if (stopWatchingDashboardAlerts) stopWatchingDashboardAlerts();
+    let firstRender = true;
+    stopWatchingDashboardAlerts = AlertValidity.watch(alertasGeojson, (active) => {
+      atualizarCamadasMapaDashboard(active, firstRender);
+      setText("card-vigentes", numero(active.total_alerts));
+      firstRender = false;
+    });
   } catch (error) {
     console.error("Erro ao renderizar mapa dinâmico:", error);
+    if (dashboardMap) return;
     container.innerHTML = `<div class="empty-state">Mapa dinâmico indisponível.</div>`;
     dashboardMap = null;
     dashboardAlertasLayer = null;
@@ -158,7 +166,7 @@ function inicializarMapaDashboard(container) {
   setTimeout(() => dashboardMap.invalidateSize(), 80);
 }
 
-function atualizarCamadasMapaDashboard(alertasGeojson) {
+function atualizarCamadasMapaDashboard(alertasGeojson, ajustarEnquadramento = true) {
   if (!dashboardMap) return;
 
   if (dashboardAlertasLayer) dashboardAlertasLayer.remove();
@@ -182,6 +190,8 @@ function atualizarCamadasMapaDashboard(alertasGeojson) {
       });
     },
   }).addTo(dashboardMap);
+
+  if (!ajustarEnquadramento) return;
 
   if (!features.length) {
     dashboardMap.setView([-19.55, -40.62], 8);
@@ -442,11 +452,7 @@ function distribuicaoParaMapa(distribution) {
 }
 
 function estaVigente(alerta) {
-  const status = String(alerta.status || alerta.status_vigencia || "").toLowerCase();
-  if (status.includes("vigente")) return true;
-  if (status.includes("expirado")) return false;
-  const expires = dataValida(alerta.expires);
-  return Boolean(expires && expires > new Date());
+  return AlertValidity.isActive(alerta);
 }
 
 function normalizarNivel(value) {
@@ -500,6 +506,7 @@ function atualizarTextoCountdown() {
 
 function renderErroGeral() {
   ["ultimos-alertas", "mapa-uf", "severity-breakdown", "event-breakdown", "hourly-breakdown"].forEach((id) => {
+    if (id === "mapa-uf" && dashboardMap) return;
     const element = byId(id);
     if (element) element.innerHTML = `<div class="empty-state">Não foi possível carregar os dados do painel.</div>`;
   });
