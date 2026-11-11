@@ -1,6 +1,8 @@
 (function () {
   const GEOJSON_URL = "./data/alertas_idap.geojson";
   const UPDATE_URL = "./ultima_atualizacao.json";
+  let alertsLayer = null;
+  let stopWatchingAlerts = null;
 
   const elements = {
     update: document.getElementById("ultima-atualizacao"),
@@ -125,42 +127,52 @@
       }
 
       const data = await response.json();
-      const features = Array.isArray(data.features) ? data.features : [];
-
-      updateMetrics(data);
-
-      if (!features.length) {
-        elements.empty.style.display = "block";
-        return;
-      }
-
-      const layer = L.geoJSON(data, {
-        style(feature) {
-          const color = feature?.properties?.color || "#2563eb";
-          return {
-            color,
-            weight: 2,
-            fillColor: color,
-            fillOpacity: 0.32,
-          };
-        },
-        onEachFeature(feature, currentLayer) {
-          currentLayer.bindPopup(popupHtml(feature.properties || {}), {
-            maxWidth: 360,
-          });
-        },
-      }).addTo(map);
-
-      const bounds = layer.getBounds();
-      if (bounds.isValid()) {
-        map.fitBounds(bounds, { padding: [20, 20] });
-      }
+      if (stopWatchingAlerts) stopWatchingAlerts();
+      let firstRender = true;
+      stopWatchingAlerts = AlertValidity.watch(data, (active) => {
+        renderMap(active, firstRender);
+        firstRender = false;
+      });
     } catch (error) {
       elements.error.style.display = "block";
       elements.error.textContent = `Não foi possível carregar o mapa dinâmico: ${error.message}`;
     }
   }
 
+  function renderMap(data, fitBounds) {
+    const features = data.features;
+    if (alertsLayer) alertsLayer.remove();
+    updateMetrics(data);
+    elements.empty.style.display = features.length ? "none" : "block";
+    if (!features.length) return;
+
+    alertsLayer = L.geoJSON(data, {
+      style(feature) {
+        const color = feature?.properties?.color || "#2563eb";
+        return {
+          color,
+          weight: 2,
+          fillColor: color,
+          fillOpacity: 0.32,
+        };
+      },
+      onEachFeature(feature, currentLayer) {
+        currentLayer.bindPopup(popupHtml(feature.properties || {}), {
+          maxWidth: 360,
+        });
+      },
+    }).addTo(map);
+
+    const bounds = alertsLayer.getBounds();
+    if (fitBounds && bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [20, 20] });
+    }
+  }
+
   loadUpdateInfo();
   loadMap();
+  setInterval(() => {
+    loadUpdateInfo();
+    loadMap();
+  }, 5 * 60 * 1000);
 })();
