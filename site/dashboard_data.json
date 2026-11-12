@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:21:44.620307-03:00",
+  "generated_at": "2026-11-12T19:32:35.134156-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 10,
+    "vigentes": 4,
+    "ultimas24h": 11,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 2,
-    "alertasSeverosExtremos": 2,
+    "alertasSeveros": 3,
+    "alertasSeverosExtremos": 3,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 17,
     "municipiosComAlertas": 17
   },
   "latest_alerts": [
+    {
+      "time": "19:19",
+      "date": "12/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "João Neiva",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA PERSISTENTE na regiao de Joao Neiva. Risco de inundacao na proxima hora. Proteja-se. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "197652/2026",
+      "entry_id": "197652/2026",
+      "sent": "2026-11-12T19:19:17-03:00",
+      "onset": "2026-11-12T19:19:17-03:00",
+      "expires": "2026-11-12T20:15:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3203130",
+      "municipio_nome": "João Neiva",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203130",
+          "municipio_nome": "João Neiva",
+          "municipio_slug": "joao-neiva",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3203130"
+      ],
+      "affected_municipio_names": [
+        "João Neiva"
+      ]
+    },
     {
       "time": "18:58",
       "date": "12/11/2026",
@@ -1452,60 +1491,13 @@
       "affected_municipio_names": [
         "Conceição da Barra"
       ]
-    },
-    {
-      "time": "12:44",
-      "date": "12/11/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Pedro Canário",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO nas regioes Pinheiros, Pedro Canario nas proximas 04 horas.   Em caso de emergencia, ligue 193.",
-      "status": "expirado",
-      "identifier": "197578/2026",
-      "entry_id": "197578/2026",
-      "sent": "2026-11-12T12:44:45-03:00",
-      "onset": "2026-11-12T12:44:45-03:00",
-      "expires": "2026-11-12T16:00:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google",
-      "municipio_id": "3204054",
-      "municipio_nome": "Pedro Canário",
-      "affected_municipios": [
-        {
-          "municipio_id": "3204054",
-          "municipio_nome": "Pedro Canário",
-          "municipio_slug": "pedro-canario",
-          "intersection_area_m2": null
-        },
-        {
-          "municipio_id": "3204104",
-          "municipio_nome": "Pinheiros",
-          "municipio_slug": "pinheiros",
-          "intersection_area_m2": null
-        }
-      ],
-      "affected_municipio_ids": [
-        "3204054",
-        "3204104"
-      ],
-      "affected_municipio_names": [
-        "Pedro Canário",
-        "Pinheiros"
-      ]
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 10
+      "count": 11
     }
   ],
   "level_distribution": [
@@ -1515,22 +1507,26 @@
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 11
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 10
+      "count": 11
     }
   ],
   "municipio_distribution": [
+    {
+      "municipio": "João Neiva",
+      "count": 2
+    },
     {
       "municipio": "Jaguaré",
       "count": 2
@@ -1553,10 +1549,6 @@
     },
     {
       "municipio": "Ibiraçu",
-      "count": 1
-    },
-    {
-      "municipio": "João Neiva",
       "count": 1
     },
     {
@@ -1603,7 +1595,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 4
     },
     {
       "label": "expirado",
@@ -1613,7 +1605,7 @@
   "category_distribution": [
     {
       "label": "Met",
-      "count": 10
+      "count": 11
     }
   ],
   "duration_distribution": [
@@ -1623,7 +1615,7 @@
     },
     {
       "label": "Até 2h",
-      "count": 2
+      "count": 3
     }
   ],
   "time_since_distribution": [
@@ -1632,21 +1624,92 @@
       "count": 5
     },
     {
-      "label": "6h a 12h",
+      "label": "Até 1h",
       "count": 3
     },
     {
-      "label": "Até 1h",
-      "count": 2
+      "label": "6h a 12h",
+      "count": 3
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 10
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "197652/2026",
+      "entry_id": "197652/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-12T19:19:17-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Likely",
+      "onset": "2026-11-12T19:19:17-03:00",
+      "expires": "2026-11-12T20:15:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA PERSISTENTE na regiao de Joao Neiva. Risco de inundacao na proxima hora. Proteja-se. Emergencia ligue 193.",
+      "description": "(ES) ALERTA de CHUVA PERSISTENTE na regiao de Joao Neiva. Risco de inundacao na proxima hora.",
+      "instruction": "Proteja-se. Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Ibiraçu/ES, João Neiva/ES",
+      "polygon_raw": "-19.7,-40.357 -19.71,-40.364 -19.716,-40.353 -19.706,-40.349 -19.7,-40.357\n-19.728,-40.375 -19.735,-40.381 -19.738,-40.373 -19.731,-40.368 -19.728,-40.375\n-19.77,-40.396 -19.77,-40.39 -19.764,-40.385 -19.76,-40.383 -19.76,-40.38 -19.767,-40.372 -19.767,-40.366 -19.761,-40.363 -19.757,-40.37 -19.755,-40.378 -19.753,-40.384 -19.757,-40.39 -19.77,-40.396\n-19.723,-40.36 -19.736,-40.364 -19.736,-40.357 -19.724,-40.352 -19.723,-40.36",
+      "polygon_points": 28,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "MULTIPOLYGON (((-40.378 -19.755, -40.37 -19.757, -40.363 -19.761, -40.366 -19.767, -40.372 -19.767, -40.38 -19.76, -40.383 -19.76, -40.385 -19.764, -40.39 -19.77, -40.396 -19.77, -40.39 -19.757, -40.384 -19.753, -40.378 -19.755)), ((-40.381 -19.735, -40.375 -19.728, -40.368 -19.731, -40.373 -19.738, -40.381 -19.735)), ((-40.364 -19.736, -40.36 -19.723, -40.352 -19.724, -40.357 -19.736, -40.364 -19.736)), ((-40.364 -19.71, -40.357 -19.7, -40.349 -19.706, -40.353 -19.716, -40.364 -19.71)))",
+      "municipio_id": "3203130",
+      "municipio_nome": "João Neiva",
+      "municipio_slug": "joao-neiva",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203130",
+          "municipio_nome": "João Neiva",
+          "municipio_slug": "joao-neiva",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "João Neiva",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "12/11/2026",
+      "time": "19:19",
+      "sent_br": "2026-11-12T19:19:17-03:00",
+      "onset_br": "2026-11-12T19:19:17-03:00",
+      "expires_br": "2026-11-12T20:15:00-03:00",
+      "duration_minutes": 55,
+      "duration_hours": 0.92,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 13,
+      "time_since_hours": 0.22,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3203130"
+      ],
+      "affected_municipio_names": [
+        "João Neiva"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "197646/2026",
       "entry_id": "197646/2026",
@@ -1711,8 +1774,8 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 23,
-      "time_since_hours": 0.38,
+      "time_since_minutes": 34,
+      "time_since_hours": 0.57,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1817,8 +1880,8 @@
       "duration_minutes": 205,
       "duration_hours": 3.42,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 46,
-      "time_since_hours": 0.77,
+      "time_since_minutes": 57,
+      "time_since_hours": 0.95,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1909,8 +1972,8 @@
       "duration_minutes": 227,
       "duration_hours": 3.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 189,
-      "time_since_hours": 3.15,
+      "time_since_minutes": 200,
+      "time_since_hours": 3.33,
       "time_since_bucket": "3h a 6h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1997,8 +2060,8 @@
       "duration_minutes": 166,
       "duration_hours": 2.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 248,
-      "time_since_hours": 4.13,
+      "time_since_minutes": 259,
+      "time_since_hours": 4.32,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2070,8 +2133,8 @@
       "duration_minutes": 76,
       "duration_hours": 1.27,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 278,
-      "time_since_hours": 4.63,
+      "time_since_minutes": 289,
+      "time_since_hours": 4.82,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2176,8 +2239,8 @@
       "duration_minutes": 144,
       "duration_hours": 2.4,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 286,
-      "time_since_hours": 4.77,
+      "time_since_minutes": 297,
+      "time_since_hours": 4.95,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2258,8 +2321,8 @@
       "duration_minutes": 159,
       "duration_hours": 2.65,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 301,
-      "time_since_hours": 5.02,
+      "time_since_minutes": 312,
+      "time_since_hours": 5.2,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2329,8 +2392,8 @@
       "duration_minutes": 100,
       "duration_hours": 1.67,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 361,
-      "time_since_hours": 6.02,
+      "time_since_minutes": 372,
+      "time_since_hours": 6.2,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2405,8 +2468,8 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 383,
-      "time_since_hours": 6.38,
+      "time_since_minutes": 394,
+      "time_since_hours": 6.57,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2491,8 +2554,8 @@
       "duration_minutes": 195,
       "duration_hours": 3.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 396,
-      "time_since_hours": 6.6,
+      "time_since_minutes": 407,
+      "time_since_hours": 6.78,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
