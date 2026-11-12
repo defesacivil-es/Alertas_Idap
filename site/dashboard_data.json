@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:41:45.050349-03:00",
+  "generated_at": "2026-11-12T14:47:18.140578-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 5,
+    "vigentes": 6,
+    "ultimas24h": 6,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 1,
-    "alertasSeverosExtremos": 1,
+    "alertasSeveros": 2,
+    "alertasSeverosExtremos": 2,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 8,
     "municipiosComAlertas": 8
   },
   "latest_alerts": [
+    {
+      "time": "14:43",
+      "date": "12/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Jaguaré",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO na regiao Jaguare nas proximas 01 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "197596/2026",
+      "entry_id": "197596/2026",
+      "sent": "2026-11-12T14:43:18-03:00",
+      "onset": "2026-11-12T14:43:18-03:00",
+      "expires": "2026-11-12T16:00:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3203056",
+      "municipio_nome": "Jaguaré",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203056",
+          "municipio_nome": "Jaguaré",
+          "municipio_slug": "jaguare",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3203056"
+      ],
+      "affected_municipio_names": [
+        "Jaguaré"
+      ]
+    },
     {
       "time": "14:35",
       "date": "12/11/2026",
@@ -1270,7 +1309,7 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 5
+      "count": 6
     }
   ],
   "level_distribution": [
@@ -1280,22 +1319,26 @@
     },
     {
       "label": "Severo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 5
+      "count": 6
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 5
+      "count": 6
     }
   ],
   "municipio_distribution": [
+    {
+      "municipio": "Jaguaré",
+      "count": 2
+    },
     {
       "municipio": "Pedro Canário",
       "count": 2
@@ -1317,10 +1360,6 @@
       "count": 1
     },
     {
-      "municipio": "Jaguaré",
-      "count": 1
-    },
-    {
       "municipio": "Conceição da Barra",
       "count": 1
     },
@@ -1332,13 +1371,13 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 5
+      "count": 6
     }
   ],
   "duration_distribution": [
@@ -1348,26 +1387,97 @@
     },
     {
       "label": "Até 2h",
-      "count": 1
+      "count": 2
     }
   ],
   "time_since_distribution": [
     {
-      "label": "1h a 3h",
+      "label": "Até 1h",
       "count": 3
     },
     {
-      "label": "Até 1h",
-      "count": 2
+      "label": "1h a 3h",
+      "count": 3
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 5
+      "count": 6
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "197596/2026",
+      "entry_id": "197596/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-12T14:43:18-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Likely",
+      "onset": "2026-11-12T14:43:18-03:00",
+      "expires": "2026-11-12T16:00:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO na regiao Jaguare nas proximas 01 horas. Fique atento. Emergencia ligue 193.",
+      "description": "(ES)  ALERTA de CHUVA INTENSO na regiao Jaguare nas proximas 01 horas. Fique atento. Emergencia ligue 193.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Jaguaré/ES",
+      "polygon_raw": "-18.902,-40.09 -18.924,-40.084 -18.928,-40.077 -18.924,-40.071 -18.918,-40.074 -18.92,-40.062 -18.915,-40.052 -18.903,-40.055 -18.897,-40.077 -18.898,-40.088 -18.902,-40.09",
+      "polygon_points": 11,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-40.088 -18.898, -40.077 -18.897, -40.055 -18.903, -40.052 -18.915, -40.062 -18.92, -40.074 -18.918, -40.071 -18.924, -40.077 -18.928, -40.084 -18.924, -40.09 -18.902, -40.088 -18.898))",
+      "municipio_id": "3203056",
+      "municipio_nome": "Jaguaré",
+      "municipio_slug": "jaguare",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203056",
+          "municipio_nome": "Jaguaré",
+          "municipio_slug": "jaguare",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Jaguaré",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "12/11/2026",
+      "time": "14:43",
+      "sent_br": "2026-11-12T14:43:18-03:00",
+      "onset_br": "2026-11-12T14:43:18-03:00",
+      "expires_br": "2026-11-12T16:00:00-03:00",
+      "duration_minutes": 76,
+      "duration_hours": 1.27,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 4,
+      "time_since_hours": 0.07,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3203056"
+      ],
+      "affected_municipio_names": [
+        "Jaguaré"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "197594/2026",
       "entry_id": "197594/2026",
@@ -1462,8 +1572,8 @@
       "duration_minutes": 144,
       "duration_hours": 2.4,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 6,
-      "time_since_hours": 0.1,
+      "time_since_minutes": 11,
+      "time_since_hours": 0.18,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1544,8 +1654,8 @@
       "duration_minutes": 159,
       "duration_hours": 2.65,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 21,
-      "time_since_hours": 0.35,
+      "time_since_minutes": 27,
+      "time_since_hours": 0.45,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1615,8 +1725,8 @@
       "duration_minutes": 100,
       "duration_hours": 1.67,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 81,
-      "time_since_hours": 1.35,
+      "time_since_minutes": 87,
+      "time_since_hours": 1.45,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1691,8 +1801,8 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 103,
-      "time_since_hours": 1.72,
+      "time_since_minutes": 109,
+      "time_since_hours": 1.82,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1777,8 +1887,8 @@
       "duration_minutes": 195,
       "duration_hours": 3.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 117,
-      "time_since_hours": 1.95,
+      "time_since_minutes": 122,
+      "time_since_hours": 2.03,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
