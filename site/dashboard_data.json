@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:12:31.358741-03:00",
+  "generated_at": "2026-11-12T20:16:22.415227-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
+    "vigentes": 2,
     "ultimas24h": 11,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "João Neiva",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA PERSISTENTE na regiao de Joao Neiva. Risco de inundacao na proxima hora. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "197652/2026",
       "entry_id": "197652/2026",
       "sent": "2026-11-12T19:19:17-03:00",
@@ -1595,11 +1595,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 8
+      "count": 9
     }
   ],
   "category_distribution": [
@@ -1649,7 +1649,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-12T19:19:17-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1693,7 +1693,7 @@
       "uf": "ES",
       "location": "João Neiva",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "12/11/2026",
       "time": "19:19",
       "sent_br": "2026-11-12T19:19:17-03:00",
@@ -1702,10 +1702,10 @@
       "duration_minutes": 55,
       "duration_hours": 0.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 53,
-      "time_since_hours": 0.88,
+      "time_since_minutes": 57,
+      "time_since_hours": 0.95,
       "time_since_bucket": "Até 1h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203130"
       ],
@@ -1778,8 +1778,8 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 74,
-      "time_since_hours": 1.23,
+      "time_since_minutes": 78,
+      "time_since_hours": 1.3,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1884,8 +1884,8 @@
       "duration_minutes": 205,
       "duration_hours": 3.42,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 97,
-      "time_since_hours": 1.62,
+      "time_since_minutes": 101,
+      "time_since_hours": 1.68,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1976,8 +1976,8 @@
       "duration_minutes": 227,
       "duration_hours": 3.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 240,
-      "time_since_hours": 4.0,
+      "time_since_minutes": 244,
+      "time_since_hours": 4.07,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2064,8 +2064,8 @@
       "duration_minutes": 166,
       "duration_hours": 2.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 299,
-      "time_since_hours": 4.98,
+      "time_since_minutes": 303,
+      "time_since_hours": 5.05,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2137,8 +2137,8 @@
       "duration_minutes": 76,
       "duration_hours": 1.27,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 329,
-      "time_since_hours": 5.48,
+      "time_since_minutes": 333,
+      "time_since_hours": 5.55,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2243,8 +2243,8 @@
       "duration_minutes": 144,
       "duration_hours": 2.4,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 337,
-      "time_since_hours": 5.62,
+      "time_since_minutes": 340,
+      "time_since_hours": 5.67,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2325,8 +2325,8 @@
       "duration_minutes": 159,
       "duration_hours": 2.65,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 352,
-      "time_since_hours": 5.87,
+      "time_since_minutes": 356,
+      "time_since_hours": 5.93,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2396,8 +2396,8 @@
       "duration_minutes": 100,
       "duration_hours": 1.67,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 412,
-      "time_since_hours": 6.87,
+      "time_since_minutes": 416,
+      "time_since_hours": 6.93,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2472,8 +2472,8 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 434,
-      "time_since_hours": 7.23,
+      "time_since_minutes": 438,
+      "time_since_hours": 7.3,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2558,8 +2558,8 @@
       "duration_minutes": 195,
       "duration_hours": 3.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 447,
-      "time_since_hours": 7.45,
+      "time_since_minutes": 451,
+      "time_since_hours": 7.52,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
