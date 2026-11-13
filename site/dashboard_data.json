@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:17:39.715441-03:00",
+  "generated_at": "2026-11-13T19:22:48.983343-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1028,14 +1028,14 @@
   ],
   "cards": {
     "vigentes": 1,
-    "ultimas24h": 2,
+    "ultimas24h": 1,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 1,
-    "alertasSeverosExtremos": 1,
+    "alertasSeveros": 0,
+    "alertasSeverosExtremos": 0,
     "estadosComAlerta": 1,
-    "municipiosOuAreasComAlerta": 3,
-    "municipiosComAlertas": 3
+    "municipiosOuAreasComAlerta": 2,
+    "municipiosComAlertas": 2
   },
   "latest_alerts": [
     {
@@ -1084,74 +1084,31 @@
         "Castelo",
         "Irupi"
       ]
-    },
-    {
-      "time": "19:19",
-      "date": "12/11/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "João Neiva",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA PERSISTENTE na regiao de Joao Neiva. Risco de inundacao na proxima hora. Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "identifier": "197652/2026",
-      "entry_id": "197652/2026",
-      "sent": "2026-11-12T19:19:17-03:00",
-      "onset": "2026-11-12T19:19:17-03:00",
-      "expires": "2026-11-12T20:15:00-03:00",
-      "category": "Met",
-      "severity": "Extreme",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google",
-      "municipio_id": "3203130",
-      "municipio_nome": "João Neiva",
-      "affected_municipios": [
-        {
-          "municipio_id": "3203130",
-          "municipio_nome": "João Neiva",
-          "municipio_slug": "joao-neiva",
-          "intersection_area_m2": null
-        }
-      ],
-      "affected_municipio_ids": [
-        "3203130"
-      ],
-      "affected_municipio_names": [
-        "João Neiva"
-      ]
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 2
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
       "count": 1
-    },
-    {
-      "label": "Severo",
-      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 2
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 2
+      "count": 1
     }
   ],
   "municipio_distribution": [
@@ -1162,35 +1119,23 @@
     {
       "municipio": "Irupi",
       "count": 1
-    },
-    {
-      "municipio": "João Neiva",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
       "count": 1
-    },
-    {
-      "label": "expirado",
-      "count": 1
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 2
+      "count": 1
     }
   ],
   "duration_distribution": [
     {
       "label": "2h a 6h",
-      "count": 1
-    },
-    {
-      "label": "Até 2h",
       "count": 1
     }
   ],
@@ -1198,16 +1143,12 @@
     {
       "label": "1h a 3h",
       "count": 1
-    },
-    {
-      "label": "Mais de 12h",
-      "count": 1
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 2
+      "count": 1
     }
   ],
   "all_alerts": [
@@ -1285,8 +1226,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 168,
-      "time_since_hours": 2.8,
+      "time_since_minutes": 173,
+      "time_since_hours": 2.88,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1298,77 +1239,6 @@
         "Irupi"
       ],
       "municipios_count": 2
-    },
-    {
-      "identifier": "197652/2026",
-      "entry_id": "197652/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "sent": "2026-11-12T19:19:17-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Extreme",
-      "certainty": "Likely",
-      "onset": "2026-11-12T19:19:17-03:00",
-      "expires": "2026-11-12T20:15:00-03:00",
-      "nivel": "Severo",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA PERSISTENTE na regiao de Joao Neiva. Risco de inundacao na proxima hora. Proteja-se. Emergencia ligue 193.",
-      "description": "(ES) ALERTA de CHUVA PERSISTENTE na regiao de Joao Neiva. Risco de inundacao na proxima hora.",
-      "instruction": "Proteja-se. Em casos de emergência ligue 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "Ibiraçu/ES, João Neiva/ES",
-      "polygon_raw": "-19.7,-40.357 -19.71,-40.364 -19.716,-40.353 -19.706,-40.349 -19.7,-40.357\n-19.728,-40.375 -19.735,-40.381 -19.738,-40.373 -19.731,-40.368 -19.728,-40.375\n-19.77,-40.396 -19.77,-40.39 -19.764,-40.385 -19.76,-40.383 -19.76,-40.38 -19.767,-40.372 -19.767,-40.366 -19.761,-40.363 -19.757,-40.37 -19.755,-40.378 -19.753,-40.384 -19.757,-40.39 -19.77,-40.396\n-19.723,-40.36 -19.736,-40.364 -19.736,-40.357 -19.724,-40.352 -19.723,-40.36",
-      "polygon_points": 28,
-      "has_geocode": false,
-      "uf_hint": "ES",
-      "region": "SE",
-      "geometry_wkt": "MULTIPOLYGON (((-40.396 -19.77, -40.39 -19.757, -40.384 -19.753, -40.378 -19.755, -40.37 -19.757, -40.363 -19.761, -40.366 -19.767, -40.372 -19.767, -40.38 -19.76, -40.383 -19.76, -40.385 -19.764, -40.39 -19.77, -40.396 -19.77)), ((-40.375 -19.728, -40.368 -19.731, -40.373 -19.738, -40.381 -19.735, -40.375 -19.728)), ((-40.36 -19.723, -40.352 -19.724, -40.357 -19.736, -40.364 -19.736, -40.36 -19.723)), ((-40.357 -19.7, -40.349 -19.706, -40.353 -19.716, -40.364 -19.71, -40.357 -19.7)))",
-      "municipio_id": "3203130",
-      "municipio_nome": "João Neiva",
-      "municipio_slug": "joao-neiva",
-      "municipio_area_km2": null,
-      "microrregiao_nome": "",
-      "mesorregiao_nome": "",
-      "regiao_imediata_nome": "",
-      "regiao_intermediaria_nome": "",
-      "affected_municipios": [
-        {
-          "municipio_id": "3203130",
-          "municipio_nome": "João Neiva",
-          "municipio_slug": "joao-neiva",
-          "intersection_area_m2": null
-        }
-      ],
-      "geocode_values": null,
-      "uf": "ES",
-      "location": "João Neiva",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "12/11/2026",
-      "time": "19:19",
-      "sent_br": "2026-11-12T19:19:17-03:00",
-      "onset_br": "2026-11-12T19:19:17-03:00",
-      "expires_br": "2026-11-12T20:15:00-03:00",
-      "duration_minutes": 55,
-      "duration_hours": 0.92,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1438,
-      "time_since_hours": 23.97,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false,
-      "affected_municipio_ids": [
-        "3203130"
-      ],
-      "affected_municipio_names": [
-        "João Neiva"
-      ],
-      "municipios_count": 1
     }
   ]
 }
