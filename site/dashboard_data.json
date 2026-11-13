@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:57:27.614972-03:00",
+  "generated_at": "2026-11-12T22:02:24.801808-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
+    "vigentes": 0,
     "ultimas24h": 11,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1087,7 +1087,7 @@
       "location": "Colatina",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE na regiao de Colatina nas proximas 03 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "197646/2026",
       "entry_id": "197646/2026",
       "sent": "2026-11-12T18:58:13-03:00",
@@ -1126,7 +1126,7 @@
       "location": "Aracruz",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA nas regioes Aracruz, Joao Neiva, Fundao, Ibiracu nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "197642/2026",
       "entry_id": "197642/2026",
       "sent": "2026-11-12T18:34:54-03:00",
@@ -1594,12 +1594,8 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
-      "count": 2
-    },
-    {
       "label": "expirado",
-      "count": 9
+      "count": 11
     }
   ],
   "category_distribution": [
@@ -1624,12 +1620,12 @@
       "count": 7
     },
     {
-      "label": "1h a 3h",
-      "count": 2
+      "label": "3h a 6h",
+      "count": 3
     },
     {
-      "label": "3h a 6h",
-      "count": 2
+      "label": "1h a 3h",
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1698,8 +1694,8 @@
       "duration_minutes": 55,
       "duration_hours": 0.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 158,
-      "time_since_hours": 2.63,
+      "time_since_minutes": 163,
+      "time_since_hours": 2.72,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1716,7 +1712,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-12T18:58:13-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1765,7 +1761,7 @@
       "uf": "ES",
       "location": "Colatina",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "12/11/2026",
       "time": "18:58",
       "sent_br": "2026-11-12T18:58:13-03:00",
@@ -1774,10 +1770,10 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 179,
-      "time_since_hours": 2.98,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "time_since_minutes": 184,
+      "time_since_hours": 3.07,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3201506"
       ],
@@ -1792,7 +1788,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-12T18:34:54-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1871,7 +1867,7 @@
       "uf": "ES",
       "location": "Aracruz",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "12/11/2026",
       "time": "18:34",
       "sent_br": "2026-11-12T18:34:54-03:00",
@@ -1880,10 +1876,10 @@
       "duration_minutes": 205,
       "duration_hours": 3.42,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 202,
-      "time_since_hours": 3.37,
+      "time_since_minutes": 207,
+      "time_since_hours": 3.45,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200607",
         "3202207",
@@ -1972,8 +1968,8 @@
       "duration_minutes": 227,
       "duration_hours": 3.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 345,
-      "time_since_hours": 5.75,
+      "time_since_minutes": 350,
+      "time_since_hours": 5.83,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2060,8 +2056,8 @@
       "duration_minutes": 166,
       "duration_hours": 2.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 404,
-      "time_since_hours": 6.73,
+      "time_since_minutes": 409,
+      "time_since_hours": 6.82,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2133,8 +2129,8 @@
       "duration_minutes": 76,
       "duration_hours": 1.27,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 434,
-      "time_since_hours": 7.23,
+      "time_since_minutes": 439,
+      "time_since_hours": 7.32,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2239,8 +2235,8 @@
       "duration_minutes": 144,
       "duration_hours": 2.4,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 441,
-      "time_since_hours": 7.35,
+      "time_since_minutes": 446,
+      "time_since_hours": 7.43,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2321,8 +2317,8 @@
       "duration_minutes": 159,
       "duration_hours": 2.65,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 457,
-      "time_since_hours": 7.62,
+      "time_since_minutes": 462,
+      "time_since_hours": 7.7,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2392,8 +2388,8 @@
       "duration_minutes": 100,
       "duration_hours": 1.67,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 517,
-      "time_since_hours": 8.62,
+      "time_since_minutes": 522,
+      "time_since_hours": 8.7,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2468,8 +2464,8 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 539,
-      "time_since_hours": 8.98,
+      "time_since_minutes": 544,
+      "time_since_hours": 9.07,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2554,8 +2550,8 @@
       "duration_minutes": 195,
       "duration_hours": 3.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 552,
-      "time_since_hours": 9.2,
+      "time_since_minutes": 557,
+      "time_since_hours": 9.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
