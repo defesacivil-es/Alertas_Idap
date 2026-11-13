@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:23:08.016499-03:00",
+  "generated_at": "2026-11-13T20:27:53.494652-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1226,8 +1226,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 234,
-      "time_since_hours": 3.9,
+      "time_since_minutes": 238,
+      "time_since_hours": 3.97,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
