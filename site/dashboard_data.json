@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:27:10.208754-03:00",
+  "generated_at": "2026-11-13T19:32:25.520520-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 1,
+    "vigentes": 0,
     "ultimas24h": 1,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1048,7 +1048,7 @@
       "location": "Castelo",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE, RAIOS e GRANIZO em Irupi e Castelo nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "197825/2026",
       "entry_id": "197825/2026",
       "sent": "2026-11-13T16:29:05-03:00",
@@ -1123,7 +1123,7 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
+      "label": "expirado",
       "count": 1
     }
   ],
@@ -1141,7 +1141,7 @@
   ],
   "time_since_distribution": [
     {
-      "label": "1h a 3h",
+      "label": "3h a 6h",
       "count": 1
     }
   ],
@@ -1158,7 +1158,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-13T16:29:05-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1217,7 +1217,7 @@
       "uf": "ES",
       "location": "Castelo",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/11/2026",
       "time": "16:29",
       "sent_br": "2026-11-13T16:29:05-03:00",
@@ -1226,10 +1226,10 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 178,
-      "time_since_hours": 2.97,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "time_since_minutes": 183,
+      "time_since_hours": 3.05,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3201407",
         "3202652"
