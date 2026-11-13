@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:02:02.084445-03:00",
+  "generated_at": "2026-11-13T19:07:46.963781-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1285,8 +1285,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 152,
-      "time_since_hours": 2.53,
+      "time_since_minutes": 158,
+      "time_since_hours": 2.63,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1328,7 +1328,7 @@
       "has_geocode": false,
       "uf_hint": "ES",
       "region": "SE",
-      "geometry_wkt": "MULTIPOLYGON (((-40.383 -19.76, -40.385 -19.764, -40.39 -19.77, -40.396 -19.77, -40.39 -19.757, -40.384 -19.753, -40.378 -19.755, -40.37 -19.757, -40.363 -19.761, -40.366 -19.767, -40.372 -19.767, -40.38 -19.76, -40.383 -19.76)), ((-40.368 -19.731, -40.373 -19.738, -40.381 -19.735, -40.375 -19.728, -40.368 -19.731)), ((-40.352 -19.724, -40.357 -19.736, -40.364 -19.736, -40.36 -19.723, -40.352 -19.724)), ((-40.349 -19.706, -40.353 -19.716, -40.364 -19.71, -40.357 -19.7, -40.349 -19.706)))",
+      "geometry_wkt": "MULTIPOLYGON (((-40.385 -19.764, -40.39 -19.77, -40.396 -19.77, -40.39 -19.757, -40.384 -19.753, -40.378 -19.755, -40.37 -19.757, -40.363 -19.761, -40.366 -19.767, -40.372 -19.767, -40.38 -19.76, -40.383 -19.76, -40.385 -19.764)), ((-40.373 -19.738, -40.381 -19.735, -40.375 -19.728, -40.368 -19.731, -40.373 -19.738)), ((-40.357 -19.736, -40.364 -19.736, -40.36 -19.723, -40.352 -19.724, -40.357 -19.736)), ((-40.353 -19.716, -40.364 -19.71, -40.357 -19.7, -40.349 -19.706, -40.353 -19.716)))",
       "municipio_id": "3203130",
       "municipio_nome": "João Neiva",
       "municipio_slug": "joao-neiva",
@@ -1358,8 +1358,8 @@
       "duration_minutes": 55,
       "duration_hours": 0.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1422,
-      "time_since_hours": 23.7,
+      "time_since_minutes": 1428,
+      "time_since_hours": 23.8,
       "time_since_bucket": "Mais de 12h",
       "is_active": false,
       "affected_municipio_ids": [
