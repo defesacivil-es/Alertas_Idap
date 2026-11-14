@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-14T22:47:13.749069+00:00",
-  "total_alerts": 4,
+  "generated_at": "2026-11-14T22:52:20.220977+00:00",
+  "total_alerts": 3,
   "features": [
     {
       "type": "Feature",
@@ -27678,95 +27678,6 @@
             [
               -41.143,
               -18.405
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "198065/2026",
-        "entry_id": "198065/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-14T18:47:35-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-11-14T18:47:35-03:00",
-        "expires": "2026-11-14T19:50:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES) ALERTA de VENTO, GRANIZO,  RAIOS e CHUVA INTENSA em Ecoporanga na proxima 01 hora. Proteja-se. Em casos de emergencia ligue 193.",
-        "description": "(ES) ALERTA de VENTO, GRANIZO,  RAIOS e CHUVA INTENSA em Ecoporanga na proxima 01 hora.",
-        "instruction": "Proteja-se. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Ecoporanga/ES",
-        "polygon_raw": "-18.376,-40.723 -18.373,-40.781 -18.437,-40.696 -18.411,-40.645 -18.376,-40.677 -18.376,-40.723",
-        "polygon_points": 6,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3202108",
-        "municipio_nome": "Ecoporanga",
-        "municipio_slug": "ecoporanga",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3202108",
-            "municipio_nome": "Ecoporanga",
-            "municipio_slug": "ecoporanga",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "14/11/2026 18:47",
-        "onset_label": "14/11/2026 18:47",
-        "expires_label": "14/11/2026 19:50"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.677,
-              -18.376
-            ],
-            [
-              -40.645,
-              -18.411
-            ],
-            [
-              -40.696,
-              -18.437
-            ],
-            [
-              -40.781,
-              -18.373
-            ],
-            [
-              -40.723,
-              -18.376
-            ],
-            [
-              -40.677,
-              -18.376
             ]
           ]
         ]
