@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:53:13.554195-03:00",
+  "generated_at": "2026-11-13T23:58:05.263269-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 8,
+    "vigentes": 5,
     "ultimas24h": 10,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1228,7 +1228,7 @@
       "location": "Muniz Freire",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO, GRANIZO e CHUVA FORTE na regiao de Muniz Freire nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "197930/2026",
       "entry_id": "197930/2026",
       "sent": "2026-11-13T22:27:32-03:00",
@@ -1306,7 +1306,7 @@
       "location": "Cariacica",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, GRANIZO, VENTO e CHUVA FORTE na regiao de Cariacica e Viana nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "197921/2026",
       "entry_id": "197921/2026",
       "sent": "2026-11-13T21:56:45-03:00",
@@ -1353,7 +1353,7 @@
       "location": "Vila Velha",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, GRANIZO, VENTO e CHUVA FORTE na regiao Vila Velha nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "197919/2026",
       "entry_id": "197919/2026",
       "sent": "2026-11-13T21:35:12-03:00",
@@ -1555,11 +1555,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 2
+      "count": 5
     }
   ],
   "category_distribution": [
@@ -1667,8 +1667,8 @@
       "duration_minutes": 81,
       "duration_hours": 1.35,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 15,
-      "time_since_hours": 0.25,
+      "time_since_minutes": 19,
+      "time_since_hours": 0.32,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1763,8 +1763,8 @@
       "duration_minutes": 97,
       "duration_hours": 1.62,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 30,
-      "time_since_hours": 0.5,
+      "time_since_minutes": 35,
+      "time_since_hours": 0.58,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1843,8 +1843,8 @@
       "duration_minutes": 105,
       "duration_hours": 1.75,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 39,
-      "time_since_hours": 0.65,
+      "time_since_minutes": 43,
+      "time_since_hours": 0.72,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1929,8 +1929,8 @@
       "duration_minutes": 133,
       "duration_hours": 2.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 66,
-      "time_since_hours": 1.1,
+      "time_since_minutes": 71,
+      "time_since_hours": 1.18,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1949,7 +1949,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-13T22:27:32-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1998,7 +1998,7 @@
       "uf": "ES",
       "location": "Muniz Freire",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/11/2026",
       "time": "22:27",
       "sent_br": "2026-11-13T22:27:32-03:00",
@@ -2007,10 +2007,10 @@
       "duration_minutes": 87,
       "duration_hours": 1.45,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 85,
-      "time_since_hours": 1.42,
+      "time_since_minutes": 90,
+      "time_since_hours": 1.5,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203700"
       ],
@@ -2083,8 +2083,8 @@
       "duration_minutes": 154,
       "duration_hours": 2.57,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 87,
-      "time_since_hours": 1.45,
+      "time_since_minutes": 92,
+      "time_since_hours": 1.53,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2101,7 +2101,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-13T21:56:45-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2160,7 +2160,7 @@
       "uf": "ES",
       "location": "Cariacica",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/11/2026",
       "time": "21:56",
       "sent_br": "2026-11-13T21:56:45-03:00",
@@ -2169,10 +2169,10 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 116,
-      "time_since_hours": 1.93,
+      "time_since_minutes": 121,
+      "time_since_hours": 2.02,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201308",
         "3205101"
@@ -2189,7 +2189,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-13T21:35:12-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2238,7 +2238,7 @@
       "uf": "ES",
       "location": "Vila Velha",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "13/11/2026",
       "time": "21:35",
       "sent_br": "2026-11-13T21:35:12-03:00",
@@ -2247,10 +2247,10 @@
       "duration_minutes": 139,
       "duration_hours": 2.32,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 138,
-      "time_since_hours": 2.3,
+      "time_since_minutes": 142,
+      "time_since_hours": 2.37,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3205200"
       ],
@@ -2323,8 +2323,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 203,
-      "time_since_hours": 3.38,
+      "time_since_minutes": 208,
+      "time_since_hours": 3.47,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2409,8 +2409,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 444,
-      "time_since_hours": 7.4,
+      "time_since_minutes": 449,
+      "time_since_hours": 7.48,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
