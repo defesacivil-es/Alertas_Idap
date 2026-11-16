@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T22:22:08.816857-03:00",
+  "generated_at": "2026-11-15T22:27:39.811679-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1463,8 +1463,8 @@
       "duration_minutes": 242,
       "duration_hours": 4.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 24,
-      "time_since_hours": 0.4,
+      "time_since_minutes": 30,
+      "time_since_hours": 0.5,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1551,8 +1551,8 @@
       "duration_minutes": 221,
       "duration_hours": 3.68,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 303,
-      "time_since_hours": 5.05,
+      "time_since_minutes": 309,
+      "time_since_hours": 5.15,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1649,8 +1649,8 @@
       "duration_minutes": 248,
       "duration_hours": 4.13,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 330,
-      "time_since_hours": 5.5,
+      "time_since_minutes": 335,
+      "time_since_hours": 5.58,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1779,8 +1779,8 @@
       "duration_minutes": 234,
       "duration_hours": 3.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 391,
-      "time_since_hours": 6.52,
+      "time_since_minutes": 397,
+      "time_since_hours": 6.62,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
