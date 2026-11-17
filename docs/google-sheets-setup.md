@@ -26,7 +26,8 @@ O titulo e resolvido pelo ID; renomear a aba nao altera o destino.
 - A primeira execucao captura o historico ainda disponivel e o feed; nao ha
   recuperacao completa de tudo que ja saiu do RSS/historico.
 - Expiracao ou ausencia de poligono nao impedem o registro.
-- Nomes de municipios vem do enriquecimento existente ou nomes explicitos do CAP.
+- Nomes de municipios vem do enriquecimento existente ou nomes explicitos do CAP,
+  validados contra os 78 municipios da malha do projeto; estado/regiao nao viram municipio.
   Se nao for possivel identificar municipios, a celula fica vazia com aviso.
 - Uma resposta perdida de escrita e reconciliada lendo IDs antes de reenviar.
 - Nao editar as colunas ID/Emissor nem criar outro escritor automatizado.

@@ -61,3 +61,8 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual(row_values(a, datetime.now(timezone.utc))[4], "Guarapari; Serra")
         self.assertEqual(row_values(a, datetime.now(timezone.utc))[1], "")
         self.assertEqual(row_values(alert(areaDesc="regiao de risco"), datetime.now(timezone.utc))[4], "")
+
+    def test_state_and_region_labels_are_not_municipalities(self):
+        a = alert(areaDesc="ESPIRITO SANTO/ES, Regiao Sul/ES, Guarapari/ES",
+                  affected_municipios=[{"municipio_nome": "Alegre"}])
+        self.assertEqual(row_values(a, datetime.now(timezone.utc))[4], "Alegre; Guarapari")

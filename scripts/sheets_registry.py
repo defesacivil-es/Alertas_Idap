@@ -8,6 +8,7 @@ import tempfile
 import unicodedata
 from copy import deepcopy
 from datetime import datetime
+from functools import lru_cache
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -36,6 +37,25 @@ def alert_key(alert: dict) -> tuple[str, str] | None:
     return None
 
 
+@lru_cache(maxsize=1)
+def _municipality_catalog() -> dict[str, str]:
+    path = Path(__file__).resolve().parents[1] / "site/data/geojs-es.json"
+    try:
+        features = json.loads(path.read_text(encoding="utf-8"))["features"]
+        names = {}
+        for feature in features:
+            props = feature["properties"]
+            name = props.get("nome") or props.get("name") or props.get("NM_MUN") or props.get("description")
+            if name:
+                names[normalized(name)] = name
+        if len(names) != 78:
+            raise ValueError("Incomplete ES municipality catalog")
+        return names
+    except (OSError, ValueError, KeyError, TypeError):
+        LOG.warning("Municipality catalog unavailable; unverified names omitted")
+        return {}
+
+
 def municipality_names(alert: dict) -> list[str]:
     names = [item.get("municipio_nome", "").strip()
              for item in (alert.get("affected_municipios") or []) if isinstance(item, dict)]
@@ -43,10 +63,11 @@ def municipality_names(alert: dict) -> list[str]:
     if alert.get("municipio_nome"):
         names.append(str(alert["municipio_nome"]).strip())
     unique = {}
+    catalog = _municipality_catalog()
     for name in names:
-        name = name.strip()
-        if name:
-            unique.setdefault(normalized(name), name)
+        key = normalized(name)
+        if key in catalog:
+            unique.setdefault(key, catalog[key])
     return sorted(unique.values(), key=normalized)
 
 

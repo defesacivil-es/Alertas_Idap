@@ -55,7 +55,7 @@ requests/AuthorizedSession, Sheets API v4, GitHub Actions e OIDC/WIF.
 
 ## Task 1: Modelo de Linha e Fila Persistente
 
-Status: implementado e testado (5 testes).
+Status: implementado e testado (6 testes, incluindo regressao da revisao).
 
 **Files:** criar `scripts/sheets_registry.py`, `tests/test_sheets_registry.py`;
 alterar `.gitignore` somente para liberar os novos testes explicitamente.
@@ -86,7 +86,7 @@ como autoridade. Arquivo inexistente inicia vazio; arquivo corrompido falha sem 
 
 ## Task 2: Captura Independente do Mapa
 
-Status: implementado e testado (3 testes).
+Status: implementado e testado (4 testes, incluindo regressao da revisao).
 
 **Files:** alterar `scripts/idap_daily_maps.py`, `README.md`,
 `scripts/run_fake_idap_test.ps1`; criar `tests/test_sheets_capture.py`.

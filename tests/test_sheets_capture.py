@@ -21,6 +21,27 @@ def record(identifier):
 
 
 class CaptureTests(unittest.TestCase):
+    def test_invalid_polygon_does_not_drop_cap_fields_before_capture(self):
+        xml = f'''<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>bad-geometry</id>
+        <content><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>bad-geometry</identifier><sent>2001-01-01T00:00:00Z</sent>
+        <info><senderName>{TARGET_SENDER}</senderName>
+        <onset>2001-01-01T00:00:00Z</onset><expires>2001-01-02T00:00:00Z</expires>
+        <description>Preserve this alert</description><area><areaDesc>Serra/ES</areaDesc>
+        <polygon>nan,nan nan,nan nan,nan</polygon></area></info>
+        </alert></content></entry></feed>'''.encode()
+        with tempfile.TemporaryDirectory() as d, redirect_stdout(io.StringIO()):
+            path = Path(d)
+            with patch.dict(os.environ, {
+                "SHEETS_CAPTURE_ENABLED": "true", "SHEETS_PENDING_PATH": str(path / "pending.json"),
+                "OUT_DIR": str(path / "out"), "STATE_PATH": str(path / "state.json"),
+                "HISTORY_PATH": str(path / "history.json"), "ALERTS_GEOJSON_PATH": str(path / "alerts.geojson"),
+            }), patch.object(collector, "_read_url", return_value=xml):
+                self.assertEqual(collector.main(), 0)
+            pending = load_pending(path / "pending.json")
+            self.assertEqual(len(pending), 1)
+            self.assertEqual(pending[0]["description"], "Preserve this alert")
+
     def run_collector(self, d, enabled, fail_mesh=False):
         path = Path(d)
         feed = record("new")

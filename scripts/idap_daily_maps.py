@@ -568,6 +568,8 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
         has_geocode = False
         geocode_values: List[Dict[str, str]] = []
         geom: Optional[BaseGeometry] = None
+        geometry_wkt = None
+        polygon_points = 0
         if info is not None:
             category = _safe_text(_first(info, "cap:category", CAP_NS))
             event = _safe_text(_first(info, "cap:event", CAP_NS))
@@ -602,7 +604,16 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
                     if value_name and value:
                         geocode_values.append({"valueName": value_name, "value": value})
                 if polygon_values:
-                    geom = _parse_polygon_strings(polygon_values)
+                    try:
+                        geom = _parse_polygon_strings(polygon_values)
+                        polygon_points = _geom_points_count(geom)
+                        geometry_wkt = geom.wkt if geom is not None else None
+                    except Exception as error:
+                        # Geometry must not prevent archival of valid CAP metadata.
+                        geom = None
+                        polygon_points = 0
+                        geometry_wkt = None
+                        print(f"[WARN] Invalid geometry for ID {identifier} ({type(error).__name__}); metadata preserved")
         uf_hint = _guess_uf(areaDesc, senderName)
         region = _uf_to_region(uf_hint)
         nivel = calc_nivel(severity or "", urgency or "", certainty or "", responseType or "")
@@ -631,11 +642,11 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
             channel_list=channel_list,
             areaDesc=areaDesc,
             polygon_raw=polygon_raw,
-            polygon_points=_geom_points_count(geom),
+            polygon_points=polygon_points,
             has_geocode=has_geocode,
             uf_hint=uf_hint,
             region=region,
-            geometry_wkt=geom.wkt if geom is not None else None,
+            geometry_wkt=geometry_wkt,
             geocode_values=geocode_values or None,
         )
         return rec, None
