@@ -17,5 +17,14 @@ out/
 .DS_Store
 
 tests/
+!tests/
+tests/*
+!tests/test_sheets_registry.py
+!tests/test_sheets_capture.py
+!tests/test_sheets_sync.py
+!tests/test_sheets_workflow.py
+!tests/test_persist_idap_state.py
+
+gha-creds-*.json
 
 .git/
