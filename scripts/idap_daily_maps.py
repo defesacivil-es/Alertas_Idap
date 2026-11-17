@@ -32,6 +32,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import geopandas as gpd
+from .sheets_registry import load_pending, merge_pending, save_pending
 from shapely.geometry import Polygon, MultiPolygon, box, mapping
 from shapely.geometry.base import BaseGeometry
 from shapely.ops import unary_union
@@ -1029,6 +1030,17 @@ def main() -> int:
     rss_timeout = int(os.getenv("RSS_TIMEOUT_SECONDS", "45"))
     rss_retries = int(os.getenv("RSS_RETRIES", "4"))
     target_sender_name = os.getenv("TARGET_SENDER_NAME", DEFAULT_TARGET_SENDER_NAME).strip()
+    capture_enabled = os.getenv("SHEETS_CAPTURE_ENABLED", "false").lower() == "true"
+    pending_path = Path(os.getenv("SHEETS_PENDING_PATH", ".cache/sheets_pending.json"))
+    capture_failed = False
+
+    def capture(records: List[AlertRecord]) -> None:
+        # Keep only fields needed by Sheets, not polygons or arbitrary CAP metadata.
+        keys = ("identifier", "entry_id", "senderName", "sent", "onset", "expires",
+                "affected_municipios", "municipio_nome", "areaDesc", "event", "nivel",
+                "headline", "description", "instruction")
+        candidates = [{k: asdict(a).get(k) for k in keys} for a in records]
+        save_pending(pending_path, merge_pending(load_pending(pending_path), candidates))
 
     print(f"[INFO] RSS_URL={rss_url}")
     print(f"[INFO] UF_GEOJSON_PATH={uf_geojson_path}")
@@ -1086,6 +1098,12 @@ def main() -> int:
         if _same_sender_name(a.senderName, target_sender_name)
     ]
     history_merged, added_count = _merge_history(history_before, feed_alerts)
+    if capture_enabled:
+        try:
+            capture([*history_before, *feed_alerts])
+        except (OSError, ValueError) as error:
+            capture_failed = True
+            print(f"[ERROR] Sheets capture failed ({type(error).__name__}); queue preserved")
     history_kept = _filter_recent_history(history_merged, retention_hours=retention_hours, ref_now=_now_sp())
 
     if history_kept:
@@ -1102,6 +1120,12 @@ def main() -> int:
         print("[INFO] Sem alertas recentes para enriquecer; pulando carga da malha municipal", flush=True)
 
     alerts = _filter_window(history_kept, window_hours=window_hours, ref_now=_now_sp())
+    if capture_enabled and not capture_failed:
+        try:
+            capture(history_kept)
+        except (OSError, ValueError) as error:
+            capture_failed = True
+            print(f"[ERROR] Sheets enrichment capture failed ({type(error).__name__})")
 
     print(f"[INFO] Histórico anterior: {len(history_before)}")
     print(f"[INFO] Alertas novos inseridos no histórico: {added_count}")
@@ -1150,7 +1174,7 @@ def main() -> int:
     _save_state(state_path, state)
 
     print("[INFO] Finalizado.")
-    return 0
+    return 5 if capture_failed else 0
 
 
 if __name__ == "__main__":

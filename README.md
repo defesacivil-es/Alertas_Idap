@@ -23,7 +23,7 @@ Projeto para monitorar alertas CAP publicados no IDAP pela Defesa Civil Estadual
 
 ```powershell
 poetry install
-poetry run python scripts\idap_daily_maps.py
+poetry run python -m scripts.idap_daily_maps
 poetry run python scripts\build_dashboard.py
 python -m http.server 8765 --directory site
 ```
