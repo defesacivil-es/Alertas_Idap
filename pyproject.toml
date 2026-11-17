@@ -12,6 +12,8 @@ dependencies = [
     "shapely==2.0.6",
     "pyogrio==0.7.2",
     "pandas==2.2.2",
+    "google-auth (>=2.62.2,<3.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
 ]
 
 [tool.poetry]
@@ -20,3 +22,8 @@ package-mode = false
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+test = [
+    "pyyaml (>=6.0.3,<7.0.0)"
+]
