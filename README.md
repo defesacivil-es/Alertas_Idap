@@ -28,6 +28,12 @@ poetry run python scripts\build_dashboard.py
 python -m http.server 8765 --directory site
 ```
 
+## Registro automatico no Google Sheets
+
+A integracao opcional registra uma linha por alerta estadual do ES, com todos os
+municipios em uma celula. Ela fica desativada ate configuracao e autorizacao.
+Consulte [configuracao e recuperacao](docs/google-sheets-setup.md).
+
 ## Teste com RSS fake
 
 O arquivo `resources/idap_rss_es_fake.xml` combina alertas reais do Espírito Santo no mesmo formato Atom/CAP usado pelo endpoint do IDAP. Para testar o mapa dinâmico sem depender de alertas ativos no RSS oficial:

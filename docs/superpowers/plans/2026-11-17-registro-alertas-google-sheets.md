@@ -55,6 +55,8 @@ requests/AuthorizedSession, Sheets API v4, GitHub Actions e OIDC/WIF.
 
 ## Task 1: Modelo de Linha e Fila Persistente
 
+Status: implementado e testado (5 testes).
+
 **Files:** criar `scripts/sheets_registry.py`, `tests/test_sheets_registry.py`;
 alterar `.gitignore` somente para liberar os novos testes explicitamente.
 
@@ -84,6 +86,8 @@ como autoridade. Arquivo inexistente inicia vazio; arquivo corrompido falha sem 
 
 ## Task 2: Captura Independente do Mapa
 
+Status: implementado e testado (3 testes).
+
 **Files:** alterar `scripts/idap_daily_maps.py`, `README.md`,
 `scripts/run_fake_idap_test.ps1`; criar `tests/test_sheets_capture.py`.
 
@@ -106,6 +110,8 @@ Configuracao `SHEETS_CAPTURE_ENABLED` (default false local) e
   manter comandos fake sem gravacao em producao. Reexecutar ate PASS e commitar.
 
 ## Task 3: Reconciliacao com Google Sheets
+
+Status: implementado e testado (7 testes).
 
 **Files:** criar `scripts/sync_alerts_sheets.py`, `tests/test_sheets_sync.py`;
 alterar `pyproject.toml` e `poetry.lock` com dependencias resolvidas pelo Poetry.
@@ -142,6 +148,8 @@ Modo apply exige `GITHUB_REF=refs/heads/main` e o repositorio esperado.
 
 ## Task 4: Workflow e Persistencia Duravel
 
+Status: implementado e testado (5 testes).
+
 **Files:** alterar `.github/workflows/idap_daily_maps.yml`, `.gitignore`;
 criar `scripts/persist_idap_state.py`, `tests/test_sheets_workflow.py`,
 `tests/test_persist_idap_state.py`. Nao alterar workflow de deploy-only.
@@ -173,6 +181,9 @@ integracao desabilitada explicitamente no resumo, sem tentar autenticar.
   ADC, tokens ou dumps de ambiente. Reexecutar testes e commitar.
 
 ## Task 5: Configuracao Externa e Validacao Controlada
+
+Status: documentacao e simulacao local concluidas; configuracao Google/GitHub,
+ativacao e teste real aguardam o usuario. Nenhum passo externo foi executado.
 
 **Files:** criar `docs/google-sheets-setup.md`; atualizar README com link.
 As operacoes externas abaixo precisam ser realizadas com o usuario, sem supor
