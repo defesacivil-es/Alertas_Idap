@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -24,6 +24,11 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Atualizar checkout antes da coleta
+        if: ${{ github.actor != 'nektos/act' }}
+        run: git pull --ff-only origin "$GITHUB_REF_NAME"
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -45,6 +50,7 @@ jobs:
           [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
 
       - name: Run daily maps
+        id: collect
         env:
           TZ: "America/Sao_Paulo"
           RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
@@ -56,8 +62,41 @@ jobs:
           ALERTS_GEOJSON_PATH: "site/data/alertas_idap.geojson"
           WINDOW_HOURS: "24"
           RETENTION_HOURS: "72"
+          SHEETS_CAPTURE_ENABLED: ${{ vars.SHEETS_ENABLED == 'true' }}
+          SHEETS_PENDING_PATH: ".cache/sheets_pending.json"
         run: |
-          poetry run python scripts/idap_daily_maps.py
+          set +e
+          poetry run python -m scripts.idap_daily_maps
+          result=$?
+          if [ "$result" -eq 5 ]; then
+            echo "::warning::Sheets capture failed; dashboard was generated. Recover pending queue."
+            echo "capture_error=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          exit "$result"
+
+      - name: Autenticar conta de servico Google
+        id: google_auth
+        if: ${{ !cancelled() && github.actor != 'nektos/act' && github.ref == 'refs/heads/main' && github.repository == 'defesacivil-es/Alertas_Idap' && vars.SHEETS_ENABLED == 'true' && hashFiles('.cache/sheets_pending.json') != '' }}
+        continue-on-error: true
+        uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+
+      - name: Registrar alertas no Sheets
+        id: sheets_sync
+        if: ${{ !cancelled() && github.ref == 'refs/heads/main' && github.repository == 'defesacivil-es/Alertas_Idap' && vars.SHEETS_ENABLED == 'true' && steps.google_auth.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          SHEETS_SPREADSHEET_ID: ${{ vars.SHEETS_SPREADSHEET_ID }}
+          SHEETS_SHEET_ID: ${{ vars.SHEETS_SHEET_ID || '0' }}
+        run: poetry run python -m scripts.sync_alerts_sheets --apply
+
+      - name: Simular registro fora da main
+        if: ${{ !cancelled() && github.ref != 'refs/heads/main' && vars.SHEETS_ENABLED == 'true' && hashFiles('.cache/sheets_pending.json') != '' }}
+        run: poetry run python -m scripts.sync_alerts_sheets --dry-run
 
       - name: Gerar dados do dashboard
         env:
@@ -90,10 +129,12 @@ jobs:
         if: always()
         with:
           name: idap_daily_outputs
+          include-hidden-files: true
           path: |
             out/
             .cache/state.json
             .cache/historico_alertas.json
+            .cache/sheets_pending.json
             site/dashboard_data.json
             site/data/alertas_idap.geojson
           retention-days: 7
@@ -104,19 +145,31 @@ jobs:
           path: ./site
 
       - name: Commit history/state
-        if: ${{ github.actor != 'nektos/act' && always() }}
+        id: persist
+        if: ${{ github.actor != 'nektos/act' && always() && github.ref == 'refs/heads/main' && github.repository == 'defesacivil-es/Alertas_Idap' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/data/geojs-es.json site/data/alertas_idap.geojson site/ultima_atualizacao.json
+          poetry run python -m scripts.persist_idap_state
 
-          if git diff --cached --quiet; then
-            echo "Sem alterações"
-            exit 0
-          fi
-
-          git commit -m "Atualiza dashboards IDAP [skip ci]"
-          git push
+      - name: Resumo do registro de alertas
+        if: always()
+        env:
+          ENABLED: ${{ vars.SHEETS_ENABLED || 'false' }}
+          AUTH: ${{ steps.google_auth.outcome }}
+          SYNC: ${{ steps.sheets_sync.outcome }}
+          PERSIST: ${{ steps.persist.outcome }}
+          CAPTURE_ERROR: ${{ steps.collect.outputs.capture_error }}
+        run: |
+          {
+            echo "### Registro de alertas / Sheets"
+            echo "- Habilitado: $ENABLED"
+            echo "- Falha na captura: ${CAPTURE_ERROR:-false}"
+            echo "- Autenticacao: ${AUTH:-skipped}"
+            echo "- Sincronizacao: ${SYNC:-skipped}"
+            echo "- Persistencia remota: ${PERSIST:-skipped}"
+            echo "- A sincronizacao com a planilha e independente da publicacao do mapa."
+          } >> "$GITHUB_STEP_SUMMARY"
 
   deploy:
     if: ${{ github.actor != 'nektos/act' }}
