@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-18T21:03:45.180121+00:00",
-  "total_alerts": 2,
+  "generated_at": "2026-11-18T21:08:10.791091+00:00",
+  "total_alerts": 3,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.121,
-              -19.791
-            ],
             [
               -41.12,
               -19.791
@@ -4251,6 +4247,10 @@
             ],
             [
               -41.121,
+              -19.791
+            ],
+            [
+              -41.12,
               -19.791
             ]
           ]
@@ -9180,6 +9180,91 @@
                 -40.362,
                 -18.279
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "198862/2026",
+        "entry_id": "198862/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-18T18:00:09-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Immediate",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "onset": "2026-11-18T18:00:09-03:00",
+        "expires": "2026-11-18T21:00:00-03:00",
+        "nivel": "Médio",
+        "headline": "Defesa Civil:(ES)  ALERTA de CHUVAS INTENSAS, VENTOS E RAIOS para Pedro Canario nas proximas 03 horas. Fique atento as orientacoes da Defesa Civil. Emergencia",
+        "description": "(ES)  ALERTA de CHUVAS INTENSAS, VENTOS E RAIOS para Pedro Canário nas proximas 03 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Montanha/ES, Pedro Canário/ES",
+        "polygon_raw": "-17.984,-40.219 -18.067,-40.156 -18.107,-40.094 -18.074,-40.076 -17.984,-40.219",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3204054",
+        "municipio_nome": "Pedro Canário",
+        "municipio_slug": "pedro-canario",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3204054",
+            "municipio_nome": "Pedro Canário",
+            "municipio_slug": "pedro-canario",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#ffd92f",
+        "sent_label": "18/11/2026 18:00",
+        "onset_label": "18/11/2026 18:00",
+        "expires_label": "18/11/2026 21:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.076,
+              -18.074
+            ],
+            [
+              -40.094,
+              -18.107
+            ],
+            [
+              -40.156,
+              -18.067
+            ],
+            [
+              -40.219,
+              -17.984
+            ],
+            [
+              -40.076,
+              -18.074
             ]
           ]
         ]
