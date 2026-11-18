@@ -47,12 +47,12 @@ function Invoke-Checked {
 }
 
 if (Get-Command poetry -ErrorAction SilentlyContinue) {
-    Invoke-Checked { poetry run python scripts\idap_daily_maps.py } "Coleta CAP/IDAP fake"
+    Invoke-Checked { poetry run python -m scripts.idap_daily_maps } "Coleta CAP/IDAP fake"
     Invoke-Checked { poetry run python scripts\build_dashboard.py } "Geração do dashboard fake"
 } elseif (Test-Path $venvPython) {
-    Invoke-Checked { & $venvPython scripts\idap_daily_maps.py } "Coleta CAP/IDAP fake"
+    Invoke-Checked { & $venvPython -m scripts.idap_daily_maps } "Coleta CAP/IDAP fake"
     Invoke-Checked { & $venvPython scripts\build_dashboard.py } "Geração do dashboard fake"
 } else {
-    Invoke-Checked { python scripts\idap_daily_maps.py } "Coleta CAP/IDAP fake"
+    Invoke-Checked { python -m scripts.idap_daily_maps } "Coleta CAP/IDAP fake"
     Invoke-Checked { python scripts\build_dashboard.py } "Geração do dashboard fake"
 }
