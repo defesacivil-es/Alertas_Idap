@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T23:57:34.366672-03:00",
+  "generated_at": "2026-11-19T00:02:42.319812-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
+    "vigentes": 1,
     "ultimas24h": 7,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1103,7 +1103,7 @@
       "location": "Água Doce do Norte",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, VENTO e CHUVA CONTINUA em Barra de Sao Francisco, Agua Doce do Norte, Vila Pavao nas proximas 04 horas. Emergencia ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "198905/2026",
       "entry_id": "198905/2026",
       "sent": "2026-11-18T20:07:51-03:00",
@@ -1450,11 +1450,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 5
+      "count": 6
     }
   ],
   "category_distribution": [
@@ -1472,14 +1472,14 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 5
-    },
-    {
-      "label": "1h a 3h",
-      "count": 1
+      "count": 4
     },
     {
       "label": "6h a 12h",
+      "count": 2
+    },
+    {
+      "label": "1h a 3h",
       "count": 1
     }
   ],
@@ -1574,8 +1574,8 @@
       "duration_minutes": 225,
       "duration_hours": 3.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 103,
-      "time_since_hours": 1.72,
+      "time_since_minutes": 108,
+      "time_since_hours": 1.8,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1596,7 +1596,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-18T20:07:51-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1665,7 +1665,7 @@
       "uf": "ES",
       "location": "Água Doce do Norte",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "18/11/2026",
       "time": "20:07",
       "sent_br": "2026-11-18T20:07:51-03:00",
@@ -1674,10 +1674,10 @@
       "duration_minutes": 232,
       "duration_hours": 3.87,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 229,
-      "time_since_hours": 3.82,
+      "time_since_minutes": 234,
+      "time_since_hours": 3.9,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200169",
         "3200904",
@@ -1754,8 +1754,8 @@
       "duration_minutes": 131,
       "duration_hours": 2.18,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 308,
-      "time_since_hours": 5.13,
+      "time_since_minutes": 314,
+      "time_since_hours": 5.23,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1843,8 +1843,8 @@
       "duration_minutes": 132,
       "duration_hours": 2.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 310,
-      "time_since_hours": 5.17,
+      "time_since_minutes": 315,
+      "time_since_hours": 5.25,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1925,8 +1925,8 @@
       "duration_minutes": 170,
       "duration_hours": 2.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 347,
-      "time_since_hours": 5.78,
+      "time_since_minutes": 352,
+      "time_since_hours": 5.87,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1996,9 +1996,9 @@
       "duration_minutes": 179,
       "duration_hours": 2.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 357,
-      "time_since_hours": 5.95,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 362,
+      "time_since_hours": 6.03,
+      "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
         "3204054"
@@ -2072,8 +2072,8 @@
       "duration_minutes": 185,
       "duration_hours": 3.08,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 363,
-      "time_since_hours": 6.05,
+      "time_since_minutes": 368,
+      "time_since_hours": 6.13,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
