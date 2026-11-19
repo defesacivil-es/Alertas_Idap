@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-19T19:37:45.562411+00:00",
-  "total_alerts": 7,
+  "generated_at": "2026-11-19T19:43:17.903551+00:00",
+  "total_alerts": 8,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.975,
-              -19.799
-            ],
             [
               -40.974,
               -19.799
@@ -4251,6 +4247,10 @@
             ],
             [
               -40.975,
+              -19.799
+            ],
+            [
+              -40.974,
               -19.799
             ]
           ]
@@ -66454,6 +66454,99 @@
                 -41.155,
                 -21.245
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199082/2026",
+        "entry_id": "199082/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-19T16:34:18-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "ALAGAMENTOS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-19T16:34:18-03:00",
+        "expires": "2026-11-19T18:30:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS e CHUVA INTENSA em Mimoso do Sul nas proximas 02 horas com risco de alagamento. Evite area de risco. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS e CHUVA INTENSA em Mimoso do Sul nas proximas 02 horas com risco de alagamento. Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-20.906,-41.583 -20.95,-41.59 -21.028,-41.51 -21.003,-41.426 -20.883,-41.442 -20.875,-41.521 -20.906,-41.583",
+        "polygon_points": 7,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203403",
+        "municipio_nome": "Mimoso do Sul",
+        "municipio_slug": "mimoso-do-sul",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203403",
+            "municipio_nome": "Mimoso do Sul",
+            "municipio_slug": "mimoso-do-sul",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "19/11/2026 16:34",
+        "onset_label": "19/11/2026 16:34",
+        "expires_label": "19/11/2026 18:30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.521,
+              -20.875
+            ],
+            [
+              -41.442,
+              -20.883
+            ],
+            [
+              -41.426,
+              -21.003
+            ],
+            [
+              -41.51,
+              -21.028
+            ],
+            [
+              -41.59,
+              -20.95
+            ],
+            [
+              -41.583,
+              -20.906
+            ],
+            [
+              -41.521,
+              -20.875
             ]
           ]
         ]
