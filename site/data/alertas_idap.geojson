@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-19T20:13:12.281320+00:00",
-  "total_alerts": 8,
+  "generated_at": "2026-11-19T20:17:53.034631+00:00",
+  "total_alerts": 10,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.968,
-              -19.799
-            ],
             [
               -40.967,
               -19.799
@@ -4251,6 +4247,10 @@
             ],
             [
               -40.968,
+              -19.799
+            ],
+            [
+              -40.967,
               -19.799
             ]
           ]
@@ -58352,6 +58352,180 @@
                 -40.458,
                 -19.049
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199091/2026",
+        "entry_id": "199091/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-19T17:09:56-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "ALAGAMENTOS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-19T17:09:56-03:00",
+        "expires": "2026-11-19T19:10:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, CHUVA INTENSA em Sao Gabriel da Palha  nas proximas 02 horas com risco de alagamento. Evite area de risco.  Emergencia 193",
+        "description": "(ES)  ALERTA de RAIOS, CHUVA INTENSA e VENTO FORTE em Sao Gabriel da Palha no distrito de Fartura nas proximas 02 horas com risco de alagamento. Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "São Gabriel da Palha/ES",
+        "polygon_raw": "-18.9,-40.452 -18.907,-40.453 -18.906,-40.444 -18.9,-40.443 -18.9,-40.452",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3204708",
+        "municipio_nome": "São Gabriel da Palha",
+        "municipio_slug": "sao-gabriel-da-palha",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3204708",
+            "municipio_nome": "São Gabriel da Palha",
+            "municipio_slug": "sao-gabriel-da-palha",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "19/11/2026 17:09",
+        "onset_label": "19/11/2026 17:09",
+        "expires_label": "19/11/2026 19:10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.443,
+              -18.9
+            ],
+            [
+              -40.444,
+              -18.906
+            ],
+            [
+              -40.453,
+              -18.907
+            ],
+            [
+              -40.452,
+              -18.9
+            ],
+            [
+              -40.443,
+              -18.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199093/2026",
+        "entry_id": "199093/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-19T17:12:39-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "ALAGAMENTOS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-19T17:12:39-03:00",
+        "expires": "2026-11-19T19:10:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO FORTE e CHUVA INTENSA em Mimoso do Sul nas proximas 02 horas com risco de alagamento. Evite area de  risco. ligue 193",
+        "description": "(ES)  ALERTA de RAIOS, VENTO FORTE e CHUVA INTENSA em Mimoso do Sul nas proximas 02 horas com risco de alagamento. Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Mimoso do Sul/ES",
+        "polygon_raw": "-21.048,-41.359 -21.063,-41.383 -21.071,-41.382 -21.081,-41.353 -21.065,-41.35 -21.048,-41.359",
+        "polygon_points": 6,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203403",
+        "municipio_nome": "Mimoso do Sul",
+        "municipio_slug": "mimoso-do-sul",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203403",
+            "municipio_nome": "Mimoso do Sul",
+            "municipio_slug": "mimoso-do-sul",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "19/11/2026 17:12",
+        "onset_label": "19/11/2026 17:12",
+        "expires_label": "19/11/2026 19:10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.35,
+              -21.065
+            ],
+            [
+              -41.353,
+              -21.081
+            ],
+            [
+              -41.382,
+              -21.071
+            ],
+            [
+              -41.383,
+              -21.063
+            ],
+            [
+              -41.359,
+              -21.048
+            ],
+            [
+              -41.35,
+              -21.065
             ]
           ]
         ]
