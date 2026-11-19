@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-19T19:47:44.208465+00:00",
-  "total_alerts": 7,
+  "generated_at": "2026-11-19T19:52:37.601194+00:00",
+  "total_alerts": 8,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.973,
-              -19.799
-            ],
             [
               -40.972,
               -19.799
@@ -4251,6 +4247,10 @@
             ],
             [
               -40.973,
+              -19.799
+            ],
+            [
+              -40.972,
               -19.799
             ]
           ]
@@ -57611,6 +57611,91 @@
             [
               -41.521,
               -20.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199085/2026",
+        "entry_id": "199085/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-19T16:42:44-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "ALAGAMENTOS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-19T16:42:44-03:00",
+        "expires": "2026-11-19T18:45:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS e CHUVA INTENSA em Nova Venecia nas proximas 02 horas com risco de alagamento. Evite area de risco. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS e CHUVA INTENSA em Nova Venecia nas proximas 02 horas com risco de alagamento. Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Nova Venécia/ES",
+        "polygon_raw": "-18.667,-40.417 -18.741,-40.441 -18.714,-40.371 -18.668,-40.379 -18.667,-40.417",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203908",
+        "municipio_nome": "Nova Venécia",
+        "municipio_slug": "nova-venecia",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203908",
+            "municipio_nome": "Nova Venécia",
+            "municipio_slug": "nova-venecia",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "19/11/2026 16:42",
+        "onset_label": "19/11/2026 16:42",
+        "expires_label": "19/11/2026 18:45"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.379,
+              -18.668
+            ],
+            [
+              -40.371,
+              -18.714
+            ],
+            [
+              -40.441,
+              -18.741
+            ],
+            [
+              -40.417,
+              -18.667
+            ],
+            [
+              -40.379,
+              -18.668
             ]
           ]
         ]
