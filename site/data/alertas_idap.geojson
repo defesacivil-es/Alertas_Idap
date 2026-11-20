@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-20T21:13:17.336101+00:00",
-  "total_alerts": 12,
+  "generated_at": "2026-11-20T21:17:23.778148+00:00",
+  "total_alerts": 13,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.995,
-              -19.966
-            ],
             [
               -40.995,
               -19.965
@@ -4252,6 +4248,10 @@
             [
               -40.995,
               -19.966
+            ],
+            [
+              -40.995,
+              -19.965
             ]
           ]
         ]
@@ -4408,10 +4408,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.712,
-                -21.106
-              ],
               [
                 -41.713,
                 -21.106
@@ -21763,6 +21759,10 @@
               [
                 -41.712,
                 -21.106
+              ],
+              [
+                -41.713,
+                -21.106
               ]
             ],
             [
@@ -21788,10 +21788,6 @@
               ]
             ],
             [
-              [
-                -41.806,
-                -20.798
-              ],
               [
                 -41.805,
                 -20.797
@@ -21803,13 +21799,13 @@
               [
                 -41.806,
                 -20.798
+              ],
+              [
+                -41.805,
+                -20.797
               ]
             ],
             [
-              [
-                -41.755,
-                -20.807
-              ],
               [
                 -41.754,
                 -20.807
@@ -21821,15 +21817,15 @@
               [
                 -41.755,
                 -20.807
+              ],
+              [
+                -41.754,
+                -20.807
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.804
-              ],
               [
                 -41.813,
                 -20.805
@@ -21845,15 +21841,15 @@
               [
                 -41.813,
                 -20.804
+              ],
+              [
+                -41.813,
+                -20.805
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.803
-              ],
               [
                 -41.812,
                 -20.803
@@ -21869,15 +21865,15 @@
               [
                 -41.813,
                 -20.803
+              ],
+              [
+                -41.812,
+                -20.803
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.781
-              ],
               [
                 -41.836,
                 -20.782
@@ -21889,15 +21885,15 @@
               [
                 -41.836,
                 -20.781
+              ],
+              [
+                -41.836,
+                -20.782
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.781
-              ],
               [
                 -41.836,
                 -20.78
@@ -21909,15 +21905,15 @@
               [
                 -41.836,
                 -20.781
+              ],
+              [
+                -41.836,
+                -20.78
               ]
             ]
           ],
           [
             [
-              [
-                -41.167,
-                -21.244
-              ],
               [
                 -41.167,
                 -21.245
@@ -21933,15 +21929,15 @@
               [
                 -41.167,
                 -21.244
+              ],
+              [
+                -41.167,
+                -21.245
               ]
             ]
           ],
           [
             [
-              [
-                -41.156,
-                -21.243
-              ],
               [
                 -41.155,
                 -21.243
@@ -21968,6 +21964,10 @@
               ],
               [
                 -41.156,
+                -21.243
+              ],
+              [
+                -41.155,
                 -21.243
               ]
             ]
@@ -101637,6 +101637,91 @@
             [
               -40.75,
               -18.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199447/2026",
+        "entry_id": "199447/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-20T18:13:54-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-20T18:13:54-03:00",
+        "expires": "2026-11-20T19:15:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:ALERTA de CHUVA INTENSA,RAIOS, GRANIZO E VENTOS em Nova Venecia.Evite area de risco.Fique atento.Emergencia ligue 193.",
+        "description": "ALERTA de CHUVA INTENSA,RAIOS, GRANIZO E VENTOS em Nova Venecia.Evite area de risco.Fique atento.Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-18.806,-40.741 -18.849,-40.789 -18.893,-40.739 -18.805,-40.66 -18.806,-40.741",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203908",
+        "municipio_nome": "Nova Venécia",
+        "municipio_slug": "nova-venecia",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203908",
+            "municipio_nome": "Nova Venécia",
+            "municipio_slug": "nova-venecia",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "20/11/2026 18:13",
+        "onset_label": "20/11/2026 18:13",
+        "expires_label": "20/11/2026 19:15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.66,
+              -18.805
+            ],
+            [
+              -40.739,
+              -18.893
+            ],
+            [
+              -40.789,
+              -18.849
+            ],
+            [
+              -40.741,
+              -18.806
+            ],
+            [
+              -40.66,
+              -18.805
             ]
           ]
         ]
