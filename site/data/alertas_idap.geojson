@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-20T18:17:43.702308+00:00",
-  "total_alerts": 20,
+  "generated_at": "2026-11-20T18:23:01.956907+00:00",
+  "total_alerts": 21,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.963,
-              -19.974
-            ],
             [
               -40.962,
               -19.974
@@ -4252,6 +4248,10 @@
             [
               -40.963,
               -19.974
+            ],
+            [
+              -40.962,
+              -19.974
             ]
           ]
         ]
@@ -4408,10 +4408,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.719,
-                -21.123
-              ],
               [
                 -41.72,
                 -21.122
@@ -21763,6 +21759,10 @@
               [
                 -41.719,
                 -21.123
+              ],
+              [
+                -41.72,
+                -21.122
               ]
             ],
             [
@@ -21788,10 +21788,6 @@
               ]
             ],
             [
-              [
-                -41.805,
-                -20.797
-              ],
               [
                 -41.806,
                 -20.797
@@ -21803,13 +21799,13 @@
               [
                 -41.805,
                 -20.797
+              ],
+              [
+                -41.806,
+                -20.797
               ]
             ],
             [
-              [
-                -41.754,
-                -20.807
-              ],
               [
                 -41.755,
                 -20.806
@@ -21821,15 +21817,15 @@
               [
                 -41.754,
                 -20.807
+              ],
+              [
+                -41.755,
+                -20.806
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.805
-              ],
               [
                 -41.814,
                 -20.805
@@ -21845,15 +21841,15 @@
               [
                 -41.813,
                 -20.805
+              ],
+              [
+                -41.814,
+                -20.805
               ]
             ]
           ],
           [
             [
-              [
-                -41.812,
-                -20.803
-              ],
               [
                 -41.812,
                 -20.804
@@ -21869,15 +21865,15 @@
               [
                 -41.812,
                 -20.803
+              ],
+              [
+                -41.812,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.782
-              ],
               [
                 -41.837,
                 -20.781
@@ -21889,15 +21885,15 @@
               [
                 -41.836,
                 -20.782
+              ],
+              [
+                -41.837,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.78
-              ],
               [
                 -41.835,
                 -20.781
@@ -21909,15 +21905,15 @@
               [
                 -41.836,
                 -20.78
+              ],
+              [
+                -41.835,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.167,
-                -21.245
-              ],
               [
                 -41.168,
                 -21.245
@@ -21933,15 +21929,15 @@
               [
                 -41.167,
                 -21.245
+              ],
+              [
+                -41.168,
+                -21.245
               ]
             ]
           ],
           [
             [
-              [
-                -41.156,
-                -21.243
-              ],
               [
                 -41.155,
                 -21.243
@@ -21968,6 +21964,10 @@
               ],
               [
                 -41.156,
+                -21.243
+              ],
+              [
+                -41.155,
                 -21.243
               ]
             ]
@@ -152947,6 +152947,103 @@
             [
               -40.905,
               -18.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199372/2026",
+        "entry_id": "199372/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-20T15:20:26-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-20T15:20:26-03:00",
+        "expires": "2026-11-20T16:05:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:ALERTA de CHUVA INTENSA,RAIOS, GRANIZO E VENTOS na regiao de Baunilha.Evite area de risco.Fique atento. Emergencia ligue 193.",
+        "description": "ALERTA de CHUVA INTENSA,RAIOS, GRANIZO E VENTOS na regiao de Baunilha.Evite area de risco.Fique atento. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Colatina/ES",
+        "polygon_raw": "-19.547,-40.536 -19.548,-40.523 -19.549,-40.512 -19.549,-40.493 -19.558,-40.491 -19.564,-40.493 -19.565,-40.535 -19.547,-40.536",
+        "polygon_points": 8,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201506",
+        "municipio_nome": "Colatina",
+        "municipio_slug": "colatina",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201506",
+            "municipio_nome": "Colatina",
+            "municipio_slug": "colatina",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "20/11/2026 15:20",
+        "onset_label": "20/11/2026 15:20",
+        "expires_label": "20/11/2026 16:05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.523,
+              -19.548
+            ],
+            [
+              -40.512,
+              -19.549
+            ],
+            [
+              -40.493,
+              -19.549
+            ],
+            [
+              -40.491,
+              -19.558
+            ],
+            [
+              -40.493,
+              -19.564
+            ],
+            [
+              -40.535,
+              -19.565
+            ],
+            [
+              -40.536,
+              -19.547
+            ],
+            [
+              -40.523,
+              -19.548
             ]
           ]
         ]
