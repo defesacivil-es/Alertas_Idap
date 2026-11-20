@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-20T19:58:26.584512+00:00",
-  "total_alerts": 16,
+  "generated_at": "2026-11-20T20:03:03.057075+00:00",
+  "total_alerts": 15,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.984,
-              -19.977
-            ],
             [
               -40.984,
               -19.976
@@ -4252,6 +4248,10 @@
             [
               -40.984,
               -19.977
+            ],
+            [
+              -40.984,
+              -19.976
             ]
           ]
         ]
@@ -4408,10 +4408,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.71,
-                -21.112
-              ],
               [
                 -41.71,
                 -21.111
@@ -21763,6 +21759,10 @@
               [
                 -41.71,
                 -21.112
+              ],
+              [
+                -41.71,
+                -21.111
               ]
             ],
             [
@@ -21788,10 +21788,6 @@
               ]
             ],
             [
-              [
-                -41.806,
-                -20.798
-              ],
               [
                 -41.805,
                 -20.797
@@ -21803,13 +21799,13 @@
               [
                 -41.806,
                 -20.798
+              ],
+              [
+                -41.805,
+                -20.797
               ]
             ],
             [
-              [
-                -41.755,
-                -20.807
-              ],
               [
                 -41.754,
                 -20.807
@@ -21821,15 +21817,15 @@
               [
                 -41.755,
                 -20.807
+              ],
+              [
+                -41.754,
+                -20.807
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.805
-              ],
               [
                 -41.814,
                 -20.805
@@ -21845,15 +21841,15 @@
               [
                 -41.813,
                 -20.805
+              ],
+              [
+                -41.814,
+                -20.805
               ]
             ]
           ],
           [
             [
-              [
-                -41.812,
-                -20.803
-              ],
               [
                 -41.812,
                 -20.804
@@ -21869,15 +21865,15 @@
               [
                 -41.812,
                 -20.803
+              ],
+              [
+                -41.812,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.781
-              ],
               [
                 -41.836,
                 -20.782
@@ -21889,15 +21885,15 @@
               [
                 -41.836,
                 -20.781
+              ],
+              [
+                -41.836,
+                -20.782
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.781
-              ],
               [
                 -41.836,
                 -20.78
@@ -21909,15 +21905,15 @@
               [
                 -41.836,
                 -20.781
+              ],
+              [
+                -41.836,
+                -20.78
               ]
             ]
           ],
           [
             [
-              [
-                -41.167,
-                -21.245
-              ],
               [
                 -41.168,
                 -21.245
@@ -21933,15 +21929,15 @@
               [
                 -41.167,
                 -21.245
+              ],
+              [
+                -41.168,
+                -21.245
               ]
             ]
           ],
           [
             [
-              [
-                -41.156,
-                -21.244
-              ],
               [
                 -41.156,
                 -21.243
@@ -21969,6 +21965,10 @@
               [
                 -41.156,
                 -21.244
+              ],
+              [
+                -41.156,
+                -21.243
               ]
             ]
           ]
@@ -114076,95 +114076,6 @@
                 -40.089,
                 -18.278
               ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "199395/2026",
-        "entry_id": "199395/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-20T16:08:40-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Observed",
-        "onset": "2026-11-20T16:08:40-03:00",
-        "expires": "2026-11-20T17:00:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:ALERTA de CHUVA INTENSA,RAIOS, GRANIZO E VENTOS em Agua Doce do Norte e Ecoporanga.Evite area de risco.Fique atento. Emergencia ligue 193.",
-        "description": "ALERTA de CHUVA INTENSA,RAIOS, GRANIZO E VENTOS em Agua Doce do Norte e Ecoporanga.Evite area de risco.Fique atento. Emergencia ligue 193.",
-        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Água Doce do Norte/ES, Ecoporanga/ES",
-        "polygon_raw": "-18.368,-41.005 -18.398,-41.047 -18.444,-40.957 -18.427,-40.921 -18.394,-40.955 -18.368,-41.005",
-        "polygon_points": 6,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3200169",
-        "municipio_nome": "Água Doce do Norte",
-        "municipio_slug": "agua-doce-do-norte",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3200169",
-            "municipio_nome": "Água Doce do Norte",
-            "municipio_slug": "agua-doce-do-norte",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "20/11/2026 16:08",
-        "onset_label": "20/11/2026 16:08",
-        "expires_label": "20/11/2026 17:00"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.955,
-              -18.394
-            ],
-            [
-              -40.921,
-              -18.427
-            ],
-            [
-              -40.957,
-              -18.444
-            ],
-            [
-              -41.047,
-              -18.398
-            ],
-            [
-              -41.005,
-              -18.368
-            ],
-            [
-              -40.955,
-              -18.394
             ]
           ]
         ]
