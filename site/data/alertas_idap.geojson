@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-20T18:02:14.515742+00:00",
-  "total_alerts": 18,
+  "generated_at": "2026-11-20T18:07:20.199294+00:00",
+  "total_alerts": 19,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.962,
-              -19.971
-            ],
             [
               -40.963,
               -19.972
@@ -4252,6 +4248,10 @@
             [
               -40.962,
               -19.971
+            ],
+            [
+              -40.963,
+              -19.972
             ]
           ]
         ]
@@ -4408,10 +4408,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.717,
-                -21.124
-              ],
               [
                 -41.718,
                 -21.124
@@ -21763,6 +21759,10 @@
               [
                 -41.717,
                 -21.124
+              ],
+              [
+                -41.718,
+                -21.124
               ]
             ],
             [
@@ -21788,10 +21788,6 @@
               ]
             ],
             [
-              [
-                -41.805,
-                -20.797
-              ],
               [
                 -41.806,
                 -20.797
@@ -21803,13 +21799,13 @@
               [
                 -41.805,
                 -20.797
+              ],
+              [
+                -41.806,
+                -20.797
               ]
             ],
             [
-              [
-                -41.754,
-                -20.807
-              ],
               [
                 -41.755,
                 -20.806
@@ -21821,15 +21817,15 @@
               [
                 -41.754,
                 -20.807
+              ],
+              [
+                -41.755,
+                -20.806
               ]
             ]
           ],
           [
             [
-              [
-                -41.814,
-                -20.805
-              ],
               [
                 -41.814,
                 -20.804
@@ -21845,15 +21841,15 @@
               [
                 -41.814,
                 -20.805
+              ],
+              [
+                -41.814,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.812,
-                -20.804
-              ],
               [
                 -41.813,
                 -20.804
@@ -21869,15 +21865,15 @@
               [
                 -41.812,
                 -20.804
+              ],
+              [
+                -41.813,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.782
-              ],
               [
                 -41.837,
                 -20.781
@@ -21889,15 +21885,15 @@
               [
                 -41.836,
                 -20.782
+              ],
+              [
+                -41.837,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.78
-              ],
               [
                 -41.835,
                 -20.781
@@ -21909,15 +21905,15 @@
               [
                 -41.836,
                 -20.78
+              ],
+              [
+                -41.835,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.168,
-                -21.245
-              ],
               [
                 -41.168,
                 -21.244
@@ -21933,15 +21929,15 @@
               [
                 -41.168,
                 -21.245
+              ],
+              [
+                -41.168,
+                -21.244
               ]
             ]
           ],
           [
             [
-              [
-                -41.155,
-                -21.244
-              ],
               [
                 -41.155,
                 -21.245
@@ -21969,6 +21965,10 @@
               [
                 -41.155,
                 -21.244
+              ],
+              [
+                -41.155,
+                -21.245
               ]
             ]
           ]
@@ -141500,6 +141500,91 @@
                 -40.376,
                 -19.759
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199364/2026",
+        "entry_id": "199364/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-20T15:03:11-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-20T15:03:11-03:00",
+        "expires": "2026-11-20T16:00:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA e VENTOS em Domingos Martins. Evite area de risco.Fique atento. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de CHUVA INTENSA e VENTOS em Domingos Martins. Evite area de risco.Fique atento. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Domingos Martins/ES",
+        "polygon_raw": "-20.404,-41.045 -20.452,-41.041 -20.455,-41.018 -20.407,-41.02 -20.404,-41.045",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201902",
+        "municipio_nome": "Domingos Martins",
+        "municipio_slug": "domingos-martins",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201902",
+            "municipio_nome": "Domingos Martins",
+            "municipio_slug": "domingos-martins",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "20/11/2026 15:03",
+        "onset_label": "20/11/2026 15:03",
+        "expires_label": "20/11/2026 16:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.02,
+              -20.407
+            ],
+            [
+              -41.018,
+              -20.455
+            ],
+            [
+              -41.041,
+              -20.452
+            ],
+            [
+              -41.045,
+              -20.404
+            ],
+            [
+              -41.02,
+              -20.407
             ]
           ]
         ]
