@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-20T15:17:10.513803+00:00",
-  "total_alerts": 12,
+  "generated_at": "2026-11-20T15:23:24.374872+00:00",
+  "total_alerts": 14,
   "features": [
     {
       "type": "Feature",
@@ -69,10 +69,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -40.953,
-              -19.944
-            ],
             [
               -40.953,
               -19.945
@@ -4252,6 +4248,10 @@
             [
               -40.953,
               -19.944
+            ],
+            [
+              -40.953,
+              -19.945
             ]
           ]
         ]
@@ -4408,10 +4408,6 @@
         "coordinates": [
           [
             [
-              [
-                -41.697,
-                -21.116
-              ],
               [
                 -41.697,
                 -21.117
@@ -21763,6 +21759,10 @@
               [
                 -41.697,
                 -21.116
+              ],
+              [
+                -41.697,
+                -21.117
               ]
             ],
             [
@@ -21788,10 +21788,6 @@
               ]
             ],
             [
-              [
-                -41.805,
-                -20.797
-              ],
               [
                 -41.806,
                 -20.797
@@ -21803,13 +21799,13 @@
               [
                 -41.805,
                 -20.797
+              ],
+              [
+                -41.806,
+                -20.797
               ]
             ],
             [
-              [
-                -41.754,
-                -20.807
-              ],
               [
                 -41.755,
                 -20.806
@@ -21821,15 +21817,15 @@
               [
                 -41.754,
                 -20.807
+              ],
+              [
+                -41.755,
+                -20.806
               ]
             ]
           ],
           [
             [
-              [
-                -41.813,
-                -20.805
-              ],
               [
                 -41.814,
                 -20.805
@@ -21845,15 +21841,15 @@
               [
                 -41.813,
                 -20.805
+              ],
+              [
+                -41.814,
+                -20.805
               ]
             ]
           ],
           [
             [
-              [
-                -41.812,
-                -20.803
-              ],
               [
                 -41.812,
                 -20.804
@@ -21869,15 +21865,15 @@
               [
                 -41.812,
                 -20.803
+              ],
+              [
+                -41.812,
+                -20.804
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.782
-              ],
               [
                 -41.837,
                 -20.781
@@ -21889,15 +21885,15 @@
               [
                 -41.836,
                 -20.782
+              ],
+              [
+                -41.837,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.836,
-                -20.78
-              ],
               [
                 -41.835,
                 -20.781
@@ -21909,15 +21905,15 @@
               [
                 -41.836,
                 -20.78
+              ],
+              [
+                -41.835,
+                -20.781
               ]
             ]
           ],
           [
             [
-              [
-                -41.167,
-                -21.245
-              ],
               [
                 -41.168,
                 -21.245
@@ -21933,15 +21929,15 @@
               [
                 -41.167,
                 -21.245
+              ],
+              [
+                -41.168,
+                -21.245
               ]
             ]
           ],
           [
             [
-              [
-                -41.156,
-                -21.244
-              ],
               [
                 -41.156,
                 -21.243
@@ -21969,6 +21965,10 @@
               [
                 -41.156,
                 -21.244
+              ],
+              [
+                -41.156,
+                -21.243
               ]
             ]
           ]
@@ -103906,6 +103906,192 @@
             [
               -41.647,
               -21.142
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199297/2026",
+        "entry_id": "199297/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-20T12:12:59-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-20T12:12:59-03:00",
+        "expires": "2026-11-20T13:00:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:ALERTA de CHUVA INTENSA,RAIOS e VENTOS em Nova Venecia . Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "description": "ALERTA de CHUVA INTENSA,RAIOS e VENTOS em Nova Venecia . Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Nova Venécia/ES",
+        "polygon_raw": "-18.75,-40.671 -18.786,-40.691 -18.83,-40.691 -18.86,-40.656 -18.853,-40.581 -18.783,-40.569 -18.751,-40.596 -18.745,-40.632 -18.75,-40.671",
+        "polygon_points": 9,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203908",
+        "municipio_nome": "Nova Venécia",
+        "municipio_slug": "nova-venecia",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203908",
+            "municipio_nome": "Nova Venécia",
+            "municipio_slug": "nova-venecia",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "20/11/2026 12:12",
+        "onset_label": "20/11/2026 12:12",
+        "expires_label": "20/11/2026 13:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.632,
+              -18.745
+            ],
+            [
+              -40.596,
+              -18.751
+            ],
+            [
+              -40.569,
+              -18.783
+            ],
+            [
+              -40.581,
+              -18.853
+            ],
+            [
+              -40.656,
+              -18.86
+            ],
+            [
+              -40.691,
+              -18.83
+            ],
+            [
+              -40.691,
+              -18.786
+            ],
+            [
+              -40.671,
+              -18.75
+            ],
+            [
+              -40.632,
+              -18.745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199298/2026",
+        "entry_id": "199298/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-20T12:15:47-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-20T12:15:47-03:00",
+        "expires": "2026-11-20T13:15:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:ALERTA de CHUVA INTENSA,RAIOS e VENTOS no Sul de Aguia Branca . Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "description": "ALERTA de CHUVA INTENSA,RAIOS e VENTOS no Sul de Aguia Branca . Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Águia Branca/ES",
+        "polygon_raw": "-19.036,-40.708 -19.046,-40.718 -19.06,-40.699 -19.047,-40.688 -19.036,-40.708",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3200136",
+        "municipio_nome": "Águia Branca",
+        "municipio_slug": "aguia-branca",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3200136",
+            "municipio_nome": "Águia Branca",
+            "municipio_slug": "aguia-branca",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "20/11/2026 12:15",
+        "onset_label": "20/11/2026 12:15",
+        "expires_label": "20/11/2026 13:15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.688,
+              -19.047
+            ],
+            [
+              -40.699,
+              -19.06
+            ],
+            [
+              -40.718,
+              -19.046
+            ],
+            [
+              -40.708,
+              -19.036
+            ],
+            [
+              -40.688,
+              -19.047
             ]
           ]
         ]
