@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-21T08:46:30.617823+00:00",
-  "total_alerts": 5,
+  "generated_at": "2026-11-21T08:52:28.882603+00:00",
+  "total_alerts": 4,
   "features": [
     {
       "type": "Feature",
@@ -11892,107 +11892,6 @@
                 -40.373,
                 -19.08
               ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "199572/2026",
-        "entry_id": "199572/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-21T04:47:05-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "INUNDAÇÕES",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-11-21T04:47:05-03:00",
-        "expires": "2026-11-21T05:50:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES) ALERTA de POSSIBILIDADE DE INUNDACAO perto do Rio Santa Joana em Itaguacu na proxima 01 hora. Fique atento. Emergencia ligue 193.",
-        "description": "(ES) ALERTA de POSSIBILIDADE DE INUNDAÇÃO em Itaguacu na proxima 01 hora devido ao alto volume de chuva na cabeceira do Rio Santa Joana. Evite area de risco. Fique atento. Emergencia ligue 193.",
-        "instruction": "Fique atento. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Itaguaçu/ES",
-        "polygon_raw": "-19.813,-40.863 -19.814,-40.86 -19.81,-40.857 -19.806,-40.855 -19.804,-40.855 -19.803,-40.857 -19.806,-40.858 -19.808,-40.859 -19.813,-40.863",
-        "polygon_points": 9,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3202702",
-        "municipio_nome": "Itaguaçu",
-        "municipio_slug": "itaguacu",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3202702",
-            "municipio_nome": "Itaguaçu",
-            "municipio_slug": "itaguacu",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "21/11/2026 04:47",
-        "onset_label": "21/11/2026 04:47",
-        "expires_label": "21/11/2026 05:50"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.859,
-              -19.808
-            ],
-            [
-              -40.858,
-              -19.806
-            ],
-            [
-              -40.857,
-              -19.803
-            ],
-            [
-              -40.855,
-              -19.804
-            ],
-            [
-              -40.855,
-              -19.806
-            ],
-            [
-              -40.857,
-              -19.81
-            ],
-            [
-              -40.86,
-              -19.814
-            ],
-            [
-              -40.863,
-              -19.813
-            ],
-            [
-              -40.859,
-              -19.808
             ]
           ]
         ]
