@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-21T06:58:07.979706+00:00",
-  "total_alerts": 3,
+  "generated_at": "2026-11-21T07:02:33.180296+00:00",
+  "total_alerts": 2,
   "features": [
     {
       "type": "Feature",
@@ -11892,91 +11892,6 @@
                 -40.373,
                 -19.08
               ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "199568/2026",
-        "entry_id": "199568/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-21T03:02:18-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-11-21T03:02:18-03:00",
-        "expires": "2026-11-21T04:00:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO E RAIOS no Distrito de Baunilha em Colatina na proxima 01 hora.Evite area de risco.  Emergencia ligue 193.",
-        "description": "(ES)  ALERTA de CHUVA INTENSA, VENTO E RAIOS no Distrito de Baunilha em Colatina na proxima 01 hora com risco de alagamento. Evite area de risco. Fique atento. Emergencia ligue 193.",
-        "instruction": "Fique atento. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Colatina/ES",
-        "polygon_raw": "-19.564,-40.505 -19.572,-40.513 -19.58,-40.504 -19.572,-40.494 -19.564,-40.505",
-        "polygon_points": 5,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3201506",
-        "municipio_nome": "Colatina",
-        "municipio_slug": "colatina",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3201506",
-            "municipio_nome": "Colatina",
-            "municipio_slug": "colatina",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "21/11/2026 03:02",
-        "onset_label": "21/11/2026 03:02",
-        "expires_label": "21/11/2026 04:00"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.494,
-              -19.572
-            ],
-            [
-              -40.504,
-              -19.58
-            ],
-            [
-              -40.513,
-              -19.572
-            ],
-            [
-              -40.505,
-              -19.564
-            ],
-            [
-              -40.494,
-              -19.572
             ]
           ]
         ]
