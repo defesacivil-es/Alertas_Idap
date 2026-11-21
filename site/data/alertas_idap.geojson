@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-21T01:19:34.456095+00:00",
-  "total_alerts": 8,
+  "generated_at": "2026-11-21T01:23:11.560401+00:00",
+  "total_alerts": 9,
   "features": [
     {
       "type": "Feature",
@@ -45687,6 +45687,95 @@
                 -40.047,
                 -18.984
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199519/2026",
+        "entry_id": "199519/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-20T22:13:27-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "ALAGAMENTOS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-20T22:13:27-03:00",
+        "expires": "2026-11-20T23:10:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIO E VENTOS em Itarana no distrito de Alto Jatibocas  na proxima 01 hora. Fique atento.Emergencia ligue 193.",
+        "description": "(ES) ALERTA de CHUVA INTENSA, RAIO E VENTOS em Itarana no distrito de Alto Jatibocas  na proxima 01 hora com risco de alagamento. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Itarana/ES",
+        "polygon_raw": "-19.988,-40.892 -19.998,-40.909 -20.005,-40.895 -20.004,-40.876 -19.993,-40.881 -19.988,-40.892",
+        "polygon_points": 6,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3202900",
+        "municipio_nome": "Itarana",
+        "municipio_slug": "itarana",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3202900",
+            "municipio_nome": "Itarana",
+            "municipio_slug": "itarana",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "20/11/2026 22:13",
+        "onset_label": "20/11/2026 22:13",
+        "expires_label": "20/11/2026 23:10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.881,
+              -19.993
+            ],
+            [
+              -40.876,
+              -20.004
+            ],
+            [
+              -40.895,
+              -20.005
+            ],
+            [
+              -40.909,
+              -19.998
+            ],
+            [
+              -40.892,
+              -19.988
+            ],
+            [
+              -40.881,
+              -19.993
             ]
           ]
         ]
