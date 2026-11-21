@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-21T19:12:36.845715+00:00",
-  "total_alerts": 8,
+  "generated_at": "2026-11-21T19:17:25.355531+00:00",
+  "total_alerts": 7,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.662,
-              -21.078
-            ],
             [
               -41.661,
               -21.078
@@ -4382,6 +4378,10 @@
             [
               -41.662,
               -21.078
+            ],
+            [
+              -41.661,
+              -21.078
             ]
           ]
         ]
@@ -4468,10 +4468,6 @@
         "coordinates": [
           [
             [
-              [
-                -40.626,
-                -19.347
-              ],
               [
                 -40.625,
                 -19.347
@@ -11867,16 +11863,16 @@
               [
                 -40.626,
                 -19.347
+              ],
+              [
+                -40.625,
+                -19.347
               ]
             ]
           ],
           [
             [
               [
-                -40.374,
-                -19.08
-              ],
-              [
                 -40.373,
                 -19.08
               ],
@@ -11890,6 +11886,10 @@
               ],
               [
                 -40.374,
+                -19.08
+              ],
+              [
+                -40.373,
                 -19.08
               ]
             ]
@@ -26202,107 +26202,6 @@
             [
               -40.64,
               -19.373
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "199648/2026",
-        "entry_id": "199648/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-21T15:14:09-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-11-21T15:14:09-03:00",
-        "expires": "2026-11-21T16:15:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, GRANIZO e VENTO na regiao de Marilandia na proxima hora. Fique atento. Emergencia ligue 193.",
-        "description": "(ES) ALERTA de CHUVA, RAIOS, GRANIZO e VENTO na regiao de Marilandia na proxima hora.",
-        "instruction": "Fique atento. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Marilândia/ES",
-        "polygon_raw": "-19.4,-40.528 -19.406,-40.553 -19.412,-40.552 -19.415,-40.547 -19.418,-40.546 -19.42,-40.545 -19.419,-40.54 -19.407,-40.529 -19.4,-40.528",
-        "polygon_points": 9,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3203353",
-        "municipio_nome": "Marilândia",
-        "municipio_slug": "marilandia",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3203353",
-            "municipio_nome": "Marilândia",
-            "municipio_slug": "marilandia",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "21/11/2026 15:14",
-        "onset_label": "21/11/2026 15:14",
-        "expires_label": "21/11/2026 16:15"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.529,
-              -19.407
-            ],
-            [
-              -40.54,
-              -19.419
-            ],
-            [
-              -40.545,
-              -19.42
-            ],
-            [
-              -40.546,
-              -19.418
-            ],
-            [
-              -40.547,
-              -19.415
-            ],
-            [
-              -40.552,
-              -19.412
-            ],
-            [
-              -40.553,
-              -19.406
-            ],
-            [
-              -40.528,
-              -19.4
-            ],
-            [
-              -40.529,
-              -19.407
             ]
           ]
         ]
