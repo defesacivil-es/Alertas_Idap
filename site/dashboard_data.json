@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:58:08.325806-03:00",
+  "generated_at": "2026-11-20T22:04:37.265785-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 43,
+    "vigentes": 7,
+    "ultimas24h": 44,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 7,
-    "alertasSeverosExtremos": 7,
+    "alertasSeveros": 8,
+    "alertasSeverosExtremos": 8,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 66,
     "municipiosComAlertas": 66
   },
   "latest_alerts": [
+    {
+      "time": "21:56",
+      "date": "20/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Iúna",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA MODERADA, RAIO E VENTOS em Iuna na proxima 01 hora. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "199512/2026",
+      "entry_id": "199512/2026",
+      "sent": "2026-11-20T21:56:15-03:00",
+      "onset": "2026-11-20T21:56:15-03:00",
+      "expires": "2026-11-20T23:00:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3203007",
+      "municipio_nome": "Iúna",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203007",
+          "municipio_nome": "Iúna",
+          "municipio_slug": "iuna",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3203007"
+      ],
+      "affected_municipio_names": [
+        "Iúna"
+      ]
+    },
     {
       "time": "21:50",
       "date": "20/11/2026",
@@ -1460,52 +1499,13 @@
         "Nova Venécia",
         "Vila Pavão"
       ]
-    },
-    {
-      "time": "16:23",
-      "date": "20/11/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Boa Esperança",
-      "uf": "ES",
-      "headline": "Defesa Civil:ALERTA de CHUVA INTENSA,RAIOS, GRANIZO E VENTOS em Boa Esperanca.Evite area de risco.Emergencia ligue 193.",
-      "status": "expirado",
-      "identifier": "199404/2026",
-      "entry_id": "199404/2026",
-      "sent": "2026-11-20T16:23:49-03:00",
-      "onset": "2026-11-20T16:23:49-03:00",
-      "expires": "2026-11-20T20:00:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google",
-      "municipio_id": "3201001",
-      "municipio_nome": "Boa Esperança",
-      "affected_municipios": [
-        {
-          "municipio_id": "3201001",
-          "municipio_nome": "Boa Esperança",
-          "municipio_slug": "boa-esperanca",
-          "intersection_area_m2": null
-        }
-      ],
-      "affected_municipio_ids": [
-        "3201001"
-      ],
-      "affected_municipio_names": [
-        "Boa Esperança"
-      ]
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 43
+      "count": 44
     }
   ],
   "level_distribution": [
@@ -1515,25 +1515,29 @@
     },
     {
       "label": "Severo",
-      "count": 7
+      "count": 8
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 43
+      "count": 44
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 43
+      "count": 44
     }
   ],
   "municipio_distribution": [
     {
       "municipio": "Nova Venécia",
       "count": 4
+    },
+    {
+      "municipio": "Iúna",
+      "count": 3
     },
     {
       "municipio": "Afonso Cláudio",
@@ -1569,10 +1573,6 @@
     },
     {
       "municipio": "Irupi",
-      "count": 2
-    },
-    {
-      "municipio": "Iúna",
       "count": 2
     },
     {
@@ -1799,7 +1799,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 7
     },
     {
       "label": "expirado",
@@ -1809,7 +1809,7 @@
   "category_distribution": [
     {
       "label": "Met",
-      "count": 43
+      "count": 44
     }
   ],
   "duration_distribution": [
@@ -1819,7 +1819,7 @@
     },
     {
       "label": "Até 2h",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Mais de 24h",
@@ -1829,15 +1829,15 @@
   "time_since_distribution": [
     {
       "label": "6h a 12h",
-      "count": 30
-    },
-    {
-      "label": "3h a 6h",
-      "count": 6
+      "count": 31
     },
     {
       "label": "Até 1h",
-      "count": 4
+      "count": 5
+    },
+    {
+      "label": "3h a 6h",
+      "count": 5
     },
     {
       "label": "1h a 3h",
@@ -1851,10 +1851,81 @@
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 43
+      "count": 44
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "199512/2026",
+      "entry_id": "199512/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-20T21:56:15-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Likely",
+      "onset": "2026-11-20T21:56:15-03:00",
+      "expires": "2026-11-20T23:00:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA MODERADA, RAIO E VENTOS em Iuna na proxima 01 hora. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
+      "description": "(ES) ALERTA de CHUVA MODERADA, RAIO E VENTOS em Iuna na proxima 01 hora com risco de alagamento. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
+      "instruction": "Fique atento. Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Iúna/ES",
+      "polygon_raw": "-20.252,-41.748 -20.279,-41.773 -20.304,-41.759 -20.282,-41.728 -20.252,-41.748",
+      "polygon_points": 5,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.728 -20.282, -41.759 -20.304, -41.773 -20.279, -41.748 -20.252, -41.728 -20.282))",
+      "municipio_id": "3203007",
+      "municipio_nome": "Iúna",
+      "municipio_slug": "iuna",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203007",
+          "municipio_nome": "Iúna",
+          "municipio_slug": "iuna",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Iúna",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "20/11/2026",
+      "time": "21:56",
+      "sent_br": "2026-11-20T21:56:15-03:00",
+      "onset_br": "2026-11-20T21:56:15-03:00",
+      "expires_br": "2026-11-20T23:00:00-03:00",
+      "duration_minutes": 63,
+      "duration_hours": 1.05,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 8,
+      "time_since_hours": 0.13,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3203007"
+      ],
+      "affected_municipio_names": [
+        "Iúna"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "199511/2026",
       "entry_id": "199511/2026",
@@ -1939,8 +2010,8 @@
       "duration_minutes": 249,
       "duration_hours": 4.15,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 7,
-      "time_since_hours": 0.12,
+      "time_since_minutes": 14,
+      "time_since_hours": 0.23,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2029,8 +2100,8 @@
       "duration_minutes": 4442,
       "duration_hours": 74.03,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 15,
-      "time_since_hours": 0.25,
+      "time_since_minutes": 21,
+      "time_since_hours": 0.35,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2107,8 +2178,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 29,
-      "time_since_hours": 0.48,
+      "time_since_minutes": 35,
+      "time_since_hours": 0.58,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2193,8 +2264,8 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 33,
-      "time_since_hours": 0.55,
+      "time_since_minutes": 39,
+      "time_since_hours": 0.65,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2301,8 +2372,8 @@
       "duration_minutes": 233,
       "duration_hours": 3.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 82,
-      "time_since_hours": 1.37,
+      "time_since_minutes": 88,
+      "time_since_hours": 1.47,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2393,8 +2464,8 @@
       "duration_minutes": 208,
       "duration_hours": 3.47,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 86,
-      "time_since_hours": 1.43,
+      "time_since_minutes": 92,
+      "time_since_hours": 1.53,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2466,8 +2537,8 @@
       "duration_minutes": 61,
       "duration_hours": 1.02,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 224,
-      "time_since_hours": 3.73,
+      "time_since_minutes": 230,
+      "time_since_hours": 3.83,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2537,8 +2608,8 @@
       "duration_minutes": 56,
       "duration_hours": 0.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 249,
-      "time_since_hours": 4.15,
+      "time_since_minutes": 256,
+      "time_since_hours": 4.27,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2623,8 +2694,8 @@
       "duration_minutes": 167,
       "duration_hours": 2.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 286,
-      "time_since_hours": 4.77,
+      "time_since_minutes": 292,
+      "time_since_hours": 4.87,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2701,8 +2772,8 @@
       "duration_minutes": 216,
       "duration_hours": 3.6,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 334,
-      "time_since_hours": 5.57,
+      "time_since_minutes": 340,
+      "time_since_hours": 5.67,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2772,8 +2843,8 @@
       "duration_minutes": 51,
       "duration_hours": 0.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 349,
-      "time_since_hours": 5.82,
+      "time_since_minutes": 355,
+      "time_since_hours": 5.92,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2858,9 +2929,9 @@
       "duration_minutes": 238,
       "duration_hours": 3.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 356,
-      "time_since_hours": 5.93,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 362,
+      "time_since_hours": 6.03,
+      "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
         "3204104",
@@ -2946,8 +3017,8 @@
       "duration_minutes": 300,
       "duration_hours": 5.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 373,
-      "time_since_hours": 6.22,
+      "time_since_minutes": 380,
+      "time_since_hours": 6.33,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3024,8 +3095,8 @@
       "duration_minutes": 298,
       "duration_hours": 4.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 376,
-      "time_since_hours": 6.27,
+      "time_since_minutes": 382,
+      "time_since_hours": 6.37,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3120,8 +3191,8 @@
       "duration_minutes": 308,
       "duration_hours": 5.13,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 391,
-      "time_since_hours": 6.52,
+      "time_since_minutes": 398,
+      "time_since_hours": 6.63,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3210,8 +3281,8 @@
       "duration_minutes": 295,
       "duration_hours": 4.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 393,
-      "time_since_hours": 6.55,
+      "time_since_minutes": 400,
+      "time_since_hours": 6.67,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3283,8 +3354,8 @@
       "duration_minutes": 44,
       "duration_hours": 0.73,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 397,
-      "time_since_hours": 6.62,
+      "time_since_minutes": 404,
+      "time_since_hours": 6.73,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3399,8 +3470,8 @@
       "duration_minutes": 293,
       "duration_hours": 4.88,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 411,
-      "time_since_hours": 6.85,
+      "time_since_minutes": 418,
+      "time_since_hours": 6.97,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3478,8 +3549,8 @@
       "duration_minutes": 56,
       "duration_hours": 0.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 414,
-      "time_since_hours": 6.9,
+      "time_since_minutes": 421,
+      "time_since_hours": 7.02,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3554,8 +3625,8 @@
       "duration_minutes": 185,
       "duration_hours": 3.08,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 448,
-      "time_since_hours": 7.47,
+      "time_since_minutes": 455,
+      "time_since_hours": 7.58,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3690,8 +3761,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 456,
-      "time_since_hours": 7.6,
+      "time_since_minutes": 463,
+      "time_since_hours": 7.72,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3788,8 +3859,8 @@
       "duration_minutes": 190,
       "duration_hours": 3.17,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 458,
-      "time_since_hours": 7.63,
+      "time_since_minutes": 465,
+      "time_since_hours": 7.75,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3866,8 +3937,8 @@
       "duration_minutes": 203,
       "duration_hours": 3.38,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 471,
-      "time_since_hours": 7.85,
+      "time_since_minutes": 477,
+      "time_since_hours": 7.95,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3952,8 +4023,8 @@
       "duration_minutes": 253,
       "duration_hours": 4.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 491,
-      "time_since_hours": 8.18,
+      "time_since_minutes": 497,
+      "time_since_hours": 8.28,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4050,8 +4121,8 @@
       "duration_minutes": 257,
       "duration_hours": 4.28,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 495,
-      "time_since_hours": 8.25,
+      "time_since_minutes": 502,
+      "time_since_hours": 8.37,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4150,8 +4221,8 @@
       "duration_minutes": 190,
       "duration_hours": 3.17,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 498,
-      "time_since_hours": 8.3,
+      "time_since_minutes": 504,
+      "time_since_hours": 8.4,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4230,8 +4301,8 @@
       "duration_minutes": 199,
       "duration_hours": 3.32,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 527,
-      "time_since_hours": 8.78,
+      "time_since_minutes": 534,
+      "time_since_hours": 8.9,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4306,8 +4377,8 @@
       "duration_minutes": 212,
       "duration_hours": 3.53,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 540,
-      "time_since_hours": 9.0,
+      "time_since_minutes": 546,
+      "time_since_hours": 9.1,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4392,8 +4463,8 @@
       "duration_minutes": 234,
       "duration_hours": 3.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 567,
-      "time_since_hours": 9.45,
+      "time_since_minutes": 573,
+      "time_since_hours": 9.55,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4470,8 +4541,8 @@
       "duration_minutes": 211,
       "duration_hours": 3.52,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 569,
-      "time_since_hours": 9.48,
+      "time_since_minutes": 576,
+      "time_since_hours": 9.6,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4541,8 +4612,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 582,
-      "time_since_hours": 9.7,
+      "time_since_minutes": 588,
+      "time_since_hours": 9.8,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4612,8 +4683,8 @@
       "duration_minutes": 47,
       "duration_hours": 0.78,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 585,
-      "time_since_hours": 9.75,
+      "time_since_minutes": 591,
+      "time_since_hours": 9.85,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4708,8 +4779,8 @@
       "duration_minutes": 230,
       "duration_hours": 3.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 593,
-      "time_since_hours": 9.88,
+      "time_since_minutes": 600,
+      "time_since_hours": 10.0,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4788,8 +4859,8 @@
       "duration_minutes": 234,
       "duration_hours": 3.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 597,
-      "time_since_hours": 9.95,
+      "time_since_minutes": 604,
+      "time_since_hours": 10.07,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -4884,8 +4955,8 @@
       "duration_minutes": 236,
       "duration_hours": 3.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 614,
-      "time_since_hours": 10.23,
+      "time_since_minutes": 620,
+      "time_since_hours": 10.33,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5014,8 +5085,8 @@
       "duration_minutes": 244,
       "duration_hours": 4.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 617,
-      "time_since_hours": 10.28,
+      "time_since_minutes": 624,
+      "time_since_hours": 10.4,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5100,8 +5171,8 @@
       "duration_minutes": 205,
       "duration_hours": 3.42,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 623,
-      "time_since_hours": 10.38,
+      "time_since_minutes": 630,
+      "time_since_hours": 10.5,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5206,8 +5277,8 @@
       "duration_minutes": 240,
       "duration_hours": 4.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 633,
-      "time_since_hours": 10.55,
+      "time_since_minutes": 639,
+      "time_since_hours": 10.65,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5288,8 +5359,8 @@
       "duration_minutes": 184,
       "duration_hours": 3.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 637,
-      "time_since_hours": 10.62,
+      "time_since_minutes": 644,
+      "time_since_hours": 10.73,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5364,8 +5435,8 @@
       "duration_minutes": 186,
       "duration_hours": 3.1,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 664,
-      "time_since_hours": 11.07,
+      "time_since_minutes": 670,
+      "time_since_hours": 11.17,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5440,8 +5511,8 @@
       "duration_minutes": 188,
       "duration_hours": 3.13,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 666,
-      "time_since_hours": 11.1,
+      "time_since_minutes": 672,
+      "time_since_hours": 11.2,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5526,8 +5597,8 @@
       "duration_minutes": 238,
       "duration_hours": 3.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 681,
-      "time_since_hours": 11.35,
+      "time_since_minutes": 688,
+      "time_since_hours": 11.47,
       "time_since_bucket": "6h a 12h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -5569,7 +5640,7 @@
       "has_geocode": true,
       "uf_hint": "ES",
       "region": "SE",
-      "geometry_wkt": "POLYGON ((-41.144 -19.767, -41.143 -19.767, -41.143 -19.768, -41.142 -19.768, -41.141 -19.768, -41.14 -19.768, -41.14 -19.769, -41.139 -19.769, -41.139 -19.77, -41.139 -19.771, -41.138 -19.771, -41.137 -19.771, -41.136 -19.771, -41.135 -19.771, -41.135 -19.772, -41.134 -19.772, -41.134 -19.773, -41.133 -19.773, -41.132 -19.773, -41.131 -19.772, -41.131 -19.771, -41.13 -19.771, -41.13 -19.77, -41.129 -19.77, -41.129 -19.771, -41.128 -19.771, -41.127 -19.771, -41.126 -19.771, -41.126 -19.772, -41.125 -19.772, -41.124 -19.772, -41.124 -19.773, -41.123 -19.773, -41.123 -19.774, -41.123 -19.775, -41.123 -19.776, -41.123 -19.777, -41.124 -19.777, -41.124 -19.778, -41.123 -19.778, -41.123 -19.779, -41.122 -19.779, -41.122 -19.78, -41.123 -19.78, -41.124 -19.78, -41.124 -19.781, -41.124 -19.782, -41.124 -19.783, -41.125 -19.783, -41.125 -19.784, -41.125 -19.785, -41.125 -19.786, -41.125 -19.787, -41.125 -19.788, -41.124 -19.788, -41.124 -19.789, -41.123 -19.789, -41.123 -19.79, -41.122 -19.79, -41.121 -19.79, -41.121 -19.791, -41.12 -19.791, -41.12 -19.792, -41.119 -19.792, -41.118 -19.792, -41.118 -19.793, -41.117 -19.793, -41.116 -19.793, -41.116 -19.794, -41.115 -19.794, -41.114 -19.794, -41.114 -19.793, -41.113 -19.793, -41.112 -19.793, -41.111 -19.793, -41.111 -19.792, -41.111 -19.791, -41.111 -19.79, -41.11 -19.79, -41.11 -19.789, -41.111 -19.789, -41.111 -19.788, -41.11 -19.788, -41.11 -19.787, -41.111 -19.787, -41.111 -19.786, -41.11 -19.786, -41.11 -19.785, -41.109 -19.785, -41.109 -19.784, -41.108 -19.784, -41.108 -19.785, -41.107 -19.785, -41.107 -19.784, -41.106 -19.784, -41.105 -19.785, -41.104 -19.785, -41.104 -19.784, -41.103 -19.784, -41.103 -19.783, -41.102 -19.783, -41.102 -19.784, -41.101 -19.784, -41.1 -19.784, -41.099 -19.784, -41.099 -19.785, -41.098 -19.785, -41.097 -19.785, -41.097 -19.786, -41.097 -19.787, -41.096 -19.787, -41.095 -19.787, -41.095 -19.786, -41.094 -19.786, -41.094 -19.785, -41.093 -19.785, -41.093 -19.784, -41.092 -19.784, -41.092 -19.783, -41.091 -19.783, -41.09 -19.783, -41.089 -19.783, -41.089 -19.782, -41.088 -19.782, -41.087 -19.781, -41.087 -19.78, -41.086 -19.78, -41.085 -19.78, -41.084 -19.78, -41.083 -19.78, -41.083 -19.779, -41.083 -19.778, -41.082 -19.778, -41.082 -19.777, -41.081 -19.777, -41.08 -19.777, -41.079 -19.776, -41.078 -19.776, -41.078 -19.775, -41.077 -19.775, -41.076 -19.775, -41.075 -19.775, -41.075 -19.774, -41.074 -19.774, -41.073 -19.774, -41.072 -19.775, -41.072 -19.776, -41.071 -19.776, -41.07 -19.776, -41.069 -19.776, -41.068 -19.776, -41.067 -19.776, -41.067 -19.775, -41.068 -19.775, -41.068 -19.774, -41.067 -19.774, -41.066 -19.775, -41.065 -19.775, -41.065 -19.774, -41.065 -19.773, -41.064 -19.773, -41.063 -19.773, -41.062 -19.773, -41.062 -19.772, -41.061 -19.772, -41.061 -19.771, -41.061 -19.77, -41.061 -19.769, -41.06 -19.769, -41.06 -19.768, -41.06 -19.767, -41.059 -19.767, -41.059 -19.766, -41.058 -19.766, -41.059 -19.765, -41.058 -19.765, -41.057 -19.765, -41.057 -19.764, -41.056 -19.764, -41.056 -19.763, -41.055 -19.763, -41.055 -19.762, -41.054 -19.762, -41.054 -19.763, -41.053 -19.762, -41.052 -19.762, -41.051 -19.763, -41.05 -19.763, -41.049 -19.763, -41.048 -19.763, -41.048 -19.764, -41.047 -19.764, -41.046 -19.764, -41.045 -19.764, -41.045 -19.765, -41.044 -19.765, -41.044 -19.764, -41.043 -19.764, -41.042 -19.764, -41.041 -19.765, -41.041 -19.766, -41.042 -19.766, -41.042 -19.767, -41.043 -19.767, -41.044 -19.767, -41.045 -19.768, -41.046 -19.768, -41.047 -19.768, -41.047 -19.769, -41.048 -19.769, -41.048 -19.77, -41.049 -19.77, -41.05 -19.769, -41.051 -19.769, -41.052 -19.769, -41.052 -19.77, -41.052 -19.771, -41.052 -19.772, -41.052 -19.773, -41.052 -19.774, -41.053 -19.774, -41.054 -19.774, -41.054 -19.775, -41.054 -19.776, -41.054 -19.777, -41.053 -19.778, -41.052 -19.778, -41.051 -19.778, -41.05 -19.778, -41.049 -19.778, -41.048 -19.777, -41.047 -19.776, -41.046 -19.776, -41.046 -19.777, -41.045 -19.777, -41.045 -19.778, -41.044 -19.778, -41.043 -19.779, -41.043 -19.78, -41.042 -19.781, -41.042 -19.782, -41.042 -19.783, -41.041 -19.783, -41.041 -19.784, -41.04 -19.784, -41.04 -19.785, -41.039 -19.785, -41.039 -19.786, -41.038 -19.786, -41.038 -19.787, -41.037 -19.787, -41.037 -19.788, -41.036 -19.788, -41.035 -19.788, -41.035 -19.789, -41.034 -19.789, -41.035 -19.79, -41.035 -19.791, -41.036 -19.792, -41.035 -19.792, -41.034 -19.792, -41.033 -19.79, -41.032 -19.79, -41.032 -19.789, -41.03 -19.787, -41.028 -19.786, -41.027 -19.785, -41.026 -19.784, -41.024 -19.783, -41.023 -19.782, -41.021 -19.782, -41.02 -19.782, -41.019 -19.783, -41.017 -19.785, -41.016 -19.785, -41.016 -19.786, -41.016 -19.788, -41.015 -19.788, -41.015 -19.789, -41.015 -19.79, -41.014 -19.792, -41.014 -19.794, -41.014 -19.795, -41.014 -19.796, -41.014 -19.797, -41.015 -19.798, -41.014 -19.798, -41.013 -19.799, -41.012 -19.8, -41.011 -19.8, -41.011 -19.801, -41.01 -19.802, -41.009 -19.803, -41.009 -19.804, -41.008 -19.804, -41.007 -19.804, -41.006 -19.804, -41.005 -19.805, -41.004 -19.805, -41.002 -19.804, -41.001 -19.803, -41 -19.803, -40.999 -19.803, -40.998 -19.804, -40.997 -19.804, -40.996 -19.804, -40.995 -19.803, -40.993 -19.8, -40.993 -19.802, -40.992 -19.802, -40.991 -19.803, -40.99 -19.804, -40.989 -19.805, -40.988 -19.805, -40.987 -19.805, -40.986 -19.805, -40.985 -19.805, -40.984 -19.805, -40.983 -19.804, -40.983 -19.803, -40.982 -19.803, -40.981 -19.803, -40.981 -19.802, -40.98 -19.802, -40.979 -19.802, -40.979 -19.801, -40.978 -19.801, -40.978 -19.8, -40.978 -19.799, -40.977 -19.799, -40.976 -19.799, -40.975 -19.799, -40.974 -19.799, -40.973 -19.799, -40.972 -19.799, -40.971 -19.799, -40.97 -19.799, -40.969 -19.799, -40.968 -19.799, -40.967 -19.799, -40.966 -19.799, -40.966 -19.8, -40.965 -19.801, -40.964 -19.801, -40.963 -19.801, -40.962 -19.802, -40.961 -19.802, -40.96 -19.803, -40.959 -19.803, -40.958 -19.803, -40.957 -19.804, -40.956 -19.804, -40.955 -19.804, -40.954 -19.803, -40.953 -19.803, -40.952 -19.804, -40.951 -19.804, -40.95 -19.804, -40.949 -19.804, -40.948 -19.804, -40.947 -19.804, -40.946 -19.804, -40.945 -19.804, -40.944 -19.804, -40.943 -19.804, -40.942 -19.804, -40.941 -19.804, -40.94 -19.805, -40.94 -19.806, -40.94 -19.807, -40.94 -19.808, -40.939 -19.81, -40.94 -19.812, -40.94 -19.813, -40.939 -19.813, -40.938 -19.814, -40.937 -19.816, -40.937 -19.817, -40.938 -19.818, -40.938 -19.819, -40.938 -19.82, -40.939 -19.82, -40.94 -19.821, -40.941 -19.822, -40.942 -19.822, -40.943 -19.823, -40.944 -19.823, -40.945 -19.823, -40.946 -19.823, -40.947 -19.824, -40.948 -19.824, -40.949 -19.824, -40.949 -19.825, -40.95 -19.824, -40.951 -19.824, -40.952 -19.825, -40.953 -19.825, -40.953 -19.826, -40.954 -19.827, -40.955 -19.828, -40.957 -19.829, -40.958 -19.83, -40.957 -19.831, -40.956 -19.832, -40.956 -19.833, -40.955 -19.834, -40.955 -19.835, -40.954 -19.835, -40.953 -19.835, -40.953 -19.836, -40.952 -19.837, -40.951 -19.838, -40.95 -19.839, -40.95 -19.84, -40.949 -19.841, -40.949 -19.842, -40.95 -19.843, -40.951 -19.843, -40.951 -19.844, -40.952 -19.844, -40.953 -19.845, -40.953 -19.846, -40.954 -19.846, -40.955 -19.846, -40.955 -19.847, -40.955 -19.848, -40.955 -19.849, -40.956 -19.85, -40.956 -19.851, -40.957 -19.851, -40.957 -19.852, -40.958 -19.852, -40.959 -19.853, -40.958 -19.854, -40.956 -19.855, -40.955 -19.856, -40.955 -19.857, -40.955 -19.858, -40.954 -19.858, -40.955 -19.859, -40.954 -19.86, -40.955 -19.861, -40.955 -19.862, -40.955 -19.863, -40.953 -19.863, -40.951 -19.863, -40.949 -19.864, -40.947 -19.864, -40.946 -19.865, -40.945 -19.865, -40.944 -19.866, -40.944 -19.867, -40.943 -19.868, -40.942 -19.869, -40.942 -19.87, -40.942 -19.871, -40.941 -19.871, -40.94 -19.872, -40.939 -19.871, -40.938 -19.871, -40.937 -19.871, -40.936 -19.871, -40.935 -19.871, -40.935 -19.872, -40.935 -19.873, -40.934 -19.874, -40.933 -19.875, -40.933 -19.876, -40.932 -19.877, -40.931 -19.878, -40.932 -19.879, -40.933 -19.881, -40.934 -19.881, -40.935 -19.881, -40.936 -19.881, -40.935 -19.882, -40.935 -19.883, -40.935 -19.884, -40.935 -19.885, -40.935 -19.886, -40.935 -19.887, -40.935 -19.888, -40.935 -19.889, -40.935 -19.89, -40.934 -19.891, -40.934 -19.892, -40.934 -19.893, -40.934 -19.894, -40.933 -19.895, -40.932 -19.895, -40.931 -19.896, -40.931 -19.897, -40.93 -19.897, -40.928 -19.898, -40.927 -19.899, -40.925 -19.9, -40.924 -19.901, -40.924 -19.902, -40.925 -19.903, -40.926 -19.903, -40.928 -19.904, -40.929 -19.904, -40.931 -19.905, -40.933 -19.906, -40.934 -19.906, -40.935 -19.905, -40.938 -19.905, -40.939 -19.905, -40.94 -19.904, -40.94 -19.903, -40.942 -19.902, -40.944 -19.901, -40.945 -19.902, -40.946 -19.902, -40.946 -19.903, -40.947 -19.903, -40.948 -19.903, -40.948 -19.904, -40.949 -19.904, -40.948 -19.905, -40.949 -19.905, -40.947 -19.906, -40.946 -19.908, -40.945 -19.908, -40.945 -19.909, -40.945 -19.91, -40.946 -19.911, -40.947 -19.911, -40.946 -19.912, -40.946 -19.913, -40.947 -19.913, -40.947 -19.914, -40.947 -19.915, -40.947 -19.916, -40.948 -19.916, -40.948 -19.917, -40.948 -19.919, -40.948 -19.921, -40.947 -19.922, -40.946 -19.922, -40.946 -19.923, -40.946 -19.924, -40.947 -19.925, -40.947 -19.926, -40.948 -19.927, -40.947 -19.928, -40.948 -19.929, -40.947 -19.93, -40.946 -19.931, -40.945 -19.931, -40.944 -19.931, -40.943 -19.932, -40.944 -19.933, -40.944 -19.934, -40.945 -19.935, -40.946 -19.937, -40.947 -19.937, -40.947 -19.938, -40.948 -19.938, -40.949 -19.939, -40.95 -19.94, -40.95 -19.941, -40.95 -19.942, -40.951 -19.943, -40.953 -19.944, -40.953 -19.945, -40.953 -19.946, -40.953 -19.947, -40.953 -19.948, -40.954 -19.948, -40.954 -19.949, -40.955 -19.949, -40.955 -19.95, -40.955 -19.951, -40.956 -19.951, -40.957 -19.951, -40.957 -19.952, -40.958 -19.952, -40.959 -19.954, -40.959 -19.955, -40.959 -19.956, -40.958 -19.959, -40.957 -19.96, -40.957 -19.961, -40.957 -19.962, -40.956 -19.963, -40.955 -19.964, -40.956 -19.964, -40.956 -19.965, -40.957 -19.965, -40.957 -19.966, -40.958 -19.966, -40.959 -19.967, -40.96 -19.968, -40.96 -19.969, -40.961 -19.969, -40.961 -19.97, -40.962 -19.971, -40.963 -19.972, -40.963 -19.973, -40.963 -19.974, -40.962 -19.974, -40.963 -19.975, -40.964 -19.976, -40.965 -19.976, -40.966 -19.976, -40.968 -19.977, -40.969 -19.976, -40.97 -19.977, -40.971 -19.977, -40.972 -19.977, -40.973 -19.977, -40.974 -19.978, -40.975 -19.978, -40.976 -19.978, -40.977 -19.979, -40.978 -19.979, -40.979 -19.979, -40.98 -19.979, -40.981 -19.977, -40.984 -19.977, -40.984 -19.976, -40.986 -19.977, -40.986 -19.975, -40.986 -19.974, -40.986 -19.973, -40.987 -19.973, -40.988 -19.972, -40.989 -19.972, -40.989 -19.971, -40.99 -19.971, -40.991 -19.97, -40.992 -19.97, -40.994 -19.97, -40.995 -19.968, -40.995 -19.966, -40.995 -19.965, -40.995 -19.964, -40.994 -19.964, -40.994 -19.963, -40.994 -19.962, -40.995 -19.962, -40.995 -19.961, -40.995 -19.96, -40.996 -19.96, -40.997 -19.96, -40.998 -19.961, -41 -19.961, -41 -19.962, -41.001 -19.962, -41.002 -19.962, -41.003 -19.962, -41.004 -19.961, -41.005 -19.961, -41.005 -19.96, -41.006 -19.96, -41.006 -19.962, -41.006 -19.963, -41.007 -19.963, -41.008 -19.964, -41.009 -19.963, -41.01 -19.963, -41.011 -19.965, -41.012 -19.965, -41.013 -19.966, -41.013 -19.967, -41.014 -19.968, -41.015 -19.969, -41.016 -19.97, -41.017 -19.97, -41.018 -19.969, -41.019 -19.97, -41.02 -19.97, -41.021 -19.971, -41.023 -19.971, -41.024 -19.971, -41.025 -19.971, -41.025 -19.972, -41.026 -19.972, -41.027 -19.973, -41.029 -19.973, -41.03 -19.973, -41.031 -19.973, -41.032 -19.974, -41.033 -19.975, -41.034 -19.976, -41.036 -19.976, -41.037 -19.977, -41.038 -19.977, -41.039 -19.976, -41.04 -19.976, -41.041 -19.976, -41.043 -19.976, -41.044 -19.976, -41.045 -19.976, -41.046 -19.976, -41.046 -19.977, -41.046 -19.978, -41.046 -19.979, -41.046 -19.98, -41.047 -19.981, -41.048 -19.98, -41.049 -19.981, -41.05 -19.981, -41.051 -19.981, -41.051 -19.982, -41.052 -19.982, -41.053 -19.983, -41.054 -19.984, -41.055 -19.985, -41.056 -19.985, -41.056 -19.986, -41.057 -19.986, -41.058 -19.986, -41.059 -19.987, -41.06 -19.987, -41.061 -19.987, -41.062 -19.987, -41.063 -19.987, -41.064 -19.987, -41.065 -19.987, -41.068 -19.986, -41.069 -19.985, -41.07 -19.984, -41.071 -19.984, -41.071 -19.983, -41.072 -19.983, -41.072 -19.982, -41.072 -19.981, -41.073 -19.981, -41.074 -19.981, -41.074 -19.98, -41.075 -19.979, -41.075 -19.978, -41.077 -19.978, -41.078 -19.978, -41.079 -19.977, -41.08 -19.976, -41.081 -19.976, -41.082 -19.975, -41.083 -19.974, -41.083 -19.973, -41.084 -19.973, -41.085 -19.972, -41.086 -19.971, -41.086 -19.97, -41.087 -19.97, -41.088 -19.97, -41.089 -19.97, -41.09 -19.97, -41.091 -19.97, -41.092 -19.97, -41.093 -19.97, -41.094 -19.97, -41.095 -19.97, -41.096 -19.97, -41.096 -19.969, -41.097 -19.969, -41.097 -19.968, -41.098 -19.968, -41.099 -19.968, -41.1 -19.967, -41.1 -19.966, -41.101 -19.966, -41.101 -19.965, -41.102 -19.964, -41.102 -19.963, -41.103 -19.963, -41.104 -19.964, -41.104 -19.965, -41.105 -19.965, -41.105 -19.966, -41.105 -19.967, -41.104 -19.967, -41.104 -19.968, -41.105 -19.968, -41.105 -19.969, -41.106 -19.969, -41.107 -19.969, -41.108 -19.969, -41.109 -19.969, -41.109 -19.97, -41.11 -19.97, -41.11 -19.971, -41.111 -19.972, -41.112 -19.972, -41.112 -19.973, -41.113 -19.973, -41.113 -19.972, -41.114 -19.972, -41.115 -19.971, -41.115 -19.97, -41.116 -19.97, -41.116 -19.969, -41.116 -19.968, -41.117 -19.968, -41.117 -19.967, -41.118 -19.967, -41.119 -19.966, -41.12 -19.966, -41.12 -19.965, -41.119 -19.965, -41.118 -19.964, -41.117 -19.964, -41.116 -19.964, -41.115 -19.964, -41.114 -19.963, -41.114 -19.962, -41.113 -19.962, -41.113 -19.96, -41.113 -19.959, -41.113 -19.958, -41.112 -19.957, -41.111 -19.957, -41.11 -19.956, -41.11 -19.955, -41.11 -19.954, -41.11 -19.953, -41.11 -19.952, -41.111 -19.951, -41.111 -19.95, -41.111 -19.949, -41.112 -19.949, -41.112 -19.948, -41.113 -19.948, -41.113 -19.947, -41.114 -19.946, -41.114 -19.944, -41.115 -19.943, -41.115 -19.942, -41.116 -19.942, -41.116 -19.941, -41.117 -19.941, -41.118 -19.941, -41.119 -19.94, -41.12 -19.94, -41.12 -19.939, -41.121 -19.938, -41.122 -19.937, -41.123 -19.936, -41.124 -19.936, -41.124 -19.935, -41.124 -19.933, -41.125 -19.932, -41.125 -19.931, -41.125 -19.93, -41.124 -19.93, -41.124 -19.929, -41.124 -19.928, -41.124 -19.927, -41.126 -19.927, -41.126 -19.926, -41.126 -19.925, -41.126 -19.924, -41.126 -19.923, -41.127 -19.922, -41.127 -19.92, -41.127 -19.919, -41.127 -19.918, -41.126 -19.918, -41.125 -19.918, -41.125 -19.917, -41.126 -19.916, -41.126 -19.915, -41.127 -19.915, -41.127 -19.914, -41.128 -19.913, -41.129 -19.912, -41.129 -19.911, -41.129 -19.91, -41.13 -19.909, -41.131 -19.908, -41.132 -19.907, -41.133 -19.908, -41.134 -19.908, -41.135 -19.907, -41.135 -19.905, -41.136 -19.904, -41.137 -19.904, -41.137 -19.903, -41.137 -19.902, -41.137 -19.901, -41.136 -19.9, -41.136 -19.899, -41.136 -19.898, -41.137 -19.898, -41.138 -19.896, -41.139 -19.896, -41.139 -19.895, -41.14 -19.894, -41.141 -19.893, -41.141 -19.892, -41.142 -19.892, -41.144 -19.892, -41.145 -19.891, -41.146 -19.891, -41.148 -19.891, -41.149 -19.891, -41.15 -19.89, -41.151 -19.89, -41.152 -19.89, -41.155 -19.89, -41.155 -19.892, -41.156 -19.892, -41.157 -19.893, -41.158 -19.893, -41.158 -19.894, -41.158 -19.895, -41.159 -19.897, -41.159 -19.898, -41.16 -19.898, -41.161 -19.898, -41.162 -19.898, -41.163 -19.899, -41.164 -19.9, -41.165 -19.901, -41.166 -19.902, -41.166 -19.903, -41.167 -19.904, -41.168 -19.905, -41.169 -19.905, -41.17 -19.906, -41.171 -19.906, -41.172 -19.907, -41.173 -19.907, -41.174 -19.907, -41.174 -19.906, -41.176 -19.906, -41.177 -19.906, -41.177 -19.905, -41.178 -19.904, -41.179 -19.904, -41.18 -19.903, -41.18 -19.902, -41.18 -19.901, -41.179 -19.901, -41.179 -19.9, -41.18 -19.9, -41.181 -19.899, -41.182 -19.899, -41.182 -19.898, -41.182 -19.896, -41.182 -19.895, -41.183 -19.895, -41.183 -19.894, -41.184 -19.894, -41.184 -19.893, -41.185 -19.892, -41.186 -19.892, -41.186 -19.891, -41.185 -19.889, -41.184 -19.888, -41.185 -19.886, -41.184 -19.881, -41.184 -19.878, -41.184 -19.875, -41.184 -19.871, -41.183 -19.868, -41.184 -19.857, -41.184 -19.848, -41.18 -19.848, -41.179 -19.847, -41.178 -19.843, -41.177 -19.841, -41.176 -19.841, -41.175 -19.839, -41.18 -19.832, -41.185 -19.83, -41.185 -19.829, -41.186 -19.828, -41.186 -19.827, -41.183 -19.826, -41.177 -19.826, -41.175 -19.825, -41.174 -19.824, -41.174 -19.822, -41.173 -19.82, -41.171 -19.816, -41.167 -19.812, -41.166 -19.81, -41.165 -19.809, -41.164 -19.806, -41.164 -19.805, -41.165 -19.8, -41.166 -19.798, -41.166 -19.795, -41.166 -19.794, -41.165 -19.792, -41.172 -19.787, -41.173 -19.786, -41.174 -19.784, -41.173 -19.78, -41.172 -19.779, -41.171 -19.778, -41.172 -19.776, -41.174 -19.774, -41.175 -19.772, -41.175 -19.771, -41.174 -19.767, -41.174 -19.766, -41.174 -19.765, -41.174 -19.764, -41.174 -19.763, -41.174 -19.762, -41.173 -19.762, -41.173 -19.761, -41.172 -19.761, -41.172 -19.762, -41.17 -19.762, -41.169 -19.762, -41.168 -19.762, -41.167 -19.762, -41.166 -19.762, -41.165 -19.762, -41.164 -19.762, -41.163 -19.763, -41.162 -19.763, -41.161 -19.764, -41.16 -19.764, -41.159 -19.764, -41.159 -19.763, -41.158 -19.763, -41.157 -19.763, -41.157 -19.762, -41.156 -19.762, -41.155 -19.761, -41.156 -19.761, -41.156 -19.76, -41.156 -19.759, -41.155 -19.759, -41.154 -19.759, -41.153 -19.76, -41.153 -19.761, -41.153 -19.762, -41.152 -19.762, -41.151 -19.762, -41.151 -19.763, -41.15 -19.763, -41.15 -19.764, -41.149 -19.765, -41.149 -19.766, -41.148 -19.766, -41.147 -19.766, -41.146 -19.766, -41.145 -19.767, -41.144 -19.767))",
+      "geometry_wkt": "POLYGON ((-41.143 -19.767, -41.143 -19.768, -41.142 -19.768, -41.141 -19.768, -41.14 -19.768, -41.14 -19.769, -41.139 -19.769, -41.139 -19.77, -41.139 -19.771, -41.138 -19.771, -41.137 -19.771, -41.136 -19.771, -41.135 -19.771, -41.135 -19.772, -41.134 -19.772, -41.134 -19.773, -41.133 -19.773, -41.132 -19.773, -41.131 -19.772, -41.131 -19.771, -41.13 -19.771, -41.13 -19.77, -41.129 -19.77, -41.129 -19.771, -41.128 -19.771, -41.127 -19.771, -41.126 -19.771, -41.126 -19.772, -41.125 -19.772, -41.124 -19.772, -41.124 -19.773, -41.123 -19.773, -41.123 -19.774, -41.123 -19.775, -41.123 -19.776, -41.123 -19.777, -41.124 -19.777, -41.124 -19.778, -41.123 -19.778, -41.123 -19.779, -41.122 -19.779, -41.122 -19.78, -41.123 -19.78, -41.124 -19.78, -41.124 -19.781, -41.124 -19.782, -41.124 -19.783, -41.125 -19.783, -41.125 -19.784, -41.125 -19.785, -41.125 -19.786, -41.125 -19.787, -41.125 -19.788, -41.124 -19.788, -41.124 -19.789, -41.123 -19.789, -41.123 -19.79, -41.122 -19.79, -41.121 -19.79, -41.121 -19.791, -41.12 -19.791, -41.12 -19.792, -41.119 -19.792, -41.118 -19.792, -41.118 -19.793, -41.117 -19.793, -41.116 -19.793, -41.116 -19.794, -41.115 -19.794, -41.114 -19.794, -41.114 -19.793, -41.113 -19.793, -41.112 -19.793, -41.111 -19.793, -41.111 -19.792, -41.111 -19.791, -41.111 -19.79, -41.11 -19.79, -41.11 -19.789, -41.111 -19.789, -41.111 -19.788, -41.11 -19.788, -41.11 -19.787, -41.111 -19.787, -41.111 -19.786, -41.11 -19.786, -41.11 -19.785, -41.109 -19.785, -41.109 -19.784, -41.108 -19.784, -41.108 -19.785, -41.107 -19.785, -41.107 -19.784, -41.106 -19.784, -41.105 -19.785, -41.104 -19.785, -41.104 -19.784, -41.103 -19.784, -41.103 -19.783, -41.102 -19.783, -41.102 -19.784, -41.101 -19.784, -41.1 -19.784, -41.099 -19.784, -41.099 -19.785, -41.098 -19.785, -41.097 -19.785, -41.097 -19.786, -41.097 -19.787, -41.096 -19.787, -41.095 -19.787, -41.095 -19.786, -41.094 -19.786, -41.094 -19.785, -41.093 -19.785, -41.093 -19.784, -41.092 -19.784, -41.092 -19.783, -41.091 -19.783, -41.09 -19.783, -41.089 -19.783, -41.089 -19.782, -41.088 -19.782, -41.087 -19.781, -41.087 -19.78, -41.086 -19.78, -41.085 -19.78, -41.084 -19.78, -41.083 -19.78, -41.083 -19.779, -41.083 -19.778, -41.082 -19.778, -41.082 -19.777, -41.081 -19.777, -41.08 -19.777, -41.079 -19.776, -41.078 -19.776, -41.078 -19.775, -41.077 -19.775, -41.076 -19.775, -41.075 -19.775, -41.075 -19.774, -41.074 -19.774, -41.073 -19.774, -41.072 -19.775, -41.072 -19.776, -41.071 -19.776, -41.07 -19.776, -41.069 -19.776, -41.068 -19.776, -41.067 -19.776, -41.067 -19.775, -41.068 -19.775, -41.068 -19.774, -41.067 -19.774, -41.066 -19.775, -41.065 -19.775, -41.065 -19.774, -41.065 -19.773, -41.064 -19.773, -41.063 -19.773, -41.062 -19.773, -41.062 -19.772, -41.061 -19.772, -41.061 -19.771, -41.061 -19.77, -41.061 -19.769, -41.06 -19.769, -41.06 -19.768, -41.06 -19.767, -41.059 -19.767, -41.059 -19.766, -41.058 -19.766, -41.059 -19.765, -41.058 -19.765, -41.057 -19.765, -41.057 -19.764, -41.056 -19.764, -41.056 -19.763, -41.055 -19.763, -41.055 -19.762, -41.054 -19.762, -41.054 -19.763, -41.053 -19.762, -41.052 -19.762, -41.051 -19.763, -41.05 -19.763, -41.049 -19.763, -41.048 -19.763, -41.048 -19.764, -41.047 -19.764, -41.046 -19.764, -41.045 -19.764, -41.045 -19.765, -41.044 -19.765, -41.044 -19.764, -41.043 -19.764, -41.042 -19.764, -41.041 -19.765, -41.041 -19.766, -41.042 -19.766, -41.042 -19.767, -41.043 -19.767, -41.044 -19.767, -41.045 -19.768, -41.046 -19.768, -41.047 -19.768, -41.047 -19.769, -41.048 -19.769, -41.048 -19.77, -41.049 -19.77, -41.05 -19.769, -41.051 -19.769, -41.052 -19.769, -41.052 -19.77, -41.052 -19.771, -41.052 -19.772, -41.052 -19.773, -41.052 -19.774, -41.053 -19.774, -41.054 -19.774, -41.054 -19.775, -41.054 -19.776, -41.054 -19.777, -41.053 -19.778, -41.052 -19.778, -41.051 -19.778, -41.05 -19.778, -41.049 -19.778, -41.048 -19.777, -41.047 -19.776, -41.046 -19.776, -41.046 -19.777, -41.045 -19.777, -41.045 -19.778, -41.044 -19.778, -41.043 -19.779, -41.043 -19.78, -41.042 -19.781, -41.042 -19.782, -41.042 -19.783, -41.041 -19.783, -41.041 -19.784, -41.04 -19.784, -41.04 -19.785, -41.039 -19.785, -41.039 -19.786, -41.038 -19.786, -41.038 -19.787, -41.037 -19.787, -41.037 -19.788, -41.036 -19.788, -41.035 -19.788, -41.035 -19.789, -41.034 -19.789, -41.035 -19.79, -41.035 -19.791, -41.036 -19.792, -41.035 -19.792, -41.034 -19.792, -41.033 -19.79, -41.032 -19.79, -41.032 -19.789, -41.03 -19.787, -41.028 -19.786, -41.027 -19.785, -41.026 -19.784, -41.024 -19.783, -41.023 -19.782, -41.021 -19.782, -41.02 -19.782, -41.019 -19.783, -41.017 -19.785, -41.016 -19.785, -41.016 -19.786, -41.016 -19.788, -41.015 -19.788, -41.015 -19.789, -41.015 -19.79, -41.014 -19.792, -41.014 -19.794, -41.014 -19.795, -41.014 -19.796, -41.014 -19.797, -41.015 -19.798, -41.014 -19.798, -41.013 -19.799, -41.012 -19.8, -41.011 -19.8, -41.011 -19.801, -41.01 -19.802, -41.009 -19.803, -41.009 -19.804, -41.008 -19.804, -41.007 -19.804, -41.006 -19.804, -41.005 -19.805, -41.004 -19.805, -41.002 -19.804, -41.001 -19.803, -41 -19.803, -40.999 -19.803, -40.998 -19.804, -40.997 -19.804, -40.996 -19.804, -40.995 -19.803, -40.993 -19.8, -40.993 -19.802, -40.992 -19.802, -40.991 -19.803, -40.99 -19.804, -40.989 -19.805, -40.988 -19.805, -40.987 -19.805, -40.986 -19.805, -40.985 -19.805, -40.984 -19.805, -40.983 -19.804, -40.983 -19.803, -40.982 -19.803, -40.981 -19.803, -40.981 -19.802, -40.98 -19.802, -40.979 -19.802, -40.979 -19.801, -40.978 -19.801, -40.978 -19.8, -40.978 -19.799, -40.977 -19.799, -40.976 -19.799, -40.975 -19.799, -40.974 -19.799, -40.973 -19.799, -40.972 -19.799, -40.971 -19.799, -40.97 -19.799, -40.969 -19.799, -40.968 -19.799, -40.967 -19.799, -40.966 -19.799, -40.966 -19.8, -40.965 -19.801, -40.964 -19.801, -40.963 -19.801, -40.962 -19.802, -40.961 -19.802, -40.96 -19.803, -40.959 -19.803, -40.958 -19.803, -40.957 -19.804, -40.956 -19.804, -40.955 -19.804, -40.954 -19.803, -40.953 -19.803, -40.952 -19.804, -40.951 -19.804, -40.95 -19.804, -40.949 -19.804, -40.948 -19.804, -40.947 -19.804, -40.946 -19.804, -40.945 -19.804, -40.944 -19.804, -40.943 -19.804, -40.942 -19.804, -40.941 -19.804, -40.94 -19.805, -40.94 -19.806, -40.94 -19.807, -40.94 -19.808, -40.939 -19.81, -40.94 -19.812, -40.94 -19.813, -40.939 -19.813, -40.938 -19.814, -40.937 -19.816, -40.937 -19.817, -40.938 -19.818, -40.938 -19.819, -40.938 -19.82, -40.939 -19.82, -40.94 -19.821, -40.941 -19.822, -40.942 -19.822, -40.943 -19.823, -40.944 -19.823, -40.945 -19.823, -40.946 -19.823, -40.947 -19.824, -40.948 -19.824, -40.949 -19.824, -40.949 -19.825, -40.95 -19.824, -40.951 -19.824, -40.952 -19.825, -40.953 -19.825, -40.953 -19.826, -40.954 -19.827, -40.955 -19.828, -40.957 -19.829, -40.958 -19.83, -40.957 -19.831, -40.956 -19.832, -40.956 -19.833, -40.955 -19.834, -40.955 -19.835, -40.954 -19.835, -40.953 -19.835, -40.953 -19.836, -40.952 -19.837, -40.951 -19.838, -40.95 -19.839, -40.95 -19.84, -40.949 -19.841, -40.949 -19.842, -40.95 -19.843, -40.951 -19.843, -40.951 -19.844, -40.952 -19.844, -40.953 -19.845, -40.953 -19.846, -40.954 -19.846, -40.955 -19.846, -40.955 -19.847, -40.955 -19.848, -40.955 -19.849, -40.956 -19.85, -40.956 -19.851, -40.957 -19.851, -40.957 -19.852, -40.958 -19.852, -40.959 -19.853, -40.958 -19.854, -40.956 -19.855, -40.955 -19.856, -40.955 -19.857, -40.955 -19.858, -40.954 -19.858, -40.955 -19.859, -40.954 -19.86, -40.955 -19.861, -40.955 -19.862, -40.955 -19.863, -40.953 -19.863, -40.951 -19.863, -40.949 -19.864, -40.947 -19.864, -40.946 -19.865, -40.945 -19.865, -40.944 -19.866, -40.944 -19.867, -40.943 -19.868, -40.942 -19.869, -40.942 -19.87, -40.942 -19.871, -40.941 -19.871, -40.94 -19.872, -40.939 -19.871, -40.938 -19.871, -40.937 -19.871, -40.936 -19.871, -40.935 -19.871, -40.935 -19.872, -40.935 -19.873, -40.934 -19.874, -40.933 -19.875, -40.933 -19.876, -40.932 -19.877, -40.931 -19.878, -40.932 -19.879, -40.933 -19.881, -40.934 -19.881, -40.935 -19.881, -40.936 -19.881, -40.935 -19.882, -40.935 -19.883, -40.935 -19.884, -40.935 -19.885, -40.935 -19.886, -40.935 -19.887, -40.935 -19.888, -40.935 -19.889, -40.935 -19.89, -40.934 -19.891, -40.934 -19.892, -40.934 -19.893, -40.934 -19.894, -40.933 -19.895, -40.932 -19.895, -40.931 -19.896, -40.931 -19.897, -40.93 -19.897, -40.928 -19.898, -40.927 -19.899, -40.925 -19.9, -40.924 -19.901, -40.924 -19.902, -40.925 -19.903, -40.926 -19.903, -40.928 -19.904, -40.929 -19.904, -40.931 -19.905, -40.933 -19.906, -40.934 -19.906, -40.935 -19.905, -40.938 -19.905, -40.939 -19.905, -40.94 -19.904, -40.94 -19.903, -40.942 -19.902, -40.944 -19.901, -40.945 -19.902, -40.946 -19.902, -40.946 -19.903, -40.947 -19.903, -40.948 -19.903, -40.948 -19.904, -40.949 -19.904, -40.948 -19.905, -40.949 -19.905, -40.947 -19.906, -40.946 -19.908, -40.945 -19.908, -40.945 -19.909, -40.945 -19.91, -40.946 -19.911, -40.947 -19.911, -40.946 -19.912, -40.946 -19.913, -40.947 -19.913, -40.947 -19.914, -40.947 -19.915, -40.947 -19.916, -40.948 -19.916, -40.948 -19.917, -40.948 -19.919, -40.948 -19.921, -40.947 -19.922, -40.946 -19.922, -40.946 -19.923, -40.946 -19.924, -40.947 -19.925, -40.947 -19.926, -40.948 -19.927, -40.947 -19.928, -40.948 -19.929, -40.947 -19.93, -40.946 -19.931, -40.945 -19.931, -40.944 -19.931, -40.943 -19.932, -40.944 -19.933, -40.944 -19.934, -40.945 -19.935, -40.946 -19.937, -40.947 -19.937, -40.947 -19.938, -40.948 -19.938, -40.949 -19.939, -40.95 -19.94, -40.95 -19.941, -40.95 -19.942, -40.951 -19.943, -40.953 -19.944, -40.953 -19.945, -40.953 -19.946, -40.953 -19.947, -40.953 -19.948, -40.954 -19.948, -40.954 -19.949, -40.955 -19.949, -40.955 -19.95, -40.955 -19.951, -40.956 -19.951, -40.957 -19.951, -40.957 -19.952, -40.958 -19.952, -40.959 -19.954, -40.959 -19.955, -40.959 -19.956, -40.958 -19.959, -40.957 -19.96, -40.957 -19.961, -40.957 -19.962, -40.956 -19.963, -40.955 -19.964, -40.956 -19.964, -40.956 -19.965, -40.957 -19.965, -40.957 -19.966, -40.958 -19.966, -40.959 -19.967, -40.96 -19.968, -40.96 -19.969, -40.961 -19.969, -40.961 -19.97, -40.962 -19.971, -40.963 -19.972, -40.963 -19.973, -40.963 -19.974, -40.962 -19.974, -40.963 -19.975, -40.964 -19.976, -40.965 -19.976, -40.966 -19.976, -40.968 -19.977, -40.969 -19.976, -40.97 -19.977, -40.971 -19.977, -40.972 -19.977, -40.973 -19.977, -40.974 -19.978, -40.975 -19.978, -40.976 -19.978, -40.977 -19.979, -40.978 -19.979, -40.979 -19.979, -40.98 -19.979, -40.981 -19.977, -40.984 -19.977, -40.984 -19.976, -40.986 -19.977, -40.986 -19.975, -40.986 -19.974, -40.986 -19.973, -40.987 -19.973, -40.988 -19.972, -40.989 -19.972, -40.989 -19.971, -40.99 -19.971, -40.991 -19.97, -40.992 -19.97, -40.994 -19.97, -40.995 -19.968, -40.995 -19.966, -40.995 -19.965, -40.995 -19.964, -40.994 -19.964, -40.994 -19.963, -40.994 -19.962, -40.995 -19.962, -40.995 -19.961, -40.995 -19.96, -40.996 -19.96, -40.997 -19.96, -40.998 -19.961, -41 -19.961, -41 -19.962, -41.001 -19.962, -41.002 -19.962, -41.003 -19.962, -41.004 -19.961, -41.005 -19.961, -41.005 -19.96, -41.006 -19.96, -41.006 -19.962, -41.006 -19.963, -41.007 -19.963, -41.008 -19.964, -41.009 -19.963, -41.01 -19.963, -41.011 -19.965, -41.012 -19.965, -41.013 -19.966, -41.013 -19.967, -41.014 -19.968, -41.015 -19.969, -41.016 -19.97, -41.017 -19.97, -41.018 -19.969, -41.019 -19.97, -41.02 -19.97, -41.021 -19.971, -41.023 -19.971, -41.024 -19.971, -41.025 -19.971, -41.025 -19.972, -41.026 -19.972, -41.027 -19.973, -41.029 -19.973, -41.03 -19.973, -41.031 -19.973, -41.032 -19.974, -41.033 -19.975, -41.034 -19.976, -41.036 -19.976, -41.037 -19.977, -41.038 -19.977, -41.039 -19.976, -41.04 -19.976, -41.041 -19.976, -41.043 -19.976, -41.044 -19.976, -41.045 -19.976, -41.046 -19.976, -41.046 -19.977, -41.046 -19.978, -41.046 -19.979, -41.046 -19.98, -41.047 -19.981, -41.048 -19.98, -41.049 -19.981, -41.05 -19.981, -41.051 -19.981, -41.051 -19.982, -41.052 -19.982, -41.053 -19.983, -41.054 -19.984, -41.055 -19.985, -41.056 -19.985, -41.056 -19.986, -41.057 -19.986, -41.058 -19.986, -41.059 -19.987, -41.06 -19.987, -41.061 -19.987, -41.062 -19.987, -41.063 -19.987, -41.064 -19.987, -41.065 -19.987, -41.068 -19.986, -41.069 -19.985, -41.07 -19.984, -41.071 -19.984, -41.071 -19.983, -41.072 -19.983, -41.072 -19.982, -41.072 -19.981, -41.073 -19.981, -41.074 -19.981, -41.074 -19.98, -41.075 -19.979, -41.075 -19.978, -41.077 -19.978, -41.078 -19.978, -41.079 -19.977, -41.08 -19.976, -41.081 -19.976, -41.082 -19.975, -41.083 -19.974, -41.083 -19.973, -41.084 -19.973, -41.085 -19.972, -41.086 -19.971, -41.086 -19.97, -41.087 -19.97, -41.088 -19.97, -41.089 -19.97, -41.09 -19.97, -41.091 -19.97, -41.092 -19.97, -41.093 -19.97, -41.094 -19.97, -41.095 -19.97, -41.096 -19.97, -41.096 -19.969, -41.097 -19.969, -41.097 -19.968, -41.098 -19.968, -41.099 -19.968, -41.1 -19.967, -41.1 -19.966, -41.101 -19.966, -41.101 -19.965, -41.102 -19.964, -41.102 -19.963, -41.103 -19.963, -41.104 -19.964, -41.104 -19.965, -41.105 -19.965, -41.105 -19.966, -41.105 -19.967, -41.104 -19.967, -41.104 -19.968, -41.105 -19.968, -41.105 -19.969, -41.106 -19.969, -41.107 -19.969, -41.108 -19.969, -41.109 -19.969, -41.109 -19.97, -41.11 -19.97, -41.11 -19.971, -41.111 -19.972, -41.112 -19.972, -41.112 -19.973, -41.113 -19.973, -41.113 -19.972, -41.114 -19.972, -41.115 -19.971, -41.115 -19.97, -41.116 -19.97, -41.116 -19.969, -41.116 -19.968, -41.117 -19.968, -41.117 -19.967, -41.118 -19.967, -41.119 -19.966, -41.12 -19.966, -41.12 -19.965, -41.119 -19.965, -41.118 -19.964, -41.117 -19.964, -41.116 -19.964, -41.115 -19.964, -41.114 -19.963, -41.114 -19.962, -41.113 -19.962, -41.113 -19.96, -41.113 -19.959, -41.113 -19.958, -41.112 -19.957, -41.111 -19.957, -41.11 -19.956, -41.11 -19.955, -41.11 -19.954, -41.11 -19.953, -41.11 -19.952, -41.111 -19.951, -41.111 -19.95, -41.111 -19.949, -41.112 -19.949, -41.112 -19.948, -41.113 -19.948, -41.113 -19.947, -41.114 -19.946, -41.114 -19.944, -41.115 -19.943, -41.115 -19.942, -41.116 -19.942, -41.116 -19.941, -41.117 -19.941, -41.118 -19.941, -41.119 -19.94, -41.12 -19.94, -41.12 -19.939, -41.121 -19.938, -41.122 -19.937, -41.123 -19.936, -41.124 -19.936, -41.124 -19.935, -41.124 -19.933, -41.125 -19.932, -41.125 -19.931, -41.125 -19.93, -41.124 -19.93, -41.124 -19.929, -41.124 -19.928, -41.124 -19.927, -41.126 -19.927, -41.126 -19.926, -41.126 -19.925, -41.126 -19.924, -41.126 -19.923, -41.127 -19.922, -41.127 -19.92, -41.127 -19.919, -41.127 -19.918, -41.126 -19.918, -41.125 -19.918, -41.125 -19.917, -41.126 -19.916, -41.126 -19.915, -41.127 -19.915, -41.127 -19.914, -41.128 -19.913, -41.129 -19.912, -41.129 -19.911, -41.129 -19.91, -41.13 -19.909, -41.131 -19.908, -41.132 -19.907, -41.133 -19.908, -41.134 -19.908, -41.135 -19.907, -41.135 -19.905, -41.136 -19.904, -41.137 -19.904, -41.137 -19.903, -41.137 -19.902, -41.137 -19.901, -41.136 -19.9, -41.136 -19.899, -41.136 -19.898, -41.137 -19.898, -41.138 -19.896, -41.139 -19.896, -41.139 -19.895, -41.14 -19.894, -41.141 -19.893, -41.141 -19.892, -41.142 -19.892, -41.144 -19.892, -41.145 -19.891, -41.146 -19.891, -41.148 -19.891, -41.149 -19.891, -41.15 -19.89, -41.151 -19.89, -41.152 -19.89, -41.155 -19.89, -41.155 -19.892, -41.156 -19.892, -41.157 -19.893, -41.158 -19.893, -41.158 -19.894, -41.158 -19.895, -41.159 -19.897, -41.159 -19.898, -41.16 -19.898, -41.161 -19.898, -41.162 -19.898, -41.163 -19.899, -41.164 -19.9, -41.165 -19.901, -41.166 -19.902, -41.166 -19.903, -41.167 -19.904, -41.168 -19.905, -41.169 -19.905, -41.17 -19.906, -41.171 -19.906, -41.172 -19.907, -41.173 -19.907, -41.174 -19.907, -41.174 -19.906, -41.176 -19.906, -41.177 -19.906, -41.177 -19.905, -41.178 -19.904, -41.179 -19.904, -41.18 -19.903, -41.18 -19.902, -41.18 -19.901, -41.179 -19.901, -41.179 -19.9, -41.18 -19.9, -41.181 -19.899, -41.182 -19.899, -41.182 -19.898, -41.182 -19.896, -41.182 -19.895, -41.183 -19.895, -41.183 -19.894, -41.184 -19.894, -41.184 -19.893, -41.185 -19.892, -41.186 -19.892, -41.186 -19.891, -41.185 -19.889, -41.184 -19.888, -41.185 -19.886, -41.184 -19.881, -41.184 -19.878, -41.184 -19.875, -41.184 -19.871, -41.183 -19.868, -41.184 -19.857, -41.184 -19.848, -41.18 -19.848, -41.179 -19.847, -41.178 -19.843, -41.177 -19.841, -41.176 -19.841, -41.175 -19.839, -41.18 -19.832, -41.185 -19.83, -41.185 -19.829, -41.186 -19.828, -41.186 -19.827, -41.183 -19.826, -41.177 -19.826, -41.175 -19.825, -41.174 -19.824, -41.174 -19.822, -41.173 -19.82, -41.171 -19.816, -41.167 -19.812, -41.166 -19.81, -41.165 -19.809, -41.164 -19.806, -41.164 -19.805, -41.165 -19.8, -41.166 -19.798, -41.166 -19.795, -41.166 -19.794, -41.165 -19.792, -41.172 -19.787, -41.173 -19.786, -41.174 -19.784, -41.173 -19.78, -41.172 -19.779, -41.171 -19.778, -41.172 -19.776, -41.174 -19.774, -41.175 -19.772, -41.175 -19.771, -41.174 -19.767, -41.174 -19.766, -41.174 -19.765, -41.174 -19.764, -41.174 -19.763, -41.174 -19.762, -41.173 -19.762, -41.173 -19.761, -41.172 -19.761, -41.172 -19.762, -41.17 -19.762, -41.169 -19.762, -41.168 -19.762, -41.167 -19.762, -41.166 -19.762, -41.165 -19.762, -41.164 -19.762, -41.163 -19.763, -41.162 -19.763, -41.161 -19.764, -41.16 -19.764, -41.159 -19.764, -41.159 -19.763, -41.158 -19.763, -41.157 -19.763, -41.157 -19.762, -41.156 -19.762, -41.155 -19.761, -41.156 -19.761, -41.156 -19.76, -41.156 -19.759, -41.155 -19.759, -41.154 -19.759, -41.153 -19.76, -41.153 -19.761, -41.153 -19.762, -41.152 -19.762, -41.151 -19.762, -41.151 -19.763, -41.15 -19.763, -41.15 -19.764, -41.149 -19.765, -41.149 -19.766, -41.148 -19.766, -41.147 -19.766, -41.146 -19.766, -41.145 -19.767, -41.144 -19.767, -41.143 -19.767))",
       "municipio_id": "3203163",
       "municipio_nome": "Laranja da Terra",
       "municipio_slug": "laranja-da-terra",
@@ -5604,8 +5675,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1196,
-      "time_since_hours": 19.93,
+      "time_since_minutes": 1202,
+      "time_since_hours": 20.03,
       "time_since_bucket": "Mais de 12h",
       "is_active": false,
       "affected_municipio_ids": [
