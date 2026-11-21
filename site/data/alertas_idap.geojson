@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-21T19:06:59.457107+00:00",
-  "total_alerts": 7,
+  "generated_at": "2026-11-21T19:12:36.845715+00:00",
+  "total_alerts": 8,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.663,
-              -21.078
-            ],
             [
               -41.662,
               -21.078
@@ -4382,6 +4378,10 @@
             [
               -41.663,
               -21.078
+            ],
+            [
+              -41.662,
+              -21.078
             ]
           ]
         ]
@@ -4468,10 +4468,6 @@
         "coordinates": [
           [
             [
-              [
-                -40.627,
-                -19.348
-              ],
               [
                 -40.626,
                 -19.347
@@ -11867,6 +11863,10 @@
               [
                 -40.627,
                 -19.348
+              ],
+              [
+                -40.626,
+                -19.347
               ]
             ]
           ],
@@ -11874,10 +11874,6 @@
             [
               [
                 -40.374,
-                -19.081
-              ],
-              [
-                -40.374,
                 -19.08
               ],
               [
@@ -11891,6 +11887,10 @@
               [
                 -40.374,
                 -19.081
+              ],
+              [
+                -40.374,
+                -19.08
               ]
             ]
           ]
@@ -38505,6 +38505,111 @@
             [
               -41.638,
               -21.133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199664/2026",
+        "entry_id": "199664/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-21T16:06:18-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-21T16:06:18-03:00",
+        "expires": "2026-11-21T17:10:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA na regiao de Apiaca na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de CHUVA INTENSA na regiao de Apiaca na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+        "instruction": "Proteja-se. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Apiacá/ES, Mimoso do Sul/ES",
+        "polygon_raw": "-21.148,-41.565 -21.141,-41.567 -21.141,-41.576 -21.148,-41.58 -21.153,-41.571 -21.163,-41.571 -21.165,-41.569 -21.166,-41.562 -21.157,-41.56 -21.148,-41.565",
+        "polygon_points": 10,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203403",
+        "municipio_nome": "Mimoso do Sul",
+        "municipio_slug": "mimoso-do-sul",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203403",
+            "municipio_nome": "Mimoso do Sul",
+            "municipio_slug": "mimoso-do-sul",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "21/11/2026 16:06",
+        "onset_label": "21/11/2026 16:06",
+        "expires_label": "21/11/2026 17:10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.56,
+              -21.157
+            ],
+            [
+              -41.562,
+              -21.166
+            ],
+            [
+              -41.569,
+              -21.165
+            ],
+            [
+              -41.571,
+              -21.163
+            ],
+            [
+              -41.571,
+              -21.153
+            ],
+            [
+              -41.58,
+              -21.148
+            ],
+            [
+              -41.576,
+              -21.141
+            ],
+            [
+              -41.567,
+              -21.141
+            ],
+            [
+              -41.565,
+              -21.148
+            ],
+            [
+              -41.56,
+              -21.157
             ]
           ]
         ]
