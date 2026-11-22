@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T18:37:10.521419-03:00",
+  "generated_at": "2026-11-22T18:43:07.570296-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
+    "vigentes": 0,
     "ultimas24h": 16,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1173,7 +1173,7 @@
       "location": "Muqui",
       "uf": "ES",
       "headline": "Defesa Civil:ES)  ALERTA de CHUVA INTENSA, RAIOS, VENTO e GRANIZO  na proximas 3 horas. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "199880/2026",
       "entry_id": "199880/2026",
       "sent": "2026-11-22T15:42:13-03:00",
@@ -1212,7 +1212,7 @@
       "location": "Alegre",
       "uf": "ES",
       "headline": "Defesa Civil:ES)  ALERTA de CHUVA INTENSA, RAIOS, VENTO e GRANIZO  na proximas 3 horas. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "199879/2026",
       "entry_id": "199879/2026",
       "sent": "2026-11-22T15:39:59-03:00",
@@ -1618,12 +1618,8 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
-      "count": 2
-    },
-    {
       "label": "expirado",
-      "count": 14
+      "count": 16
     }
   ],
   "category_distribution": [
@@ -1645,11 +1641,11 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 11
+      "count": 12
     },
     {
       "label": "1h a 3h",
-      "count": 5
+      "count": 4
     }
   ],
   "channel_distribution": [
@@ -1733,8 +1729,8 @@
       "duration_minutes": 55,
       "duration_hours": 0.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 152,
-      "time_since_hours": 2.53,
+      "time_since_minutes": 158,
+      "time_since_hours": 2.63,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1806,8 +1802,8 @@
       "duration_minutes": 58,
       "duration_hours": 0.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 155,
-      "time_since_hours": 2.58,
+      "time_since_minutes": 161,
+      "time_since_hours": 2.68,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1877,8 +1873,8 @@
       "duration_minutes": 61,
       "duration_hours": 1.02,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 158,
-      "time_since_hours": 2.63,
+      "time_since_minutes": 164,
+      "time_since_hours": 2.73,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1895,7 +1891,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-22T15:42:13-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1944,7 +1940,7 @@
       "uf": "ES",
       "location": "Muqui",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "22/11/2026",
       "time": "15:42",
       "sent_br": "2026-11-22T15:42:13-03:00",
@@ -1953,10 +1949,10 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 174,
-      "time_since_hours": 2.9,
+      "time_since_minutes": 180,
+      "time_since_hours": 3.0,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3203809"
       ],
@@ -1971,7 +1967,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-22T15:39:59-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2020,7 +2016,7 @@
       "uf": "ES",
       "location": "Alegre",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "22/11/2026",
       "time": "15:39",
       "sent_br": "2026-11-22T15:39:59-03:00",
@@ -2029,10 +2025,10 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 177,
-      "time_since_hours": 2.95,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "time_since_minutes": 183,
+      "time_since_hours": 3.05,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3200201"
       ],
@@ -2125,8 +2121,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 203,
-      "time_since_hours": 3.38,
+      "time_since_minutes": 209,
+      "time_since_hours": 3.48,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2205,8 +2201,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 217,
-      "time_since_hours": 3.62,
+      "time_since_minutes": 223,
+      "time_since_hours": 3.72,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2301,8 +2297,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 230,
-      "time_since_hours": 3.83,
+      "time_since_minutes": 236,
+      "time_since_hours": 3.93,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2391,8 +2387,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 268,
-      "time_since_hours": 4.47,
+      "time_since_minutes": 274,
+      "time_since_hours": 4.57,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2479,8 +2475,8 @@
       "duration_minutes": 179,
       "duration_hours": 2.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 287,
-      "time_since_hours": 4.78,
+      "time_since_minutes": 293,
+      "time_since_hours": 4.88,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2570,8 +2566,8 @@
       "duration_minutes": 58,
       "duration_hours": 0.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 290,
-      "time_since_hours": 4.83,
+      "time_since_minutes": 296,
+      "time_since_hours": 4.93,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2659,8 +2655,8 @@
       "duration_minutes": 65,
       "duration_hours": 1.08,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 292,
-      "time_since_hours": 4.87,
+      "time_since_minutes": 298,
+      "time_since_hours": 4.97,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2749,8 +2745,8 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 299,
-      "time_since_hours": 4.98,
+      "time_since_minutes": 305,
+      "time_since_hours": 5.08,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2857,8 +2853,8 @@
       "duration_minutes": 157,
       "duration_hours": 2.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 314,
-      "time_since_hours": 5.23,
+      "time_since_minutes": 320,
+      "time_since_hours": 5.33,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2949,8 +2945,8 @@
       "duration_minutes": 238,
       "duration_hours": 3.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 335,
-      "time_since_hours": 5.58,
+      "time_since_minutes": 341,
+      "time_since_hours": 5.68,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3037,8 +3033,8 @@
       "duration_minutes": 196,
       "duration_hours": 3.27,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 354,
-      "time_since_hours": 5.9,
+      "time_since_minutes": 359,
+      "time_since_hours": 5.98,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
