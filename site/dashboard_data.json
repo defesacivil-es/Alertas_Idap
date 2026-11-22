@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:58:04.242211-03:00",
+  "generated_at": "2026-11-22T16:02:36.470536-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 14,
+    "vigentes": 10,
+    "ultimas24h": 15,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 3,
-    "alertasSeverosExtremos": 3,
+    "alertasSeveros": 4,
+    "alertasSeverosExtremos": 4,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 23,
     "municipiosComAlertas": 23
   },
   "latest_alerts": [
+    {
+      "time": "15:58",
+      "date": "22/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Alegre",
+      "uf": "ES",
+      "headline": "Defesa Civil:ES)  ALERTA de CHUVA INTENSA, RAIOS, VENTO e GRANIZO  na proxima hora em Alegre. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "199883/2026",
+      "entry_id": "199883/2026",
+      "sent": "2026-11-22T15:58:44-03:00",
+      "onset": "2026-11-22T15:58:44-03:00",
+      "expires": "2026-11-22T17:00:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3200201",
+      "municipio_nome": "Alegre",
+      "affected_municipios": [
+        {
+          "municipio_id": "3200201",
+          "municipio_nome": "Alegre",
+          "municipio_slug": "alegre",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3200201"
+      ],
+      "affected_municipio_names": [
+        "Alegre"
+      ]
+    },
     {
       "time": "15:42",
       "date": "22/11/2026",
@@ -1476,60 +1515,13 @@
         "Alfredo Chaves",
         "Vargem Alta"
       ]
-    },
-    {
-      "time": "13:37",
-      "date": "22/11/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Nova Venécia",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS E GRANIZO nas proximas 3 horas. Evite area de risco. Proteja-se. Emergencia 193",
-      "status": "vigente",
-      "identifier": "199828/2026",
-      "entry_id": "199828/2026",
-      "sent": "2026-11-22T13:37:11-03:00",
-      "onset": "2026-11-22T13:37:11-03:00",
-      "expires": "2026-11-22T16:35:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google",
-      "municipio_id": "3203908",
-      "municipio_nome": "Nova Venécia",
-      "affected_municipios": [
-        {
-          "municipio_id": "3203908",
-          "municipio_nome": "Nova Venécia",
-          "municipio_slug": "nova-venecia",
-          "intersection_area_m2": null
-        },
-        {
-          "municipio_id": "3204807",
-          "municipio_nome": "São José do Calçado",
-          "municipio_slug": "sao-jose-do-calcado",
-          "intersection_area_m2": null
-        }
-      ],
-      "affected_municipio_ids": [
-        "3203908",
-        "3204807"
-      ],
-      "affected_municipio_names": [
-        "Nova Venécia",
-        "São José do Calçado"
-      ]
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 14
+      "count": 15
     }
   ],
   "level_distribution": [
@@ -1539,19 +1531,19 @@
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 15
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 14
+      "count": 15
     }
   ],
   "municipio_distribution": [
@@ -1562,6 +1554,10 @@
     {
       "municipio": "Alfredo Chaves",
       "count": 3
+    },
+    {
+      "municipio": "Alegre",
+      "count": 2
     },
     {
       "municipio": "Mimoso do Sul",
@@ -1581,10 +1577,6 @@
     },
     {
       "municipio": "Muqui",
-      "count": 1
-    },
-    {
-      "municipio": "Alegre",
       "count": 1
     },
     {
@@ -1651,17 +1643,17 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 3
+      "count": 5
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 14
+      "count": 15
     }
   ],
   "duration_distribution": [
@@ -1671,13 +1663,13 @@
     },
     {
       "label": "Até 2h",
-      "count": 3
+      "count": 4
     }
   ],
   "time_since_distribution": [
     {
       "label": "1h a 3h",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Até 1h",
@@ -1695,10 +1687,81 @@
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 14
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "199883/2026",
+      "entry_id": "199883/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-22T15:58:44-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Observed",
+      "onset": "2026-11-22T15:58:44-03:00",
+      "expires": "2026-11-22T17:00:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:ES)  ALERTA de CHUVA INTENSA, RAIOS, VENTO e GRANIZO  na proxima hora em Alegre. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+      "description": "ES)  ALERTA de CHUVA INTENSA, RAIOS, VENTO e GRANIZO  na próxima hora em Alegre. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Alegre/ES",
+      "polygon_raw": "-20.685,-41.583 -20.691,-41.585 -20.691,-41.574 -20.683,-41.576 -20.685,-41.583",
+      "polygon_points": 5,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.576 -20.683, -41.574 -20.691, -41.585 -20.691, -41.583 -20.685, -41.576 -20.683))",
+      "municipio_id": "3200201",
+      "municipio_nome": "Alegre",
+      "municipio_slug": "alegre",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3200201",
+          "municipio_nome": "Alegre",
+          "municipio_slug": "alegre",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Alegre",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "22/11/2026",
+      "time": "15:58",
+      "sent_br": "2026-11-22T15:58:44-03:00",
+      "onset_br": "2026-11-22T15:58:44-03:00",
+      "expires_br": "2026-11-22T17:00:00-03:00",
+      "duration_minutes": 61,
+      "duration_hours": 1.02,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 3,
+      "time_since_hours": 0.05,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3200201"
+      ],
+      "affected_municipio_names": [
+        "Alegre"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "199880/2026",
       "entry_id": "199880/2026",
@@ -1763,8 +1826,8 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 15,
-      "time_since_hours": 0.25,
+      "time_since_minutes": 20,
+      "time_since_hours": 0.33,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1839,8 +1902,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 18,
-      "time_since_hours": 0.3,
+      "time_since_minutes": 22,
+      "time_since_hours": 0.37,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1935,8 +1998,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 44,
-      "time_since_hours": 0.73,
+      "time_since_minutes": 48,
+      "time_since_hours": 0.8,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2015,9 +2078,9 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 58,
-      "time_since_hours": 0.97,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 62,
+      "time_since_hours": 1.03,
+      "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
         "3203700"
@@ -2111,8 +2174,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 71,
-      "time_since_hours": 1.18,
+      "time_since_minutes": 75,
+      "time_since_hours": 1.25,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2201,8 +2264,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 109,
-      "time_since_hours": 1.82,
+      "time_since_minutes": 113,
+      "time_since_hours": 1.88,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2289,8 +2352,8 @@
       "duration_minutes": 179,
       "duration_hours": 2.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 128,
-      "time_since_hours": 2.13,
+      "time_since_minutes": 132,
+      "time_since_hours": 2.2,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2380,8 +2443,8 @@
       "duration_minutes": 58,
       "duration_hours": 0.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 131,
-      "time_since_hours": 2.18,
+      "time_since_minutes": 136,
+      "time_since_hours": 2.27,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2469,8 +2532,8 @@
       "duration_minutes": 65,
       "duration_hours": 1.08,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 133,
-      "time_since_hours": 2.22,
+      "time_since_minutes": 137,
+      "time_since_hours": 2.28,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2559,8 +2622,8 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 140,
-      "time_since_hours": 2.33,
+      "time_since_minutes": 145,
+      "time_since_hours": 2.42,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2579,7 +2642,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-22T13:22:41-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2658,7 +2721,7 @@
       "uf": "ES",
       "location": "Alfredo Chaves",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "22/11/2026",
       "time": "13:22",
       "sent_br": "2026-11-22T13:22:41-03:00",
@@ -2667,10 +2730,10 @@
       "duration_minutes": 157,
       "duration_hours": 2.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 155,
-      "time_since_hours": 2.58,
+      "time_since_minutes": 159,
+      "time_since_hours": 2.65,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200300",
         "3202603",
@@ -2759,8 +2822,8 @@
       "duration_minutes": 238,
       "duration_hours": 3.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 176,
-      "time_since_hours": 2.93,
+      "time_since_minutes": 180,
+      "time_since_hours": 3.0,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2779,7 +2842,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-22T12:43:08-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2838,7 +2901,7 @@
       "uf": "ES",
       "location": "Domingos Martins",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "22/11/2026",
       "time": "12:43",
       "sent_br": "2026-11-22T12:43:08-03:00",
@@ -2847,10 +2910,10 @@
       "duration_minutes": 196,
       "duration_hours": 3.27,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 194,
-      "time_since_hours": 3.23,
+      "time_since_minutes": 199,
+      "time_since_hours": 3.32,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201902",
         "3202306"
@@ -2890,7 +2953,7 @@
       "has_geocode": false,
       "uf_hint": "ES",
       "region": "SE",
-      "geometry_wkt": "POLYGON ((-41.567 -21.141, -41.565 -21.148, -41.56 -21.157, -41.562 -21.166, -41.569 -21.165, -41.571 -21.163, -41.571 -21.153, -41.58 -21.148, -41.576 -21.141, -41.567 -21.141))",
+      "geometry_wkt": "POLYGON ((-41.565 -21.148, -41.56 -21.157, -41.562 -21.166, -41.569 -21.165, -41.571 -21.163, -41.571 -21.153, -41.58 -21.148, -41.576 -21.141, -41.567 -21.141, -41.565 -21.148))",
       "municipio_id": "3203403",
       "municipio_nome": "Mimoso do Sul",
       "municipio_slug": "mimoso-do-sul",
@@ -2920,8 +2983,8 @@
       "duration_minutes": 63,
       "duration_hours": 1.05,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1431,
-      "time_since_hours": 23.85,
+      "time_since_minutes": 1436,
+      "time_since_hours": 23.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false,
       "affected_municipio_ids": [
