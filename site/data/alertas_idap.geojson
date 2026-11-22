@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-22T16:43:09.155986+00:00",
-  "total_alerts": 5,
+  "generated_at": "2026-11-22T16:47:07.360607+00:00",
+  "total_alerts": 6,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.544,
-              -20.966
-            ],
             [
               -41.543,
               -20.966
@@ -4381,6 +4377,10 @@
             ],
             [
               -41.544,
+              -20.966
+            ],
+            [
+              -41.543,
               -20.966
             ]
           ]
@@ -55940,6 +55940,114 @@
                 -40.562,
                 -18.507
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "199831/2026",
+        "entry_id": "199831/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-22T13:44:51-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-22T13:44:51-03:00",
+        "expires": "2026-11-22T14:50:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS E GRANIZO. Evite area de risco. Proteja-se. Emergencia 193",
+        "description": "(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS E GRANIZO. Evite área de risco. Proteja-se. Emergência 193",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-20.375,-41.025 -20.481,-41.017 -20.486,-40.925 -20.378,-40.929 -20.375,-41.025",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201902",
+        "municipio_nome": "Domingos Martins",
+        "municipio_slug": "domingos-martins",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201902",
+            "municipio_nome": "Domingos Martins",
+            "municipio_slug": "domingos-martins",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": "",
+            "intersection_area_m2": 68168714.92
+          },
+          {
+            "municipio_id": "3200300",
+            "municipio_nome": "Alfredo Chaves",
+            "municipio_slug": "alfredo-chaves",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": "",
+            "intersection_area_m2": 29459048.34
+          },
+          {
+            "municipio_id": "3205036",
+            "municipio_nome": "Vargem Alta",
+            "municipio_slug": "vargem-alta",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": "",
+            "intersection_area_m2": 18327432.61
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "22/11/2026 13:44",
+        "onset_label": "22/11/2026 13:44",
+        "expires_label": "22/11/2026 14:50"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.929,
+              -20.378
+            ],
+            [
+              -40.925,
+              -20.486
+            ],
+            [
+              -41.017,
+              -20.481
+            ],
+            [
+              -41.025,
+              -20.375
+            ],
+            [
+              -40.929,
+              -20.378
             ]
           ]
         ]
