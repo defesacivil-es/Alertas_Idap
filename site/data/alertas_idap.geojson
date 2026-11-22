@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-22T17:42:17.525959+00:00",
-  "total_alerts": 9,
+  "generated_at": "2026-11-22T17:47:14.932711+00:00",
+  "total_alerts": 8,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.534,
-              -20.963
-            ],
             [
               -41.533,
               -20.963
@@ -4381,6 +4377,10 @@
             ],
             [
               -41.534,
+              -20.963
+            ],
+            [
+              -41.533,
               -20.963
             ]
           ]
@@ -56048,125 +56048,6 @@
             [
               -40.929,
               -20.378
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "199833/2026",
-        "entry_id": "199833/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-22T13:46:25-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Observed",
-        "onset": "2026-11-22T13:46:25-03:00",
-        "expires": "2026-11-22T14:45:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS E GRANIZO. Evite area de risco. Proteja-se. Emergencia 193",
-        "description": "(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS E GRANIZO. Evite área de risco. Proteja-se. Emergência 193",
-        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "ESPÍRITO SANTO/ES",
-        "polygon_raw": "-20.593,-40.988 -20.724,-40.983 -20.708,-40.862 -20.585,-40.878 -20.593,-40.988",
-        "polygon_points": 5,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3205036",
-        "municipio_nome": "Vargem Alta",
-        "municipio_slug": "vargem-alta",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3205036",
-            "municipio_nome": "Vargem Alta",
-            "municipio_slug": "vargem-alta",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": "",
-            "intersection_area_m2": 76383470.0
-          },
-          {
-            "municipio_id": "3200300",
-            "municipio_nome": "Alfredo Chaves",
-            "municipio_slug": "alfredo-chaves",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": "",
-            "intersection_area_m2": 58904895.67
-          },
-          {
-            "municipio_id": "3202603",
-            "municipio_nome": "Iconha",
-            "municipio_slug": "iconha",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": "",
-            "intersection_area_m2": 20123540.08
-          },
-          {
-            "municipio_id": "3204401",
-            "municipio_nome": "Rio Novo do Sul",
-            "municipio_slug": "rio-novo-do-sul",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": "",
-            "intersection_area_m2": 15306232.73
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "22/11/2026 13:46",
-        "onset_label": "22/11/2026 13:46",
-        "expires_label": "22/11/2026 14:45"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.878,
-              -20.585
-            ],
-            [
-              -40.862,
-              -20.708
-            ],
-            [
-              -40.983,
-              -20.724
-            ],
-            [
-              -40.988,
-              -20.593
-            ],
-            [
-              -40.878,
-              -20.585
             ]
           ]
         ]
