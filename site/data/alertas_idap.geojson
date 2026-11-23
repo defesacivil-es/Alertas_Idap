@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-23T22:22:46.175326+00:00",
-  "total_alerts": 17,
+  "generated_at": "2026-11-23T22:28:17.491391+00:00",
+  "total_alerts": 18,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.524,
-              -21.145
-            ],
             [
               -41.525,
               -21.146
@@ -4382,6 +4378,10 @@
             [
               -41.524,
               -21.145
+            ],
+            [
+              -41.525,
+              -21.146
             ]
           ]
         ]
@@ -106023,6 +106023,99 @@
                 -40.047,
                 -18.983
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200247/2026",
+        "entry_id": "200247/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-23T19:21:34-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-23T19:21:34-03:00",
+        "expires": "2026-11-23T20:20:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES) ALERTA de RAIOS, VENTO e CHUVA FORTE em Santa Teresa na proxima hora. Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de RAIOS, VENTO e CHUVA FORTE em Santa Teresa na proxima hora. Evite area de risco.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Santa Teresa/ES",
+        "polygon_raw": "-19.907,-40.584 -19.942,-40.571 -19.95,-40.586 -19.944,-40.615 -19.927,-40.627 -19.918,-40.602 -19.907,-40.584",
+        "polygon_points": 7,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3204609",
+        "municipio_nome": "Santa Teresa",
+        "municipio_slug": "santa-teresa",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3204609",
+            "municipio_nome": "Santa Teresa",
+            "municipio_slug": "santa-teresa",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "23/11/2026 19:21",
+        "onset_label": "23/11/2026 19:21",
+        "expires_label": "23/11/2026 20:20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.571,
+              -19.942
+            ],
+            [
+              -40.586,
+              -19.95
+            ],
+            [
+              -40.615,
+              -19.944
+            ],
+            [
+              -40.627,
+              -19.927
+            ],
+            [
+              -40.602,
+              -19.918
+            ],
+            [
+              -40.584,
+              -19.907
+            ],
+            [
+              -40.571,
+              -19.942
             ]
           ]
         ]
