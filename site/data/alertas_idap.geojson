@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-23T19:38:23.171553+00:00",
-  "total_alerts": 11,
+  "generated_at": "2026-11-23T19:43:10.941147+00:00",
+  "total_alerts": 12,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.501,
-              -21.143
-            ],
             [
               -41.5,
               -21.143
@@ -4381,6 +4377,10 @@
             ],
             [
               -41.501,
+              -21.143
+            ],
+            [
+              -41.5,
               -21.143
             ]
           ]
@@ -89165,6 +89165,107 @@
                 -40.456,
                 -19.048
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200178/2026",
+        "entry_id": "200178/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-23T16:33:11-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-23T16:33:11-03:00",
+        "expires": "2026-11-23T17:30:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE, RAIOS e VENTO em Marilandia na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de CHUVA FORTE, RAIOS e VENTO em Marilandia na proxima hora. Evite area de risco. Proteja-se. Emergencia ligue 193.",
+        "instruction": "Fique atento as orientacoes da Defesa Civil. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Marilândia/ES",
+        "polygon_raw": "-19.4,-40.528 -19.406,-40.553 -19.412,-40.552 -19.415,-40.547 -19.418,-40.546 -19.42,-40.545 -19.419,-40.54 -19.407,-40.529 -19.4,-40.528",
+        "polygon_points": 9,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203353",
+        "municipio_nome": "Marilândia",
+        "municipio_slug": "marilandia",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203353",
+            "municipio_nome": "Marilândia",
+            "municipio_slug": "marilandia",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "23/11/2026 16:33",
+        "onset_label": "23/11/2026 16:33",
+        "expires_label": "23/11/2026 17:30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.529,
+              -19.407
+            ],
+            [
+              -40.54,
+              -19.419
+            ],
+            [
+              -40.545,
+              -19.42
+            ],
+            [
+              -40.546,
+              -19.418
+            ],
+            [
+              -40.547,
+              -19.415
+            ],
+            [
+              -40.552,
+              -19.412
+            ],
+            [
+              -40.553,
+              -19.406
+            ],
+            [
+              -40.528,
+              -19.4
+            ],
+            [
+              -40.529,
+              -19.407
             ]
           ]
         ]
