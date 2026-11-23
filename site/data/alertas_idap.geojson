@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-23T20:43:00.162854+00:00",
-  "total_alerts": 16,
+  "generated_at": "2026-11-23T20:47:01.170458+00:00",
+  "total_alerts": 17,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.509,
-              -21.147
-            ],
             [
               -41.51,
               -21.148
@@ -4382,6 +4378,10 @@
             [
               -41.509,
               -21.147
+            ],
+            [
+              -41.51,
+              -21.148
             ]
           ]
         ]
@@ -113713,6 +113713,131 @@
                 -40.36,
                 -19.067
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200207/2026",
+        "entry_id": "200207/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-23T17:38:47-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Immediate",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "onset": "2026-11-23T17:38:47-03:00",
+        "expires": "2026-11-23T22:00:00-03:00",
+        "nivel": "Médio",
+        "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em Linhares nas proximas 04 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de CHUVA, RAIOS e VENTO em Linhares nas proximas 04 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Fique atento as orientacoes da Defesa Civil. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-19.26,-40.417 -19.287,-40.472 -19.337,-40.528 -19.418,-40.448 -19.513,-40.38 -19.665,-40.354 -19.643,-40.297 -19.578,-40.212 -19.551,-40.11 -19.625,-40.0 -19.339,-40.203 -19.375,-40.328 -19.368,-40.399 -19.322,-40.43 -19.26,-40.417",
+        "polygon_points": 15,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203205",
+        "municipio_nome": "Linhares",
+        "municipio_slug": "linhares",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203205",
+            "municipio_nome": "Linhares",
+            "municipio_slug": "linhares",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#ffd92f",
+        "sent_label": "23/11/2026 17:38",
+        "onset_label": "23/11/2026 17:38",
+        "expires_label": "23/11/2026 22:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.43,
+              -19.322
+            ],
+            [
+              -40.399,
+              -19.368
+            ],
+            [
+              -40.328,
+              -19.375
+            ],
+            [
+              -40.203,
+              -19.339
+            ],
+            [
+              -40.0,
+              -19.625
+            ],
+            [
+              -40.11,
+              -19.551
+            ],
+            [
+              -40.212,
+              -19.578
+            ],
+            [
+              -40.297,
+              -19.643
+            ],
+            [
+              -40.354,
+              -19.665
+            ],
+            [
+              -40.38,
+              -19.513
+            ],
+            [
+              -40.448,
+              -19.418
+            ],
+            [
+              -40.528,
+              -19.337
+            ],
+            [
+              -40.472,
+              -19.287
+            ],
+            [
+              -40.417,
+              -19.26
+            ],
+            [
+              -40.43,
+              -19.322
             ]
           ]
         ]
