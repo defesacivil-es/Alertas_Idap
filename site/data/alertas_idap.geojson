@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-23T20:07:53.059645+00:00",
-  "total_alerts": 13,
+  "generated_at": "2026-11-23T20:13:00.851284+00:00",
+  "total_alerts": 15,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.504,
-              -21.146
-            ],
             [
               -41.504,
               -21.147
@@ -4382,6 +4378,10 @@
             [
               -41.504,
               -21.146
+            ],
+            [
+              -41.504,
+              -21.147
             ]
           ]
         ]
@@ -100534,6 +100534,188 @@
                 -41.32,
                 -20.498
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200192/2026",
+        "entry_id": "200192/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-23T17:04:32-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Immediate",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "onset": "2026-11-23T17:04:32-03:00",
+        "expires": "2026-11-23T21:00:00-03:00",
+        "nivel": "Médio",
+        "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em Colatina nas proximas 04 horas.  Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de CHUVA, RAIOS e VENTO em Colatina nas proximas 04 horas.  Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Fique atento as orientacoes da Defesa Civil. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-19.365,-40.567 -19.323,-40.525 -19.282,-40.539 -19.228,-40.662 -19.237,-40.702 -19.262,-40.707 -19.348,-40.623 -19.365,-40.567",
+        "polygon_points": 8,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201506",
+        "municipio_nome": "Colatina",
+        "municipio_slug": "colatina",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201506",
+            "municipio_nome": "Colatina",
+            "municipio_slug": "colatina",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#ffd92f",
+        "sent_label": "23/11/2026 17:04",
+        "onset_label": "23/11/2026 17:04",
+        "expires_label": "23/11/2026 21:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.623,
+              -19.348
+            ],
+            [
+              -40.707,
+              -19.262
+            ],
+            [
+              -40.702,
+              -19.237
+            ],
+            [
+              -40.662,
+              -19.228
+            ],
+            [
+              -40.539,
+              -19.282
+            ],
+            [
+              -40.525,
+              -19.323
+            ],
+            [
+              -40.567,
+              -19.365
+            ],
+            [
+              -40.623,
+              -19.348
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200194/2026",
+        "entry_id": "200194/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-23T17:06:16-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-23T17:06:16-03:00",
+        "expires": "2026-11-23T18:05:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em Castelo na proxima hora.  Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de CHUVA, RAIOS e VENTO em Castelo na proxima hora.  Evite area de risco. Fique atento. Emergencia ligue 193.",
+        "instruction": "Fique atento as orientacoes da Defesa Civil. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Castelo/ES",
+        "polygon_raw": "-20.58,-41.318 -20.583,-41.319 -20.583,-41.313 -20.58,-41.313 -20.58,-41.318",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201407",
+        "municipio_nome": "Castelo",
+        "municipio_slug": "castelo",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201407",
+            "municipio_nome": "Castelo",
+            "municipio_slug": "castelo",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "23/11/2026 17:06",
+        "onset_label": "23/11/2026 17:06",
+        "expires_label": "23/11/2026 18:05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.313,
+              -20.58
+            ],
+            [
+              -41.313,
+              -20.583
+            ],
+            [
+              -41.319,
+              -20.583
+            ],
+            [
+              -41.318,
+              -20.58
+            ],
+            [
+              -41.313,
+              -20.58
             ]
           ]
         ]
