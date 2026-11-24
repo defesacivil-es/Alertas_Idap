@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T17:21:43.490968+00:00",
-  "total_alerts": 12,
+  "generated_at": "2026-11-24T17:27:55.980118+00:00",
+  "total_alerts": 13,
   "features": [
     {
       "type": "Feature",
@@ -91232,6 +91232,95 @@
                 -40.135,
                 -18.965
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200387/2026",
+        "entry_id": "200387/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-24T14:23:31-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-24T14:23:31-03:00",
+        "expires": "2026-11-24T15:25:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVA INTENSA em Ponto Belo na proxima 01 hora. Fique atento. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS, VENTO e CHUVA INTENSA em Ponto Belo na proxima 01 hora.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Mucurici/ES, Ponto Belo/ES",
+        "polygon_raw": "-18.114,-40.544 -18.136,-40.543 -18.138,-40.534 -18.118,-40.524 -18.11,-40.54 -18.114,-40.544",
+        "polygon_points": 6,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3204252",
+        "municipio_nome": "Ponto Belo",
+        "municipio_slug": "ponto-belo",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3204252",
+            "municipio_nome": "Ponto Belo",
+            "municipio_slug": "ponto-belo",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "24/11/2026 14:23",
+        "onset_label": "24/11/2026 14:23",
+        "expires_label": "24/11/2026 15:25"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.54,
+              -18.11
+            ],
+            [
+              -40.524,
+              -18.118
+            ],
+            [
+              -40.534,
+              -18.138
+            ],
+            [
+              -40.543,
+              -18.136
+            ],
+            [
+              -40.544,
+              -18.114
+            ],
+            [
+              -40.54,
+              -18.11
             ]
           ]
         ]
