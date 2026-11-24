@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T06:52:48.577852+00:00",
-  "total_alerts": 11,
+  "generated_at": "2026-11-24T06:57:19.044786+00:00",
+  "total_alerts": 12,
   "features": [
     {
       "type": "Feature",
@@ -98451,6 +98451,125 @@
             [
               -41.327,
               -20.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200306/2026",
+        "entry_id": "200306/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-24T03:50:47-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-24T03:50:47-03:00",
+        "expires": "2026-11-24T04:45:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES) ALERTA de ALAGAMENTO na regiao de Santo Antonio do Muqui e Mimoso do Sul na proxima hora. Evite area de risco. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de ALAGAMENTO na regiao de Santo Antônio do Muqui e Mimoso do Sul na proxima hora. Evite area de risco.",
+        "instruction": "Proteja-se. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Mimoso do Sul/ES",
+        "polygon_raw": "-21.002,-41.464 -21.01,-41.473 -21.018,-41.468 -21.015,-41.455 -21.006,-41.459 -21.002,-41.464\n-21.051,-41.357 -21.056,-41.399 -21.074,-41.391 -21.081,-41.352 -21.062,-41.35 -21.051,-41.357",
+        "polygon_points": 12,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203403",
+        "municipio_nome": "Mimoso do Sul",
+        "municipio_slug": "mimoso-do-sul",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203403",
+            "municipio_nome": "Mimoso do Sul",
+            "municipio_slug": "mimoso-do-sul",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "24/11/2026 03:50",
+        "onset_label": "24/11/2026 03:50",
+        "expires_label": "24/11/2026 04:45"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -41.352,
+                -21.081
+              ],
+              [
+                -41.391,
+                -21.074
+              ],
+              [
+                -41.399,
+                -21.056
+              ],
+              [
+                -41.357,
+                -21.051
+              ],
+              [
+                -41.35,
+                -21.062
+              ],
+              [
+                -41.352,
+                -21.081
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -41.455,
+                -21.015
+              ],
+              [
+                -41.468,
+                -21.018
+              ],
+              [
+                -41.473,
+                -21.01
+              ],
+              [
+                -41.464,
+                -21.002
+              ],
+              [
+                -41.459,
+                -21.006
+              ],
+              [
+                -41.455,
+                -21.015
+              ]
             ]
           ]
         ]
