@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T16:11:45.002326+00:00",
-  "total_alerts": 8,
+  "generated_at": "2026-11-24T16:17:55.341298+00:00",
+  "total_alerts": 9,
   "features": [
     {
       "type": "Feature",
@@ -59550,6 +59550,91 @@
             [
               -41.717,
               -21.104
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200361/2026",
+        "entry_id": "200361/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-24T13:08:41-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-24T13:08:41-03:00",
+        "expires": "2026-11-24T14:05:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVA INTENSA em Mimoso do Sul e Muqui na proxima 01 hora. Fique atento. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS, VENTO e CHUVA INTENSA em Mimoso do Sul e Muqui na proxima 01 hora.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-20.958,-41.521 -21.045,-41.481 -21.039,-41.301 -20.926,-41.439 -20.958,-41.521",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203403",
+        "municipio_nome": "Mimoso do Sul",
+        "municipio_slug": "mimoso-do-sul",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203403",
+            "municipio_nome": "Mimoso do Sul",
+            "municipio_slug": "mimoso-do-sul",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "24/11/2026 13:08",
+        "onset_label": "24/11/2026 13:08",
+        "expires_label": "24/11/2026 14:05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.439,
+              -20.926
+            ],
+            [
+              -41.301,
+              -21.039
+            ],
+            [
+              -41.481,
+              -21.045
+            ],
+            [
+              -41.521,
+              -20.958
+            ],
+            [
+              -41.439,
+              -20.926
             ]
           ]
         ]
