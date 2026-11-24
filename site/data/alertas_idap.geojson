@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T00:47:52.469648+00:00",
-  "total_alerts": 11,
+  "generated_at": "2026-11-24T00:53:04.108387+00:00",
+  "total_alerts": 12,
   "features": [
     {
       "type": "Feature",
@@ -83,10 +83,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -41.545,
-              -21.151
-            ],
             [
               -41.546,
               -21.151
@@ -4381,6 +4377,10 @@
             ],
             [
               -41.545,
+              -21.151
+            ],
+            [
+              -41.546,
               -21.151
             ]
           ]
@@ -69424,6 +69424,131 @@
             [
               -40.971,
               -19.503
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200274/2026",
+        "entry_id": "200274/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-23T21:48:32-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "onset": "2026-11-23T21:48:32-03:00",
+        "expires": "2026-11-24T01:30:00-03:00",
+        "nivel": "Médio",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVA FORTE em Colatina nas proximas 04 horas. Fique atento. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS, VENTO e CHUVA FORTE em Colatina nas proximas 04 horas.",
+        "instruction": "Fique atento. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-19.509,-40.85 -19.499,-40.526 -19.444,-40.623 -19.392,-40.642 -19.348,-40.623 -19.366,-40.565 -19.325,-40.53 -19.283,-40.534 -19.228,-40.667 -19.285,-40.725 -19.302,-40.811 -19.371,-40.824 -19.394,-40.855 -19.462,-40.877 -19.509,-40.85",
+        "polygon_points": 15,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201506",
+        "municipio_nome": "Colatina",
+        "municipio_slug": "colatina",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201506",
+            "municipio_nome": "Colatina",
+            "municipio_slug": "colatina",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#ffd92f",
+        "sent_label": "23/11/2026 21:48",
+        "onset_label": "23/11/2026 21:48",
+        "expires_label": "24/11/2026 01:30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.877,
+              -19.462
+            ],
+            [
+              -40.855,
+              -19.394
+            ],
+            [
+              -40.824,
+              -19.371
+            ],
+            [
+              -40.811,
+              -19.302
+            ],
+            [
+              -40.725,
+              -19.285
+            ],
+            [
+              -40.667,
+              -19.228
+            ],
+            [
+              -40.534,
+              -19.283
+            ],
+            [
+              -40.53,
+              -19.325
+            ],
+            [
+              -40.565,
+              -19.366
+            ],
+            [
+              -40.623,
+              -19.348
+            ],
+            [
+              -40.642,
+              -19.392
+            ],
+            [
+              -40.623,
+              -19.444
+            ],
+            [
+              -40.526,
+              -19.499
+            ],
+            [
+              -40.85,
+              -19.509
+            ],
+            [
+              -40.877,
+              -19.462
             ]
           ]
         ]
