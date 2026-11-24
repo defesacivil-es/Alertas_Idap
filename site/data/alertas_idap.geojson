@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T05:41:48.133076+00:00",
-  "total_alerts": 14,
+  "generated_at": "2026-11-24T05:47:43.118646+00:00",
+  "total_alerts": 13,
   "features": [
     {
       "type": "Feature",
@@ -80087,91 +80087,6 @@
                 -40.135,
                 -18.964
               ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "200298/2026",
-        "entry_id": "200298/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-24T01:49:29-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-11-24T01:49:29-03:00",
-        "expires": "2026-11-24T02:45:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS e CHUVA INTENSA na regiao de Serra Pelada, em Afonso Claudio na proxima 01 hora.  Evite area de risco.",
-        "description": "(ES)  ALERTA de RAIOS e CHUVA INTENSA na regiao de Serra Pelada, em Afonso Claudio na proxima 01 hora.  Evite area de risco.",
-        "instruction": "Fique atento. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Afonso Cláudio/ES",
-        "polygon_raw": "-19.999,-41.038 -20.013,-41.037 -20.012,-41.008 -19.996,-41.013 -19.999,-41.038",
-        "polygon_points": 5,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3200102",
-        "municipio_nome": "Afonso Cláudio",
-        "municipio_slug": "afonso-claudio",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3200102",
-            "municipio_nome": "Afonso Cláudio",
-            "municipio_slug": "afonso-claudio",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "24/11/2026 01:49",
-        "onset_label": "24/11/2026 01:49",
-        "expires_label": "24/11/2026 02:45"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -41.013,
-              -19.996
-            ],
-            [
-              -41.008,
-              -20.012
-            ],
-            [
-              -41.037,
-              -20.013
-            ],
-            [
-              -41.038,
-              -19.999
-            ],
-            [
-              -41.013,
-              -19.996
             ]
           ]
         ]
