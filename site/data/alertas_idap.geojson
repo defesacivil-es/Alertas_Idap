@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T04:02:32.591297+00:00",
-  "total_alerts": 12,
+  "generated_at": "2026-11-24T04:08:40.062527+00:00",
+  "total_alerts": 13,
   "features": [
     {
       "type": "Feature",
@@ -94446,6 +94446,91 @@
             [
               -41.638,
               -21.133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200296/2026",
+        "entry_id": "200296/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-24T01:04:19-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "onset": "2026-11-24T01:04:19-03:00",
+        "expires": "2026-11-24T02:00:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVA INTENSA em Laranja da Terra na proxima 01 hora. Evite area de risco. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS, VENTO e CHUVA INTENSA em Laranja da Terra na proxima 01 hora. Evite area de risco.",
+        "instruction": "Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Laranja da Terra/ES",
+        "polygon_raw": "-19.901,-41.021 -19.911,-41.022 -19.912,-41.005 -19.901,-41.004 -19.901,-41.021",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203163",
+        "municipio_nome": "Laranja da Terra",
+        "municipio_slug": "laranja-da-terra",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203163",
+            "municipio_nome": "Laranja da Terra",
+            "municipio_slug": "laranja-da-terra",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "24/11/2026 01:04",
+        "onset_label": "24/11/2026 01:04",
+        "expires_label": "24/11/2026 02:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.004,
+              -19.901
+            ],
+            [
+              -41.005,
+              -19.912
+            ],
+            [
+              -41.022,
+              -19.911
+            ],
+            [
+              -41.021,
+              -19.901
+            ],
+            [
+              -41.004,
+              -19.901
             ]
           ]
         ]
