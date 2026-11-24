@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T04:36:52.049413+00:00",
-  "total_alerts": 11,
+  "generated_at": "2026-11-24T04:42:54.116057+00:00",
+  "total_alerts": 10,
   "features": [
     {
       "type": "Feature",
@@ -60843,95 +60843,6 @@
                 -41.155,
                 -21.243
               ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "200293/2026",
-        "entry_id": "200293/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-24T00:45:17-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-11-24T00:45:17-03:00",
-        "expires": "2026-11-24T01:40:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVA FORTE em Itarana na proxima 01 hora. Fique atento. Emergencia ligue 193.",
-        "description": "(ES)  ALERTA de RAIOS, VENTO e CHUVA FORTE em Itarana na proxima 01 hora.",
-        "instruction": "Fique atento. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Itarana/ES",
-        "polygon_raw": "-19.882,-40.886 -19.892,-40.883 -19.885,-40.87 -19.859,-40.863 -19.857,-40.883 -19.882,-40.886",
-        "polygon_points": 6,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3202900",
-        "municipio_nome": "Itarana",
-        "municipio_slug": "itarana",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3202900",
-            "municipio_nome": "Itarana",
-            "municipio_slug": "itarana",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "24/11/2026 00:45",
-        "onset_label": "24/11/2026 00:45",
-        "expires_label": "24/11/2026 01:40"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -40.883,
-              -19.857
-            ],
-            [
-              -40.863,
-              -19.859
-            ],
-            [
-              -40.87,
-              -19.885
-            ],
-            [
-              -40.883,
-              -19.892
-            ],
-            [
-              -40.886,
-              -19.882
-            ],
-            [
-              -40.883,
-              -19.857
             ]
           ]
         ]
