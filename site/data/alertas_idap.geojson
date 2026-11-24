@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-24T07:52:02.361152+00:00",
-  "total_alerts": 8,
+  "generated_at": "2026-11-24T07:57:03.467518+00:00",
+  "total_alerts": 9,
   "features": [
     {
       "type": "Feature",
@@ -54329,6 +54329,163 @@
         "sent_label": "24/11/2026 04:23",
         "onset_label": "24/11/2026 04:23",
         "expires_label": "24/11/2026 05:20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.356,
+              -21.054
+            ],
+            [
+              -41.353,
+              -21.057
+            ],
+            [
+              -41.353,
+              -21.06
+            ],
+            [
+              -41.354,
+              -21.064
+            ],
+            [
+              -41.351,
+              -21.066
+            ],
+            [
+              -41.351,
+              -21.072
+            ],
+            [
+              -41.351,
+              -21.076
+            ],
+            [
+              -41.352,
+              -21.08
+            ],
+            [
+              -41.356,
+              -21.08
+            ],
+            [
+              -41.359,
+              -21.078
+            ],
+            [
+              -41.359,
+              -21.075
+            ],
+            [
+              -41.362,
+              -21.071
+            ],
+            [
+              -41.364,
+              -21.069
+            ],
+            [
+              -41.369,
+              -21.067
+            ],
+            [
+              -41.372,
+              -21.067
+            ],
+            [
+              -41.377,
+              -21.07
+            ],
+            [
+              -41.384,
+              -21.068
+            ],
+            [
+              -41.385,
+              -21.065
+            ],
+            [
+              -41.38,
+              -21.063
+            ],
+            [
+              -41.375,
+              -21.059
+            ],
+            [
+              -41.368,
+              -21.055
+            ],
+            [
+              -41.362,
+              -21.054
+            ],
+            [
+              -41.356,
+              -21.054
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200308/2026",
+        "entry_id": "200308/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-24T04:51:07-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "INUNDAÇÕES",
+        "responseType": "Execute",
+        "urgency": "Immediate",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-24T04:51:07-03:00",
+        "expires": "2026-11-24T05:40:00-03:00",
+        "nivel": "Extremo",
+        "headline": "Defesa Civil:(ES)  ALERTA de INUNDACAO em Mimoso do Sul. Risco de inundacao na proxima hora. Procure local seguro. Proteja-se. Emergencia ligue 193.",
+        "description": "(ES) ALERTA de INUNDACAO em Mimoso do Sul. Risco de inundacao na proxima hora. Procure local seguro.",
+        "instruction": "Proteja-se. Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Mimoso do Sul/ES",
+        "polygon_raw": "-21.054,-41.362 -21.055,-41.368 -21.059,-41.375 -21.063,-41.38 -21.065,-41.385 -21.068,-41.384 -21.07,-41.377 -21.067,-41.372 -21.067,-41.369 -21.069,-41.364 -21.071,-41.362 -21.075,-41.359 -21.078,-41.359 -21.08,-41.356 -21.08,-41.352 -21.076,-41.351 -21.072,-41.351 -21.066,-41.351 -21.064,-41.354 -21.06,-41.353 -21.057,-41.353 -21.054,-41.356 -21.054,-41.362",
+        "polygon_points": 23,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203403",
+        "municipio_nome": "Mimoso do Sul",
+        "municipio_slug": "mimoso-do-sul",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203403",
+            "municipio_nome": "Mimoso do Sul",
+            "municipio_slug": "mimoso-do-sul",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#6a0dad",
+        "sent_label": "24/11/2026 04:51",
+        "onset_label": "24/11/2026 04:51",
+        "expires_label": "24/11/2026 05:40"
       },
       "geometry": {
         "type": "Polygon",
