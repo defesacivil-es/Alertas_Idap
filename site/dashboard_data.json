@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:29:36.883025-03:00",
+  "generated_at": "2026-11-25T19:33:38.560004-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1282,8 +1282,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 8,
-      "time_since_hours": 0.13,
+      "time_since_minutes": 12,
+      "time_since_hours": 0.2,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1388,8 +1388,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 16,
-      "time_since_hours": 0.27,
+      "time_since_minutes": 20,
+      "time_since_hours": 0.33,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
