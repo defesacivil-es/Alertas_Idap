@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:52:14.618104-03:00",
+  "generated_at": "2026-11-25T20:58:11.602602-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
-    "ultimas24h": 6,
+    "vigentes": 3,
+    "ultimas24h": 7,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 4,
-    "alertasSeverosExtremos": 4,
+    "alertasSeveros": 5,
+    "alertasSeverosExtremos": 5,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 11,
     "municipiosComAlertas": 11
   },
   "latest_alerts": [
+    {
+      "time": "20:53",
+      "date": "25/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Alegre",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Cafe na proxima hora. Evite area de risco. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "200706/2026",
+      "entry_id": "200706/2026",
+      "sent": "2026-11-25T20:53:41-03:00",
+      "onset": "2026-11-25T20:53:41-03:00",
+      "expires": "2026-11-25T21:35:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3200201",
+      "municipio_nome": "Alegre",
+      "affected_municipios": [
+        {
+          "municipio_id": "3200201",
+          "municipio_nome": "Alegre",
+          "municipio_slug": "alegre",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3200201"
+      ],
+      "affected_municipio_names": [
+        "Alegre"
+      ]
+    },
     {
       "time": "20:46",
       "date": "25/11/2026",
@@ -1365,7 +1404,7 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 6
+      "count": 7
     }
   ],
   "level_distribution": [
@@ -1375,19 +1414,19 @@
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 6
+      "count": 7
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 6
+      "count": 7
     }
   ],
   "municipio_distribution": [
@@ -1400,16 +1439,16 @@
       "count": 3
     },
     {
+      "municipio": "Alegre",
+      "count": 2
+    },
+    {
       "municipio": "Mimoso do Sul",
       "count": 2
     },
     {
       "municipio": "Apiacá",
       "count": 2
-    },
-    {
-      "municipio": "Alegre",
-      "count": 1
     },
     {
       "municipio": "Divino de São Lourenço",
@@ -1439,7 +1478,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 3
     },
     {
       "label": "expirado",
@@ -1449,13 +1488,13 @@
   "category_distribution": [
     {
       "label": "Met",
-      "count": 6
+      "count": 7
     }
   ],
   "duration_distribution": [
     {
       "label": "Até 2h",
-      "count": 4
+      "count": 5
     },
     {
       "label": "2h a 6h",
@@ -1469,16 +1508,87 @@
     },
     {
       "label": "Até 1h",
-      "count": 1
+      "count": 2
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 6
+      "count": 7
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "200706/2026",
+      "entry_id": "200706/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-25T20:53:41-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Observed",
+      "onset": "2026-11-25T20:53:41-03:00",
+      "expires": "2026-11-25T21:35:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Cafe na proxima hora. Evite area de risco. Fique atento. Emergencia ligue 193.",
+      "description": "(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Café na proxima hora. Evite area de risco.",
+      "instruction": "Fique atento. Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Alegre/ES",
+      "polygon_raw": "-20.863,-41.572 -20.869,-41.581 -20.876,-41.574 -20.87,-41.565 -20.863,-41.572",
+      "polygon_points": 5,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.565 -20.87, -41.574 -20.876, -41.581 -20.869, -41.572 -20.863, -41.565 -20.87))",
+      "municipio_id": "3200201",
+      "municipio_nome": "Alegre",
+      "municipio_slug": "alegre",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3200201",
+          "municipio_nome": "Alegre",
+          "municipio_slug": "alegre",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Alegre",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "25/11/2026",
+      "time": "20:53",
+      "sent_br": "2026-11-25T20:53:41-03:00",
+      "onset_br": "2026-11-25T20:53:41-03:00",
+      "expires_br": "2026-11-25T21:35:00-03:00",
+      "duration_minutes": 41,
+      "duration_hours": 0.68,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 4,
+      "time_since_hours": 0.07,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3200201"
+      ],
+      "affected_municipio_names": [
+        "Alegre"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "200705/2026",
       "entry_id": "200705/2026",
@@ -1603,8 +1713,8 @@
       "duration_minutes": 193,
       "duration_hours": 3.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 5,
-      "time_since_hours": 0.08,
+      "time_since_minutes": 11,
+      "time_since_hours": 0.18,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1686,8 +1796,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 61,
-      "time_since_hours": 1.02,
+      "time_since_minutes": 67,
+      "time_since_hours": 1.12,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1757,8 +1867,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 61,
-      "time_since_hours": 1.02,
+      "time_since_minutes": 67,
+      "time_since_hours": 1.12,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1840,8 +1950,8 @@
       "duration_minutes": 51,
       "duration_hours": 0.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 84,
-      "time_since_hours": 1.4,
+      "time_since_minutes": 90,
+      "time_since_hours": 1.5,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1915,8 +2025,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 91,
-      "time_since_hours": 1.52,
+      "time_since_minutes": 97,
+      "time_since_hours": 1.62,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2021,8 +2131,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 99,
-      "time_since_hours": 1.65,
+      "time_since_minutes": 105,
+      "time_since_hours": 1.75,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
