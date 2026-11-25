@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:52:11.306678-03:00",
+  "generated_at": "2026-11-25T19:57:27.997393-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,95 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 3,
+    "vigentes": 5,
+    "ultimas24h": 5,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 2,
-    "alertasSeverosExtremos": 2,
+    "alertasSeveros": 4,
+    "alertasSeverosExtremos": 4,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 4,
     "municipiosComAlertas": 4
   },
   "latest_alerts": [
+    {
+      "time": "19:50",
+      "date": "25/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Mimoso do Sul",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Apiaca na proxima 01 hora. Evite area de risco. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "200696/2026",
+      "entry_id": "200696/2026",
+      "sent": "2026-11-25T19:50:49-03:00",
+      "onset": "2026-11-25T19:50:49-03:00",
+      "expires": "2026-11-25T20:50:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3203403",
+      "municipio_nome": "Mimoso do Sul",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203403",
+          "municipio_nome": "Mimoso do Sul",
+          "municipio_slug": "mimoso-do-sul",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3203403"
+      ],
+      "affected_municipio_names": [
+        "Mimoso do Sul"
+      ]
+    },
+    {
+      "time": "19:50",
+      "date": "25/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Bom Jesus do Norte",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Bom Jesus do Norte na proxima hora. Evite area de risco. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "200695/2026",
+      "entry_id": "200695/2026",
+      "sent": "2026-11-25T19:50:23-03:00",
+      "onset": "2026-11-25T19:50:23-03:00",
+      "expires": "2026-11-25T20:50:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3201100",
+      "municipio_nome": "Bom Jesus do Norte",
+      "affected_municipios": [
+        {
+          "municipio_id": "3201100",
+          "municipio_nome": "Bom Jesus do Norte",
+          "municipio_slug": "bom-jesus-do-norte",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3201100"
+      ],
+      "affected_municipio_names": [
+        "Bom Jesus do Norte"
+      ]
+    },
     {
       "time": "19:28",
       "date": "25/11/2026",
@@ -1200,7 +1278,7 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 3
+      "count": 5
     }
   ],
   "level_distribution": [
@@ -1210,55 +1288,55 @@
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 3
+      "count": 5
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 3
+      "count": 5
     }
   ],
   "municipio_distribution": [
+    {
+      "municipio": "Bom Jesus do Norte",
+      "count": 3
+    },
     {
       "municipio": "São José do Calçado",
       "count": 3
     },
     {
+      "municipio": "Mimoso do Sul",
+      "count": 2
+    },
+    {
       "municipio": "Apiacá",
       "count": 2
-    },
-    {
-      "municipio": "Bom Jesus do Norte",
-      "count": 2
-    },
-    {
-      "municipio": "Mimoso do Sul",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 5
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 3
+      "count": 5
     }
   ],
   "duration_distribution": [
     {
       "label": "Até 2h",
-      "count": 2
+      "count": 4
     },
     {
       "label": "2h a 6h",
@@ -1268,16 +1346,158 @@
   "time_since_distribution": [
     {
       "label": "Até 1h",
-      "count": 3
+      "count": 5
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 3
+      "count": 5
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "200696/2026",
+      "entry_id": "200696/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-25T19:50:49-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Likely",
+      "onset": "2026-11-25T19:50:49-03:00",
+      "expires": "2026-11-25T20:50:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Apiaca na proxima 01 hora. Evite area de risco. Emergencia ligue 193.",
+      "description": "(ES)  ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Apiaca na proxima 01 hora. Evite area de risco.",
+      "instruction": "Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Apiacá/ES, Mimoso do Sul/ES",
+      "polygon_raw": "-21.148,-41.565 -21.141,-41.567 -21.141,-41.576 -21.148,-41.58 -21.153,-41.571 -21.163,-41.571 -21.165,-41.569 -21.166,-41.562 -21.157,-41.56 -21.148,-41.565",
+      "polygon_points": 10,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.56 -21.157, -41.562 -21.166, -41.569 -21.165, -41.571 -21.163, -41.571 -21.153, -41.58 -21.148, -41.576 -21.141, -41.567 -21.141, -41.565 -21.148, -41.56 -21.157))",
+      "municipio_id": "3203403",
+      "municipio_nome": "Mimoso do Sul",
+      "municipio_slug": "mimoso-do-sul",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203403",
+          "municipio_nome": "Mimoso do Sul",
+          "municipio_slug": "mimoso-do-sul",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Mimoso do Sul",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "25/11/2026",
+      "time": "19:50",
+      "sent_br": "2026-11-25T19:50:49-03:00",
+      "onset_br": "2026-11-25T19:50:49-03:00",
+      "expires_br": "2026-11-25T20:50:00-03:00",
+      "duration_minutes": 59,
+      "duration_hours": 0.98,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 6,
+      "time_since_hours": 0.1,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3203403"
+      ],
+      "affected_municipio_names": [
+        "Mimoso do Sul"
+      ],
+      "municipios_count": 1
+    },
+    {
+      "identifier": "200695/2026",
+      "entry_id": "200695/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-25T19:50:23-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Observed",
+      "onset": "2026-11-25T19:50:23-03:00",
+      "expires": "2026-11-25T20:50:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Bom Jesus do Norte na proxima hora. Evite area de risco. Emergencia ligue 193.",
+      "description": "(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Bom Jesus do Norte na proxima hora. Evite area de risco.",
+      "instruction": "Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Bom Jesus do Norte/ES",
+      "polygon_raw": "-21.133,-41.661 -21.134,-41.66 -21.128,-41.655 -21.121,-41.655 -21.117,-41.66 -21.116,-41.665 -21.117,-41.673 -21.12,-41.68 -21.122,-41.679 -21.122,-41.679 -21.122,-41.679 -21.123,-41.678 -21.124,-41.677 -21.124,-41.677 -21.124,-41.677 -21.124,-41.677 -21.124,-41.677 -21.124,-41.677 -21.124,-41.677 -21.124,-41.677 -21.124,-41.677 -21.125,-41.677 -21.125,-41.677 -21.125,-41.677 -21.126,-41.677 -21.126,-41.677 -21.126,-41.676 -21.126,-41.676 -21.126,-41.676 -21.126,-41.676 -21.126,-41.676 -21.127,-41.676 -21.127,-41.676 -21.127,-41.676 -21.127,-41.677 -21.127,-41.677 -21.127,-41.677 -21.127,-41.677 -21.127,-41.677 -21.128,-41.677 -21.128,-41.677 -21.128,-41.677 -21.128,-41.677 -21.128,-41.678 -21.129,-41.678 -21.129,-41.678 -21.129,-41.678 -21.13,-41.678 -21.13,-41.678 -21.13,-41.678 -21.13,-41.679 -21.13,-41.679 -21.13,-41.679 -21.13,-41.679 -21.13,-41.679 -21.13,-41.679 -21.131,-41.679 -21.131,-41.679 -21.131,-41.679 -21.131,-41.679 -21.131,-41.679 -21.131,-41.679 -21.131,-41.679 -21.132,-41.679 -21.132,-41.679 -21.132,-41.679 -21.132,-41.678 -21.132,-41.678 -21.132,-41.678 -21.133,-41.678 -21.133,-41.678 -21.133,-41.678 -21.133,-41.678 -21.133,-41.678 -21.133,-41.678 -21.133,-41.678 -21.133,-41.678 -21.133,-41.677 -21.133,-41.677 -21.133,-41.677 -21.133,-41.677 -21.133,-41.676 -21.133,-41.676 -21.133,-41.676 -21.134,-41.676 -21.134,-41.676 -21.134,-41.676 -21.134,-41.676 -21.133,-41.676 -21.133,-41.675 -21.133,-41.675 -21.132,-41.675 -21.132,-41.674 -21.132,-41.674 -21.132,-41.674 -21.132,-41.674 -21.131,-41.674 -21.131,-41.674 -21.131,-41.674 -21.13,-41.673 -21.13,-41.673 -21.13,-41.673 -21.129,-41.673 -21.129,-41.673 -21.129,-41.673 -21.129,-41.673 -21.129,-41.673 -21.128,-41.673 -21.128,-41.673 -21.128,-41.673 -21.128,-41.673 -21.128,-41.673 -21.128,-41.673 -21.128,-41.672 -21.128,-41.672 -21.128,-41.672 -21.127,-41.672 -21.127,-41.672 -21.127,-41.672 -21.127,-41.671 -21.127,-41.671 -21.127,-41.671 -21.127,-41.671 -21.127,-41.67 -21.127,-41.67 -21.127,-41.67 -21.127,-41.669 -21.127,-41.669 -21.126,-41.668 -21.126,-41.668 -21.126,-41.667 -21.126,-41.667 -21.126,-41.666 -21.126,-41.666 -21.126,-41.666 -21.126,-41.666 -21.125,-41.664 -21.124,-41.664 -21.124,-41.663 -21.124,-41.663 -21.124,-41.662 -21.124,-41.662 -21.124,-41.662 -21.125,-41.662 -21.125,-41.662 -21.125,-41.662 -21.125,-41.662 -21.125,-41.662 -21.125,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.126,-41.661 -21.127,-41.662 -21.127,-41.662 -21.127,-41.662 -21.127,-41.662 -21.127,-41.662 -21.128,-41.663 -21.128,-41.663 -21.129,-41.663 -21.129,-41.664 -21.13,-41.664 -21.13,-41.664 -21.13,-41.664 -21.13,-41.665 -21.13,-41.665 -21.13,-41.665 -21.13,-41.665 -21.131,-41.665 -21.131,-41.665 -21.131,-41.665 -21.131,-41.665 -21.131,-41.665 -21.132,-41.665 -21.132,-41.665 -21.132,-41.664 -21.132,-41.664 -21.132,-41.664 -21.132,-41.664 -21.133,-41.662 -21.133,-41.662 -21.133,-41.662 -21.133,-41.662 -21.133,-41.662 -21.133,-41.661",
+      "polygon_points": 60,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.677 -21.133, -41.678 -21.133, -41.678 -21.132, -41.679 -21.132, -41.679 -21.131, -41.679 -21.13, -41.678 -21.13, -41.678 -21.129, -41.678 -21.128, -41.677 -21.128, -41.677 -21.127, -41.676 -21.127, -41.676 -21.126, -41.677 -21.126, -41.677 -21.125, -41.677 -21.124, -41.678 -21.123, -41.679 -21.122, -41.68 -21.12, -41.673 -21.117, -41.665 -21.116, -41.66 -21.117, -41.655 -21.121, -41.655 -21.128, -41.66 -21.134, -41.661 -21.133, -41.662 -21.133, -41.664 -21.132, -41.665 -21.132, -41.665 -21.131, -41.665 -21.13, -41.664 -21.13, -41.664 -21.129, -41.663 -21.129, -41.663 -21.128, -41.662 -21.127, -41.661 -21.126, -41.661 -21.125, -41.662 -21.125, -41.662 -21.124, -41.663 -21.124, -41.664 -21.124, -41.664 -21.125, -41.666 -21.126, -41.667 -21.126, -41.668 -21.126, -41.669 -21.127, -41.67 -21.127, -41.671 -21.127, -41.672 -21.127, -41.672 -21.128, -41.673 -21.128, -41.673 -21.129, -41.673 -21.13, -41.674 -21.131, -41.674 -21.132, -41.675 -21.132, -41.675 -21.133, -41.676 -21.133, -41.677 -21.133))",
+      "municipio_id": "3201100",
+      "municipio_nome": "Bom Jesus do Norte",
+      "municipio_slug": "bom-jesus-do-norte",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3201100",
+          "municipio_nome": "Bom Jesus do Norte",
+          "municipio_slug": "bom-jesus-do-norte",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Bom Jesus do Norte",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "25/11/2026",
+      "time": "19:50",
+      "sent_br": "2026-11-25T19:50:23-03:00",
+      "onset_br": "2026-11-25T19:50:23-03:00",
+      "expires_br": "2026-11-25T20:50:00-03:00",
+      "duration_minutes": 59,
+      "duration_hours": 0.98,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 7,
+      "time_since_hours": 0.12,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3201100"
+      ],
+      "affected_municipio_names": [
+        "Bom Jesus do Norte"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "200686/2026",
       "entry_id": "200686/2026",
@@ -1349,8 +1569,8 @@
       "duration_minutes": 51,
       "duration_hours": 0.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 24,
-      "time_since_hours": 0.4,
+      "time_since_minutes": 29,
+      "time_since_hours": 0.48,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1424,8 +1644,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 31,
-      "time_since_hours": 0.52,
+      "time_since_minutes": 36,
+      "time_since_hours": 0.6,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1530,8 +1750,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 39,
-      "time_since_hours": 0.65,
+      "time_since_minutes": 44,
+      "time_since_hours": 0.73,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
