@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-25T22:33:35.673707+00:00",
-  "total_alerts": 2,
+  "generated_at": "2026-11-25T22:38:32.080903+00:00",
+  "total_alerts": 3,
   "features": [
     {
       "type": "Feature",
@@ -10245,6 +10245,118 @@
             [
               -41.644,
               -21.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200686/2026",
+        "entry_id": "200686/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-25T19:28:01-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-25T19:28:01-03:00",
+        "expires": "2026-11-25T20:20:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO nos distritos de Divino Espirito Santo e Bonsucesso na proxima hora. Evite area de risco.",
+        "description": "(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO nos distritos de Divino Espírito Santo e Bonsucesso na proxima hora. Evite area de risco.",
+        "instruction": "Em casos de emergência ligue 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "ESPÍRITO SANTO/ES",
+        "polygon_raw": "-21.023,-41.565 -21.016,-41.536 -20.978,-41.533 -20.953,-41.599 -21.003,-41.626 -21.023,-41.565",
+        "polygon_points": 6,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3200508",
+        "municipio_nome": "Apiacá",
+        "municipio_slug": "apiaca",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3200508",
+            "municipio_nome": "Apiacá",
+            "municipio_slug": "apiaca",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": "",
+            "intersection_area_m2": 29521281.82
+          },
+          {
+            "municipio_id": "3204807",
+            "municipio_nome": "São José do Calçado",
+            "municipio_slug": "sao-jose-do-calcado",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": "",
+            "intersection_area_m2": 18482076.73
+          },
+          {
+            "municipio_id": "3201100",
+            "municipio_nome": "Bom Jesus do Norte",
+            "municipio_slug": "bom-jesus-do-norte",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": "",
+            "intersection_area_m2": 628902.85
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "25/11/2026 19:28",
+        "onset_label": "25/11/2026 19:28",
+        "expires_label": "25/11/2026 20:20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.626,
+              -21.003
+            ],
+            [
+              -41.599,
+              -20.953
+            ],
+            [
+              -41.533,
+              -20.978
+            ],
+            [
+              -41.536,
+              -21.016
+            ],
+            [
+              -41.565,
+              -21.023
+            ],
+            [
+              -41.626,
+              -21.003
             ]
           ]
         ]

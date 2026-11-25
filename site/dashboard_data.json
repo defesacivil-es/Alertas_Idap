@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:33:38.560004-03:00",
+  "generated_at": "2026-11-25T19:38:36.463231-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,72 @@
     }
   ],
   "cards": {
-    "vigentes": 2,
-    "ultimas24h": 2,
+    "vigentes": 3,
+    "ultimas24h": 3,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 1,
-    "alertasSeverosExtremos": 1,
+    "alertasSeveros": 2,
+    "alertasSeverosExtremos": 2,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 4,
     "municipiosComAlertas": 4
   },
   "latest_alerts": [
+    {
+      "time": "19:28",
+      "date": "25/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Apiacá",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO nos distritos de Divino Espirito Santo e Bonsucesso na proxima hora. Evite area de risco.",
+      "status": "vigente",
+      "identifier": "200686/2026",
+      "entry_id": "200686/2026",
+      "sent": "2026-11-25T19:28:01-03:00",
+      "onset": "2026-11-25T19:28:01-03:00",
+      "expires": "2026-11-25T20:20:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3200508",
+      "municipio_nome": "Apiacá",
+      "affected_municipios": [
+        {
+          "municipio_id": "3200508",
+          "municipio_nome": "Apiacá",
+          "municipio_slug": "apiaca",
+          "intersection_area_m2": 29521281.82
+        },
+        {
+          "municipio_id": "3204807",
+          "municipio_nome": "São José do Calçado",
+          "municipio_slug": "sao-jose-do-calcado",
+          "intersection_area_m2": 18482076.73
+        },
+        {
+          "municipio_id": "3201100",
+          "municipio_nome": "Bom Jesus do Norte",
+          "municipio_slug": "bom-jesus-do-norte",
+          "intersection_area_m2": 628902.85
+        }
+      ],
+      "affected_municipio_ids": [
+        "3200508",
+        "3204807",
+        "3201100"
+      ],
+      "affected_municipio_names": [
+        "Apiacá",
+        "São José do Calçado",
+        "Bom Jesus do Norte"
+      ]
+    },
     {
       "time": "19:20",
       "date": "25/11/2026",
@@ -1145,7 +1200,7 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 2
+      "count": 3
     }
   ],
   "level_distribution": [
@@ -1155,33 +1210,33 @@
     },
     {
       "label": "Severo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 2
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 2
+      "count": 3
     }
   ],
   "municipio_distribution": [
     {
       "municipio": "São José do Calçado",
-      "count": 2
+      "count": 3
     },
     {
       "municipio": "Apiacá",
-      "count": 1
+      "count": 2
     },
     {
       "municipio": "Bom Jesus do Norte",
-      "count": 1
+      "count": 2
     },
     {
       "municipio": "Mimoso do Sul",
@@ -1191,19 +1246,19 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 3
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 2
+      "count": 3
     }
   ],
   "duration_distribution": [
     {
       "label": "Até 2h",
-      "count": 1
+      "count": 2
     },
     {
       "label": "2h a 6h",
@@ -1213,16 +1268,103 @@
   "time_since_distribution": [
     {
       "label": "Até 1h",
-      "count": 2
+      "count": 3
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 2
+      "count": 3
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "200686/2026",
+      "entry_id": "200686/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-25T19:28:01-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Observed",
+      "onset": "2026-11-25T19:28:01-03:00",
+      "expires": "2026-11-25T20:20:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO nos distritos de Divino Espirito Santo e Bonsucesso na proxima hora. Evite area de risco.",
+      "description": "(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO nos distritos de Divino Espírito Santo e Bonsucesso na proxima hora. Evite area de risco.",
+      "instruction": "Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "ESPÍRITO SANTO/ES",
+      "polygon_raw": "-21.023,-41.565 -21.016,-41.536 -20.978,-41.533 -20.953,-41.599 -21.003,-41.626 -21.023,-41.565",
+      "polygon_points": 6,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.626 -21.003, -41.599 -20.953, -41.533 -20.978, -41.536 -21.016, -41.565 -21.023, -41.626 -21.003))",
+      "municipio_id": "3200508",
+      "municipio_nome": "Apiacá",
+      "municipio_slug": "apiaca",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3200508",
+          "municipio_nome": "Apiacá",
+          "municipio_slug": "apiaca",
+          "intersection_area_m2": 29521281.82
+        },
+        {
+          "municipio_id": "3204807",
+          "municipio_nome": "São José do Calçado",
+          "municipio_slug": "sao-jose-do-calcado",
+          "intersection_area_m2": 18482076.73
+        },
+        {
+          "municipio_id": "3201100",
+          "municipio_nome": "Bom Jesus do Norte",
+          "municipio_slug": "bom-jesus-do-norte",
+          "intersection_area_m2": 628902.85
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Apiacá",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "25/11/2026",
+      "time": "19:28",
+      "sent_br": "2026-11-25T19:28:01-03:00",
+      "onset_br": "2026-11-25T19:28:01-03:00",
+      "expires_br": "2026-11-25T20:20:00-03:00",
+      "duration_minutes": 51,
+      "duration_hours": 0.85,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 10,
+      "time_since_hours": 0.17,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3200508",
+        "3204807",
+        "3201100"
+      ],
+      "affected_municipio_names": [
+        "Apiacá",
+        "São José do Calçado",
+        "Bom Jesus do Norte"
+      ],
+      "municipios_count": 3
+    },
     {
       "identifier": "200681/2026",
       "entry_id": "200681/2026",
@@ -1282,8 +1424,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 12,
-      "time_since_hours": 0.2,
+      "time_since_minutes": 17,
+      "time_since_hours": 0.28,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1388,8 +1530,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 20,
-      "time_since_hours": 0.33,
+      "time_since_minutes": 25,
+      "time_since_hours": 0.42,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
