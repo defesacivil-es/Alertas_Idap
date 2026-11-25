@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:20:00.141408-03:00",
+  "generated_at": "2026-11-25T19:24:49.499057-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 1,
-    "ultimas24h": 1,
+    "vigentes": 2,
+    "ultimas24h": 2,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 0,
-    "alertasSeverosExtremos": 0,
+    "alertasSeveros": 1,
+    "alertasSeverosExtremos": 1,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 4,
     "municipiosComAlertas": 4
   },
   "latest_alerts": [
+    {
+      "time": "19:20",
+      "date": "25/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "São José do Calçado",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Sao Jose do Calcado nas proximas 05 horas. Evite area de risco. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "200681/2026",
+      "entry_id": "200681/2026",
+      "sent": "2026-11-25T19:20:57-03:00",
+      "onset": "2026-11-25T19:20:57-03:00",
+      "expires": "2026-11-25T20:20:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3204807",
+      "municipio_nome": "São José do Calçado",
+      "affected_municipios": [
+        {
+          "municipio_id": "3204807",
+          "municipio_nome": "São José do Calçado",
+          "municipio_slug": "sao-jose-do-calcado",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3204807"
+      ],
+      "affected_municipio_names": [
+        "São José do Calçado"
+      ]
+    },
     {
       "time": "19:13",
       "date": "25/11/2026",
@@ -1106,28 +1145,36 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 1
+      "count": 2
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
       "count": 1
+    },
+    {
+      "label": "Severo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 1
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 1
+      "count": 2
     }
   ],
   "municipio_distribution": [
+    {
+      "municipio": "São José do Calçado",
+      "count": 2
+    },
     {
       "municipio": "Apiacá",
       "count": 1
@@ -1139,25 +1186,25 @@
     {
       "municipio": "Mimoso do Sul",
       "count": 1
-    },
-    {
-      "municipio": "São José do Calçado",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 1
+      "count": 2
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 1
+      "count": 2
     }
   ],
   "duration_distribution": [
+    {
+      "label": "Até 2h",
+      "count": 1
+    },
     {
       "label": "2h a 6h",
       "count": 1
@@ -1166,16 +1213,87 @@
   "time_since_distribution": [
     {
       "label": "Até 1h",
-      "count": 1
+      "count": 2
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 1
+      "count": 2
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "200681/2026",
+      "entry_id": "200681/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-25T19:20:57-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Observed",
+      "onset": "2026-11-25T19:20:57-03:00",
+      "expires": "2026-11-25T20:20:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Sao Jose do Calcado nas proximas 05 horas. Evite area de risco. Emergencia ligue 193.",
+      "description": "(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Sao Jose do Calcado nas proximas 05 horas. Evite area de risco.",
+      "instruction": "Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "São José do Calçado/ES",
+      "polygon_raw": "-21.016,-41.656 -21.02,-41.665 -21.032,-41.664 -21.037,-41.662 -21.045,-41.651 -21.044,-41.642 -21.03,-41.644 -21.016,-41.656",
+      "polygon_points": 8,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.644 -21.03, -41.642 -21.044, -41.651 -21.045, -41.662 -21.037, -41.664 -21.032, -41.665 -21.02, -41.656 -21.016, -41.644 -21.03))",
+      "municipio_id": "3204807",
+      "municipio_nome": "São José do Calçado",
+      "municipio_slug": "sao-jose-do-calcado",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3204807",
+          "municipio_nome": "São José do Calçado",
+          "municipio_slug": "sao-jose-do-calcado",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "São José do Calçado",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "25/11/2026",
+      "time": "19:20",
+      "sent_br": "2026-11-25T19:20:57-03:00",
+      "onset_br": "2026-11-25T19:20:57-03:00",
+      "expires_br": "2026-11-25T20:20:00-03:00",
+      "duration_minutes": 59,
+      "duration_hours": 0.98,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 3,
+      "time_since_hours": 0.05,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3204807"
+      ],
+      "affected_municipio_names": [
+        "São José do Calçado"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "200678/2026",
       "entry_id": "200678/2026",
@@ -1270,8 +1388,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 6,
-      "time_since_hours": 0.1,
+      "time_since_minutes": 11,
+      "time_since_hours": 0.18,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
