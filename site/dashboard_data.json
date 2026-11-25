@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:18:31.759327-03:00",
+  "generated_at": "2026-11-25T20:23:20.294161-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 5,
+    "vigentes": 3,
     "ultimas24h": 5,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1126,7 +1126,7 @@
       "location": "Apiacá",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO nos distritos de Divino Espirito Santo e Bonsucesso na proxima hora. Evite area de risco.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "200686/2026",
       "entry_id": "200686/2026",
       "sent": "2026-11-25T19:28:01-03:00",
@@ -1181,7 +1181,7 @@
       "location": "São José do Calçado",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Sao Jose do Calcado nas proximas 05 horas. Evite area de risco. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "200681/2026",
       "entry_id": "200681/2026",
       "sent": "2026-11-25T19:20:57-03:00",
@@ -1324,7 +1324,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 3
+    },
+    {
+      "label": "expirado",
+      "count": 2
     }
   ],
   "category_distribution": [
@@ -1346,11 +1350,11 @@
   "time_since_distribution": [
     {
       "label": "Até 1h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "1h a 3h",
-      "count": 1
+      "count": 2
     }
   ],
   "channel_distribution": [
@@ -1419,8 +1423,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 27,
-      "time_since_hours": 0.45,
+      "time_since_minutes": 32,
+      "time_since_hours": 0.53,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1490,8 +1494,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 28,
-      "time_since_hours": 0.47,
+      "time_since_minutes": 32,
+      "time_since_hours": 0.53,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1508,7 +1512,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-25T19:28:01-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1564,7 +1568,7 @@
       "uf": "ES",
       "location": "Apiacá",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/11/2026",
       "time": "19:28",
       "sent_br": "2026-11-25T19:28:01-03:00",
@@ -1573,10 +1577,10 @@
       "duration_minutes": 51,
       "duration_hours": 0.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 50,
-      "time_since_hours": 0.83,
+      "time_since_minutes": 55,
+      "time_since_hours": 0.92,
       "time_since_bucket": "Até 1h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200508",
         "3204807",
@@ -1595,7 +1599,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-25T19:20:57-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1639,7 +1643,7 @@
       "uf": "ES",
       "location": "São José do Calçado",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/11/2026",
       "time": "19:20",
       "sent_br": "2026-11-25T19:20:57-03:00",
@@ -1648,10 +1652,10 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 57,
-      "time_since_hours": 0.95,
-      "time_since_bucket": "Até 1h",
-      "is_active": true,
+      "time_since_minutes": 62,
+      "time_since_hours": 1.03,
+      "time_since_bucket": "1h a 3h",
+      "is_active": false,
       "affected_municipio_ids": [
         "3204807"
       ],
@@ -1754,8 +1758,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 65,
-      "time_since_hours": 1.08,
+      "time_since_minutes": 70,
+      "time_since_hours": 1.17,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
