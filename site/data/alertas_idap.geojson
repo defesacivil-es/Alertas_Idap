@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-26T17:52:51.962409+00:00",
-  "total_alerts": 17,
+  "generated_at": "2026-11-26T17:58:25.321908+00:00",
+  "total_alerts": 18,
   "features": [
     {
       "type": "Feature",
@@ -104188,6 +104188,91 @@
                 -40.8,
                 -21.002
               ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200818/2026",
+        "entry_id": "200818/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-26T14:55:30-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-26T14:55:30-03:00",
+        "expires": "2026-11-26T16:00:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVAS INTENSAS em Iuna na proxima hora. Fique atento. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS, VENTO e CHUVAS INTENSAS em Iúna na proxima hora. Fique atento. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Iúna/ES",
+        "polygon_raw": "-20.335,-41.54 -20.361,-41.539 -20.36,-41.522 -20.335,-41.524 -20.335,-41.54",
+        "polygon_points": 5,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3203007",
+        "municipio_nome": "Iúna",
+        "municipio_slug": "iuna",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3203007",
+            "municipio_nome": "Iúna",
+            "municipio_slug": "iuna",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "26/11/2026 14:55",
+        "onset_label": "26/11/2026 14:55",
+        "expires_label": "26/11/2026 16:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.524,
+              -20.335
+            ],
+            [
+              -41.522,
+              -20.36
+            ],
+            [
+              -41.539,
+              -20.361
+            ],
+            [
+              -41.54,
+              -20.335
+            ],
+            [
+              -41.524,
+              -20.335
             ]
           ]
         ]
