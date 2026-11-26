@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-26T01:38:24.909310+00:00",
-  "total_alerts": 7,
+  "generated_at": "2026-11-26T01:43:36.099666+00:00",
+  "total_alerts": 6,
   "features": [
     {
       "type": "Feature",
@@ -30922,91 +30922,6 @@
                 -40.8,
                 -21.002
               ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "identifier": "200716/2026",
-        "entry_id": "200716/2026",
-        "sender": "CENAD-SEDEC",
-        "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-25T21:38:28-03:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "category": "Met",
-        "event": "CHUVAS INTENSAS",
-        "responseType": "Execute",
-        "urgency": "Expected",
-        "severity": "Extreme",
-        "certainty": "Likely",
-        "onset": "2026-11-25T21:38:28-03:00",
-        "expires": "2026-11-25T22:40:00-03:00",
-        "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO, GRANIZO e CHUVA em Irupi na proxima 01 hora. Evite area de risco. Fique atento. Emergencia ligue 193.",
-        "description": "(ES)  ALERTA de RAIOS, VENTO, GRANIZO e CHUVA em Irupi na proxima 01 hora. Evite area de risco.",
-        "instruction": "Fique atento. Em casos de emergência ligue 193.",
-        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-        "contact": "+55 61 2034-4660",
-        "channel_list": "Google",
-        "areaDesc": "Irupi/ES",
-        "polygon_raw": "-20.35,-41.627 -20.333,-41.641 -20.342,-41.655 -20.355,-41.65 -20.35,-41.627",
-        "polygon_points": 5,
-        "has_geocode": false,
-        "uf_hint": "ES",
-        "region": "SE",
-        "municipio_id": "3202652",
-        "municipio_nome": "Irupi",
-        "municipio_slug": "irupi",
-        "municipio_area_km2": null,
-        "microrregiao_nome": "",
-        "mesorregiao_nome": "",
-        "regiao_imediata_nome": "",
-        "regiao_intermediaria_nome": "",
-        "affected_municipios": [
-          {
-            "municipio_id": "3202652",
-            "municipio_nome": "Irupi",
-            "municipio_slug": "irupi",
-            "municipio_area_km2": null,
-            "microrregiao_nome": "",
-            "mesorregiao_nome": "",
-            "regiao_imediata_nome": "",
-            "regiao_intermediaria_nome": ""
-          }
-        ],
-        "geocode_values": null,
-        "color": "#d62728",
-        "sent_label": "25/11/2026 21:38",
-        "onset_label": "25/11/2026 21:38",
-        "expires_label": "25/11/2026 22:40"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -41.65,
-              -20.355
-            ],
-            [
-              -41.655,
-              -20.342
-            ],
-            [
-              -41.641,
-              -20.333
-            ],
-            [
-              -41.627,
-              -20.35
-            ],
-            [
-              -41.65,
-              -20.355
             ]
           ]
         ]
