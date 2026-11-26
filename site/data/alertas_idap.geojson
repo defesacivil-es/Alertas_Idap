@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-26T17:03:13.467000+00:00",
+  "generated_at": "2026-11-26T17:07:33.500099+00:00",
   "total_alerts": 8,
   "features": [
     {
@@ -60248,37 +60248,37 @@
     {
       "type": "Feature",
       "properties": {
-        "identifier": "200782/2026",
-        "entry_id": "200782/2026",
+        "identifier": "200795/2026",
+        "entry_id": "200795/2026",
         "sender": "CENAD-SEDEC",
         "senderName": "Defesa Civil Estadual do Espírito Santo",
-        "sent": "2026-11-26T13:11:11-03:00",
+        "sent": "2026-11-26T13:59:36-03:00",
         "status": "Actual",
         "msgType": "Alert",
         "category": "Met",
-        "event": "ALAGAMENTOS",
+        "event": "CHUVAS INTENSAS",
         "responseType": "Execute",
         "urgency": "Expected",
         "severity": "Extreme",
         "certainty": "Observed",
-        "onset": "2026-11-26T13:11:11-03:00",
-        "expires": "2026-11-26T14:05:00-03:00",
+        "onset": "2026-11-26T13:59:36-03:00",
+        "expires": "2026-11-26T15:00:00-03:00",
         "nivel": "Severo",
-        "headline": "Defesa Civil:(ES)  ALERTA de  ALAGAMENTOS na proxima 01 hora para Marechal Floriano. Fique atento E EVITE AREA DE RISCO. Emergencia ligue 193.",
-        "description": "(ES)  ALERTA de  ALAGAMENTOS na próxima 01 hora para Marechal Floriano. Fique atento E EVITE ÁREA DE RISCO. Emergencia ligue 193.",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, RAJADAS DE VENTO, CHUVAS INTENSAS E GRANIZO para Santa Maria de Jetiba na proxima hora. ABRIGUE-SE. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS, RAJADAS DE VENTO, CHUVAS INTENSAS E GRANIZO para Santa Maria de Jetibá na próxima hora. ABRIGUE-SE. Emergencia ligue 193.",
         "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
         "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
         "contact": "+55 61 2034-4660",
         "channel_list": "Google",
-        "areaDesc": "Alfredo Chaves/ES, Marechal Floriano/ES",
-        "polygon_raw": "-20.432,-40.691 -20.434,-40.686 -20.432,-40.676 -20.396,-40.667 -20.394,-40.676 -20.432,-40.691",
-        "polygon_points": 6,
+        "areaDesc": "Santa Maria de Jetibá/ES, Santa Teresa/ES",
+        "polygon_raw": "-20.019,-40.773 -20.028,-40.76 -20.041,-40.734 -20.005,-40.722 -19.98,-40.735 -19.98,-40.744 -20.019,-40.773",
+        "polygon_points": 7,
         "has_geocode": false,
         "uf_hint": "ES",
         "region": "SE",
-        "municipio_id": "3203346",
-        "municipio_nome": "Marechal Floriano",
-        "municipio_slug": "marechal-floriano",
+        "municipio_id": "3204559",
+        "municipio_nome": "Santa Maria de Jetibá",
+        "municipio_slug": "santa-maria-de-jetiba",
         "municipio_area_km2": null,
         "microrregiao_nome": "",
         "mesorregiao_nome": "",
@@ -60286,9 +60286,9 @@
         "regiao_intermediaria_nome": "",
         "affected_municipios": [
           {
-            "municipio_id": "3203346",
-            "municipio_nome": "Marechal Floriano",
-            "municipio_slug": "marechal-floriano",
+            "municipio_id": "3204559",
+            "municipio_nome": "Santa Maria de Jetibá",
+            "municipio_slug": "santa-maria-de-jetiba",
             "municipio_area_km2": null,
             "microrregiao_nome": "",
             "mesorregiao_nome": "",
@@ -60298,37 +60298,41 @@
         ],
         "geocode_values": null,
         "color": "#d62728",
-        "sent_label": "26/11/2026 13:11",
-        "onset_label": "26/11/2026 13:11",
-        "expires_label": "26/11/2026 14:05"
+        "sent_label": "26/11/2026 13:59",
+        "onset_label": "26/11/2026 13:59",
+        "expires_label": "26/11/2026 15:00"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -40.676,
-              -20.394
+              -40.744,
+              -19.98
             ],
             [
-              -40.667,
-              -20.396
+              -40.735,
+              -19.98
             ],
             [
-              -40.676,
-              -20.432
+              -40.722,
+              -20.005
             ],
             [
-              -40.686,
-              -20.434
+              -40.734,
+              -20.041
             ],
             [
-              -40.691,
-              -20.432
+              -40.76,
+              -20.028
             ],
             [
-              -40.676,
-              -20.394
+              -40.773,
+              -20.019
+            ],
+            [
+              -40.744,
+              -19.98
             ]
           ]
         ]
