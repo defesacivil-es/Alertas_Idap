@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:58:29.446247-03:00",
+  "generated_at": "2026-11-26T01:03:24.478241-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 4,
+    "vigentes": 2,
     "ultimas24h": 16,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1126,7 +1126,7 @@
       "location": "Cachoeiro de Itapemirim",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVA em Muniz Freire, Vargem Alta, Ibatiba, Cachoeiro de Itapemirim nas proximas 03 horas. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "200723/2026",
       "entry_id": "200723/2026",
       "sent": "2026-11-25T22:14:17-03:00",
@@ -1228,7 +1228,7 @@
       "location": "Itapemirim",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVA no LITORAL SUL nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "200717/2026",
       "entry_id": "200717/2026",
       "sent": "2026-11-25T21:45:28-03:00",
@@ -1631,11 +1631,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 12
+      "count": 14
     }
   ],
   "category_distribution": [
@@ -1735,8 +1735,8 @@
       "duration_minutes": 182,
       "duration_hours": 3.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 96,
-      "time_since_hours": 1.6,
+      "time_since_minutes": 101,
+      "time_since_hours": 1.68,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1811,8 +1811,8 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 119,
-      "time_since_hours": 1.98,
+      "time_since_minutes": 124,
+      "time_since_hours": 2.07,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1829,7 +1829,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-25T22:14:17-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1908,7 +1908,7 @@
       "uf": "ES",
       "location": "Cachoeiro de Itapemirim",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/11/2026",
       "time": "22:14",
       "sent_br": "2026-11-25T22:14:17-03:00",
@@ -1917,10 +1917,10 @@
       "duration_minutes": 165,
       "duration_hours": 2.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 164,
-      "time_since_hours": 2.73,
+      "time_since_minutes": 169,
+      "time_since_hours": 2.82,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3201209",
         "3202454",
@@ -1994,8 +1994,8 @@
       "duration_minutes": 57,
       "duration_hours": 0.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 171,
-      "time_since_hours": 2.85,
+      "time_since_minutes": 176,
+      "time_since_hours": 2.93,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2012,7 +2012,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-25T21:45:28-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2081,7 +2081,7 @@
       "uf": "ES",
       "location": "Itapemirim",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/11/2026",
       "time": "21:45",
       "sent_br": "2026-11-25T21:45:28-03:00",
@@ -2090,10 +2090,10 @@
       "duration_minutes": 194,
       "duration_hours": 3.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 193,
-      "time_since_hours": 3.22,
+      "time_since_minutes": 197,
+      "time_since_hours": 3.28,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3202801",
         "3203320",
@@ -2165,8 +2165,8 @@
       "duration_minutes": 61,
       "duration_hours": 1.02,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 200,
-      "time_since_hours": 3.33,
+      "time_since_minutes": 204,
+      "time_since_hours": 3.4,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2254,8 +2254,8 @@
       "duration_minutes": 54,
       "duration_hours": 0.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 217,
-      "time_since_hours": 3.62,
+      "time_since_minutes": 222,
+      "time_since_hours": 3.7,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2356,8 +2356,8 @@
       "duration_minutes": 168,
       "duration_hours": 2.8,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 227,
-      "time_since_hours": 3.78,
+      "time_since_minutes": 232,
+      "time_since_hours": 3.87,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2431,8 +2431,8 @@
       "duration_minutes": 56,
       "duration_hours": 0.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 235,
-      "time_since_hours": 3.92,
+      "time_since_minutes": 240,
+      "time_since_hours": 4.0,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2502,8 +2502,8 @@
       "duration_minutes": 41,
       "duration_hours": 0.68,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 244,
-      "time_since_hours": 4.07,
+      "time_since_minutes": 249,
+      "time_since_hours": 4.15,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2638,8 +2638,8 @@
       "duration_minutes": 193,
       "duration_hours": 3.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 251,
-      "time_since_hours": 4.18,
+      "time_since_minutes": 256,
+      "time_since_hours": 4.27,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2721,8 +2721,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 307,
-      "time_since_hours": 5.12,
+      "time_since_minutes": 312,
+      "time_since_hours": 5.2,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2792,8 +2792,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 308,
-      "time_since_hours": 5.13,
+      "time_since_minutes": 313,
+      "time_since_hours": 5.22,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2875,8 +2875,8 @@
       "duration_minutes": 51,
       "duration_hours": 0.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 330,
-      "time_since_hours": 5.5,
+      "time_since_minutes": 335,
+      "time_since_hours": 5.58,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2950,8 +2950,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 337,
-      "time_since_hours": 5.62,
+      "time_since_minutes": 342,
+      "time_since_hours": 5.7,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -3056,8 +3056,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 345,
-      "time_since_hours": 5.75,
+      "time_since_minutes": 350,
+      "time_since_hours": 5.83,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
