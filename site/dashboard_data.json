@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T23:57:26.244318-03:00",
+  "generated_at": "2026-11-26T00:03:33.018743-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,7 +1027,7 @@
     }
   ],
   "cards": {
-    "vigentes": 7,
+    "vigentes": 4,
     "ultimas24h": 16,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
@@ -1385,7 +1385,7 @@
       "location": "Itapemirim",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de RAJADAS DE VENTO na regiao do LITORAL SUL nas proximas 03 horas. Fique atento. Em casos de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "200713/2026",
       "entry_id": "200713/2026",
       "sent": "2026-11-25T21:11:19-03:00",
@@ -1631,11 +1631,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 9
+      "count": 12
     }
   ],
   "category_distribution": [
@@ -1657,7 +1657,7 @@
   "time_since_distribution": [
     {
       "label": "1h a 3h",
-      "count": 7
+      "count": 8
     },
     {
       "label": "3h a 6h",
@@ -1665,7 +1665,7 @@
     },
     {
       "label": "Até 1h",
-      "count": 2
+      "count": 1
     }
   ],
   "channel_distribution": [
@@ -1739,8 +1739,8 @@
       "duration_minutes": 182,
       "duration_hours": 3.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 35,
-      "time_since_hours": 0.58,
+      "time_since_minutes": 41,
+      "time_since_hours": 0.68,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1815,9 +1815,9 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 58,
-      "time_since_hours": 0.97,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 64,
+      "time_since_hours": 1.07,
+      "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
         "3201407"
@@ -1921,8 +1921,8 @@
       "duration_minutes": 165,
       "duration_hours": 2.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 103,
-      "time_since_hours": 1.72,
+      "time_since_minutes": 109,
+      "time_since_hours": 1.82,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1998,8 +1998,8 @@
       "duration_minutes": 57,
       "duration_hours": 0.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 110,
-      "time_since_hours": 1.83,
+      "time_since_minutes": 116,
+      "time_since_hours": 1.93,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2094,8 +2094,8 @@
       "duration_minutes": 194,
       "duration_hours": 3.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 131,
-      "time_since_hours": 2.18,
+      "time_since_minutes": 138,
+      "time_since_hours": 2.3,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -2169,8 +2169,8 @@
       "duration_minutes": 61,
       "duration_hours": 1.02,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 138,
-      "time_since_hours": 2.3,
+      "time_since_minutes": 145,
+      "time_since_hours": 2.42,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2258,8 +2258,8 @@
       "duration_minutes": 54,
       "duration_hours": 0.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 156,
-      "time_since_hours": 2.6,
+      "time_since_minutes": 162,
+      "time_since_hours": 2.7,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2282,7 +2282,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-25T21:11:19-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "VENDAVAL",
@@ -2351,7 +2351,7 @@
       "uf": "ES",
       "location": "Itapemirim",
       "event_short": "Vendaval",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/11/2026",
       "time": "21:11",
       "sent_br": "2026-11-25T21:11:19-03:00",
@@ -2360,10 +2360,10 @@
       "duration_minutes": 168,
       "duration_hours": 2.8,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 166,
-      "time_since_hours": 2.77,
+      "time_since_minutes": 172,
+      "time_since_hours": 2.87,
       "time_since_bucket": "1h a 3h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3202801",
         "3203320",
@@ -2435,8 +2435,8 @@
       "duration_minutes": 56,
       "duration_hours": 0.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 174,
-      "time_since_hours": 2.9,
+      "time_since_minutes": 180,
+      "time_since_hours": 3.0,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2506,8 +2506,8 @@
       "duration_minutes": 41,
       "duration_hours": 0.68,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 183,
-      "time_since_hours": 3.05,
+      "time_since_minutes": 189,
+      "time_since_hours": 3.15,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2524,7 +2524,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-25T20:46:53-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -2633,7 +2633,7 @@
       "uf": "ES",
       "location": "Alegre",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/11/2026",
       "time": "20:46",
       "sent_br": "2026-11-25T20:46:53-03:00",
@@ -2642,10 +2642,10 @@
       "duration_minutes": 193,
       "duration_hours": 3.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 190,
-      "time_since_hours": 3.17,
+      "time_since_minutes": 196,
+      "time_since_hours": 3.27,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200201",
         "3201803",
@@ -2725,8 +2725,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 246,
-      "time_since_hours": 4.1,
+      "time_since_minutes": 252,
+      "time_since_hours": 4.2,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2796,8 +2796,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 247,
-      "time_since_hours": 4.12,
+      "time_since_minutes": 253,
+      "time_since_hours": 4.22,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2879,8 +2879,8 @@
       "duration_minutes": 51,
       "duration_hours": 0.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 269,
-      "time_since_hours": 4.48,
+      "time_since_minutes": 275,
+      "time_since_hours": 4.58,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2954,8 +2954,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 276,
-      "time_since_hours": 4.6,
+      "time_since_minutes": 282,
+      "time_since_hours": 4.7,
       "time_since_bucket": "3h a 6h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2972,7 +2972,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Espírito Santo",
       "sent": "2026-11-25T19:13:09-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -3051,7 +3051,7 @@
       "uf": "ES",
       "location": "Apiacá",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/11/2026",
       "time": "19:13",
       "sent_br": "2026-11-25T19:13:09-03:00",
@@ -3060,10 +3060,10 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 284,
-      "time_since_hours": 4.73,
+      "time_since_minutes": 290,
+      "time_since_hours": 4.83,
       "time_since_bucket": "3h a 6h",
-      "is_active": true,
+      "is_active": false,
       "affected_municipio_ids": [
         "3200508",
         "3201100",
