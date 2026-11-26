@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:02:44.034635-03:00",
+  "generated_at": "2026-11-25T21:07:54.115435-03:00",
   "source": ".cache/historico_alertas.json",
   "target_senderName": "Defesa Civil Estadual do Espírito Santo",
   "window_hours": 24,
@@ -1027,17 +1027,56 @@
     }
   ],
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 7,
+    "vigentes": 4,
+    "ultimas24h": 8,
     "autoridadesAtivas": 1,
     "alertasExtremos": 0,
-    "alertasSeveros": 5,
-    "alertasSeverosExtremos": 5,
+    "alertasSeveros": 6,
+    "alertasSeverosExtremos": 6,
     "estadosComAlerta": 1,
     "municipiosOuAreasComAlerta": 11,
     "municipiosComAlertas": 11
   },
   "latest_alerts": [
+    {
+      "time": "21:03",
+      "date": "25/11/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Iúna",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Iuna na proxima 01 hora. Evite area de risco. Emergencia ligue 193.",
+      "status": "vigente",
+      "identifier": "200709/2026",
+      "entry_id": "200709/2026",
+      "sent": "2026-11-25T21:03:03-03:00",
+      "onset": "2026-11-25T21:03:03-03:00",
+      "expires": "2026-11-25T22:00:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google",
+      "municipio_id": "3203007",
+      "municipio_nome": "Iúna",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203007",
+          "municipio_nome": "Iúna",
+          "municipio_slug": "iuna",
+          "intersection_area_m2": null
+        }
+      ],
+      "affected_municipio_ids": [
+        "3203007"
+      ],
+      "affected_municipio_names": [
+        "Iúna"
+      ]
+    },
     {
       "time": "20:53",
       "date": "25/11/2026",
@@ -1404,7 +1443,7 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 7
+      "count": 8
     }
   ],
   "level_distribution": [
@@ -1414,19 +1453,19 @@
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 7
+      "count": 8
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 7
+      "count": 8
     }
   ],
   "municipio_distribution": [
@@ -1437,6 +1476,10 @@
     {
       "municipio": "São José do Calçado",
       "count": 3
+    },
+    {
+      "municipio": "Iúna",
+      "count": 2
     },
     {
       "municipio": "Alegre",
@@ -1469,16 +1512,12 @@
     {
       "municipio": "Irupi",
       "count": 1
-    },
-    {
-      "municipio": "Iúna",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 4
     },
     {
       "label": "expirado",
@@ -1488,13 +1527,13 @@
   "category_distribution": [
     {
       "label": "Met",
-      "count": 7
+      "count": 8
     }
   ],
   "duration_distribution": [
     {
       "label": "Até 2h",
-      "count": 5
+      "count": 6
     },
     {
       "label": "2h a 6h",
@@ -1508,16 +1547,87 @@
     },
     {
       "label": "Até 1h",
-      "count": 2
+      "count": 3
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 7
+      "count": 8
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "200709/2026",
+      "entry_id": "200709/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "sent": "2026-11-25T21:03:03-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Likely",
+      "onset": "2026-11-25T21:03:03-03:00",
+      "expires": "2026-11-25T22:00:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Iuna na proxima 01 hora. Evite area de risco. Emergencia ligue 193.",
+      "description": "(ES)  ALERTA de RAIOS, CHUVA, GRANIZO e VENTO na regiao de Iuna na proxima 01 hora. Evite area de risco.",
+      "instruction": "Fique atento. Em casos de emergência ligue 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Iúna/ES",
+      "polygon_raw": "-20.33,-41.837 -20.33,-41.837 -20.33,-41.836 -20.33,-41.836 -20.33,-41.836 -20.328,-41.836 -20.328,-41.835 -20.328,-41.835 -20.327,-41.835 -20.325,-41.834 -20.325,-41.834 -20.325,-41.834 -20.324,-41.833 -20.324,-41.833 -20.324,-41.833 -20.324,-41.833 -20.323,-41.831 -20.323,-41.831 -20.323,-41.83 -20.323,-41.829 -20.323,-41.829 -20.323,-41.829 -20.323,-41.829 -20.323,-41.829 -20.322,-41.829 -20.322,-41.829 -20.321,-41.829 -20.322,-41.828 -20.32,-41.825 -20.319,-41.823 -20.336,-41.82 -20.341,-41.837 -20.33,-41.837",
+      "polygon_points": 18,
+      "has_geocode": false,
+      "uf_hint": "ES",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-41.836 -20.33, -41.836 -20.328, -41.835 -20.328, -41.835 -20.327, -41.834 -20.325, -41.833 -20.324, -41.831 -20.323, -41.83 -20.323, -41.829 -20.323, -41.829 -20.322, -41.829 -20.321, -41.828 -20.322, -41.825 -20.32, -41.823 -20.319, -41.82 -20.336, -41.837 -20.341, -41.837 -20.33, -41.836 -20.33))",
+      "municipio_id": "3203007",
+      "municipio_nome": "Iúna",
+      "municipio_slug": "iuna",
+      "municipio_area_km2": null,
+      "microrregiao_nome": "",
+      "mesorregiao_nome": "",
+      "regiao_imediata_nome": "",
+      "regiao_intermediaria_nome": "",
+      "affected_municipios": [
+        {
+          "municipio_id": "3203007",
+          "municipio_nome": "Iúna",
+          "municipio_slug": "iuna",
+          "intersection_area_m2": null
+        }
+      ],
+      "geocode_values": null,
+      "uf": "ES",
+      "location": "Iúna",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "25/11/2026",
+      "time": "21:03",
+      "sent_br": "2026-11-25T21:03:03-03:00",
+      "onset_br": "2026-11-25T21:03:03-03:00",
+      "expires_br": "2026-11-25T22:00:00-03:00",
+      "duration_minutes": 56,
+      "duration_hours": 0.93,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 4,
+      "time_since_hours": 0.07,
+      "time_since_bucket": "Até 1h",
+      "is_active": true,
+      "affected_municipio_ids": [
+        "3203007"
+      ],
+      "affected_municipio_names": [
+        "Iúna"
+      ],
+      "municipios_count": 1
+    },
     {
       "identifier": "200706/2026",
       "entry_id": "200706/2026",
@@ -1577,8 +1687,8 @@
       "duration_minutes": 41,
       "duration_hours": 0.68,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 9,
-      "time_since_hours": 0.15,
+      "time_since_minutes": 14,
+      "time_since_hours": 0.23,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1713,8 +1823,8 @@
       "duration_minutes": 193,
       "duration_hours": 3.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 15,
-      "time_since_hours": 0.25,
+      "time_since_minutes": 21,
+      "time_since_hours": 0.35,
       "time_since_bucket": "Até 1h",
       "is_active": true,
       "affected_municipio_ids": [
@@ -1796,8 +1906,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 71,
-      "time_since_hours": 1.18,
+      "time_since_minutes": 77,
+      "time_since_hours": 1.28,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1867,8 +1977,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 72,
-      "time_since_hours": 1.2,
+      "time_since_minutes": 77,
+      "time_since_hours": 1.28,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -1950,8 +2060,8 @@
       "duration_minutes": 51,
       "duration_hours": 0.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 94,
-      "time_since_hours": 1.57,
+      "time_since_minutes": 99,
+      "time_since_hours": 1.65,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2025,8 +2135,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 101,
-      "time_since_hours": 1.68,
+      "time_since_minutes": 106,
+      "time_since_hours": 1.77,
       "time_since_bucket": "1h a 3h",
       "is_active": false,
       "affected_municipio_ids": [
@@ -2131,8 +2241,8 @@
       "duration_minutes": 286,
       "duration_hours": 4.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 109,
-      "time_since_hours": 1.82,
+      "time_since_minutes": 114,
+      "time_since_hours": 1.9,
       "time_since_bucket": "1h a 3h",
       "is_active": true,
       "affected_municipio_ids": [
