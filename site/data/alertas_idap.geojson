@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-11-26T18:33:04.283054+00:00",
-  "total_alerts": 22,
+  "generated_at": "2026-11-26T18:37:32.013258+00:00",
+  "total_alerts": 23,
   "features": [
     {
       "type": "Feature",
@@ -145149,6 +145149,111 @@
             [
               -41.246,
               -20.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "200837/2026",
+        "entry_id": "200837/2026",
+        "sender": "CENAD-SEDEC",
+        "senderName": "Defesa Civil Estadual do Espírito Santo",
+        "sent": "2026-11-26T15:31:59-03:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "category": "Met",
+        "event": "CHUVAS INTENSAS",
+        "responseType": "Execute",
+        "urgency": "Expected",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "onset": "2026-11-26T15:31:59-03:00",
+        "expires": "2026-11-26T16:30:00-03:00",
+        "nivel": "Severo",
+        "headline": "Defesa Civil:(ES)  ALERTA de RAIOS, VENTO e CHUVAS INTENSAS na proxima hora em Jeronimo Monteiro. Fique atento. Emergencia ligue 193.",
+        "description": "(ES)  ALERTA de RAIOS, VENTO e CHUVAS INTENSAS na proxima hora em Jeronimo Monteiro. Fique atento. Emergencia ligue 193.",
+        "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+        "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+        "contact": "+55 61 2034-4660",
+        "channel_list": "Google",
+        "areaDesc": "Cachoeiro de Itapemirim/ES, Jerônimo Monteiro/ES",
+        "polygon_raw": "-20.77,-41.382 -20.776,-41.414 -20.796,-41.422 -20.809,-41.406 -20.811,-41.384 -20.816,-41.348 -20.804,-41.337 -20.788,-41.339 -20.774,-41.362 -20.77,-41.382",
+        "polygon_points": 10,
+        "has_geocode": false,
+        "uf_hint": "ES",
+        "region": "SE",
+        "municipio_id": "3201209",
+        "municipio_nome": "Cachoeiro de Itapemirim",
+        "municipio_slug": "cachoeiro-de-itapemirim",
+        "municipio_area_km2": null,
+        "microrregiao_nome": "",
+        "mesorregiao_nome": "",
+        "regiao_imediata_nome": "",
+        "regiao_intermediaria_nome": "",
+        "affected_municipios": [
+          {
+            "municipio_id": "3201209",
+            "municipio_nome": "Cachoeiro de Itapemirim",
+            "municipio_slug": "cachoeiro-de-itapemirim",
+            "municipio_area_km2": null,
+            "microrregiao_nome": "",
+            "mesorregiao_nome": "",
+            "regiao_imediata_nome": "",
+            "regiao_intermediaria_nome": ""
+          }
+        ],
+        "geocode_values": null,
+        "color": "#d62728",
+        "sent_label": "26/11/2026 15:31",
+        "onset_label": "26/11/2026 15:31",
+        "expires_label": "26/11/2026 16:30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.362,
+              -20.774
+            ],
+            [
+              -41.339,
+              -20.788
+            ],
+            [
+              -41.337,
+              -20.804
+            ],
+            [
+              -41.348,
+              -20.816
+            ],
+            [
+              -41.384,
+              -20.811
+            ],
+            [
+              -41.406,
+              -20.809
+            ],
+            [
+              -41.422,
+              -20.796
+            ],
+            [
+              -41.414,
+              -20.776
+            ],
+            [
+              -41.382,
+              -20.77
+            ],
+            [
+              -41.362,
+              -20.774
             ]
           ]
         ]
