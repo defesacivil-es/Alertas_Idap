@@ -1,9 +1,9 @@
 {
-  "last_run_ts": "20261127_084647",
-  "last_run_iso": "2026-11-27T11:47:08.938376+00:00",
+  "last_run_ts": "20261127_085228",
+  "last_run_iso": "2026-11-27T11:52:43.276829+00:00",
   "last_counts": {
-    "entries": 16,
-    "feed_alerts": 8,
+    "entries": 14,
+    "feed_alerts": 6,
     "window_alerts": 54,
     "geojson_features": 0,
     "history_alerts": 88,
